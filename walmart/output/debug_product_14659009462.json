@@ -1,0 +1,233 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1847,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8153,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "14659009462"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:02:45.373Z",
+    "processed_at": "2025-08-20T13:03:08.561Z",
+    "total_time_taken": 23.19,
+    "walmart_url": "https://www.walmart.com/ip/14659009462"
+  },
+  "product": {
+    "brand": "iKeener",
+    "link": "https://www.walmart.com/ip/Six-in-one-Curling-Iron-Hot-Air-Comb-Multi-functional-Hair-Dryer-1000W-Automatic-Curling-Iron-Six-in-one-Hair-Styler/14659009462",
+    "title": "iKeener Six-in-one Curling Iron, Hot Air Comb, Multi-functional Hair Dryer 1000W Automatic Curling Iron, Six-in-one Hair Styler",
+    "title_excluding_brand": "Six-in-one Curling Iron, Hot Air Comb, Multi-functional Hair Dryer 1000W Automatic Curling Iron, Six-in-one Hair Styler",
+    "upc": "768913046927",
+    "item_id": "14659009462",
+    "item_number": "5DZ69YB4X5FT",
+    "description": "Max power:1000-1199W Plug standard:american Function:Anion,Thermostatic,Hot/cold air,diffuser Portability:Unfoldable handle Origin:Mainland China Item Type:hair dryer",
+    "description_html": "Max power:1000-1199W\nPlug standard:american\nFunction:Anion,Thermostatic,Hot/cold air,diffuser\nPortability:Unfoldable handle\nOrigin:Mainland China\nItem Type:hair dryer",
+    "description_full": "Max power:1000-1199W Plug standard:american Function:Anion,Thermostatic,Hot/cold air,diffuser Portability:Unfoldable handle Origin:Mainland China Item Type:hair dryer *  Max power:1000-1199W\n   \n   Plug standard:american\n   \n   Function:Anion,Thermostatic,Hot/cold air,diffuser\n   \n   Portability:Unfoldable handle\n   \n   Origin:Mainland China\n   \n   Item Type:hair dryer\n   \n   \n *  Max power:1000-1199W\n   \n   Plug standard:american\n   \n   Function:Anion,Thermostatic,Hot/cold air,diffuser\n   \n   Portability:Unfoldable handle\n   \n   Origin:Mainland China\n   \n   Item Type:hair dryer\n   \n   \n *  Max power:1000-1199W\n   \n   Plug standard:american\n   \n   Function:Anion,Thermostatic,Hot/cold air,diffuser\n   \n   Portability:Unfoldable handle\n   \n   Origin:Mainland China\n   \n   Item Type:hair dryer",
+    "description_full_html": "Max power:1000-1199W\nPlug standard:american\nFunction:Anion,Thermostatic,Hot/cold air,diffuser\nPortability:Unfoldable handle\nOrigin:Mainland China\nItem Type:hair dryer <ul>  <li>   <article data-clipboard-cangjie=\"[\" class=\"4ever-article\">    <p>Max&nbsp;power:1000-1199W</p>    <p>Plug&nbsp;standard:american</p>    <p>Function:Anion,Thermostatic,Hot/cold&nbsp;air,diffuser</p>    <p>Portability:Unfoldable&nbsp;handle</p>    <p>Origin:Mainland&nbsp;China</p>    <p>Item&nbsp;Type:hair&nbsp;dryer</p>   </article></li>  <li>   <article data-clipboard-cangjie=\"[\" class=\"4ever-article\">    <p>Max&nbsp;power:1000-1199W</p>    <p>Plug&nbsp;standard:american</p>    <p>Function:Anion,Thermostatic,Hot/cold&nbsp;air,diffuser</p>    <p>Portability:Unfoldable&nbsp;handle</p>    <p>Origin:Mainland&nbsp;China</p>    <p>Item&nbsp;Type:hair&nbsp;dryer</p>   </article></li>  <li>   <article data-clipboard-cangjie=\"[\" class=\"4ever-article\">    <p>Max&nbsp;power:1000-1199W</p>    <p>Plug&nbsp;standard:american</p>    <p>Function:Anion,Thermostatic,Hot/cold&nbsp;air,diffuser</p>    <p>Portability:Unfoldable&nbsp;handle</p>    <p>Origin:Mainland&nbsp;China</p>    <p>Item&nbsp;Type:hair&nbsp;dryer</p>   </article></li> </ul>",
+    "ratings_total": 0,
+    "type": "Hair Curling Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Six-in-one-Curling-Iron-Hot-Air-Comb-Multi-functional-Hair-Dryer-1000W-Automatic-Curling-Iron-Six-in-one-Hair-Styler_df4fcfb1-70c4-4e40-bbbd-bc8287e6569a.aaec0f6c9e23694eeefe0ba68eadd6dd.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Six-in-one-Curling-Iron-Hot-Air-Comb-Multi-functional-Hair-Dryer-1000W-Automatic-Curling-Iron-Six-in-one-Hair-Styler_df4fcfb1-70c4-4e40-bbbd-bc8287e6569a.aaec0f6c9e23694eeefe0ba68eadd6dd.jpeg",
+        "id": "418A16B6B6624B51869B7B121BE58842",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6f5a158f-ed37-4e12-b91d-d4c501281bdb.c936d0baaccd8823c2f648d5edef79a6.jpeg",
+        "id": "07EDD423F67E4D20BA918AD119E121D5",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/36603c9c-c191-4389-8fc2-d24ee3684448.7ecbaaedb794b0a289311dad942a010f.jpeg",
+        "id": "3AB7CFC4BD2C437587FC0080E20842B2",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/68090953-bc9e-45b2-a9af-5b7906b30653.53fa834cde00de4e0062e04f03a81c64.jpeg",
+        "id": "B1ED6711848741D38B0B6E4FB49B192F",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f924967e-4e3e-4e1e-9603-f8bc50ae5519.59fa91b7dbcfc04037524f8d5c49e601.jpeg",
+        "id": "54232F056AE54AC1A6BE0BBEDCE7BBEF",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/fa6e5fa6-d905-49d0-bec3-23617baa5b14.50e5a8f7e1424638165e70cf042849ff.jpeg",
+        "id": "F5B0CF5E29E94ACE8025D685133018F7",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b12f0ef8-98e0-465f-86d4-ee10385012da.8a12ee07ef6c81b98741dbf59d936ed2.jpeg",
+        "id": "2F95BBDC0A674A58A9D43D1B26C99A05",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/bb226ee2-9f94-4838-ab24-048273d66864.972ce7c2558059c8ce79305bc2d92299.jpeg",
+        "id": "1BBFEB558CC14F088DF415C6B193528A",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/410ce9d0-6a5b-4be9-bca0-8c4953b1b38b.a461553bda700e54157572bcc5fd7697.jpeg",
+        "id": "2FE740903A51453E8F201829DA90B816",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "iKeener"
+      }
+    ],
+    "buybox_winner": {
+      "price": 89.9,
+      "currency_symbol": "$",
+      "id": "846A21D4130F33099A0DB2DD8EEBCECA",
+      "seller": {
+        "name": "iKeener",
+        "id_secondary": "2598E429E7E647B0AC58BDD2D4470878",
+        "id": 101304806,
+        "link": "https://www.walmart.com/seller/101304806"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Wed, Sep 10 to Orlando, 32832",
+        "message": "Free shipping, arrives by Wed, Sep 10 to Orlando, 32832",
+        "zipcode": "32832"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "iKeener"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10679659623",
+          "id": "485A312FDA5F347CAFEEC7163EF40347",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-80-89-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 13,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$13.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690317562",
+          "id": "3E5D88AB7FD53DEA99C384C18AD4B447",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-80-89-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 10,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$10.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "14659009462",
+        "link": "https://www.walmart.com/ip/Six-in-one-Curling-Iron-Hot-Air-Comb-Multi-functional-Hair-Dryer-1000W-Automatic-Curling-Iron-Six-in-one-Hair-Styler/14659009462",
+        "price": 89.9,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Six-in-one-Curling-Iron-Hot-Air-Comb-Multi-functional-Hair-Dryer-1000W-Automatic-Curling-Iron-Six-in-one-Hair-Styler_df4fcfb1-70c4-4e40-bbbd-bc8287e6569a.aaec0f6c9e23694eeefe0ba68eadd6dd.jpeg",
+            "id": "418A16B6B6624B51869B7B121BE58842",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6f5a158f-ed37-4e12-b91d-d4c501281bdb.c936d0baaccd8823c2f648d5edef79a6.jpeg",
+            "id": "07EDD423F67E4D20BA918AD119E121D5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/36603c9c-c191-4389-8fc2-d24ee3684448.7ecbaaedb794b0a289311dad942a010f.jpeg",
+            "id": "3AB7CFC4BD2C437587FC0080E20842B2",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/68090953-bc9e-45b2-a9af-5b7906b30653.53fa834cde00de4e0062e04f03a81c64.jpeg",
+            "id": "B1ED6711848741D38B0B6E4FB49B192F",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f924967e-4e3e-4e1e-9603-f8bc50ae5519.59fa91b7dbcfc04037524f8d5c49e601.jpeg",
+            "id": "54232F056AE54AC1A6BE0BBEDCE7BBEF",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fa6e5fa6-d905-49d0-bec3-23617baa5b14.50e5a8f7e1424638165e70cf042849ff.jpeg",
+            "id": "F5B0CF5E29E94ACE8025D685133018F7",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b12f0ef8-98e0-465f-86d4-ee10385012da.8a12ee07ef6c81b98741dbf59d936ed2.jpeg",
+            "id": "2F95BBDC0A674A58A9D43D1B26C99A05",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/bb226ee2-9f94-4838-ab24-048273d66864.972ce7c2558059c8ce79305bc2d92299.jpeg",
+            "id": "1BBFEB558CC14F088DF415C6B193528A",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/410ce9d0-6a5b-4be9-bca0-8c4953b1b38b.a461553bda700e54157572bcc5fd7697.jpeg",
+            "id": "2FE740903A51453E8F201829DA90B816",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Orlando",
+    "state": "FL",
+    "zipcode": "32832",
+    "store_id": "4365"
+  }
+}

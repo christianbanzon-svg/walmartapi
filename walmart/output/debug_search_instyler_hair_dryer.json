@@ -1,0 +1,935 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2107,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7893,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "search",
+    "search_term": "instyler hair dryer",
+    "page": "1"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-22T08:21:20.321Z",
+    "processed_at": "2025-08-22T08:21:22.579Z",
+    "total_time_taken": 2.26,
+    "walmart_url": "https://www.walmart.com/search?q=instyler+hair+dryer&page=1"
+  },
+  "search_results": [
+    {
+      "position": 1,
+      "product": {
+        "title": "InStyler Ionic Pro Hair Straightener Ceramic Flat Iron Hair Dryer Brush Curling Iron 4 in 1 Styling Tool",
+        "link": "https://www.walmart.com/ip/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool/39804291?classType=REGULAR",
+        "description": "<li>Replaces 4 different styling tools - round brush, flat iron, curling iron and styling wand</li><li>Cool Touch Ionic Bristles add shine without burning or tangling</li><li>Ceramic Flat Iron for</li>",
+        "item_id": "39804291",
+        "product_id": "51VFGHBXM4QQ",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool_0ebab82a-a44d-4a43-a262-254df5374cd4.695879061acfc86126b35c937c2f1140.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool_0ebab82a-a44d-4a43-a262-254df5374cd4.695879061acfc86126b35c937c2f1140.jpeg",
+        "rating": 4.1,
+        "ratings_total": 750
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 20.85,
+          "currency_symbol": "$",
+          "id": "27D65826E3153C1E94236C25FADC2514",
+          "seller": {
+            "name": "Ammery Essence",
+            "id": "B38CB175649B4DE39F11A7656D0B049A"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 2,
+      "product": {
+        "title": "ion Luxe 8-In-1 Airstyler Pro, Interchangeable Hair Dryer & Curler for All Hair Types",
+        "link": "https://www.walmart.com/ip/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types/14426564277?classType=REGULAR",
+        "description": "<li>Versatile: This 8-in-1 airstyler pro is a multi-functional hair tool with interchangeable attachments for drying, curling, straightening, and styling all hair types.</li><li>Powerful: Equipped</li>",
+        "item_id": "14426564277",
+        "product_id": "1RKSXW0D3PQX",
+        "images": [
+          "https://i5.walmartimages.com/seo/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types_bcaf0a73-fc30-4c38-9422-de8c4bdfc754.cb38c5f290cfa7d1737efd248272fa8a.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types_bcaf0a73-fc30-4c38-9422-de8c4bdfc754.cb38c5f290cfa7d1737efd248272fa8a.jpeg",
+        "rating": 4,
+        "ratings_total": 50
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 219.99,
+          "currency_symbol": "$",
+          "id": "CCB0B7953C04344FB62463413DBA9002",
+          "seller": {
+            "name": "Sally Beauty",
+            "id": "82D9D988A22C4148B93378460D129E00"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 3,
+      "product": {
+        "title": "ION Luxe Adult 4-in-1 Autowrap Airstyler, Ionic Hair Dryer and Curler, 1875 Volts, Black",
+        "link": "https://www.walmart.com/ip/ion-Luxe-4-in-1-Autowrap-Airstyler-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types/3977129457?classType=REGULAR",
+        "description": "<li>Ionic technology dries hair faster, sealing the cuticle to reduce frizz and flyaways, provides radiant shine.</li><li>Create amazing waves, curls, & volume with revolutionary Autowrap technology.</li>",
+        "item_id": "3977129457",
+        "product_id": "5YH266JTXK1Y",
+        "images": [
+          "https://i5.walmartimages.com/seo/ion-Luxe-4-in-1-Autowrap-Airstyler-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types_034ea759-0852-4482-b6c6-a7bdc852d007.b3d0bb1d7b84fe7520c426b52354a15a.png"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/ion-Luxe-4-in-1-Autowrap-Airstyler-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types_034ea759-0852-4482-b6c6-a7bdc852d007.b3d0bb1d7b84fe7520c426b52354a15a.png",
+        "rating": 4.4,
+        "ratings_total": 254
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 124.89,
+          "currency_symbol": "$",
+          "id": "C120B99CEF18366E908F8D74BB0324AE",
+          "seller": {
+            "name": "Remedy",
+            "id": "82DB98EE096C4AB8918367932DF3B2D2"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 4,
+      "product": {
+        "title": "Infiniti Pro by Conair 1875 Watt Salon Styler Purple",
+        "link": "https://www.walmart.com/ip/Infiniti-Pro-by-Conair-1875-Watt-Salon-Styler-Purple/549556516?classType=REGULAR",
+        "description": "<li>Ceramic hair dryer gives you salon-like results right at home</li><li>Ergonomically designed with a no-slip grip handle</li><li>Helps reduce drying time by up to 50% while providing uniform heat</li>",
+        "item_id": "549556516",
+        "product_id": "2OIIHKHMFIAQ",
+        "images": [
+          "https://i5.walmartimages.com/seo/Infiniti-Pro-by-Conair-1875-Watt-Salon-Styler-Purple_38379511-d3cd-4580-b1c6-725f345c9a1d.14d29710703aaef1d477cdd928d56859.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Infiniti-Pro-by-Conair-1875-Watt-Salon-Styler-Purple_38379511-d3cd-4580-b1c6-725f345c9a1d.14d29710703aaef1d477cdd928d56859.jpeg",
+        "rating": 3.8,
+        "ratings_total": 33
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 17.99,
+          "currency_symbol": "$",
+          "id": "B41C78EF76CF33CEAACBC040BFEE092E",
+          "seller": {
+            "name": "Wal Warehouse",
+            "id": "BC3507AB4CE44402BE4A82BFB9006368"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 5,
+      "product": {
+        "title": "3-in-1 Hot Air Styler And Rotating Hair Dryer For Dry Hair, Curl Hair, Straighten Hair",
+        "link": "https://www.walmart.com/ip/3-in-1-Hot-Air-Styler-And-Rotating-Hair-Dryer-For-Dry-Hair-Curl-Hair-Straighten-Hair/10391510980?classType=VARIANT",
+        "description": "\n<li>brand:Unbranded</li>\n",
+        "item_id": "10391510980",
+        "product_id": "7IAJO3CTA9D5",
+        "images": [
+          "https://i5.walmartimages.com/seo/3-in-1-Hot-Air-Styler-And-Rotating-Hair-Dryer-For-Dry-Hair-Curl-Hair-Straighten-Hair_d7ffb0cb-df08-4344-90de-ee7142e13c71.e5b2213600dc74656f2357b0c612ac8a.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/3-in-1-Hot-Air-Styler-And-Rotating-Hair-Dryer-For-Dry-Hair-Curl-Hair-Straighten-Hair_d7ffb0cb-df08-4344-90de-ee7142e13c71.e5b2213600dc74656f2357b0c612ac8a.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 1,
+        "ratings_total": 1,
+        "variants": [
+          {
+            "item_id": "10377055538",
+            "product_id": "7CMQRTCGF7YA",
+            "title": "EU",
+            "image": "https://i5.walmartimages.com/asr/d7ffb0cb-df08-4344-90de-ee7142e13c71.e5b2213600dc74656f2357b0c612ac8a.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/3-in-1-Hot-Air-Styler-And-Rotating-Hair-Dryer-For-Dry-Hair-Curl-Hair-Straighten-Hair/10377055538?classType=undefined&variantFieldId=size"
+          },
+          {
+            "item_id": "10358966254",
+            "product_id": "113KML86PR79",
+            "title": "UK",
+            "image": "https://i5.walmartimages.com/asr/d7ffb0cb-df08-4344-90de-ee7142e13c71.e5b2213600dc74656f2357b0c612ac8a.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/3-in-1-Hot-Air-Styler-And-Rotating-Hair-Dryer-For-Dry-Hair-Curl-Hair-Straighten-Hair/10358966254?classType=undefined&variantFieldId=size"
+          },
+          {
+            "item_id": "10391510980",
+            "product_id": "1QRXTW6DQYR1",
+            "title": "US",
+            "image": "https://i5.walmartimages.com/asr/d7ffb0cb-df08-4344-90de-ee7142e13c71.e5b2213600dc74656f2357b0c612ac8a.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/3-in-1-Hot-Air-Styler-And-Rotating-Hair-Dryer-For-Dry-Hair-Curl-Hair-Straighten-Hair/10391510980?classType=undefined&variantFieldId=size"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 35.99,
+          "currency_symbol": "$",
+          "id": "3E334B6BB4013E06946C4272650137A5",
+          "seller": {
+            "name": "Epic Essentials Outlet Store",
+            "id": "E5396B2280C54E3BAF02B8757891124D"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 6,
+      "product": {
+        "title": "Hot Tools Pro Signature One-Step Paddle Hair Dryer and Styler, Purple",
+        "link": "https://www.walmart.com/ip/Hot-Tools-Pro-Signature-One-Step-Paddle-Hair-Dryer-and-Styler-Purple/845899609?classType=REGULAR",
+        "description": "Hot Tools Pro Signature One-Step Paddle Hair Dryer and Styler, Purple",
+        "item_id": "845899609",
+        "product_id": "4V59Q4T6KP7A",
+        "images": [
+          "https://i5.walmartimages.com/seo/Hot-Tools-Pro-Signature-One-Step-Paddle-Hair-Dryer-and-Styler-Purple_58f462fe-28ee-49e8-8bd0-37063db6e7dd.df73f2ea4c3a394c25945ac09bec983c.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Hot-Tools-Pro-Signature-One-Step-Paddle-Hair-Dryer-and-Styler-Purple_58f462fe-28ee-49e8-8bd0-37063db6e7dd.df73f2ea4c3a394c25945ac09bec983c.jpeg",
+        "rating": 4.6,
+        "ratings_total": 266
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 56.41,
+          "currency_symbol": "$",
+          "id": "79368FE05A7B401DB783BF8144634E59",
+          "list_price": 71.09,
+          "savings_amount": 14.680000000000007,
+          "seller": {
+            "name": "Walmart.com",
+            "id": "F55CDC31AB754BB68FE0B39041159D63"
+          }
+        },
+        "is_marketplace_item": false
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 7,
+      "product": {
+        "title": "BKBP Fully automatic curling iron 2-in-1 hair dryer brush automatic rotating roller hot air styler",
+        "link": "https://www.walmart.com/ip/BKBP-Fully-automatic-curling-iron-2-in-1-hair-dryer-brush-automatic-rotating-roller-hot-air-styler/6877458996?classType=VARIANT",
+        "description": "<li>360 Swivel Cord Allows High Flexibility To Move Freely Without The Cord Or Damaged.</li><li>No Need For A Trip To The Salon Anymore, Savesyou A Lot Of Time And . This Can Be Used For Party, Work</li>",
+        "item_id": "6877458996",
+        "product_id": "54NECGMGZ13B",
+        "images": [
+          "https://i5.walmartimages.com/seo/BKBP-Fully-automatic-curling-iron-2-in-1-hair-dryer-brush-automatic-rotating-roller-hot-air-styler_8e97bdf4-7e54-4182-9dd8-e7327dca40d4.eadbacd4c33a3a8faa03908dd45d409a.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/BKBP-Fully-automatic-curling-iron-2-in-1-hair-dryer-brush-automatic-rotating-roller-hot-air-styler_8e97bdf4-7e54-4182-9dd8-e7327dca40d4.eadbacd4c33a3a8faa03908dd45d409a.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 32.37,
+          "currency_symbol": "$",
+          "id": "BBF62496A1BC3EB5B293751AFD34D13A",
+          "list_price": 40.15,
+          "savings_amount": 7.780000000000001,
+          "seller": {
+            "name": "guguGU-shop",
+            "id": "0122D4E9320640978548F6B67319B13E"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 8,
+      "product": {
+        "title": "Conair InfinitiPRO Knot Dr. All-in-One Medium Oval Hot Air Brush",
+        "link": "https://www.walmart.com/ip/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117/493136398?classType=VARIANT",
+        "description": "<li>All in one styling tool: Detangle, dry, style and volumize your hair with one styling tool! The Knot Dr. All-in-one dryer brush is all you need to create salon caliber styles quickly and easily</li>",
+        "item_id": "493136398",
+        "product_id": "3CEPWCFAIHPI",
+        "images": [
+          "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117_3e5eef71-7cfc-4dff-af0d-8dd102e3dc51.5947272a1e0352109aded6d5aaff46e7.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117_3e5eef71-7cfc-4dff-af0d-8dd102e3dc51.5947272a1e0352109aded6d5aaff46e7.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.4,
+        "ratings_total": 1592,
+        "variants": [
+          {
+            "item_id": "1150270448",
+            "product_id": "1YF8SR02YGFM",
+            "title": "Baby Pink",
+            "image": "https://i5.walmartimages.com/asr/def11558-e95c-4e6b-829d-c801cb01ab48.929447325c7c732500c55bd9f67dbeb4.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Conair-BC114-The-Knot-Dr-All-in-One-MINI-Oval-Dryer-Brush/1150270448?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "493136398",
+            "product_id": "6ZOR0P9ZEPFM",
+            "title": "Blue",
+            "image": "https://i5.walmartimages.com/asr/3e5eef71-7cfc-4dff-af0d-8dd102e3dc51.5947272a1e0352109aded6d5aaff46e7.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117/493136398?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "945374911",
+            "product_id": "2LN0BRTE3274",
+            "title": "Pink",
+            "image": "https://i5.walmartimages.com/asr/39d94c1e-df21-41c6-b0d0-e763c5b5d5f5.6eab2b2ea2ca0434374c44a19f634ae7.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Infinitipro-by-Conair-with-The-Knot-Dr-All-in-One-Smoothing-Dryer-Brush-BC120/945374911?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 38.5,
+          "currency_symbol": "$",
+          "id": "B9CB6F38C10446BEB730A2D7465A88F8",
+          "seller": {
+            "name": "Walmart.com",
+            "id": "F55CDC31AB754BB68FE0B39041159D63"
+          }
+        },
+        "is_marketplace_item": false
+      },
+      "fulfillment": {
+        "pickup": true,
+        "delivery_from_store": true,
+        "shipping": true
+      }
+    },
+    {
+      "position": 9,
+      "product": {
+        "title": "Conair InfinitiPRO 1875 Watt Texture Styling Hair Dryer, Dark Blue",
+        "link": "https://www.walmart.com/ip/InfinitiPro-by-Conair-1875-Watt-Texture-Styling-Hair-Dryer-for-Natural-Curls-and-Waves-Dark-Blue-1-Count-600R/511540357?classType=VARIANT&athbdg=L1600",
+        "description": "<li>Get perfect texture and enhanced, frizz-free curls and waves.</li>",
+        "item_id": "511540357",
+        "product_id": "6XP7ZXQGCXD1",
+        "images": [
+          "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-1875-Watt-Texture-Styling-Hair-Dryer-for-Natural-Curls-and-Waves-Dark-Blue-1-Count-600R_c0f0c0e2-538d-49ad-8600-ddd39dfaa77f.ccbf9eac29c90ca54a691ed442cfaeee.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-1875-Watt-Texture-Styling-Hair-Dryer-for-Natural-Curls-and-Waves-Dark-Blue-1-Count-600R_c0f0c0e2-538d-49ad-8600-ddd39dfaa77f.ccbf9eac29c90ca54a691ed442cfaeee.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.5,
+        "ratings_total": 976,
+        "best_seller": true
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 37.97,
+          "currency_symbol": "$",
+          "id": "B2C188439AA54707B561F08A267DED96",
+          "list_price": 46,
+          "savings_amount": 8.030000000000001,
+          "seller": {
+            "name": "Walmart.com",
+            "id": "F55CDC31AB754BB68FE0B39041159D63"
+          }
+        },
+        "is_marketplace_item": false
+      },
+      "fulfillment": {
+        "pickup": true,
+        "delivery_from_store": true,
+        "shipping": true
+      }
+    },
+    {
+      "position": 10,
+      "product": {
+        "title": "REMINGTON ONE Multi-Style Ionic Hair Dryer with Curl Diffuser and Flyaway Tamer, Black",
+        "link": "https://www.walmart.com/ip/Remington-One-Multi-Style-Hair-Dryer-Salon-Styled-Hair-at-Home-with-90-Less-Frizz-and-Faster-Styling/5150283612?classType=REGULAR",
+        "description": "Remington One Multi-Style Hair Dryer - Salon-Styled Hair at Home with 90% Less Frizz and Faster Styling",
+        "item_id": "5150283612",
+        "product_id": "53ZFWOFOVTC1",
+        "images": [
+          "https://i5.walmartimages.com/seo/Remington-One-Multi-Style-Hair-Dryer-Salon-Styled-Hair-at-Home-with-90-Less-Frizz-and-Faster-Styling_45041567-128a-4608-935c-32fc36253a03.7e0de7311b503d5a87fa28160e689713.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Remington-One-Multi-Style-Hair-Dryer-Salon-Styled-Hair-at-Home-with-90-Less-Frizz-and-Faster-Styling_45041567-128a-4608-935c-32fc36253a03.7e0de7311b503d5a87fa28160e689713.jpeg",
+        "rating": 4.4,
+        "ratings_total": 140
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 56.47,
+          "currency_symbol": "$",
+          "id": "50FE659B475135E7817300ED6C1FBCAE",
+          "seller": {
+            "name": "Walmart.com",
+            "id": "F55CDC31AB754BB68FE0B39041159D63"
+          }
+        },
+        "is_marketplace_item": false
+      },
+      "fulfillment": {
+        "pickup": true,
+        "delivery_from_store": true,
+        "shipping": true
+      }
+    },
+    {
+      "position": 11,
+      "product": {
+        "title": "curl and straight dual-purpose hairdressing electric hair dryer five-in-one hot air comb automatic multi-function curling iron",
+        "link": "https://www.walmart.com/ip/curl-and-straight-dual-purpose-hairdressing-electric-hair-dryer-five-in-one-hot-air-comb-automatic-multi-function-curling-iron/16661003251?classType=REGULAR",
+        "description": "<li>curl and straight dual-purpose hairdressing electric hair dryer five-in-one hot air comb automatic multi-function curling iron</li><li>Classification description:platinum (no paint) - Australian</li>",
+        "item_id": "16661003251",
+        "product_id": "2ID4GO5ABNAR",
+        "images": [
+          "https://i5.walmartimages.com/seo/curl-and-straight-dual-purpose-hairdressing-electric-hair-dryer-five-in-one-hot-air-comb-automatic-multi-function-curling-iron_c1605737-5651-49a3-b02b-f78a52312232.23679fd2cc9bbf7c4c59a77d65ed1158.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/curl-and-straight-dual-purpose-hairdressing-electric-hair-dryer-five-in-one-hot-air-comb-automatic-multi-function-curling-iron_c1605737-5651-49a3-b02b-f78a52312232.23679fd2cc9bbf7c4c59a77d65ed1158.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 51.92,
+          "currency_symbol": "$",
+          "id": "90F9CF3BF27C3ECA8A3322A5395E12E4",
+          "seller": {
+            "name": "AKAKKK",
+            "id": "FE1BE63406814D1E90A4F1616C618195"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 12,
+      "product": {
+        "title": "KISS Volume & Style Boosting 2-in-1 Air Brush, 3X Ceramic Waterdrop & Round Shaped Barrels",
+        "link": "https://www.walmart.com/ip/KISS-Volume-Style-Boosting-2-In-1-Hot-Air-Brush-3X-Ceramic-Waterdrop-1-5-Round-Shaped-Barrels/13069110035?classType=REGULAR",
+        "description": "<li>KISS Volume & Style Boosting 2-in-1 Air Brush has four heat settings & tangle-free bristles</li><li>3X ceramic coated barrels reduce heat damage</li><li>Activated charcoal pins provide ultimate</li>",
+        "item_id": "13069110035",
+        "product_id": "16PPGBI4Y4XF",
+        "images": [
+          "https://i5.walmartimages.com/seo/KISS-Volume-Style-Boosting-2-In-1-Hot-Air-Brush-3X-Ceramic-Waterdrop-1-5-Round-Shaped-Barrels_e31b3996-ea7b-4061-9560-419b4cb6274e.0e7c382a6795a0bf85ab868f946179dc.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/KISS-Volume-Style-Boosting-2-In-1-Hot-Air-Brush-3X-Ceramic-Waterdrop-1-5-Round-Shaped-Barrels_e31b3996-ea7b-4061-9560-419b4cb6274e.0e7c382a6795a0bf85ab868f946179dc.jpeg",
+        "rating": 4.2,
+        "ratings_total": 34
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 31.47,
+          "currency_symbol": "$",
+          "id": "32DB30B657FA33C693A5EC34CF24FF2B",
+          "list_price": 44.99,
+          "savings_amount": 13.520000000000003,
+          "seller": {
+            "name": "Walmart.com",
+            "id": "F55CDC31AB754BB68FE0B39041159D63"
+          }
+        },
+        "is_marketplace_item": false
+      },
+      "fulfillment": {
+        "pickup": true,
+        "delivery_from_store": true,
+        "shipping": true
+      }
+    },
+    {
+      "position": 13,
+      "product": {
+        "title": "800W Ionic Hair Dryer - 3 Heat/Speed Settings with Cool Shot, Lightweight Fast Drying Blow Dryer for Home & Travel, Salon-Styler for Straight/Curly Hair (Green, 7.87in)",
+        "link": "https://www.walmart.com/ip/800W-Ionic-Hair-Dryer-3-Heat-Speed-Settings-Cool-Shot-Lightweight-Fast-Drying-Blow-Dryer-Home-Travel-Salon-Styler-Straight-Curly-Hair-Green-7-87in/17304107494?classType=VARIANT",
+        "description": "Fast Drying with Powerful 800W MotorEquipped with an 800W high-speed motor that delivers strong airflow, cutting down drying time significantlyshort hair in about 1 minute, short-to-medium hair in 2-3",
+        "item_id": "17304107494",
+        "product_id": "7K1YIARH4PKX",
+        "images": [
+          "https://i5.walmartimages.com/seo/800W-Ionic-Hair-Dryer-3-Heat-Speed-Settings-Cool-Shot-Lightweight-Fast-Drying-Blow-Dryer-Home-Travel-Salon-Styler-Straight-Curly-Hair-Green-7-87in_24d9a873-afbc-4c24-851a-b2dcdf7dc9db.b2bee9ecef40ba311bc3e4cfc3bebab5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/800W-Ionic-Hair-Dryer-3-Heat-Speed-Settings-Cool-Shot-Lightweight-Fast-Drying-Blow-Dryer-Home-Travel-Salon-Styler-Straight-Curly-Hair-Green-7-87in_24d9a873-afbc-4c24-851a-b2dcdf7dc9db.b2bee9ecef40ba311bc3e4cfc3bebab5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0,
+        "variants": [
+          {
+            "item_id": "17254759398",
+            "product_id": "3W6JWSUAQWIP",
+            "title": "Gray",
+            "image": "https://i5.walmartimages.com/asr/13d50d2c-f689-4b77-aaf4-f9e391cc8a57.44c11e937e4f4c8d437ea422d667b12a.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/800W-Ionic-Hair-Dryer-3-Heat-Speed-Settings-Cool-Shot-Lightweight-Fast-Drying-Blow-Home-Travel-Salon-Styler-Straight-Curly-Green-7-87in/17254759398?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "17304107494",
+            "product_id": "4YLGKHEQODTI",
+            "title": "Green",
+            "image": "https://i5.walmartimages.com/asr/24d9a873-afbc-4c24-851a-b2dcdf7dc9db.b2bee9ecef40ba311bc3e4cfc3bebab5.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/800W-Ionic-Hair-Dryer-3-Heat-Speed-Settings-Cool-Shot-Lightweight-Fast-Drying-Blow-Home-Travel-Salon-Styler-Straight-Curly-Green-7-87in/17304107494?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "17295862162",
+            "product_id": "5RMIXR805R2H",
+            "title": "Purple",
+            "image": "https://i5.walmartimages.com/asr/c085b4e4-e95d-4b31-bbe4-217206228da8.09f849d23ad7ab094267b09019d1c84d.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/800W-Ionic-Hair-Dryer-3-Heat-Speed-Settings-Cool-Shot-Lightweight-Fast-Drying-Blow-Home-Travel-Salon-Styler-Straight-Curly-Green-7-87in/17295862162?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "17266119148",
+            "product_id": "44XJ8MZJNS4O",
+            "title": "White",
+            "image": "https://i5.walmartimages.com/asr/37b62090-2344-45b4-8e32-05cc0dadaf24.fd12c114b719403dc864c13c3f566325.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/800W-Ionic-Hair-Dryer-3-Heat-Speed-Settings-Cool-Shot-Lightweight-Fast-Drying-Blow-Home-Travel-Salon-Styler-Straight-Curly-Green-7-87in/17266119148?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 13.99,
+          "currency_symbol": "$",
+          "id": "4EE25CE25E483155A9E8A71F2E136129",
+          "seller": {
+            "name": "TechTread",
+            "id": "6320C9D6A8C74F8FB9692C416CD1836D"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 14,
+      "product": {
+        "title": "High-Power Hair Dryer, Hot Wind Comb, 1800W Power, Tourmaline Ceramic, Lightweight Design, for Salon/Travel, Fast Drying, Professional Styling Tool, Compact Hair Styler DinXzu Value for Money",
+        "link": "https://www.walmart.com/ip/High-Power-Hair-Dryer-Hot-Wind-Comb-1800W-Power-Tourmaline-Ceramic-Lightweight-Design-Salon-Travel-Fast-Drying-Professional-Styling-Tool-Compact-Hair/16920821215?classType=VARIANT&athbdg=L1400",
+        "description": "<li>High-Power Hair Dryer, Hot Wind Comb, 1800W Power, Tourmaline Ceramic, Lightweight Design, for Salon/Travel, Fast Drying, Professional Styling Tool, Compact Hair Styler DinXzu Value for Money</li>",
+        "item_id": "16920821215",
+        "product_id": "1WD3G1DMPR39",
+        "images": [
+          "https://i5.walmartimages.com/seo/High-Power-Hair-Dryer-Hot-Wind-Comb-1800W-Power-Tourmaline-Ceramic-Lightweight-Design-Salon-Travel-Fast-Drying-Professional-Styling-Tool-Compact-Hair_87d36346-8d3c-4595-8cea-723b7f9f31ff.3870df48096703d1af3f05e759039df1.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/High-Power-Hair-Dryer-Hot-Wind-Comb-1800W-Power-Tourmaline-Ceramic-Lightweight-Design-Salon-Travel-Fast-Drying-Professional-Styling-Tool-Compact-Hair_87d36346-8d3c-4595-8cea-723b7f9f31ff.3870df48096703d1af3f05e759039df1.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0,
+        "variants": [
+          {
+            "item_id": "16946267831",
+            "product_id": "4U4KHWRO7A00",
+            "title": "Purple-253",
+            "image": "https://i5.walmartimages.com/asr/e3e443ab-7d3c-4e4b-a523-966bb5d70536.d0a0481ce5383b505fa28a87e92afdbb.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/High-Power-Hair-Dryer-Hot-Wind-Comb-1800W-Power-Tourmaline-Ceramic-Lightweight-Design-Salon-Travel-Fast-Drying-Professional-Styling-Tool-Compact-Styl/16946267831?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16920821215",
+            "product_id": "5LKQWBDF9T8H",
+            "title": "Green-635",
+            "image": "https://i5.walmartimages.com/asr/87d36346-8d3c-4595-8cea-723b7f9f31ff.3870df48096703d1af3f05e759039df1.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/High-Power-Hair-Dryer-Hot-Wind-Comb-1800W-Power-Tourmaline-Ceramic-Lightweight-Design-Salon-Travel-Fast-Drying-Professional-Styling-Tool-Compact-Styl/16920821215?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16945620005",
+            "product_id": "22O8CE1P1F2Q",
+            "title": "Gray-759",
+            "image": "https://i5.walmartimages.com/asr/13d50d2c-f689-4b77-aaf4-f9e391cc8a57.44c11e937e4f4c8d437ea422d667b12a.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/High-Power-Hair-Dryer-Hot-Wind-Comb-1800W-Power-Tourmaline-Ceramic-Lightweight-Design-Salon-Travel-Fast-Drying-Professional-Styling-Tool-Compact-Styl/16945620005?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16934850743",
+            "product_id": "77IOI3TF4WH1",
+            "title": "White-761",
+            "image": "https://i5.walmartimages.com/asr/37b62090-2344-45b4-8e32-05cc0dadaf24.fd12c114b719403dc864c13c3f566325.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/High-Power-Hair-Dryer-Hot-Wind-Comb-1800W-Power-Tourmaline-Ceramic-Lightweight-Design-Salon-Travel-Fast-Drying-Professional-Styling-Tool-Compact-Styl/16934850743?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 5.63,
+          "currency_symbol": "$",
+          "id": "363F7B919936316D81326DCB162930A0",
+          "list_price": 6.48,
+          "savings_amount": 0.8500000000000005,
+          "seller": {
+            "name": "XiuCong",
+            "id": "449D7F2574284276BC1A484AD43FC301"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 15,
+      "product": {
+        "title": "Supply high-power 700W curling iron hair dryer comb household hair styling set",
+        "link": "https://www.walmart.com/ip/Supply-high-power-700W-curling-iron-hair-dryer-comb-household-hair-styling-set/5764009521?classType=VARIANT",
+        "description": "Overheat Protection: Yes\n\n<li>Place of Origin: Shenzhen</li>\n<li>Brand: FULLCOME</li>\n<li>Article number: 1001-8</li>\n<li>Handle folding: foldable</li>\n<li>Product specifications: domestic, American,</li>",
+        "item_id": "5764009521",
+        "product_id": "3INOD39BALK8",
+        "images": [
+          "https://i5.walmartimages.com/seo/Supply-high-power-700W-curling-iron-hair-dryer-comb-household-hair-styling-set_78d13fad-020a-4698-9741-aec7a4a2e96f.1b03ce52a3e1f76965daf2cce6f49c99.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Supply-high-power-700W-curling-iron-hair-dryer-comb-household-hair-styling-set_78d13fad-020a-4698-9741-aec7a4a2e96f.1b03ce52a3e1f76965daf2cce6f49c99.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 38.99,
+          "currency_symbol": "$",
+          "id": "EE001E8418883CCDBDCB6F654FFB78BB",
+          "seller": {
+            "name": "JIANPUSH Lighting Shop",
+            "id": "B55B7BD7149841D9B04DED3484AEAFF7"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    }
+  ],
+  "facets": [
+    {
+      "name": "brand",
+      "display_name": "Brand",
+      "values": [
+        {
+          "name": "InStyler",
+          "param_value": "facets=brand=InStyler"
+        },
+        {
+          "name": "KeJieShunCheng",
+          "param_value": "facets=brand=KeJieShunCheng"
+        },
+        {
+          "name": "WXLCISI",
+          "param_value": "facets=brand=WXLCISI"
+        }
+      ]
+    },
+    {
+      "name": "fulfillment_speed",
+      "display_name": "Fulfillment Speed",
+      "values": [
+        {
+          "name": "Today",
+          "param_value": "facets=fulfillment_speed=Today"
+        },
+        {
+          "name": "Tomorrow",
+          "param_value": "facets=fulfillment_speed=Tomorrow"
+        },
+        {
+          "name": "2 days",
+          "param_value": "facets=fulfillment_speed=2+days"
+        },
+        {
+          "name": "Anytime",
+          "param_value": "facets=fulfillment_speed=Anytime"
+        }
+      ]
+    },
+    {
+      "name": "customer_rating",
+      "display_name": "Customer Rating",
+      "values": [
+        {
+          "name": "4 - 5 Stars",
+          "param_value": "facets=customer_rating=4+-+5+Stars"
+        },
+        {
+          "name": "3 - 3.9 Stars",
+          "param_value": "facets=customer_rating=3+-+3.9+Stars"
+        },
+        {
+          "name": "2 - 2.9 Stars",
+          "param_value": "facets=customer_rating=2+-+2.9+Stars"
+        },
+        {
+          "name": "1 - 1.9 Stars",
+          "param_value": "facets=customer_rating=1+-+1.9+Stars"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "display_name": "Color",
+      "values": [
+        {
+          "name": "Purple",
+          "param_value": "facets=color=Purple"
+        },
+        {
+          "name": "Gray",
+          "param_value": "facets=color=Gray"
+        },
+        {
+          "name": "Other",
+          "param_value": "facets=color=Other"
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "display_name": "Category",
+      "values": [
+        {
+          "name": "Flat Irons",
+          "param_value": "facets=category=Flat+Irons"
+        }
+      ]
+    },
+    {
+      "name": "gender",
+      "display_name": "Gender",
+      "values": [
+        {
+          "name": "Unisex",
+          "param_value": "facets=gender=Unisex"
+        }
+      ]
+    },
+    {
+      "name": "size",
+      "display_name": "Popular Sizes",
+      "values": [
+        {
+          "name": "1.25\"",
+          "param_value": "facets=size=1.25\""
+        }
+      ]
+    },
+    {
+      "name": "material",
+      "display_name": "Material",
+      "values": [
+        {
+          "name": "Ceramic",
+          "param_value": "facets=material=Ceramic"
+        },
+        {
+          "name": "Plastic",
+          "param_value": "facets=material=Plastic"
+        }
+      ]
+    },
+    {
+      "name": "hair_type",
+      "display_name": "Hair Type",
+      "values": [
+        {
+          "name": "All Hair Types",
+          "param_value": "facets=hair_type=All+Hair+Types"
+        }
+      ]
+    },
+    {
+      "name": "number_of_pieces",
+      "display_name": "Number of Pieces",
+      "values": [
+        {
+          "name": "1",
+          "param_value": "facets=number_of_pieces=1"
+        }
+      ]
+    },
+    {
+      "name": "power_type",
+      "display_name": "Power Type",
+      "values": [
+        {
+          "name": "Corded Electric",
+          "param_value": "facets=power_type=Corded+Electric"
+        }
+      ]
+    },
+    {
+      "name": "size_descriptor",
+      "display_name": "Size Descriptor",
+      "values": [
+        {
+          "name": "Small",
+          "param_value": "facets=size_descriptor=Small"
+        },
+        {
+          "name": "Compact",
+          "param_value": "facets=size_descriptor=Compact"
+        },
+        {
+          "name": "Long",
+          "param_value": "facets=size_descriptor=Long"
+        }
+      ]
+    },
+    {
+      "name": "exclude_oos",
+      "display_name": "Availability",
+      "values": [
+        {
+          "name": "Show available items only",
+          "param_value": "facets=exclude_oos=Show+available+items+only"
+        }
+      ]
+    },
+    {
+      "name": "cat_id",
+      "display_name": "Departments",
+      "values": [
+        {
+          "name": "Beauty",
+          "param_value": "facets=cat_id=Beauty"
+        },
+        {
+          "name": "Personal Care",
+          "param_value": "facets=cat_id=Personal+Care"
+        }
+      ]
+    },
+    {
+      "name": "retailer_type",
+      "display_name": "Retailer",
+      "values": [
+        {
+          "name": "Walmart",
+          "param_value": "facets=retailer_type=Walmart"
+        },
+        {
+          "name": "Pro Sellers",
+          "param_value": "facets=retailer_type=Pro+Sellers"
+        },
+        {
+          "name": "Marketplace Sellers fulfilled by Walmart",
+          "param_value": "facets=retailer_type=Marketplace+Sellers+fulfilled+by+Walmart"
+        }
+      ]
+    }
+  ],
+  "category_info": {
+    "is_landing_page": false
+  },
+  "pagination": {
+    "current": {
+      "page": 1,
+      "link": "https://www.walmart.com/search?q=instyler+hair+dryer&page=1"
+    },
+    "total_pages": 1,
+    "other_pages": [
+      {
+        "page": 1,
+        "link": "https://www.walmart.com/search?q=instyler+hair+dryer&page=1"
+      }
+    ],
+    "total_results": 5
+  },
+  "location_info": {
+    "city": "Morehead",
+    "state": "KY",
+    "zipcode": "40351",
+    "store_id": "1139"
+  }
+}

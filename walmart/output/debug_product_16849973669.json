@@ -1,0 +1,247 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2224,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7776,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "16849973669"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T14:10:05.409Z",
+    "processed_at": "2025-08-25T14:10:10.720Z",
+    "total_time_taken": 5.31,
+    "walmart_url": "https://www.walmart.com/ip/16849973669"
+  },
+  "product": {
+    "brand": "InStyler",
+    "link": "https://www.walmart.com/ip/InStyler-Professional-Hair-Straightening-Iron-Curling-Iron-Straightener-Curler-Styler-2-In-1-Multi-Hair-Styling-Tool-Flat-Iron-With-Brush/16849973669",
+    "title": "InStyler Professional Hair Straightening Iron Curling Iron Straightener&Curler Styler 2 In 1 Multi Hair Styling Tool Flat Iron With Brush",
+    "item_id": "16849973669",
+    "item_number": "4XAIHUQR2C2U",
+    "description": "Hair Straightening Curling Straightener&Curler Styler 2 In 1 Multi Hair Styling Tool Flat\nFeatures:\n1.Adopted infrared heating , fast heating, long life and good temperature stability.\n2. Exquisite ceramic plate, smooth and bright, less damage to the hair.\n3.Rapidly heating within , when reaching the desired temperature, you can operate it.\n4.Thermostatic technology, up to 210 Deg.C, your hair from over-heating.\n5. Ergonomic handle gives you a comfortable using experience for its lightweight design.\nProduct Description:\nPackage included:\n1x Rotating 2-Way Hair Curler Straightener",
+    "description_html": "Hair Straightening Curling Straightener&amp;Curler Styler 2 In 1 Multi Hair Styling Tool Flat<br>Features:<br>1.Adopted infrared heating , fast heating, long life and good temperature stability.<br>2. Exquisite ceramic plate, smooth and bright, less damage to the hair.<br>3.Rapidly heating within , when reaching the desired temperature, you can operate it.<br>4.Thermostatic technology, up to 210 Deg.C, your hair from over-heating.<br>5. Ergonomic handle gives you a comfortable using experience for its lightweight design.<br>Product Description:<br>Package included:<br>1x Rotating 2-Way Hair Curler Straightener<br>",
+    "description_full": "Hair Straightening Curling Straightener&Curler Styler 2 In 1 Multi Hair Styling Tool Flat\nFeatures:\n1.Adopted infrared heating , fast heating, long life and good temperature stability.\n2. Exquisite ceramic plate, smooth and bright, less damage to the hair.\n3.Rapidly heating within , when reaching the desired temperature, you can operate it.\n4.Thermostatic technology, up to 210 Deg.C, your hair from over-heating.\n5. Ergonomic handle gives you a comfortable using experience for its lightweight design.\nProduct Description:\nPackage included:\n1x Rotating 2-Way Hair Curler Straightener * 1.Adopted infrared heating , fast heating, long life and good temperature stability.\n * 2. Exquisite ceramic plate, smooth and bright, less damage to the hair.\n * 3.Rapidly heating within , when reaching the desired temperature, you can operate it.\n * 4.Thermostatic technology, up to 210 Deg.C, your hair from over-heating.\n * 5. Ergonomic handle gives you a comfortable using experience for its lightweight design.",
+    "description_full_html": "Hair Straightening Curling Straightener&amp;Curler Styler 2 In 1 Multi Hair Styling Tool Flat<br>Features:<br>1.Adopted infrared heating , fast heating, long life and good temperature stability.<br>2. Exquisite ceramic plate, smooth and bright, less damage to the hair.<br>3.Rapidly heating within , when reaching the desired temperature, you can operate it.<br>4.Thermostatic technology, up to 210 Deg.C, your hair from over-heating.<br>5. Ergonomic handle gives you a comfortable using experience for its lightweight design.<br>Product Description:<br>Package included:<br>1x Rotating 2-Way Hair Curler Straightener<br> <ul>  <li>1.Adopted infrared heating , fast heating, long life and good temperature stability.</li>  <li>2. Exquisite ceramic plate, smooth and bright, less damage to the hair.</li>  <li>3.Rapidly heating within , when reaching the desired temperature, you can operate it.</li>  <li>4.Thermostatic technology, up to 210 Deg.C, your hair from over-heating.</li>  <li>5. Ergonomic handle gives you a comfortable using experience for its lightweight design.</li> </ul>",
+    "ratings_total": 0,
+    "type": "Hair Flat Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/InStyler-Professional-Hair-Straightening-Iron-Curling-Iron-Straightener-Curler-Styler-2-In-1-Multi-Hair-Styling-Tool-Flat-Iron-With-Brush_8871432d-7165-4f8e-8e5e-d33ff43edf11.da615e5ca0a0bd3517ad3d228caf9cb5.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/InStyler-Professional-Hair-Straightening-Iron-Curling-Iron-Straightener-Curler-Styler-2-In-1-Multi-Hair-Styling-Tool-Flat-Iron-With-Brush_8871432d-7165-4f8e-8e5e-d33ff43edf11.da615e5ca0a0bd3517ad3d228caf9cb5.jpeg",
+        "id": "260003B052A04D3CA9ADD8AF4B811139",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6767dc3b-a417-43c4-9be2-6afa1a222bd8.fe5c8452e0134af6cc9c19a09f738622.jpeg",
+        "id": "C523953ED5AA4902BD681F882DF942A4",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/233bbb2e-3787-47ed-8e78-574173398890.dbeb7ba3c17a90ecf5b5f51f9c2fccc7.jpeg",
+        "id": "AE2C7C16FC654EBBBFEF89C5F9D185D6",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0884bb98-41a8-43b5-90b3-63132fcf42b3.a794ff88992dd40439da26a92274143d.jpeg",
+        "id": "AD1735895B844BA091FAFE7A30CCB93F",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/152de73a-4703-4a0f-aa94-d92ca311e868.b128dc5c1466e11fcbb756a66fc69394.jpeg",
+        "id": "FF8E676410E348B9B7D9695A06DAEA70",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6a6293dc-7861-41a3-8285-c7596ccb2da2.bae8f579094c39169391f76100ba2a77.jpeg",
+        "id": "13C4B10009C541F8B8CC9F9704535023",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/544800a0-7a0f-4a97-a04a-a556e04a14f1.171251217383e8be89dab8ec6859160e.jpeg",
+        "id": "2C0DCD622B9245D3A4EF8390575E3B00",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/3b563738-cf1f-4bfe-97ff-d197e8659310.ad31d7818b9e8835af925ae710722c22.jpeg",
+        "id": "58D1622E1427472D842A84160F444C21",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Styling Tools",
+        "link": "https://www.walmart.com/cp/hair-styling-tools/3847754"
+      },
+      {
+        "name": "Flat Irons",
+        "link": "https://www.walmart.com/cp/flat-irons/3414479"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Rotating"
+      },
+      {
+        "name": "Brand",
+        "value": "InStyler"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "GXXGREAT"
+      }
+    ],
+    "buybox_winner": {
+      "price": 36.99,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$33.89",
+        "value": 33.89
+      },
+      "id": "3CAACB09CA1F334F83FD595CBB3CB068",
+      "seller": {
+        "name": "cuichunli",
+        "id_secondary": "B5CD25622BBB4A89BEDFCEA702D9BA66",
+        "id": 102916816,
+        "link": "https://www.walmart.com/seller/102916816"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Tue, Sep 2 to Fort Wayne, 46845",
+        "message": "Free shipping, arrives by Tue, Sep 2 to Fort Wayne, 46845",
+        "zipcode": "46845"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "cuichunli"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "16849973669",
+        "product_id": "4XAIHUQR2C2U",
+        "link": "https://www.walmart.com/ip/16849973669",
+        "in_stock": true,
+        "price": 36.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/InStyler-Professional-Hair-Straightening-Iron-Curling-Iron-Straightener-Curler-Styler-2-In-1-Multi-Hair-Styling-Tool-Flat-Iron-With-Brush_8871432d-7165-4f8e-8e5e-d33ff43edf11.da615e5ca0a0bd3517ad3d228caf9cb5.jpeg",
+            "id": "260003B052A04D3CA9ADD8AF4B811139",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6767dc3b-a417-43c4-9be2-6afa1a222bd8.fe5c8452e0134af6cc9c19a09f738622.jpeg",
+            "id": "C523953ED5AA4902BD681F882DF942A4",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/233bbb2e-3787-47ed-8e78-574173398890.dbeb7ba3c17a90ecf5b5f51f9c2fccc7.jpeg",
+            "id": "AE2C7C16FC654EBBBFEF89C5F9D185D6",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0884bb98-41a8-43b5-90b3-63132fcf42b3.a794ff88992dd40439da26a92274143d.jpeg",
+            "id": "AD1735895B844BA091FAFE7A30CCB93F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/152de73a-4703-4a0f-aa94-d92ca311e868.b128dc5c1466e11fcbb756a66fc69394.jpeg",
+            "id": "FF8E676410E348B9B7D9695A06DAEA70",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6a6293dc-7861-41a3-8285-c7596ccb2da2.bae8f579094c39169391f76100ba2a77.jpeg",
+            "id": "13C4B10009C541F8B8CC9F9704535023",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/544800a0-7a0f-4a97-a04a-a556e04a14f1.171251217383e8be89dab8ec6859160e.jpeg",
+            "id": "2C0DCD622B9245D3A4EF8390575E3B00",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3b563738-cf1f-4bfe-97ff-d197e8659310.ad31d7818b9e8835af925ae710722c22.jpeg",
+            "id": "58D1622E1427472D842A84160F444C21",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "onesize"
+          },
+          {
+            "name": "actual_color",
+            "value": "silver"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Fort Wayne",
+    "state": "IN",
+    "zipcode": "46845",
+    "store_id": "4230"
+  }
+}

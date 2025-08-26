@@ -1,0 +1,219 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1288,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8712,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "364874598"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T11:21:29.594Z",
+    "processed_at": "2025-08-20T11:21:32.546Z",
+    "total_time_taken": 2.95,
+    "walmart_url": "https://www.walmart.com/ip/364874598"
+  },
+  "product": {
+    "brand": "M'Styler",
+    "link": "https://www.walmart.com/ip/M-Styler-Men-s-Hair-Controller-Hair-Iron-for-Men-Straightener-Flat-Iron/364874598",
+    "title": "M'Styler Men's Hair Controller Hair Iron for Men Straightener Flat Iron",
+    "item_id": "364874598",
+    "product_id": "Modeling-Comb",
+    "item_number": "4YGOEX95BNT9",
+    "description": "M-Styler has great grip since it is designde and manufactured by measuring men's average hand size, Set at optimum temperature for hair(Set at 120℃ which is the optimum temperature for hair condition), Power indicating light(15-Second preheating/On:red light turns on), Design which prevent a burn(The heat plate covers the comb for safety), Volumize top hair(Slowly comb top hair from front towards the back), Flatten side hair(Slowly comb side hair from top to bottom), Straighten curlt hair(Slowly comb the entire hair from front to back)",
+    "description_html": "<p>M-Styler has great grip since it is designde and manufactured by measuring men's average hand size, Set at optimum temperature for hair(Set at 120℃ which is the optimum temperature for hair condition), Power indicating light(15-Second preheating/On:red light turns on), Design which prevent a burn(The heat plate covers the comb for safety), Volumize top hair(Slowly comb top hair from front towards the back), Flatten side hair(Slowly comb side hair from top to bottom), Straighten curlt hair(Slowly comb the entire hair from front to back)</p>",
+    "description_full": "M-Styler has great grip since it is designde and manufactured by measuring men's average hand size, Set at optimum temperature for hair(Set at 120℃ which is the optimum temperature for hair condition), Power indicating light(15-Second preheating/On:red light turns on), Design which prevent a burn(The heat plate covers the comb for safety), Volumize top hair(Slowly comb top hair from front towards the back), Flatten side hair(Slowly comb side hair from top to bottom), Straighten curlt hair(Slowly comb the entire hair from front to back) M'Styler Men's Hair Controller Hair Iron for Men Straightener Flat Iron",
+    "description_full_html": "<p>M-Styler has great grip since it is designde and manufactured by measuring men's average hand size, Set at optimum temperature for hair(Set at 120℃ which is the optimum temperature for hair condition), Power indicating light(15-Second preheating/On:red light turns on), Design which prevent a burn(The heat plate covers the comb for safety), Volumize top hair(Slowly comb top hair from front towards the back), Flatten side hair(Slowly comb side hair from top to bottom), Straighten curlt hair(Slowly comb the entire hair from front to back)</p> M'Styler Men's Hair Controller Hair Iron for Men Straightener Flat Iron",
+    "model": "Modeling-Comb",
+    "ratings_total": 1,
+    "rating": 5,
+    "type": "Hair Flat Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/M-Styler-Men-s-Hair-Controller-Hair-Iron-for-Men-Straightener-Flat-Iron_b39359d4-7cba-4a67-9bee-63fd3ac13d59.ebfd92fc24b03c3743483a4195ca7b53.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/M-Styler-Men-s-Hair-Controller-Hair-Iron-for-Men-Straightener-Flat-Iron_b39359d4-7cba-4a67-9bee-63fd3ac13d59.ebfd92fc24b03c3743483a4195ca7b53.jpeg",
+        "id": "5F39A0077F9A442FA8F76D4EE310BCEF",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/56255aa1-645d-4fb0-85cb-2440381f7b2f_1.344b84aff4cc6c1ec7a8bf2c67d7a3f6.jpeg",
+        "id": "8F4F78674F48469B9BD493B33E9AA9D7",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/168e2d5e-523c-46d9-aed0-7e692da20729_1.ab63e73449d94ce42e17af2aefb3c572.jpeg",
+        "id": "CB355388DBD44B029213D6AFB10D22A0",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/7ad88bcb-9102-4a95-97b9-0694f9478ffc.fa769c8cee79b0d5059f19146c680c03.jpeg",
+        "id": "3A8F6425742C4973934194A83BCBF65A",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/76f6f2a3-d05d-406b-ace2-21307f77c9f3_1.7c48ac6b78040d2f78313d539fee4bca.jpeg",
+        "id": "93D9764B4A924BA8873ED6AAE00D5DAD",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6ed7f35a-c4e8-4e86-95fb-1e18674351ad_1.b5064fc77fb186417de2c16e4201d81f.jpeg",
+        "id": "7CA57DEAA4684072A4B3816805CEC5EE",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Styling Tools",
+        "link": "https://www.walmart.com/cp/hair-styling-tools/3847754"
+      },
+      {
+        "name": "Flat Irons",
+        "link": "https://www.walmart.com/cp/flat-irons/3414479"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "M'Styler"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Deep point"
+      }
+    ],
+    "buybox_winner": {
+      "price": 14.99,
+      "currency_symbol": "$",
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$12.99",
+        "value": 12.99
+      },
+      "id": "31035C79C8373A2DA255F74EC637343F",
+      "seller": {
+        "name": "Household-Deals",
+        "id_secondary": "7A3B80B58F144858BD067142B7D1C22E",
+        "id": 101122112,
+        "link": "https://www.walmart.com/seller/101122112"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 29 to Champlin, 55316",
+        "message": "Free shipping, arrives by Fri, Aug 29 to Champlin, 55316",
+        "zipcode": "55316"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Household-Deals"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10702915011",
+          "id": "D7482BB8E273385D80E3A56B0AB514EF",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 2,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$2.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10692570769",
+          "id": "83B9CAB3B6BE3DCB9DE8AD8A770E9D27",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "364874598",
+        "product_id": "Modeling-Comb",
+        "link": "https://www.walmart.com/ip/M-Styler-Men-s-Hair-Controller-Hair-Iron-for-Men-Straightener-Flat-Iron/364874598",
+        "price": 14.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/M-Styler-Men-s-Hair-Controller-Hair-Iron-for-Men-Straightener-Flat-Iron_b39359d4-7cba-4a67-9bee-63fd3ac13d59.ebfd92fc24b03c3743483a4195ca7b53.jpeg",
+            "id": "5F39A0077F9A442FA8F76D4EE310BCEF",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/56255aa1-645d-4fb0-85cb-2440381f7b2f_1.344b84aff4cc6c1ec7a8bf2c67d7a3f6.jpeg",
+            "id": "8F4F78674F48469B9BD493B33E9AA9D7",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/168e2d5e-523c-46d9-aed0-7e692da20729_1.ab63e73449d94ce42e17af2aefb3c572.jpeg",
+            "id": "CB355388DBD44B029213D6AFB10D22A0",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7ad88bcb-9102-4a95-97b9-0694f9478ffc.fa769c8cee79b0d5059f19146c680c03.jpeg",
+            "id": "3A8F6425742C4973934194A83BCBF65A",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/76f6f2a3-d05d-406b-ace2-21307f77c9f3_1.7c48ac6b78040d2f78313d539fee4bca.jpeg",
+            "id": "93D9764B4A924BA8873ED6AAE00D5DAD",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6ed7f35a-c4e8-4e86-95fb-1e18674351ad_1.b5064fc77fb186417de2c16e4201d81f.jpeg",
+            "id": "7CA57DEAA4684072A4B3816805CEC5EE",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Champlin",
+    "state": "MN",
+    "zipcode": "55316",
+    "store_id": "1864"
+  }
+}

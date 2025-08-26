@@ -1,0 +1,279 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2243,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7757,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "886102426"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T14:20:08.283Z",
+    "processed_at": "2025-08-25T14:20:23.208Z",
+    "total_time_taken": 14.93,
+    "walmart_url": "https://www.walmart.com/ip/886102426"
+  },
+  "product": {
+    "brand": "Nike",
+    "link": "https://www.walmart.com/ip/Nike-Women-s-Tempo-Short-Emerald-Bright-Citrus-Green-Glow-Matte-Silver-SM-X-3/886102426",
+    "title": "Nike Star Runner SD Women's Running Shoes",
+    "upc": "888407326134",
+    "item_id": "886102426",
+    "item_number": "5KO3RZYJMYE9",
+    "description": "The Nike Star Runner SD Women's Running Shoes are designed to keep up with your every stride. Lightweight, cushioned, and built for all-day comfort, they’re perfect for runs, workouts, or casual wear. A breathable mesh upper keeps your feet cool, while soft foam underfoot delivers a smooth, responsive ride. Durable rubber outsoles provide traction and long-lasting wear, whether you're hitting the track or the streets. Sleek and supportive, these versatile sneakers are a go-to for women on the move.",
+    "description_html": "The Nike Star Runner SD Women's Running Shoes are designed to keep up with your every stride. Lightweight, cushioned, and built for all-day comfort, they’re perfect for runs, workouts, or casual wear. A breathable mesh upper keeps your feet cool, while soft foam underfoot delivers a smooth, responsive ride. Durable rubber outsoles provide traction and long-lasting wear, whether you're hitting the track or the streets. Sleek and supportive, these versatile sneakers are a go-to for women on the move.",
+    "description_full": "The Nike Star Runner SD Women's Running Shoes are designed to keep up with your every stride. Lightweight, cushioned, and built for all-day comfort, they’re perfect for runs, workouts, or casual wear. A breathable mesh upper keeps your feet cool, while soft foam underfoot delivers a smooth, responsive ride. Durable rubber outsoles provide traction and long-lasting wear, whether you're hitting the track or the streets. Sleek and supportive, these versatile sneakers are a go-to for women on the move. * Lightweight Performance – Designed for speed and comfort with a breathable upper that keeps you feeling light on your feet.\n * All-Day Cushioning – Soft foam midsole provides plush, responsive cushioning for a smooth ride.\n * Breathable Mesh Upper – Enhances airflow to keep your feet cool and comfortable during activity.\n * Durable Traction – Rubber outsole offers strong grip and long-lasting wear on a variety of surfaces.\n * Everyday Versatility – Sleek design pairs perfectly with athletic or casual outfits—ideal for running, training, or all-day wear.",
+    "description_full_html": "The Nike Star Runner SD Women's Running Shoes are designed to keep up with your every stride. Lightweight, cushioned, and built for all-day comfort, they’re perfect for runs, workouts, or casual wear. A breathable mesh upper keeps your feet cool, while soft foam underfoot delivers a smooth, responsive ride. Durable rubber outsoles provide traction and long-lasting wear, whether you're hitting the track or the streets. Sleek and supportive, these versatile sneakers are a go-to for women on the move. <ul>  <li>Lightweight Performance – Designed for speed and comfort with a breathable upper that keeps you feeling light on your feet.</li>  <li>All-Day Cushioning – Soft foam midsole provides plush, responsive cushioning for a smooth ride.</li>  <li>Breathable Mesh Upper – Enhances airflow to keep your feet cool and comfortable during activity.</li>  <li>Durable Traction – Rubber outsole offers strong grip and long-lasting wear on a variety of surfaces.</li>  <li>Everyday Versatility – Sleek design pairs perfectly with athletic or casual outfits—ideal for running, training, or all-day wear.</li> </ul>",
+    "ratings_total": 0,
+    "type": "Athletic Shoes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Nike-Women-s-Tempo-Short-Emerald-Bright-Citrus-Green-Glow-Matte-Silver-SM-X-3_0feab0a8-b3aa-4994-b0f7-483159a93b1e.8f0647c24110c6908bcee8dbd0db9602.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Nike-Women-s-Tempo-Short-Emerald-Bright-Citrus-Green-Glow-Matte-Silver-SM-X-3_0feab0a8-b3aa-4994-b0f7-483159a93b1e.8f0647c24110c6908bcee8dbd0db9602.jpeg",
+        "id": "1D73F55677D7493E9E05EADC30320FD5",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/9b027bed-aac4-49e1-8f7f-48bd73fe38bf.671162e86ca8665d3bcae6aff0de2c30.jpeg",
+        "id": "7981CC8AB48A43999040B18B51443E63",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a75ab429-5ed1-41a5-b9aa-849ac9214133.a9d6657b7f4455eb18eecc4aa89c9902.jpeg",
+        "id": "1548C8412E934DDD8E84BF8E1D19B33B",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b6d765f9-6bb3-4344-8863-d23126de68b7.73839f04d20e3ac421c95490b8c2b943.jpeg",
+        "id": "D4A35D65D5F1458BADA737697A86DC5A",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/511d0017-6747-4b3e-9cf6-c7a7e49ab42f.8a2430572694389f783044557fa5f908.jpeg",
+        "id": "949D5363C9794C17A5480D9DF4EF5C45",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Fashion Brands",
+        "link": "https://www.walmart.com/cp/fashion-brands/3317124"
+      },
+      {
+        "name": "Nike",
+        "link": "https://www.walmart.com/cp/nike/7807333"
+      },
+      {
+        "name": "Nike Shoes",
+        "link": "https://www.walmart.com/cp/nike-shoes/8183084"
+      },
+      {
+        "name": "Nike Sneakers",
+        "link": "https://www.walmart.com/cp/nike-sneakers/2084015"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Shoe Category",
+        "value": "Girls' Shoes"
+      },
+      {
+        "name": "Shoe Size",
+        "value": "2.5Y"
+      },
+      {
+        "name": "Gender",
+        "value": "Female"
+      },
+      {
+        "name": "Color",
+        "value": "Emerald Bright Citrus/Green Glow/Matte Silver"
+      },
+      {
+        "name": "Brand",
+        "value": "Nike"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Nike"
+      },
+      {
+        "name": "Features",
+        "value": "Moisture Wicking, Durable, Drawstring"
+      }
+    ],
+    "buybox_winner": {
+      "price": 24.99,
+      "was_price": 47.99,
+      "currency_symbol": "$",
+      "id": "5180D5F342873CF5BBDDA7B3D37C2CBC",
+      "seller": {
+        "name": "1370 Collective",
+        "id_secondary": "81368E91EABB4328AE530094523FB0F5",
+        "id": 101349432,
+        "link": "https://www.walmart.com/seller/101349432"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Sat, Aug 30 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Sat, Aug 30 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "1370 Collective"
+      }
+    },
+    "color": "Emerald Bright Citrus/Green Glow/Matte Silver",
+    "variants": [
+      {
+        "item_id": "886102426",
+        "product_id": "5KO3RZYJMYE9",
+        "link": "https://www.walmart.com/ip/886102426",
+        "in_stock": true,
+        "price": 24.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Women-s-Tempo-Short-Emerald-Bright-Citrus-Green-Glow-Matte-Silver-SM-X-3_0feab0a8-b3aa-4994-b0f7-483159a93b1e.8f0647c24110c6908bcee8dbd0db9602.jpeg",
+            "id": "1D73F55677D7493E9E05EADC30320FD5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9b027bed-aac4-49e1-8f7f-48bd73fe38bf.671162e86ca8665d3bcae6aff0de2c30.jpeg",
+            "id": "7981CC8AB48A43999040B18B51443E63",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a75ab429-5ed1-41a5-b9aa-849ac9214133.a9d6657b7f4455eb18eecc4aa89c9902.jpeg",
+            "id": "1548C8412E934DDD8E84BF8E1D19B33B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b6d765f9-6bb3-4344-8863-d23126de68b7.73839f04d20e3ac421c95490b8c2b943.jpeg",
+            "id": "D4A35D65D5F1458BADA737697A86DC5A",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/511d0017-6747-4b3e-9cf6-c7a7e49ab42f.8a2430572694389f783044557fa5f908.jpeg",
+            "id": "949D5363C9794C17A5480D9DF4EF5C45",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "2.5y"
+          }
+        ]
+      },
+      {
+        "item_id": "915839634",
+        "product_id": "1UEYIYVP84XU",
+        "link": "https://www.walmart.com/ip/915839634",
+        "in_stock": true,
+        "price": 24.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Boy-s-Nike-Star-Runner-SD-PS-Pre-School-Shoe_0feab0a8-b3aa-4994-b0f7-483159a93b1e.8f0647c24110c6908bcee8dbd0db9602.jpeg",
+            "id": "1D73F55677D7493E9E05EADC30320FD5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9b027bed-aac4-49e1-8f7f-48bd73fe38bf.671162e86ca8665d3bcae6aff0de2c30.jpeg",
+            "id": "7981CC8AB48A43999040B18B51443E63",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a75ab429-5ed1-41a5-b9aa-849ac9214133.a9d6657b7f4455eb18eecc4aa89c9902.jpeg",
+            "id": "1548C8412E934DDD8E84BF8E1D19B33B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b6d765f9-6bb3-4344-8863-d23126de68b7.73839f04d20e3ac421c95490b8c2b943.jpeg",
+            "id": "D4A35D65D5F1458BADA737697A86DC5A",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/511d0017-6747-4b3e-9cf6-c7a7e49ab42f.8a2430572694389f783044557fa5f908.jpeg",
+            "id": "949D5363C9794C17A5480D9DF4EF5C45",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "2y"
+          }
+        ]
+      },
+      {
+        "item_id": "850667991",
+        "product_id": "4PTODD5X7AL0",
+        "link": "https://www.walmart.com/ip/850667991",
+        "in_stock": true,
+        "price": 21.55,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Star-Runner-SD-Women-s-Running-Shoes_0feab0a8-b3aa-4994-b0f7-483159a93b1e.8f0647c24110c6908bcee8dbd0db9602.jpeg",
+            "id": "1D73F55677D7493E9E05EADC30320FD5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9b027bed-aac4-49e1-8f7f-48bd73fe38bf.671162e86ca8665d3bcae6aff0de2c30.jpeg",
+            "id": "7981CC8AB48A43999040B18B51443E63",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a75ab429-5ed1-41a5-b9aa-849ac9214133.a9d6657b7f4455eb18eecc4aa89c9902.jpeg",
+            "id": "1548C8412E934DDD8E84BF8E1D19B33B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b6d765f9-6bb3-4344-8863-d23126de68b7.73839f04d20e3ac421c95490b8c2b943.jpeg",
+            "id": "D4A35D65D5F1458BADA737697A86DC5A",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/511d0017-6747-4b3e-9cf6-c7a7e49ab42f.8a2430572694389f783044557fa5f908.jpeg",
+            "id": "949D5363C9794C17A5480D9DF4EF5C45",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "3y"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

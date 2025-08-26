@@ -1,0 +1,165 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 395,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9605,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "14889207098"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:21:05.372Z",
+    "processed_at": "2025-08-18T11:21:07.622Z",
+    "total_time_taken": 2.25,
+    "walmart_url": "https://www.walmart.com/ip/14889207098"
+  },
+  "product": {
+    "brand": "Unbranded",
+    "link": "https://www.walmart.com/ip/2X-Professional-Hair-Clips-for-Hair-Dryer-Curling-Iron-Styling-Sectioning-Hair-Clips-Salon-Cutting-Clips-A/14889207098",
+    "title": "Unbranded 2X Professional Hair Clips for Hair Dryer & Curling Iron Styling Sectioning Hair Clips Salon Cutting Clips A",
+    "title_excluding_brand": "2X Professional Hair Clips for Hair Dryer & Curling Iron Styling Sectioning Hair Clips Salon Cutting Clips A",
+    "item_id": "14889207098",
+    "item_number": "6DC2JCLT4SF9",
+    "description": "Colour: A: Gold Copper\nMaterial: plastic\n\nPackage Contents:\n2 x Hair Clips\n\nOnly the above package content, other products are not included.\nNote: Light reflection and different displays may cause the color of the item in the picture a little different from the real thing. The measurement allowed error is +/- 1-3cm.",
+    "description_html": "Colour: A: Gold Copper<br>Material: plastic<br><br>Package Contents:<br>2 x Hair Clips<br><br>Only the above package content, other products are not included.<br>Note: Light reflection and different displays may cause the color of the item in the picture a little different from the real thing. The measurement allowed error is +/- 1-3cm.",
+    "description_full": "Colour: A: Gold Copper\nMaterial: plastic\n\nPackage Contents:\n2 x Hair Clips\n\nOnly the above package content, other products are not included.\nNote: Light reflection and different displays may cause the color of the item in the picture a little different from the real thing. The measurement allowed error is +/- 1-3cm. * [NO-]-- With the band, it 't leave on your hair even after long time of wearing. Because of no teech, alligator hair clips are easy to put on and remove, they don't pull your hair. Great for anyone who likes to or style their hair and need clips to hold up while styling.\n * [PREMIUM MATERIAL]-- his makes it slide into hair better and not get caught on the teeth like some other clips. Also good for sectioning precision area. Silicone band has a very important anti-slip rile, so that hair clips 't fall off easily. High elasticity metal spring lasts long even after repeated use. These duck billed clips are great for sectioning hair and maintaining hair in place.\n * [COMFORTABLE & NON SLIP]-- No matter wet or dry hair, the combination of stainless steel spring and band maintains a secure hold on hair. Handle with anti-slippage particles makes easy. Also, it is sturdy and , doesn't damage your hair, makes hair styling simple.\n * [VERSATILITY]-- Suitable for long or short hair, thin or thick hair, our hair clip easily matches any style, keeps your hairstyle fresh and amazing. Widely used for salon styling, blow drying, home DIY, makeup application and your face cleansing.",
+    "description_full_html": "Colour: A: Gold Copper<br>Material: plastic<br><br>Package Contents:<br>2 x Hair Clips<br><br>Only the above package content, other products are not included.<br>Note: Light reflection and different displays may cause the color of the item in the picture a little different from the real thing. The measurement allowed error is +/- 1-3cm. <ul>   <li>[NO-]-- With the band, it 't leave on your hair even after long time of wearing. Because of no teech, alligator hair clips are easy to put on and remove, they don't pull your hair. Great for anyone who likes to or style their hair and need clips to hold up while styling.</li>   <li>[PREMIUM MATERIAL]-- his makes it slide into hair better and not get caught on the teeth like some other clips. Also good for sectioning precision area. Silicone band has a very important anti-slip rile, so that hair clips 't fall off easily. High elasticity metal spring lasts long even after repeated use. These duck billed clips are great for sectioning hair and maintaining hair in place.</li>   <li>[COMFORTABLE &amp; NON SLIP]-- No matter wet or dry hair, the combination of stainless steel spring and band maintains a secure hold on hair. Handle with anti-slippage particles makes easy. Also, it is sturdy and , doesn't damage your hair, makes hair styling simple.</li>   <li>[VERSATILITY]-- Suitable for long or short hair, thin or thick hair, our hair clip easily matches any style, keeps your hairstyle fresh and amazing. Widely used for salon styling, blow drying, home DIY, makeup application and your face cleansing.</li>  </ul>",
+    "ratings_total": 0,
+    "type": "Hair Barrettes, Pins & Clips",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/2X-Professional-Hair-Clips-for-Hair-Dryer-Curling-Iron-Styling-Sectioning-Hair-Clips-Salon-Cutting-Clips-A_8726a25f-13c4-4462-9e7c-4da396b1384f.1e17aa559f9776862a5c224aa04eec08.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/2X-Professional-Hair-Clips-for-Hair-Dryer-Curling-Iron-Styling-Sectioning-Hair-Clips-Salon-Cutting-Clips-A_8726a25f-13c4-4462-9e7c-4da396b1384f.1e17aa559f9776862a5c224aa04eec08.jpeg",
+        "id": "16508ADC20E64242BBB67E05F6C98FD0",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/df664b4b-a331-483b-9ee0-7608b0524acf.4c32ecec0753ff1c38ca13c98eef8a73.jpeg",
+        "id": "5C9524754A704E65911EEAF492E9F995",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ed7c5460-ce87-477f-88ee-39358cdc67ef.c20d80007b9e96ffe4005cec2a8f995a.jpeg",
+        "id": "F03CAB25D0C14465BF7BF49977C89540",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f2d4d1b7-34c3-4f9b-ba45-39bf2f0dfb7a.fd66b2a94eac1d8b134f6df2b14efcb0.jpeg",
+        "id": "3D7FB79701F14460B8F951733AB5FC6B",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Bags & Accessories",
+        "link": "https://www.walmart.com/cp/bags-accessories/1045799"
+      },
+      {
+        "name": "Women's Bags & Accessories",
+        "link": "https://www.walmart.com/cp/womens-bags-accessories/6614250"
+      },
+      {
+        "name": "Women's Accessories",
+        "link": "https://www.walmart.com/cp/womens-accessories/2773875"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/6885315"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/1280222"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "Unbranded"
+      },
+      {
+        "name": "Color",
+        "value": "Gold Copper"
+      }
+    ],
+    "buybox_winner": {
+      "price": 10.77,
+      "currency_symbol": "$",
+      "id": "AE54208AF7D334F39BEF0342FC011969",
+      "seller": {
+        "name": "Port corner",
+        "id_secondary": "44AF1CD9874A4147A1CB27C0F616A04D",
+        "id": 102640909,
+        "link": "https://www.walmart.com/seller/102640909"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Mon, Sep 15 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Mon, Sep 15 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Port corner"
+      }
+    },
+    "color": "Gold Copper",
+    "variants": [
+      {
+        "item_id": "14889207098",
+        "link": "https://www.walmart.com/ip/2X-Professional-Hair-Clips-for-Hair-Dryer-Curling-Iron-Styling-Sectioning-Hair-Clips-Salon-Cutting-Clips-A/14889207098",
+        "price": 10.77,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/2X-Professional-Hair-Clips-for-Hair-Dryer-Curling-Iron-Styling-Sectioning-Hair-Clips-Salon-Cutting-Clips-A_8726a25f-13c4-4462-9e7c-4da396b1384f.1e17aa559f9776862a5c224aa04eec08.jpeg",
+            "id": "16508ADC20E64242BBB67E05F6C98FD0",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/df664b4b-a331-483b-9ee0-7608b0524acf.4c32ecec0753ff1c38ca13c98eef8a73.jpeg",
+            "id": "5C9524754A704E65911EEAF492E9F995",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ed7c5460-ce87-477f-88ee-39358cdc67ef.c20d80007b9e96ffe4005cec2a8f995a.jpeg",
+            "id": "F03CAB25D0C14465BF7BF49977C89540",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f2d4d1b7-34c3-4f9b-ba45-39bf2f0dfb7a.fd66b2a94eac1d8b134f6df2b14efcb0.jpeg",
+            "id": "3D7FB79701F14460B8F951733AB5FC6B",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

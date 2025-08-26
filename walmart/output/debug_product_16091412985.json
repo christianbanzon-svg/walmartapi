@@ -1,0 +1,254 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 927,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9073,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "16091412985"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T10:23:50.197Z",
+    "processed_at": "2025-08-20T10:23:52.635Z",
+    "total_time_taken": 2.44,
+    "walmart_url": "https://www.walmart.com/ip/16091412985"
+  },
+  "product": {
+    "brand": "TYMO",
+    "link": "https://www.walmart.com/ip/TYMO-STYLUX-Thermal-Brush-2-in-1-Heated-Round-Brush-for-Blowouts-Straightening-Curling-1-7-inch-Ceramic-Barrel-Dual-Voltage-Black/16091412985",
+    "title": "TYMO STYLUX Thermal Brush, 3-in-1 Heated Round Brush for Blowouts, Straightening & Curling, 1.7-inch Ceramic Barrel, Dual Voltage, Black",
+    "upc": "759041284237",
+    "item_id": "16091412985",
+    "product_id": "STYLUX",
+    "item_number": "6A5ABTKCG50L",
+    "description": "Now in Classic Black, the TYMO STYLUX Thermal Blowout Brush is a 3-in-1 styling tool that works as a straightener, curler, and volumizer. This ceramic curling brush with T-Gloss keratin coating smooths frizz, adds shine, and creates sleek straight styles or natural curls with lasting volume. Adjustable nylon bristles ensure even heat distribution, while dual PTC heating provides fast, consistent results. Heats up in 20 seconds and includes auto shut-off and dual voltage for safe, travel-ready use.",
+    "description_html": "Now in Classic Black, the TYMO STYLUX Thermal Blowout Brush is a 3-in-1 styling tool that works as a straightener, curler, and volumizer. This ceramic curling brush with T-Gloss keratin coating smooths frizz, adds shine, and creates sleek straight styles or natural curls with lasting volume. Adjustable nylon bristles ensure even heat distribution, while dual PTC heating provides fast, consistent results. Heats up in 20 seconds and includes auto shut-off and dual voltage for safe, travel-ready use.",
+    "description_full": "Now in Classic Black, the TYMO STYLUX Thermal Blowout Brush is a 3-in-1 styling tool that works as a straightener, curler, and volumizer. This ceramic curling brush with T-Gloss keratin coating smooths frizz, adds shine, and creates sleek straight styles or natural curls with lasting volume. Adjustable nylon bristles ensure even heat distribution, while dual PTC heating provides fast, consistent results. Heats up in 20 seconds and includes auto shut-off and dual voltage for safe, travel-ready use. * 【CREATE BLOWOUT LOOK & NATURAL VOLUME】The 1.7-inch barrel thermal brush combines the functionality of a curling brush and a blowout brush, adding volume and creating a blowout look in minutes! (The curling iron brush is not a hair dryer or hot air brush and does not blow air or feature auto-rotation. It is designed solely for styling, not for drying or blowing hot air.)\n * 【FLEXI-FIT TECH】TYMO STYLUX thermal brush with adjustable nylon bristles glides smoothly through hair, minimizing tugging. The staggered bristle design ensures even heat distribution, providing a secure hold for easy, effortless styling. Perfect for both beginners and professionals.\n * 【NO DAMAGE & FRIZZ STYLING】The blowout brush features a T-Gloss keratin coating that reduces damage and adds shine. High-concentration negative ions smooth each strand, locking in moisture, reducing frizz and tangles.\n * 【5-MINUTE QUICK STYLING】Equipped with dual PTC heating elements, the hot brush heats up in just 20 seconds, providing stable heat to protect your hair from damage. The temperature memory function remembers your preferred setting for easy, consistent styling.\n * 【ONE TOOL, MULTIPLE LOOKS】This versatile heated round brush straightens, curls, and creates various styles. With 3 temperature settings, it’s perfect for hair types 2A to 4A, making salon-quality styling quick, easy, and affordable at home. Achieve smooth curls and voluminous styles without extra tools.",
+    "description_full_html": "Now in Classic Black, the TYMO STYLUX Thermal Blowout Brush is a 3-in-1 styling tool that works as a straightener, curler, and volumizer. This ceramic curling brush with T-Gloss keratin coating smooths frizz, adds shine, and creates sleek straight styles or natural curls with lasting volume. Adjustable nylon bristles ensure even heat distribution, while dual PTC heating provides fast, consistent results. Heats up in 20 seconds and includes auto shut-off and dual voltage for safe, travel-ready use. <ul>  <li>【CREATE BLOWOUT LOOK &amp; NATURAL VOLUME】The 1.7-inch barrel thermal brush combines the functionality of a curling brush and a blowout brush, adding volume and creating a blowout look in minutes! (The curling iron brush is not a hair dryer or hot air brush and does not blow air or feature auto-rotation. It is designed solely for styling, not for drying or blowing hot air.)</li>  <li>【FLEXI-FIT TECH】TYMO STYLUX thermal brush with adjustable nylon bristles glides smoothly through hair, minimizing tugging. The staggered bristle design ensures even heat distribution, providing a secure hold for easy, effortless styling. Perfect for both beginners and professionals.</li>  <li>【NO DAMAGE &amp; FRIZZ STYLING】The blowout brush features a T-Gloss keratin coating that reduces damage and adds shine. High-concentration negative ions smooth each strand, locking in moisture, reducing frizz and tangles.</li>  <li>【5-MINUTE QUICK STYLING】Equipped with dual PTC heating elements, the hot brush heats up in just 20 seconds, providing stable heat to protect your hair from damage. The temperature memory function remembers your preferred setting for easy, consistent styling.</li>  <li>【ONE TOOL, MULTIPLE LOOKS】This versatile heated round brush straightens, curls, and creates various styles. With 3 temperature settings, it’s perfect for hair types 2A to 4A, making salon-quality styling quick, easy, and affordable at home. Achieve smooth curls and voluminous styles without extra tools.</li> </ul>",
+    "model": "STYLUX",
+    "ratings_total": 45,
+    "rating": 4.5,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/TYMO-STYLUX-Thermal-Brush-2-in-1-Heated-Round-Brush-for-Blowouts-Straightening-Curling-1-7-inch-Ceramic-Barrel-Dual-Voltage-Black_dc2f0152-710d-4873-8cd8-e2a4dd6b00c7.cd6b2f5da673887589d4c9d0025d35ce.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/TYMO-STYLUX-Thermal-Brush-2-in-1-Heated-Round-Brush-for-Blowouts-Straightening-Curling-1-7-inch-Ceramic-Barrel-Dual-Voltage-Black_dc2f0152-710d-4873-8cd8-e2a4dd6b00c7.cd6b2f5da673887589d4c9d0025d35ce.jpeg",
+        "id": "7F98B31E8F214504B51CC0786A43399E",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/98120bbc-4984-486d-b622-4b51f85deb2e.e493dcbd305b91322045b0529328161f.jpeg",
+        "id": "82F2B6CE59064C8984740669215711C1",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/58085d55-6190-46bc-8690-eda6ba8e4935.1c1f49b8f95ea3ec8da3b9e6f37e7648.jpeg",
+        "id": "2E1574DB9CB448AF95182AE9309B239D",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/eba72979-4238-483c-a65f-05de58423d44.b84abd08610b2650ab362cd55951d46a.jpeg",
+        "id": "8F9EC91A992E416B8E53E9A6401E79F0",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/912b0872-e785-4ea1-a7f3-a31a32c997ae.2a43b9c87610512f5000dc0fb7c0da55.jpeg",
+        "id": "E72905EDB93C4AFB9EB14878F3236497",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b647a21a-1af3-4ae0-9586-4012bb92d384.66a1ffc263910f2fbb4ebdf430790986.jpeg",
+        "id": "E38C286CD555446EB408C97A4F76EF61",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/142a2e45-e2c5-46ee-84fc-e907d58150f5.d02b51e542085ea873e913a59cc1c882.jpeg",
+        "id": "EA70BCB458A9470A883C2AED70CC8C7C",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c6249254-ba35-4d92-823c-b56babcc70f5.76e49fff86fa67ec5fe6f08993b287b6.jpeg",
+        "id": "D5AEAB32F27D45419259668FFFB9B0A6",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b6ea6dfc-b341-43cb-8ce8-4322de767b84.937ceb80215b9e485add44ec0fa2ee67.jpeg",
+        "id": "1F29B2B5B44A4409BA22EF6062B53D30",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Care Brands",
+        "link": "https://www.walmart.com/cp/hair-care-brands/8028415"
+      },
+      {
+        "name": "Tymo",
+        "link": "https://www.walmart.com/cp/tymo/1606669"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic, Anti-Static Technology, Automatic Shutoff"
+      },
+      {
+        "name": "Brand",
+        "value": "TYMO"
+      },
+      {
+        "name": "Model",
+        "value": "STYLUX"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "0.8 lb"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      }
+    ],
+    "buybox_winner": {
+      "price": 44.99,
+      "was_price": 69.99,
+      "currency_symbol": "$",
+      "id": "C9879E20E2D43D1DB4B9FC855873C8B5",
+      "seller": {
+        "name": "TYMO",
+        "id_secondary": "0B02D4E96ABB48EC8038C2103431F510",
+        "id": 101072439,
+        "link": "https://www.walmart.com/seller/101072439"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by tomorrow to Rancho Cordova, 95742",
+        "message": "Free shipping, arrives by tomorrow to Rancho Cordova, 95742",
+        "zipcode": "95742"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "TYMO"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10688450824",
+          "id": "A4ED9F6CD60A32C587D44500FD037B81",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 7,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$7.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10696153957",
+          "id": "6A4CDF1F57B634E1A0060DD7DC8BC83D",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 5,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$5.00"
+          }
+        }
+      ]
+    },
+    "color": "Black",
+    "variants": [
+      {
+        "item_id": "16091412985",
+        "product_id": "STYLUX",
+        "link": "https://www.walmart.com/ip/TYMO-STYLUX-Thermal-Brush-2-in-1-Heated-Round-Brush-for-Blowouts-Straightening-Curling-1-7-inch-Ceramic-Barrel-Dual-Voltage-Black/16091412985",
+        "price": 44.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/TYMO-STYLUX-Thermal-Brush-2-in-1-Heated-Round-Brush-for-Blowouts-Straightening-Curling-1-7-inch-Ceramic-Barrel-Dual-Voltage-Black_dc2f0152-710d-4873-8cd8-e2a4dd6b00c7.cd6b2f5da673887589d4c9d0025d35ce.jpeg",
+            "id": "7F98B31E8F214504B51CC0786A43399E",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/98120bbc-4984-486d-b622-4b51f85deb2e.e493dcbd305b91322045b0529328161f.jpeg",
+            "id": "82F2B6CE59064C8984740669215711C1",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/58085d55-6190-46bc-8690-eda6ba8e4935.1c1f49b8f95ea3ec8da3b9e6f37e7648.jpeg",
+            "id": "2E1574DB9CB448AF95182AE9309B239D",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/eba72979-4238-483c-a65f-05de58423d44.b84abd08610b2650ab362cd55951d46a.jpeg",
+            "id": "8F9EC91A992E416B8E53E9A6401E79F0",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/912b0872-e785-4ea1-a7f3-a31a32c997ae.2a43b9c87610512f5000dc0fb7c0da55.jpeg",
+            "id": "E72905EDB93C4AFB9EB14878F3236497",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b647a21a-1af3-4ae0-9586-4012bb92d384.66a1ffc263910f2fbb4ebdf430790986.jpeg",
+            "id": "E38C286CD555446EB408C97A4F76EF61",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/142a2e45-e2c5-46ee-84fc-e907d58150f5.d02b51e542085ea873e913a59cc1c882.jpeg",
+            "id": "EA70BCB458A9470A883C2AED70CC8C7C",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c6249254-ba35-4d92-823c-b56babcc70f5.76e49fff86fa67ec5fe6f08993b287b6.jpeg",
+            "id": "D5AEAB32F27D45419259668FFFB9B0A6",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b6ea6dfc-b341-43cb-8ce8-4322de767b84.937ceb80215b9e485add44ec0fa2ee67.jpeg",
+            "id": "1F29B2B5B44A4409BA22EF6062B53D30",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Rancho Cordova",
+    "state": "CA",
+    "zipcode": "95742",
+    "store_id": "2457"
+  }
+}

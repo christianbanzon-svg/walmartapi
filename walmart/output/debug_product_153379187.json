@@ -1,0 +1,178 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2219,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7781,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "153379187"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T13:56:37.774Z",
+    "processed_at": "2025-08-25T13:56:41.563Z",
+    "total_time_taken": 3.79,
+    "walmart_url": "https://www.walmart.com/ip/153379187"
+  },
+  "product": {
+    "brand": "HAI by Leviton",
+    "link": "https://www.walmart.com/ip/HAI-Hot-Tune-MP3-Styling-Iron-Size-1-inch-plates/153379187",
+    "title": "HAI by Leviton HAI Hot Tune MP3 Styling Iron (Size : 1-inch plates)",
+    "title_excluding_brand": "HAI Hot Tune MP3 Styling Iron (Size : 1-inch plates)",
+    "upc": "186982000761",
+    "item_id": "153379187",
+    "product_id": "186982000761",
+    "item_number": "3LFB8VLO90YG",
+    "description": "HAI Hot Tunes MP3 Styling Iron is the 1st professional styling iron with an internal MP3 player. The high quality nano ceramic tourmaline -infused 1 inch plates leave hair shiny and smooth. Plus, it holds 2 hours of music to listen to your favorite tunes while you style.HAI quality with latest music technology; makes the perfect gift for those on your list with a passion for hair styling. Product Options Available are as follows: Size : 1-inch plates - HAI Hot Tune MP3 Styling Iron; 3.02",
+    "description_html": "HAI Hot Tunes MP3 Styling Iron is the 1st professional styling iron with an internal MP3 player. The high quality nano ceramic tourmaline -infused 1 inch plates leave hair shiny and smooth. Plus, it holds 2 hours of music to listen to your favorite tunes while you style.HAI quality with latest music technology; makes the perfect gift for those on your list with a passion for hair styling. Product Options Available are as follows: Size : 1-inch plates - HAI Hot Tune MP3 Styling Iron;   3.02",
+    "description_full": "HAI Hot Tunes MP3 Styling Iron is the 1st professional styling iron with an internal MP3 player. The high quality nano ceramic tourmaline -infused 1 inch plates leave hair shiny and smooth. Plus, it holds 2 hours of music to listen to your favorite tunes while you style.HAI quality with latest music technology; makes the perfect gift for those on your list with a passion for hair styling. Product Options Available are as follows: Size : 1-inch plates - HAI Hot Tune MP3 Styling Iron; 3.02 The first professional brand hairstyling iron with built-in MP3 player and speaker! Now anyone can listen to their favorite music as they style!",
+    "description_full_html": "HAI Hot Tunes MP3 Styling Iron is the 1st professional styling iron with an internal MP3 player. The high quality nano ceramic tourmaline -infused 1 inch plates leave hair shiny and smooth. Plus, it holds 2 hours of music to listen to your favorite tunes while you style.HAI quality with latest music technology; makes the perfect gift for those on your list with a passion for hair styling. Product Options Available are as follows: Size : 1-inch plates - HAI Hot Tune MP3 Styling Iron;   3.02 The first professional brand hairstyling iron with built-in MP3 player and speaker! Now anyone can listen to their favorite music as they style!",
+    "model": "NOT STATED",
+    "ratings_total": 1,
+    "rating": 5,
+    "type": "Hair Flat Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/HAI-Hot-Tune-MP3-Styling-Iron-Size-1-inch-plates_17ae0716-0964-47c1-b5f4-02fef3be12ce.3cf37d17fdd139b347251d044b8acbb7.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/HAI-Hot-Tune-MP3-Styling-Iron-Size-1-inch-plates_17ae0716-0964-47c1-b5f4-02fef3be12ce.3cf37d17fdd139b347251d044b8acbb7.jpeg",
+        "id": "E13F3DD3F6954BA69E5552015D0A0882",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/639347d3-4f08-4638-849d-c5b11eec14ff.56d655408d4dad82d9247f49512f019d.jpeg",
+        "id": "DAE3FE6D80214E99A80DCB1AE866A7B4",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Premium Beauty",
+        "link": "https://www.walmart.com/cp/premium-beauty/7924299"
+      },
+      {
+        "name": "Premium Hair Tools & Accessories",
+        "link": "https://www.walmart.com/cp/premium-hair-tools-accessories/1631422"
+      },
+      {
+        "name": "Premium Flat Irons",
+        "link": "https://www.walmart.com/cp/premium-flat-irons/3997406"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "HAI by Leviton"
+      },
+      {
+        "name": "Plate Width",
+        "value": "1 in"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "HAI"
+      }
+    ],
+    "buybox_winner": {
+      "price": 37.99,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$37.90",
+        "value": 37.9
+      },
+      "id": "A5E0AA28D41A4F17A3102FD35B566EAA",
+      "seller": {
+        "name": "Highflyer214",
+        "id_secondary": "F9EF37101E3E47A283A9BAEAE1DBAAD6",
+        "id": 1790,
+        "link": "https://www.walmart.com/seller/1790"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Thu, Aug 28 to Washington, 20019",
+        "message": "Free shipping, arrives by Thu, Aug 28 to Washington, 20019",
+        "zipcode": "20019"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Highflyer214"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "153379187",
+        "product_id": "186982000761",
+        "link": "https://www.walmart.com/ip/HAI-Hot-Tune-MP3-Styling-Iron-Size-1-inch-plates/153379187",
+        "price": 37.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/HAI-Hot-Tune-MP3-Styling-Iron-Size-1-inch-plates_17ae0716-0964-47c1-b5f4-02fef3be12ce.3cf37d17fdd139b347251d044b8acbb7.jpeg",
+            "id": "E13F3DD3F6954BA69E5552015D0A0882",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/639347d3-4f08-4638-849d-c5b11eec14ff.56d655408d4dad82d9247f49512f019d.jpeg",
+            "id": "DAE3FE6D80214E99A80DCB1AE866A7B4",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Washington",
+    "state": "DC",
+    "zipcode": "20019",
+    "store_id": "5129"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 223,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9777,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "14621008177"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:00:00.278Z",
+    "processed_at": "2025-08-18T11:00:02.875Z",
+    "total_time_taken": 2.6,
+    "walmart_url": "https://www.walmart.com/ip/14621008177"
+  },
+  "product": {
+    "brand": "GTB",
+    "link": "https://www.walmart.com/ip/4-In-1-Ionic-Styler-Curly-Hair-Straight-Hair-Pro/14621008177",
+    "title": "GTB 4 In 1 Ionic Styler Curly Hair Straight Hair Pro",
+    "title_excluding_brand": "4 In 1 Ionic Styler Curly Hair Straight Hair Pro",
+    "item_id": "14621008177",
+    "item_number": "0UM2G3IGG7N0",
+    "description": "Replaces 4 different styling tools-flat iron, curling iron, round brush, and styling wand.Cool touch ionic bristles; add shine without burning or tangling.Dual ionic ceramic technology for fighting frizz and adding body and shine.Ceramic flat iron for smoothing and straightening hair.FEATURESCool Touch Ionic BristlesCeramic Heated BarrelCeramic Flat Iron2 Heat SettingsAutomatic Shut OffNon-Slip Rubber GripProfessional Swivel CordSPECIFICATIONSPower Cord Tail Assembly Mode: 360 RotatableMin. temperature: 160 CMax. temperature: 230CPower Source: ElectricProduct Dimensions: 12.9 x 4.5 x 2.2 inchesDimensions Of Heating Plate: 110 x 30mmPower: 25W-39W Remark: The product is European plug",
+    "description_html": "<div>Replaces 4 different styling tools-flat iron, curling iron, round brush, and styling wand.Cool touch ionic bristles; add shine without burning or tangling.Dual ionic ceramic technology for fighting frizz and adding body and shine.Ceramic flat iron for smoothing and straightening hair.FEATURESCool Touch Ionic BristlesCeramic Heated BarrelCeramic Flat Iron2 Heat SettingsAutomatic Shut OffNon-Slip Rubber GripProfessional Swivel CordSPECIFICATIONSPower Cord Tail Assembly Mode: 360 RotatableMin. temperature: 160 CMax. temperature: 230CPower Source: ElectricProduct Dimensions: 12.9 x 4.5 x 2.2 inchesDimensions Of Heating Plate: 110 x 30mmPower: 25W-39W Remark: The product is European plug</div>",
+    "description_full": "Replaces 4 different styling tools-flat iron, curling iron, round brush, and styling wand.Cool touch ionic bristles; add shine without burning or tangling.Dual ionic ceramic technology for fighting frizz and adding body and shine.Ceramic flat iron for smoothing and straightening hair.FEATURESCool Touch Ionic BristlesCeramic Heated BarrelCeramic Flat Iron2 Heat SettingsAutomatic Shut OffNon-Slip Rubber GripProfessional Swivel CordSPECIFICATIONSPower Cord Tail Assembly Mode: 360 RotatableMin. temperature: 160 CMax. temperature: 230CPower Source: ElectricProduct Dimensions: 12.9 x 4.5 x 2.2 inchesDimensions Of Heating Plate: 110 x 30mmPower: 25W-39W Remark: The product is European plug * Dear customers, welcome to our international online store! Here, we offer a wide range of high-quality products carefully selected from around the world. Whether you're seeking trendy fashion items, innovative electronics, or unique home decor, we've got you covered.\n * Our dedicated team works tirelessly to ensure seamless shopping experiences, with fast and reliable shipping options to deliver your purchases right to your doorstep, no matter where you are.\n * We also provide excellent after-sales service to address any concerns promptly. Enjoy exclusive discounts and special offers as a token of our gratitude for choosing us. Shop with confidence and discover the world of premium products at our GTB!",
+    "description_full_html": "<div>Replaces 4 different styling tools-flat iron, curling iron, round brush, and styling wand.Cool touch ionic bristles; add shine without burning or tangling.Dual ionic ceramic technology for fighting frizz and adding body and shine.Ceramic flat iron for smoothing and straightening hair.FEATURESCool Touch Ionic BristlesCeramic Heated BarrelCeramic Flat Iron2 Heat SettingsAutomatic Shut OffNon-Slip Rubber GripProfessional Swivel CordSPECIFICATIONSPower Cord Tail Assembly Mode: 360 RotatableMin. temperature: 160 CMax. temperature: 230CPower Source: ElectricProduct Dimensions: 12.9 x 4.5 x 2.2 inchesDimensions Of Heating Plate: 110 x 30mmPower: 25W-39W Remark: The product is European plug</div> <ul>  <li>Dear customers, welcome to our international online store! Here, we offer a wide range of high-quality products carefully selected from around the world. Whether you're seeking trendy fashion items, innovative electronics, or unique home decor, we've got you covered.</li>  <li>Our dedicated team works tirelessly to ensure seamless shopping experiences, with fast and reliable shipping options to deliver your purchases right to your doorstep, no matter where you are.</li>  <li>We also provide excellent after-sales service to address any concerns promptly. Enjoy exclusive discounts and special offers as a token of our gratitude for choosing us. Shop with confidence and discover the world of premium products at our GTB!</li> </ul>",
+    "ratings_total": 0,
+    "type": "Hair Flat Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/4-In-1-Ionic-Styler-Curly-Hair-Straight-Hair-Pro_c10348a4-eb2c-4212-bf91-00cc7235a431.f03e718651e8da20594410f9451f5c8c.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/4-In-1-Ionic-Styler-Curly-Hair-Straight-Hair-Pro_c10348a4-eb2c-4212-bf91-00cc7235a431.f03e718651e8da20594410f9451f5c8c.jpeg",
+        "id": "0354C4A6D0BE4EBF9F195A990DB7A7BD",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b81b0936-6b4c-4e4a-9b6c-1fc01788291b.4e236708f81efcffec5d769e42658ff6.jpeg",
+        "id": "C178AB8BEF9E4CC294E2B5DD5C5F9BD6",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/28fa38f2-faa1-4e9f-af8d-d9bd462987f5.ae1b25a5b298207dce70992b70c5fbfa.jpeg",
+        "id": "8E745F3796F14376B32EC1F21CD00126",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1dfde57f-0e26-40ac-9d35-738070fd7dd4.64bac2cd8fb464a17951ccf3b5d831c7.jpeg",
+        "id": "CC6BDB52B61B4BD59857504031573D32",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/5b194048-77b9-4c59-b055-034132db474a.5c912e15de6c478a81d8e7a699e6fc7c.jpeg",
+        "id": "76E72E87E2E04D29A1D4EB9FDBC2B8D1",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Styling Tools",
+        "link": "https://www.walmart.com/cp/hair-styling-tools/3847754"
+      },
+      {
+        "name": "Flat Irons",
+        "link": "https://www.walmart.com/cp/flat-irons/3414479"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "GTB"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "12.90 x 4.50 x 2.20 \""
+      }
+    ],
+    "buybox_winner": {
+      "price": 26.37,
+      "was_price": 29.3,
+      "currency_symbol": "$",
+      "id": "FCBE32A18EE23C4E8754D3EC55CAF7AB",
+      "seller": {
+        "name": "GTB",
+        "id_secondary": "80D3F7F388B04C488EE774F2DE261B43",
+        "id": 102758700,
+        "link": "https://www.walmart.com/seller/102758700"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Seller shipping for $10.99, arrives by Mon, Sep 22 to Sacramento, 95829",
+        "message": "Seller shipping for $10.99, arrives by Mon, Sep 22 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "GTB"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10705452909",
+          "id": "FA78F6B45A373CF78DD492E3B2590A83",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-20-29-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10713110096",
+          "id": "CF7F59ABF5533C2296475F2B179C7953",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-20-29-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        }
+      ]
+    },
+    "dimensions": "12.90 x 4.50 x 2.20 \"",
+    "variants": [
+      {
+        "item_id": "14621008177",
+        "link": "https://www.walmart.com/ip/4-In-1-Ionic-Styler-Curly-Hair-Straight-Hair-Pro/14621008177",
+        "price": 26.37,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/4-In-1-Ionic-Styler-Curly-Hair-Straight-Hair-Pro_c10348a4-eb2c-4212-bf91-00cc7235a431.f03e718651e8da20594410f9451f5c8c.jpeg",
+            "id": "0354C4A6D0BE4EBF9F195A990DB7A7BD",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b81b0936-6b4c-4e4a-9b6c-1fc01788291b.4e236708f81efcffec5d769e42658ff6.jpeg",
+            "id": "C178AB8BEF9E4CC294E2B5DD5C5F9BD6",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/28fa38f2-faa1-4e9f-af8d-d9bd462987f5.ae1b25a5b298207dce70992b70c5fbfa.jpeg",
+            "id": "8E745F3796F14376B32EC1F21CD00126",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1dfde57f-0e26-40ac-9d35-738070fd7dd4.64bac2cd8fb464a17951ccf3b5d831c7.jpeg",
+            "id": "CC6BDB52B61B4BD59857504031573D32",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/5b194048-77b9-4c59-b055-034132db474a.5c912e15de6c478a81d8e7a699e6fc7c.jpeg",
+            "id": "76E72E87E2E04D29A1D4EB9FDBC2B8D1",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

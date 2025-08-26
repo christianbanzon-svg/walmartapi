@@ -1,0 +1,255 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 50,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9950,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "14964875"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T10:38:48.756Z",
+    "processed_at": "2025-08-18T10:38:54.183Z",
+    "total_time_taken": 5.43,
+    "walmart_url": "https://www.walmart.com/ip/14964875"
+  },
+  "product": {
+    "brand": "Revlon",
+    "link": "https://www.walmart.com/ip/Revlon-1200W-Ionic-1-and-1-1-2-Hot-Air-Styling-Kit-Red/14964875",
+    "title": "Revlon 1200W Ionic Ceramic 1\" & 1-1/2\" Hot Air Styling Kit, Red",
+    "upc": "761318504405",
+    "item_id": "14964875",
+    "product_id": "RV440CN5",
+    "item_number": "57JMEO69K2EB",
+    "description": "Achieve beautiful volume and soft curls with the Revlon 1200W Ionic Ceramic Hot Air Styling Kit. This 2-in-1 hair tool includes 1\" and 1-1/2\" barrel attachments to create smooth volume or soft curls while drying hair. Triple Ceramic Coating and Ionic Technology help reduce frizz and add shine. With 1200 watts of power, it works best on towel-dried hair (not fully wet). Perfect for salon-style blowouts and versatile styling at home.",
+    "description_html": "Achieve beautiful volume and soft curls with the Revlon 1200W Ionic Ceramic Hot Air Styling Kit. This 2-in-1 hair tool includes 1\" and 1-1/2\" barrel attachments to create smooth volume or soft curls while drying hair. Triple Ceramic Coating and Ionic Technology help reduce frizz and add shine. With 1200 watts of power, it works best on towel-dried hair (not fully wet). Perfect for salon-style blowouts and versatile styling at home.",
+    "description_full": "Achieve beautiful volume and soft curls with the Revlon 1200W Ionic Ceramic Hot Air Styling Kit. This 2-in-1 hair tool includes 1\" and 1-1/2\" barrel attachments to create smooth volume or soft curls while drying hair. Triple Ceramic Coating and Ionic Technology help reduce frizz and add shine. With 1200 watts of power, it works best on towel-dried hair (not fully wet). Perfect for salon-style blowouts and versatile styling at home. * Ionic Technology: Revlon styling kit helps reduce frizz for shiny, healthy-looking hair with a salon-style finish.\n * Triple Ceramic Coating: Provides even heat distribution to help minimize heat damage and speed up styling.\n * Styling Options: 1\" barrel for soft curls, 1-1/2\" barrel for bouncy blowouts, plus smoothing concentrator with cool setting to lock in style.\n * Hot Air Kit: 1200W motor dries hair while styling; ideal for creating volume, smoothness, or soft curls on towel-dried hair.\n * Usage Note: Not designed for use on fully wet hair; towel dry before styling for best results.",
+    "description_full_html": "Achieve beautiful volume and soft curls with the Revlon 1200W Ionic Ceramic Hot Air Styling Kit. This 2-in-1 hair tool includes 1\" and 1-1/2\" barrel attachments to create smooth volume or soft curls while drying hair. Triple Ceramic Coating and Ionic Technology help reduce frizz and add shine. With 1200 watts of power, it works best on towel-dried hair (not fully wet). Perfect for salon-style blowouts and versatile styling at home. <ul>  <li>Ionic Technology: Revlon styling kit helps reduce frizz for shiny, healthy-looking hair with a salon-style finish.</li>  <li>Triple Ceramic Coating: Provides even heat distribution to help minimize heat damage and speed up styling.</li>  <li>Styling Options: 1\" barrel for soft curls, 1-1/2\" barrel for bouncy blowouts, plus smoothing concentrator with cool setting to lock in style.</li>  <li>Hot Air Kit: 1200W motor dries hair while styling; ideal for creating volume, smoothness, or soft curls on towel-dried hair.&nbsp;</li>  <li>Usage Note: Not designed for use on fully wet hair; towel dry before styling for best results.</li> </ul>",
+    "model": "VIPRB-RV440CN5",
+    "ratings_total": 744,
+    "rating": 4.1,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Revlon-1200W-Ionic-1-and-1-1-2-Hot-Air-Styling-Kit-Red_06a08205-a376-447c-83f1-24b1ac172893.012e1f4ac0ca8818834d179ede7c29ba.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Revlon-1200W-Ionic-1-and-1-1-2-Hot-Air-Styling-Kit-Red_06a08205-a376-447c-83f1-24b1ac172893.012e1f4ac0ca8818834d179ede7c29ba.jpeg",
+        "id": "99DB8D55A2164009A28C139E62F48644",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8aef8ffc-0817-43fc-8163-498256482058.fc110f8366de62c6f9c38562792ae212.jpeg",
+        "id": "8284E9556B5D41A3A3FA7873CF597650",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/63dd5f7a-380b-4038-892c-147e312ff4f1.4ab2ec4cd3e3dd53990e908714559548.jpeg",
+        "id": "32662DA139AB40F59EAEADDD86240C84",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/03d2da6d-9cc7-4c8e-971c-cc076627635d.21c3881797bc0ef519b83061e4e3280d.jpeg",
+        "id": "1682CA75025543BD859A338C4246AACF",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0decf5ea-ac29-49fb-9fba-3d1c997bb59f.f69998083f1abf2409fac48258670547.jpeg",
+        "id": "4264F9C4ED5B4A68815556005B16B872",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6fff26e8-decd-4d10-8c68-e1ea1b2e66ca.87e25aa4057956b6d7c0eab5bfda9591.jpeg",
+        "id": "0608BEA5533A420FAE414E2DF7AE0ED6",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e3f1ae9e-570d-43ca-9681-d92c668ac6ce.2d345234f82f6dfd37ce4c4e64cf6d4d.jpeg",
+        "id": "BF64BBB883424816A81E3B013765B46F",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "Revlon"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RV440CN5"
+      },
+      {
+        "name": "Gender",
+        "value": "Female"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Helen Of Troy"
+      },
+      {
+        "name": "Model",
+        "value": "VIPRB-RV440CN5"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1.47 lb"
+      },
+      {
+        "name": "Color",
+        "value": "RED"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "16.00 x 12.00 x 10.00 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 16.19,
+      "was_price": 24.99,
+      "currency_symbol": "$",
+      "offers_total": 2,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$40.49",
+        "value": 40.49
+      },
+      "id": "85935D1953D544068FB9465B1EA55A07",
+      "seller": {
+        "name": "Walmart.com",
+        "id_secondary": "F55CDC31AB754BB68FE0B39041159D63",
+        "id": "F55CDC31AB754BB68FE0B39041159D63"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Shipping, arrives by Sun, Aug 24 to Sacramento, 95829",
+        "message": "Shipping, arrives by Sun, Aug 24 to Sacramento, 95829",
+        "zipcode": "95829",
+        "pickup_message": "Pickup not available at Sacramento Supercenter"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Walmart.com"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10702915011",
+          "id": "D7482BB8E273385D80E3A56B0AB514EF",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 2,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$2.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10692570769",
+          "id": "83B9CAB3B6BE3DCB9DE8AD8A770E9D27",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        }
+      ]
+    },
+    "color": "RED",
+    "dimensions": "16.00 x 12.00 x 10.00 in",
+    "variants": [
+      {
+        "item_id": "14964875",
+        "product_id": "RV440CN5",
+        "link": "https://www.walmart.com/ip/Revlon-1200W-Ionic-1-and-1-1-2-Hot-Air-Styling-Kit-Red/14964875",
+        "price": 16.19,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Revlon-1200W-Ionic-1-and-1-1-2-Hot-Air-Styling-Kit-Red_06a08205-a376-447c-83f1-24b1ac172893.012e1f4ac0ca8818834d179ede7c29ba.jpeg",
+            "id": "99DB8D55A2164009A28C139E62F48644",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8aef8ffc-0817-43fc-8163-498256482058.fc110f8366de62c6f9c38562792ae212.jpeg",
+            "id": "8284E9556B5D41A3A3FA7873CF597650",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/63dd5f7a-380b-4038-892c-147e312ff4f1.4ab2ec4cd3e3dd53990e908714559548.jpeg",
+            "id": "32662DA139AB40F59EAEADDD86240C84",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/03d2da6d-9cc7-4c8e-971c-cc076627635d.21c3881797bc0ef519b83061e4e3280d.jpeg",
+            "id": "1682CA75025543BD859A338C4246AACF",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0decf5ea-ac29-49fb-9fba-3d1c997bb59f.f69998083f1abf2409fac48258670547.jpeg",
+            "id": "4264F9C4ED5B4A68815556005B16B872",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6fff26e8-decd-4d10-8c68-e1ea1b2e66ca.87e25aa4057956b6d7c0eab5bfda9591.jpeg",
+            "id": "0608BEA5533A420FAE414E2DF7AE0ED6",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e3f1ae9e-570d-43ca-9681-d92c668ac6ce.2d345234f82f6dfd37ce4c4e64cf6d4d.jpeg",
+            "id": "BF64BBB883424816A81E3B013765B46F",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 292,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9708,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "16641769913"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:08:47.611Z",
+    "processed_at": "2025-08-18T11:08:56.164Z",
+    "total_time_taken": 8.55,
+    "walmart_url": "https://www.walmart.com/ip/16641769913"
+  },
+  "product": {
+    "brand": "LEWIJO",
+    "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold/16641769913",
+    "title": "LEWIJO 2025   Professional Heated Round Brush - 1.5\" Ionic Styler for Instant Blowout Results(Rose Gold)",
+    "title_excluding_brand": "2025   Professional Heated Round Brush - 1.5\" Ionic Styler for Instant Blowout Results(Rose Gold)",
+    "upc": "750880223517",
+    "item_id": "16641769913",
+    "item_number": "2NVH2QCA4ZWO",
+    "description": "Brand LEWIJO Material Plastic",
+    "description_html": "Brand\tLEWIJO\nMaterial\tPlastic",
+    "description_full": "Brand LEWIJO Material Plastic * INNOVATIVE BUTTON DESIGN: Auto hair curler switches from celsius to fahrenheit by pressing the plus or minus button at the same time, giving you dual options.\n * FAST HEATING SPEED: Automatic curling iron heats up fast and has a wide temperature range for all hair types and helps preserve hair from heat damage.\n * LED TEMPERATURE DIGITAL DISPLAY: With a digital LED temperature display, the curling iron makes it easy to adjust the temperature whenever and wherever you want.\n * PREMIUM MATERIAL: Automatic curling iron wand features ABS and ceramic infrared heaters that are heat 360 degree rotating salon cord that won't wind up.\n * Portable and Lightweight Rollers Hair Curlers: Only 852g.Easily make beachy curls and waves. instantly with no clamp, simply wrap. Clamp- curling puts less stress on hair and reduces damage.",
+    "description_full_html": "Brand\tLEWIJO\nMaterial\tPlastic <ul>  <li>INNOVATIVE BUTTON DESIGN: Auto hair curler switches from celsius to fahrenheit by pressing the plus or minus button at the same time, giving you dual options.</li>  <li>FAST HEATING SPEED: Automatic curling iron heats up fast and has a wide temperature range for all hair types and helps preserve hair from heat damage.</li>  <li>LED TEMPERATURE DIGITAL DISPLAY: With a digital LED temperature display, the curling iron makes it easy to adjust the temperature whenever and wherever you want.</li>  <li>PREMIUM MATERIAL: Automatic curling iron wand features ABS and ceramic infrared heaters that are heat 360 degree rotating salon cord that won't wind up.</li>  <li>Portable and Lightweight Rollers Hair Curlers: Only 852g.Easily make beachy curls and waves. instantly with no clamp, simply wrap. Clamp- curling puts less stress on hair and reduces damage.</li> </ul>",
+    "ratings_total": 0,
+    "type": "Hair Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_29205b82-59a2-4069-a535-d1084e4930d3.31f007f0ad8a3244e7fde514ea1b6a50.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_29205b82-59a2-4069-a535-d1084e4930d3.31f007f0ad8a3244e7fde514ea1b6a50.jpeg",
+        "id": "FA67521A2F18468CA49C09D8A76E4F0C",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/93a4f5d3-3c6d-4ce3-8f7a-8e944568eed7.ea7723ca6cab0933e027ddad2a0d6a00.jpeg",
+        "id": "3A9C951691964160904BFDC358F08D6A",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1d0afa9c-e29c-4613-a3e6-dd99144459f5.2c736c1d1c0227954c53bbb3d1071f73.jpeg",
+        "id": "9629B60CCFC44661BFC80F56F747C6DD",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ce41c4a9-6d55-46b8-882c-c089806e2473.12f8daa027357d193fde3c1f654101c3.jpeg",
+        "id": "82492C53D8884D15BBE7B3063F795B0F",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/165f8a28-bd61-42ed-a712-8d8c10dfd375.fc2f7f2faeea66573c03f548f8a08dc1.jpeg",
+        "id": "4F95B61341F34AED8D4B243E2E657D85",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Styling Tools",
+        "link": "https://www.walmart.com/cp/hair-styling-tools/3847754"
+      },
+      {
+        "name": "Hair Brushes & Combs",
+        "link": "https://www.walmart.com/cp/hair-brushes-combs/8648936"
+      },
+      {
+        "name": "Round Brushes",
+        "link": "https://www.walmart.com/cp/round-brushes/4801891"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "LEWIJO"
+      }
+    ],
+    "buybox_winner": {
+      "price": 60.19,
+      "was_price": 68.88,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$68.88",
+        "value": 68.88
+      },
+      "id": "71EE337A89683317843C249992CBBF18",
+      "seller": {
+        "name": "OpalSkin",
+        "id_secondary": "1BD6A24A27084F7C920E5BDA2856F8BD",
+        "id": 102850398,
+        "link": "https://www.walmart.com/seller/102850398"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Sep 5 to Dayton, 45417",
+        "message": "Free shipping, arrives by Fri, Sep 5 to Dayton, 45417",
+        "zipcode": "45417"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "OpalSkin"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "16641769913",
+        "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold/16641769913",
+        "price": 60.19,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_29205b82-59a2-4069-a535-d1084e4930d3.31f007f0ad8a3244e7fde514ea1b6a50.jpeg",
+            "id": "FA67521A2F18468CA49C09D8A76E4F0C",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/93a4f5d3-3c6d-4ce3-8f7a-8e944568eed7.ea7723ca6cab0933e027ddad2a0d6a00.jpeg",
+            "id": "3A9C951691964160904BFDC358F08D6A",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1d0afa9c-e29c-4613-a3e6-dd99144459f5.2c736c1d1c0227954c53bbb3d1071f73.jpeg",
+            "id": "9629B60CCFC44661BFC80F56F747C6DD",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ce41c4a9-6d55-46b8-882c-c089806e2473.12f8daa027357d193fde3c1f654101c3.jpeg",
+            "id": "82492C53D8884D15BBE7B3063F795B0F",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/165f8a28-bd61-42ed-a712-8d8c10dfd375.fc2f7f2faeea66573c03f548f8a08dc1.jpeg",
+            "id": "4F95B61341F34AED8D4B243E2E657D85",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Dayton",
+    "state": "OH",
+    "zipcode": "45417",
+    "store_id": "5104"
+  }
+}

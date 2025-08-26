@@ -1,0 +1,473 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1886,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8114,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "493136398"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:09:25.421Z",
+    "processed_at": "2025-08-20T13:09:30.259Z",
+    "total_time_taken": 4.84,
+    "walmart_url": "https://www.walmart.com/ip/493136398"
+  },
+  "product": {
+    "brand": "InfinitiPro by Conair",
+    "link": "https://www.walmart.com/ip/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117/493136398",
+    "title": "InfinitiPro by Conair Conair InfinitiPRO Knot Dr. All-in-One Medium Oval Hot Air Brush",
+    "title_excluding_brand": "Conair InfinitiPRO Knot Dr. All-in-One Medium Oval Hot Air Brush",
+    "upc": "074108434401",
+    "item_id": "493136398",
+    "product_id": "BC117",
+    "item_number": "6ZOR0P9ZEPFM",
+    "description": "The InfinitiPro by Conair detangling hot air brush is the perfect addition to your hair styling tools. This hairdryer can be used to style wet or dry hair detangling it with The Knot Dr bristles while adding volume and shine from the ceramic coated barrel and ionic generator. The vertical airflow vents allow for optimal performance along the oval-shaped barrel, which smooths the hair out while adding volume at the root and soft bouncy curls at the ends. This hot air brush is perfect for any age or hair type with its 3 heat settings plus a cool shot button with 1,000 watts for powerful, quick hair drying and styling. 6-foot professional line cord. Achieve flawless volume and brilliant shine at home with the detangling hot air brush from InfinitiPro by Conair.",
+    "description_html": "<p>The InfinitiPro by Conair detangling hot air brush is the perfect addition to your hair styling tools. This hairdryer can be used to style wet or dry hair detangling it with The Knot Dr bristles while adding volume and shine from the ceramic coated barrel and ionic generator. The vertical airflow vents allow for optimal performance along the oval-shaped barrel, which smooths the hair out while adding volume at the root and soft bouncy curls at the ends. This hot air brush is perfect for any age or hair type with its 3 heat settings plus a cool shot button with 1,000 watts for powerful, quick hair drying and styling. 6-foot professional line cord. Achieve flawless volume and brilliant shine at home with the detangling hot air brush from InfinitiPro by Conair.</p>",
+    "description_full": "The InfinitiPro by Conair detangling hot air brush is the perfect addition to your hair styling tools. This hairdryer can be used to style wet or dry hair detangling it with The Knot Dr bristles while adding volume and shine from the ceramic coated barrel and ionic generator. The vertical airflow vents allow for optimal performance along the oval-shaped barrel, which smooths the hair out while adding volume at the root and soft bouncy curls at the ends. This hot air brush is perfect for any age or hair type with its 3 heat settings plus a cool shot button with 1,000 watts for powerful, quick hair drying and styling. 6-foot professional line cord. Achieve flawless volume and brilliant shine at home with the detangling hot air brush from InfinitiPro by Conair. *   * All in one styling tool: Detangle, dry, style and volumize your hair with one styling tool! The Knot Dr. All-in-one dryer brush is all you need to create salon caliber styles quickly and easily\n    * Versatile multifunction: Ideal for all hair types, this brush features two heat settings and a cool setting. Ceramic coated barrel and ionic generator add volume and shine\n    * Painless detangling: Easy-glide Flexalite nylon bristles with epoxy tips help detangle your hair painlessly. 176 Flexalite bristle just the right number, spaced just the right way help smooth out knots and tangles without pulling\n   \n   \n *   * Innovative styling tools: From curling irons and wands to flat irons, hot air brushes, auto-curlers, and more, Conair makes high-quality styling tools for all hair types\n   \n   \n *   * Conair Hair Care: Since 1959, we have made innovative small appliances, hair styling tools, and more. Our haircare line includes high-quality hair dryers, brushes, styling tools, and hair accessories",
+    "description_full_html": "<p>The InfinitiPro by Conair detangling hot air brush is the perfect addition to your hair styling tools. This hairdryer can be used to style wet or dry hair detangling it with The Knot Dr bristles while adding volume and shine from the ceramic coated barrel and ionic generator. The vertical airflow vents allow for optimal performance along the oval-shaped barrel, which smooths the hair out while adding volume at the root and soft bouncy curls at the ends. This hot air brush is perfect for any age or hair type with its 3 heat settings plus a cool shot button with 1,000 watts for powerful, quick hair drying and styling. 6-foot professional line cord. Achieve flawless volume and brilliant shine at home with the detangling hot air brush from InfinitiPro by Conair.</p> <ul>  <li>   <ul>    <li>All in one styling tool: Detangle, dry, style and volumize your hair with one styling tool! The Knot Dr. All-in-one dryer brush is all you need to create salon caliber styles quickly and easily</li>    <li>Versatile multifunction: Ideal for all hair types, this brush features two heat settings and a cool setting. Ceramic coated barrel and ionic generator add volume and shine</li>    <li>Painless detangling: Easy-glide Flexalite nylon bristles with epoxy tips help detangle your hair painlessly. 176 Flexalite bristle just the right number, spaced just the right way help smooth out knots and tangles without pulling</li>   </ul></li>  <li>   <ul>    <li>Innovative styling tools: From curling irons and wands to flat irons, hot air brushes, auto-curlers, and more, Conair makes high-quality styling tools for all hair types</li>   </ul></li>  <li>   <ul>    <li>Conair Hair Care: Since 1959, we have made innovative small appliances, hair styling tools, and more. Our haircare line includes high-quality hair dryers, brushes, styling tools, and hair accessories</li>   </ul></li> </ul>",
+    "model": "BC117",
+    "ratings_total": 1592,
+    "rating": 4.4,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117_3e5eef71-7cfc-4dff-af0d-8dd102e3dc51.5947272a1e0352109aded6d5aaff46e7.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117_3e5eef71-7cfc-4dff-af0d-8dd102e3dc51.5947272a1e0352109aded6d5aaff46e7.jpeg",
+        "id": "CFD9FB4BE99249C19D97F26A1784B4AF",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e891c02e-4a8b-4734-80ac-424056395f9f.3501b3dcc157cc1e4909cad210b1fc20.jpeg",
+        "id": "13CDEF456FAA41E6823D4EADDCC535C3",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a94cdf16-c3d8-4534-bdf0-9eb5e57dd17e.4e4efe5024e86b1770139940ec472c86.jpeg",
+        "id": "B0F15BCFA12B4F2D99A7750A00B60D97",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/af4adf90-62db-418d-a2f9-f2613e60164b.1927e14ed0281de5ec39a255fabfe336.jpeg",
+        "id": "357EDCE16D824D43BCE2729EA2142545",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b60d1ca1-3aef-401a-bc91-63a9faebe292.ef1646c5a1521cf9af219117365b613b.jpeg",
+        "id": "930CED01F4D84DC2A025ED7FF7D104B6",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/227139cc-2f28-4b38-aeea-e1a500c61f85.7defdcd6ed1c02441fedb6824e756b43.jpeg",
+        "id": "452DE836B4D241929525AA9EEC22F3F4",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/bf795e9c-bfda-4caa-a850-0c526d4b26c1.a8660048c157ad415a6fa7898633792c.jpeg",
+        "id": "DA6854680905425CB2968584FA35C5F3",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4de2abc2-21e7-4fe4-b6e9-cfbdb3155ad7.263bec4927f6798bbb95f99a162bf168.jpeg",
+        "id": "3EFEF03E64844D5F98A07545258AA579",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/3af5030c-d925-4e02-919e-d9b549751606.ab84a621461bf6e945900a3c76058312.jpeg",
+        "id": "54D25C60FBD144A181FDBBB4127C4648",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/26f35242-d92c-4317-a57e-3e9572fff581.cfab6b825aeb062ba2f0cc56bc434e6b.jpeg",
+        "id": "DCD5CA659AFD4DA8B3CF6ADF56BC2873",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/816daed1-46a4-4fe0-8d82-bd8c2d0f22d0.6a29fc39f7ddc67abd17be7deadb4caa.jpeg",
+        "id": "5845A02F21054FE4B7AE308823E0C4C2",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4b06c5aa-89c9-40d2-9d91-89427d6f3e7c.01424c5f4694be7696fd6bc20d60b670.jpeg",
+        "id": "DDE4A64647E94674924A8B8B9EF5DC43",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/2e1643c2-c103-4e5f-ab62-d42d5adb26d3.469253034d817aa4b52c6703306cdb2a.jpeg",
+        "id": "A260FBA8888444BAAB21E02591DB4A32",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8dce37b5-ccb7-45aa-81b0-2f8ce59cc2a4.fa9027b17b3470cd13ef112b1b7c764e.jpeg",
+        "id": "5ED46B0742ED498FB645AFD7FA21B609",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Beauty Best Sellers",
+        "link": "https://www.walmart.com/cp/beauty-best-sellers/7876574"
+      },
+      {
+        "name": "Haircare Best Sellers",
+        "link": "https://www.walmart.com/cp/haircare-best-sellers/4034645"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "InfinitiPro by Conair"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "BC117"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Conair Corporation"
+      },
+      {
+        "name": "Model",
+        "value": "BC117"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1.74 lb"
+      },
+      {
+        "name": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "3.62 x 7.37 x 14.50 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 38.5,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$38.50",
+        "value": 38.5
+      },
+      "id": "B9CB6F38C10446BEB730A2D7465A88F8",
+      "seller": {
+        "name": "Walmart.com",
+        "id_secondary": "F55CDC31AB754BB68FE0B39041159D63",
+        "id": "F55CDC31AB754BB68FE0B39041159D63"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by tomorrow to Washington, 20019",
+        "message": "Free shipping, arrives by tomorrow to Washington, 20019",
+        "zipcode": "20019",
+        "pickup_message": "Pickup not available at Landover Hills Store"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Walmart.com"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        }
+      ]
+    },
+    "color": "Blue",
+    "dimensions": "3.62 x 7.37 x 14.50 in",
+    "variants": [
+      {
+        "item_id": "493136398",
+        "product_id": "6ZOR0P9ZEPFM",
+        "link": "https://www.walmart.com/ip/493136398",
+        "in_stock": true,
+        "price": 38.5,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117_3e5eef71-7cfc-4dff-af0d-8dd102e3dc51.5947272a1e0352109aded6d5aaff46e7.jpeg",
+            "id": "CFD9FB4BE99249C19D97F26A1784B4AF",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e891c02e-4a8b-4734-80ac-424056395f9f.3501b3dcc157cc1e4909cad210b1fc20.jpeg",
+            "id": "13CDEF456FAA41E6823D4EADDCC535C3",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a94cdf16-c3d8-4534-bdf0-9eb5e57dd17e.4e4efe5024e86b1770139940ec472c86.jpeg",
+            "id": "B0F15BCFA12B4F2D99A7750A00B60D97",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/af4adf90-62db-418d-a2f9-f2613e60164b.1927e14ed0281de5ec39a255fabfe336.jpeg",
+            "id": "357EDCE16D824D43BCE2729EA2142545",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b60d1ca1-3aef-401a-bc91-63a9faebe292.ef1646c5a1521cf9af219117365b613b.jpeg",
+            "id": "930CED01F4D84DC2A025ED7FF7D104B6",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/227139cc-2f28-4b38-aeea-e1a500c61f85.7defdcd6ed1c02441fedb6824e756b43.jpeg",
+            "id": "452DE836B4D241929525AA9EEC22F3F4",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/bf795e9c-bfda-4caa-a850-0c526d4b26c1.a8660048c157ad415a6fa7898633792c.jpeg",
+            "id": "DA6854680905425CB2968584FA35C5F3",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4de2abc2-21e7-4fe4-b6e9-cfbdb3155ad7.263bec4927f6798bbb95f99a162bf168.jpeg",
+            "id": "3EFEF03E64844D5F98A07545258AA579",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3af5030c-d925-4e02-919e-d9b549751606.ab84a621461bf6e945900a3c76058312.jpeg",
+            "id": "54D25C60FBD144A181FDBBB4127C4648",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/26f35242-d92c-4317-a57e-3e9572fff581.cfab6b825aeb062ba2f0cc56bc434e6b.jpeg",
+            "id": "DCD5CA659AFD4DA8B3CF6ADF56BC2873",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/816daed1-46a4-4fe0-8d82-bd8c2d0f22d0.6a29fc39f7ddc67abd17be7deadb4caa.jpeg",
+            "id": "5845A02F21054FE4B7AE308823E0C4C2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4b06c5aa-89c9-40d2-9d91-89427d6f3e7c.01424c5f4694be7696fd6bc20d60b670.jpeg",
+            "id": "DDE4A64647E94674924A8B8B9EF5DC43",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2e1643c2-c103-4e5f-ab62-d42d5adb26d3.469253034d817aa4b52c6703306cdb2a.jpeg",
+            "id": "A260FBA8888444BAAB21E02591DB4A32",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8dce37b5-ccb7-45aa-81b0-2f8ce59cc2a4.fa9027b17b3470cd13ef112b1b7c764e.jpeg",
+            "id": "5ED46B0742ED498FB645AFD7FA21B609",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "bc117"
+          },
+          {
+            "name": "actual_color",
+            "value": "blue"
+          }
+        ]
+      },
+      {
+        "item_id": "1150270448",
+        "product_id": "1YF8SR02YGFM",
+        "link": "https://www.walmart.com/ip/1150270448",
+        "in_stock": true,
+        "price": 27.49,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-CONAIR-The-Knot-Dr-All-in-One-MINI-Oval-Dryer-Brush-Hair-Dryer-Volumizer-Hot-Air-Brush-BC114_def11558-e95c-4e6b-829d-c801cb01ab48.929447325c7c732500c55bd9f67dbeb4.jpeg",
+            "id": "AB2147FEF6FF462E92ABCD1B3F3C3130",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/dd6cc2a3-770f-4b05-bca3-27e0991f4126.7a90e34f3dd780446a7946da79c37b64.jpeg",
+            "id": "3B0151A47A4A4A85BEDBFB9277F96B56",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/99327492-0666-43f3-90eb-8cd428b20442.51d823aee88939df52272b510e5bade1.jpeg",
+            "id": "21A121FE82F24BADA382291594DFF738",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d77cc71d-58a6-429d-94c8-7cbc8078d432.3f057a0606a328d7a63e0172ba7f7848.jpeg",
+            "id": "EA877005F82A4331843ED48D825D8C74",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/5a10349e-13e7-4042-80da-b8e1c2a28d13.9282a900c8d2545bf1f323f008a7407c.jpeg",
+            "id": "4246B54A319F47E990D925C38ABDF0B5",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fb1200e9-24eb-45da-928c-46dbbb378ac8.62dda98b4db7812e037621965c805545.jpeg",
+            "id": "5833DEAB86A04D12B3007BCDBE3B6475",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "bc114"
+          },
+          {
+            "name": "actual_color",
+            "value": "babypink"
+          }
+        ]
+      },
+      {
+        "item_id": "945374911",
+        "product_id": "2LN0BRTE3274",
+        "link": "https://www.walmart.com/ip/945374911",
+        "in_stock": false,
+        "price": 33.97,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/InfinitiPRO-by-Conair-with-The-Knot-Dr-All-in-One-Smoothing-Dryer-Brush-BC120_39d94c1e-df21-41c6-b0d0-e763c5b5d5f5.6eab2b2ea2ca0434374c44a19f634ae7.jpeg",
+            "id": "6313B9335B0C430E88C232B1C4493ED1",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/62d611ed-9381-4b34-964f-9d46628360a3.433b028d5ddc1d059281ad39107b6fde.jpeg",
+            "id": "12A460D558D7459BA3C8B40A31B860E4",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/abc0bbb4-f6f3-4f06-82bb-e4e99cd9f260.c7cee4d3143338aad0f9f13f304fc7ba.jpeg",
+            "id": "798F2DC9FC6D4F12BA6B60CD4AACCDE2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2dad2d51-72e6-4981-b84b-e79eee2c2013.b80ca951e231981d0772852bc424782f.jpeg",
+            "id": "74FFD4461B484AECA65165F264AD0AEE",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/061e218a-2704-4e3d-a0ee-59c4c8261dc3.ca3af395835d430e18a47f35bf98fbf2.jpeg",
+            "id": "25F211BE85CC4C1D8F0F028BF36948CE",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2d01d276-ec2d-4e8c-89f1-64dd14dac687.c18dd1b630ebbd34bb166e36298b5338.jpeg",
+            "id": "929075C727F949258642055946F61B90",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/03cbcc2e-5637-4783-9ee6-c1dd44449b52.5709e93d6d01f552cb7e6d0b43d2fddb.jpeg",
+            "id": "22DD09E4E4BE45F18271FF84B318A4A5",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/85dd52d3-5b9a-4610-bc80-b53592bfcf96.1ff794a4cbb8bc8599672d270c8be21a.jpeg",
+            "id": "87B5ED18454A4C029A98C547047F177A",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/00dde31e-3875-4927-a866-658e803a1d7f.4b88c488d73deb8cf362d157ec3e8038.jpeg",
+            "id": "12BB8835DC6A496E8CB4291002494137",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/da840fb4-d3c2-4048-9968-5d8f5810cfd3.ef074dcef7817c7dd62c5f3275e5c1b3.jpeg",
+            "id": "52F435D32F8C4ED1BD8CE6BE07E52D4B",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/34db3ec7-cadf-4bea-aadc-67172943a2f7.609072ed5461bf5479df6cd36ee3d9e9.jpeg",
+            "id": "ACC70DC59828422489B025E0711C3093",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/cbe23dfb-7589-4eff-a0bf-7564319a4dd8.12cad2ddda242b6e6dcb7a6d08da3739.jpeg",
+            "id": "3DCC839281884FBEB0464C9221A4AF1D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9122b73d-963c-42b8-ba53-70826c1e5b86.3d20116dac3768ec5086e8a9cf44124f.jpeg",
+            "id": "0B4EAC5B5F9545D1AB790C2D7C3E3AA3",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f3c5b2c2-58ec-421b-bf27-a7896d86a71c.06b13d6f2984f6bc1dbdf02739c97705.jpeg",
+            "id": "036E346B6607445BA7DFF2C9BFB64889",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8d85c959-dce0-4243-8568-afaf3a897963.d703f4f676cfb580ca1a6fc9107b4024.jpeg",
+            "id": "94D94D0F9D104036AA7F67214E09D3BF",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "bc120"
+          },
+          {
+            "name": "actual_color",
+            "value": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Washington",
+    "state": "DC",
+    "zipcode": "20019",
+    "store_id": "5129"
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 476,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9524,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "5048263540"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:30:17.660Z",
+    "processed_at": "2025-08-18T11:30:24.222Z",
+    "total_time_taken": 6.56,
+    "walmart_url": "https://www.walmart.com/ip/5048263540"
+  },
+  "product": {
+    "brand": "InGlam",
+    "link": "https://www.walmart.com/ip/IG-INGLAM-1-Round-Flat-Iron-for-Hair-Infrared-Hair-Iron-2-in-1-Hair-Straightener-Flat-Ion-Dual-Voltage-Rose-Gold/5048263540",
+    "title": "IG INGLAM 1 inch Infrared Flat Iron for Hair, 2 in 1 Hair Straightener Flat Iron,Led Display, Dual Voltage, Rose Gold",
+    "upc": "654370975132",
+    "item_id": "5048263540",
+    "product_id": "HS0118",
+    "item_number": "43AVVA6CL7ZT",
+    "description": "Blue Danube is a nice, stylish looking hair straightener that can also be used as a curling iron. It is easy to straighten or curl the hair for beginner or experienced hairstylist. And you will find Its magical cylinder design how it fits well your hand, make you rotate it naturally and continuously.",
+    "description_html": "Blue Danube is a nice, stylish looking hair straightener that can also be used as a curling iron.\nIt is easy to straighten or curl the hair for beginner or experienced hairstylist. And you will find Its magical cylinder design how it fits well your hand, make you rotate it naturally and continuously.",
+    "description_full": "Blue Danube is a nice, stylish looking hair straightener that can also be used as a curling iron. It is easy to straighten or curl the hair for beginner or experienced hairstylist. And you will find Its magical cylinder design how it fits well your hand, make you rotate it naturally and continuously. * infrared Hair Straightener Flat Iron - The 2 in 1 hair straightener and curler featured by a rounded and sleek shape helps to temper and wrap the hair to meet your different needs, allowing you to change various hairstyles every day and saving money on buying another curling iron.\n * Safe and Efficient - This flat iron for hair has a 60-min auto shut off function which can enhance your safety. It heats up instantly in only 30 seconds and controls the temperature thermostatically to get your hair straight or curly in a snap, saving time and reducing moisture loss.\n * Infrared Negative Ionic Care - This infrared hair straightener is equipped with an anion outlet that emits millions of negative ions to seal moisture in your hair. Ceramic tourmaline and infrared plates can activate water molecules to repair hair scales, providing an frictionless gliding and making hair soft and shiny.\n * Fit for All Hair Types - This flat iron for hair with 11 adjustable temperatures(250℉ - 450℉) displaying on the LED screen can work on all hair types and textures. You can choose the optimum temperature to suit your hair directly.\n * Comfortable and Worry Free Use - The 360° rotating cord allows you to control the angle of use during use. With 110V-220V global dual voltage, you can use it to create your own curly or straight hair no matter where you are.",
+    "description_full_html": "Blue Danube is a nice, stylish looking hair straightener that can also be used as a curling iron.\nIt is easy to straighten or curl the hair for beginner or experienced hairstylist. And you will find Its magical cylinder design how it fits well your hand, make you rotate it naturally and continuously. <ul>  <li>infrared Hair Straightener Flat Iron - The 2 in 1 hair straightener and curler featured by a rounded and sleek shape helps to temper and wrap the hair to meet your different needs, allowing you to change various hairstyles every day and saving money on buying another curling iron.</li>  <li>Safe and Efficient - This flat iron for hair has a 60-min auto shut off function which can enhance your safety. It heats up instantly in only 30 seconds and controls the temperature thermostatically to get your hair straight or curly in a snap, saving time and reducing moisture loss.</li>  <li>Infrared Negative Ionic Care - This infrared hair straightener is equipped with an anion outlet that emits millions of negative ions to seal moisture in your hair. Ceramic tourmaline and infrared plates can activate water molecules to repair hair scales, providing an frictionless gliding and making hair soft and shiny.</li>  <li>Fit for All Hair Types - This flat iron for hair with 11 adjustable temperatures(250℉ - 450℉) displaying on the LED screen can work on all hair types and textures. You can choose the optimum temperature to suit your hair directly.</li>  <li>Comfortable and Worry Free Use - The 360° rotating cord allows you to control the angle of use during use. With 110V-220V global dual voltage, you can use it to create your own curly or straight hair no matter where you are.</li> </ul>",
+    "model": "HS0118",
+    "ratings_total": 540,
+    "rating": 4.7,
+    "type": "Hair Flat Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/IG-INGLAM-1-Round-Flat-Iron-for-Hair-Infrared-Hair-Iron-2-in-1-Hair-Straightener-Flat-Ion-Dual-Voltage-Rose-Gold_ff511112-4c7f-4808-a625-8cfdb4014d75.a726a094097a702dd19779317bc78ba9.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/IG-INGLAM-1-Round-Flat-Iron-for-Hair-Infrared-Hair-Iron-2-in-1-Hair-Straightener-Flat-Ion-Dual-Voltage-Rose-Gold_ff511112-4c7f-4808-a625-8cfdb4014d75.a726a094097a702dd19779317bc78ba9.jpeg",
+        "id": "73F48B94DB3442A1BF9C952CAE881078",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e78fc828-e14c-4e2b-aec5-518c907d3c69.a2268e199723d0b765841ad8c2336361.jpeg",
+        "id": "EAD5D24CBA1B4ED590B1571B9918E4AC",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/fdd41c63-2b64-4421-83a5-5b07f0e7526f.8fa906aa3b9e70fd4f484234517a17c7.jpeg",
+        "id": "518438F2CCE146CDADA08B9F93939A30",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/78fc3259-3c01-4a0d-8829-7ff0bc0e1396.ea642baa8be9cb7190a29b14ffd2de8c.jpeg",
+        "id": "32F4F16F172E4A23BD18A5996D2AAC49",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/3fadfe55-8c4a-473a-a56d-bc8d2ddffade.858c266add466c7a02db780302ea42b2.jpeg",
+        "id": "842376793DCF4965AB28540ACBC60A31",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/fec9f639-dd96-4bf7-9c77-00fd65d82d6e.3e83dcda15c0c386278a783267df65a1.jpeg",
+        "id": "2B1BF8DA6FA04E98830C2DE36850C1D7",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Styling Tools",
+        "link": "https://www.walmart.com/cp/hair-styling-tools/3847754"
+      },
+      {
+        "name": "Flat Irons",
+        "link": "https://www.walmart.com/cp/flat-irons/3414479"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "InGlam"
+      },
+      {
+        "name": "Plate Width",
+        "value": "1 in"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "IG INGLAM"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "14.37 x 3.74 x 3.74 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 59.99,
+      "currency_symbol": "$",
+      "id": "4E1E3D446B2E3DFB9B1F4F3E2B61BDA7",
+      "seller": {
+        "name": "Haircaresshop",
+        "id_secondary": "FBF6E83D407B4F71A9F6656A1B0DC1CB",
+        "id": 101094977,
+        "link": "https://www.walmart.com/seller/101094977"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by tomorrow to Sparta, 07871",
+        "message": "Free shipping, arrives by tomorrow to Sparta, 07871",
+        "zipcode": "07871"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Haircaresshop"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10692620493",
+          "id": "C629352191D53576AF4B5A1DDDFA9915",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-50-59-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 7,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$7.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10691058374",
+          "id": "9587E624B8613231B0B3134E8022028F",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-50-59-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 10,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$10.00"
+          }
+        }
+      ]
+    },
+    "dimensions": "14.37 x 3.74 x 3.74 in",
+    "variants": [
+      {
+        "item_id": "5048263540",
+        "product_id": "43AVVA6CL7ZT",
+        "link": "https://www.walmart.com/ip/5048263540",
+        "in_stock": true,
+        "price": 59.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/IG-INGLAM-1-Round-Flat-Iron-for-Hair-Infrared-Hair-Iron-2-in-1-Hair-Straightener-Flat-Ion-Dual-Voltage-Rose-Gold_ff511112-4c7f-4808-a625-8cfdb4014d75.a726a094097a702dd19779317bc78ba9.jpeg",
+            "id": "73F48B94DB3442A1BF9C952CAE881078",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e78fc828-e14c-4e2b-aec5-518c907d3c69.a2268e199723d0b765841ad8c2336361.jpeg",
+            "id": "EAD5D24CBA1B4ED590B1571B9918E4AC",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fdd41c63-2b64-4421-83a5-5b07f0e7526f.8fa906aa3b9e70fd4f484234517a17c7.jpeg",
+            "id": "518438F2CCE146CDADA08B9F93939A30",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/78fc3259-3c01-4a0d-8829-7ff0bc0e1396.ea642baa8be9cb7190a29b14ffd2de8c.jpeg",
+            "id": "32F4F16F172E4A23BD18A5996D2AAC49",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3fadfe55-8c4a-473a-a56d-bc8d2ddffade.858c266add466c7a02db780302ea42b2.jpeg",
+            "id": "842376793DCF4965AB28540ACBC60A31",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fec9f639-dd96-4bf7-9c77-00fd65d82d6e.3e83dcda15c0c386278a783267df65a1.jpeg",
+            "id": "2B1BF8DA6FA04E98830C2DE36850C1D7",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "rosegold"
+          }
+        ]
+      },
+      {
+        "item_id": "15595057478",
+        "product_id": "60PYUP6JXAA0",
+        "link": "https://www.walmart.com/ip/15595057478",
+        "in_stock": true,
+        "price": 59.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/IG-INGLAM-1-Round-Flat-Iron-for-Hair-Infrared-Hair-Iron-2-in-1-Hair-Straightener-Flat-Ion-Dual-Voltage-Pink_54e75faf-f429-41e4-918e-f1a8f8e2c977.c32752df5965063ed12adc07fc3eefa4.jpeg",
+            "id": "A007808D1C8C4BEFA456D544FB992988",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/bda64c1d-c1e9-475b-a94a-99ae86030982.d477df59321ca01bba3baa7c2c5a16c5.jpeg",
+            "id": "AD61AD0722FC49628BDA17405CC76087",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/52396fba-cae5-44ea-8ba5-748d6fd9537d.b557c464f1a3faaf9a5bcbd315fb9d27.jpeg",
+            "id": "1BEDD34AE88E4DBBA521A31063B742E8",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/97d65414-88b3-4d06-8615-8957b0a0434a.af6e3e9a0c7819f5fa9ba4addead6ab4.jpeg",
+            "id": "6FCDD06D50E64D8F9492D5844EB29ECA",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/94e03c62-bd04-4150-9aba-74805c1b6c73.9d277d95e6612e472c18742e089152cb.jpeg",
+            "id": "72194FD22DDF4B0783C16B4007959644",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/13eca914-a4b5-4146-bf48-7103a4d4bd4a.170e088a222d26f83f172797eee3f56b.jpeg",
+            "id": "DBBD1A7D43E447EF9D736CBE1BBF7A9D",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f76c5bc1-9319-478d-9f84-8f4274904f5f.66c36e4efe705f58fef261f2d148df9c.jpeg",
+            "id": "DED465CC7529420DA45A42563EC6AB67",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "pink"
+          }
+        ]
+      },
+      {
+        "item_id": "15599906237",
+        "product_id": "6GXX0O5FP51I",
+        "link": "https://www.walmart.com/ip/15599906237",
+        "in_stock": true,
+        "price": 59.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/IG-INGLAM-1-Round-Flat-Iron-for-Hair-Infrared-Hair-Iron-2-in-1-Hair-Straightener-Flat-Ion-Dual-Voltage-Prussian-Blue_2c9a05ad-7530-49f0-868b-eda9d4734b55.209e3f14046f5c814fb66e5db1146231.jpeg",
+            "id": "825D40ACBC5345CC98ED37FE4DC5D4F6",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4816549d-e04e-4de2-8e01-fca1a6d4291b.17fb81a3722d4efcdb78ba39f37902b7.jpeg",
+            "id": "A511CBA9BDFB4069BC874621CED737C5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2803498d-3409-4d07-9df8-52355264f0ae.54e1a6b31cf609618a6b4b58089befbe.jpeg",
+            "id": "A32AD01F6C60456D8059355018F28D5C",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/38aeee66-c030-4bf1-b437-63fcc89597a3.80dbfb0dba70d685d3353e46b38af47c.jpeg",
+            "id": "06BCFF898A9E4E0BB15CE87339F93C94",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3312e9a2-c71d-44ab-9ea7-9b67200d63ec.c62335639b3e4298dbb35a556fe7adfa.jpeg",
+            "id": "2E0C6884401B449B91657AB9AA7D83FB",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6c23dba7-24c9-415e-8117-13da101da755.dbd2dace85525f894f310359b898fe58.jpeg",
+            "id": "0D3956DA7BF14D03B73164B366A84DD3",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/30e0ccbc-1c0c-4da9-88c4-f5d82c1e1759.063d53bd5d23527fcace958876aa7948.jpeg",
+            "id": "C4C0A4FAFBD2405A8E685AA5B36A110B",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "prussianblue"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sparta",
+    "state": "NJ",
+    "zipcode": "07871",
+    "store_id": "2090"
+  }
+}

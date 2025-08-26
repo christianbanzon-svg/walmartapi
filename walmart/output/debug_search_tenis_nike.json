@@ -1,0 +1,6 @@
+{
+  "request_info": {
+    "success": false,
+    "message": "'walmart_domain' parameter is invalid - valid values are 'walmart.com' or 'walmart.ca'."
+  }
+}

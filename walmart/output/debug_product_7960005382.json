@@ -1,0 +1,284 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1827,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8173,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "7960005382"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T12:59:46.404Z",
+    "processed_at": "2025-08-20T12:59:50.829Z",
+    "total_time_taken": 4.42,
+    "walmart_url": "https://www.walmart.com/ip/7960005382"
+  },
+  "product": {
+    "brand": "The Beachwaver Co.",
+    "link": "https://www.walmart.com/ip/The-Beachwaver-Co-B-Series-Ceramic-Rotating-Curling-Iron-1-25-Barrel-Lilac/7960005382",
+    "title": "The Beachwaver Co. B-Series Ceramic Rotating Curling Iron, 1.25\" Barrel, Lilac",
+    "upc": "817741025335",
+    "item_id": "7960005382",
+    "product_id": "BW17P1W",
+    "item_number": "1RG9D9MWXOVX",
+    "description": "The Beachwaver B1.25 is a larger barrel size perfect for long hair. Designed with two arrow buttons to rotate curls in both directions, our signature short clamp, which is beveled for smooth curling and no kinks, as well as three pre-set heat ranges. Get loose beachy waves or a beautiful blowout with the touch of a button. The 1.25 inch Beachwaver is a medium barrel size, great for longer hair and ideal for creating loose, relaxed curls or roller set waves.",
+    "description_html": "The Beachwaver B1.25 is a larger barrel size perfect for long hair. Designed with two arrow buttons to rotate curls in both directions, our signature short clamp, which is beveled for smooth curling and no kinks, as well as three pre-set heat ranges. Get loose beachy waves or a beautiful blowout with the touch of a button. <p>The 1.25 inch Beachwaver is a medium barrel size, great for longer hair and ideal for creating loose, relaxed curls or roller set waves.</p>",
+    "description_full": "The Beachwaver B1.25 is a larger barrel size perfect for long hair. Designed with two arrow buttons to rotate curls in both directions, our signature short clamp, which is beveled for smooth curling and no kinks, as well as three pre-set heat ranges. Get loose beachy waves or a beautiful blowout with the touch of a button. The 1.25 inch Beachwaver is a medium barrel size, great for longer hair and ideal for creating loose, relaxed curls or roller set waves. * Includes safety tip and iron stand\n * Left & right arrow buttons for rotation control\n * 30-min automatic shut-off\n * 8-ft swivel cord\n * Custom internal heater for even heat distribution\n * Ceramic barrel to add shine & reduce frizz\n * Beveled, no-kink clamp\n * 3 adjustable heat settings\n * Ergonomic design\n * Take it abroad! 100 - 240V",
+    "description_full_html": "The Beachwaver B1.25 is a larger barrel size perfect for long hair. Designed with two arrow buttons to rotate curls in both directions, our signature short clamp, which is beveled for smooth curling and no kinks, as well as three pre-set heat ranges. Get loose beachy waves or a beautiful blowout with the touch of a button. <p>The 1.25 inch Beachwaver is a medium barrel size, great for longer hair and ideal for creating loose, relaxed curls or roller set waves.</p> <ul>  <li>Includes safety tip and iron stand</li>  <li>Left &amp; right arrow buttons for rotation control</li>  <li>30-min automatic shut-off</li>  <li>8-ft swivel cord</li>  <li>Custom internal heater for even heat distribution</li>  <li>Ceramic barrel to add shine &amp; reduce frizz</li>  <li>Beveled, no-kink clamp</li>  <li>3 adjustable heat settings</li>  <li>Ergonomic design</li>  <li>Take it abroad! 100 - 240V</li> </ul>",
+    "model": "BW17P1W",
+    "ratings_total": 12,
+    "rating": 4.9,
+    "type": "Hair Curling Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/The-Beachwaver-Co-B-Series-Ceramic-Rotating-Curling-Iron-1-25-Barrel-Lilac_4141eb6c-09fd-42e3-bfad-5385db85d5e1.f41d310c0e13be9642e2be220c91f84d.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/The-Beachwaver-Co-B-Series-Ceramic-Rotating-Curling-Iron-1-25-Barrel-Lilac_4141eb6c-09fd-42e3-bfad-5385db85d5e1.f41d310c0e13be9642e2be220c91f84d.jpeg",
+        "id": "51F1F63E69C740C581D588E2FECFA44A",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a615ffef-bef9-46d3-aaa7-b77331cfbd6e.0509c4c3aba89c61d54fcd9733721439.jpeg",
+        "id": "E685967A256244A2833F3CBD7E6DF2A1",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a17e6751-ce8f-4440-9c43-9997b5dc8335.33af02dd5a4c274dda48ea11b294d31e.jpeg",
+        "id": "7023E49887CD477290626CA6F79986DB",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e6207795-43a5-40c5-bdfa-55b6bd70bf4b.81270cc5cbaf2cacb7ef871a0fb89430.jpeg",
+        "id": "1BA5EE41D53946989F9887A46201A235",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/15eaac11-b3de-4883-9f3b-a6996eab9121.fcb03b481404174325f913503723e721.jpeg",
+        "id": "8022CB0DE58A473A8D0423ACC65959E3",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e3b15cc2-4784-460f-8fec-3f39ac5ff80b.7c2f4edc9003eab5e72ef592f553641f.jpeg",
+        "id": "768EC8451E144F449CEF7099EA3580CB",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/93f13746-85f7-458c-b892-09f59f822768.0a1ea668a2f1b42cb51d57e074124220.jpeg",
+        "id": "66BBC6217111488C9F4D4B531B88F36E",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Premium Beauty",
+        "link": "https://www.walmart.com/cp/premium-beauty/7924299"
+      },
+      {
+        "name": "Featured Premium Beauty Brands",
+        "link": "https://www.walmart.com/cp/featured-premium-beauty-brands/8798461"
+      },
+      {
+        "name": "Beachwaver",
+        "link": "https://www.walmart.com/cp/beachwaver/6920106"
+      },
+      {
+        "name": "All Beachwaver",
+        "link": "https://www.walmart.com/cp/all-beachwaver/5303676"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Rotating, Automatic Shutoff"
+      },
+      {
+        "name": "Brand",
+        "value": "The Beachwaver Co."
+      },
+      {
+        "name": "Barrel Diameter",
+        "value": "1.25 in"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "The Beachwaver Co."
+      }
+    ],
+    "buybox_winner": {
+      "price": 99,
+      "currency_symbol": "$",
+      "id": "5A145BAA52C83C0782B3A109F4B6B943",
+      "seller": {
+        "name": "The Beachwaver Co.",
+        "id_secondary": "F9119C7A04EA4D8FB9DF8D53E7C334E9",
+        "id": 102506142,
+        "link": "https://www.walmart.com/seller/102506142"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 22 to Anchorage, 99515",
+        "message": "Free shipping, arrives by Fri, Aug 22 to Anchorage, 99515",
+        "zipcode": "99515"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "The Beachwaver Co."
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10697174463",
+          "id": "6D89D566C1A13BEC8C39014EB5709988",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-90-99-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 11,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$11.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10671073397",
+          "id": "2759452FAACF35429F1BEA48D682021F",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-90-99-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 14,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$14.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "7960005382",
+        "product_id": "1RG9D9MWXOVX",
+        "link": "https://www.walmart.com/ip/7960005382",
+        "in_stock": true,
+        "price": 99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/The-Beachwaver-Co-B-Series-Ceramic-Rotating-Curling-Iron-1-25-Barrel-Lilac_4141eb6c-09fd-42e3-bfad-5385db85d5e1.f41d310c0e13be9642e2be220c91f84d.jpeg",
+            "id": "51F1F63E69C740C581D588E2FECFA44A",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a615ffef-bef9-46d3-aaa7-b77331cfbd6e.0509c4c3aba89c61d54fcd9733721439.jpeg",
+            "id": "E685967A256244A2833F3CBD7E6DF2A1",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a17e6751-ce8f-4440-9c43-9997b5dc8335.33af02dd5a4c274dda48ea11b294d31e.jpeg",
+            "id": "7023E49887CD477290626CA6F79986DB",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e6207795-43a5-40c5-bdfa-55b6bd70bf4b.81270cc5cbaf2cacb7ef871a0fb89430.jpeg",
+            "id": "1BA5EE41D53946989F9887A46201A235",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/15eaac11-b3de-4883-9f3b-a6996eab9121.fcb03b481404174325f913503723e721.jpeg",
+            "id": "8022CB0DE58A473A8D0423ACC65959E3",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e3b15cc2-4784-460f-8fec-3f39ac5ff80b.7c2f4edc9003eab5e72ef592f553641f.jpeg",
+            "id": "768EC8451E144F449CEF7099EA3580CB",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/93f13746-85f7-458c-b892-09f59f822768.0a1ea668a2f1b42cb51d57e074124220.jpeg",
+            "id": "66BBC6217111488C9F4D4B531B88F36E",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "barrel_diameter",
+            "value": "1.25in"
+          }
+        ]
+      },
+      {
+        "item_id": "7848162693",
+        "product_id": "4QIOIOVITM0P",
+        "link": "https://www.walmart.com/ip/7848162693",
+        "in_stock": false,
+        "price": 99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/The-Beachwaver-Co-B-Series-Ceramic-Rotating-Curling-Iron-1-Barrel-Lilac_cde8c943-ab3b-46c7-8020-8915acfcdc9f.4e13bdaacaaa8a38e70bbec06d8a2c8d.jpeg",
+            "id": "2C62A8DE0EFC4D018127DA92EFB30453",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ab17bf4e-7d0f-4094-a299-67dd092f9e2a.37bd5c85e0955bb588e69cfdcc05f3d9.jpeg",
+            "id": "ABC827E0B7334494BC2553F3E8E08D28",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3f285b7d-af46-47dc-8cd8-577cde4b3ae3.baf998b9f39be1659c8541d9e9602e1c.jpeg",
+            "id": "C6BB4612501E48FA914E6B9ABC1D5200",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/48e00d8f-301d-46ab-a771-56d61d43fcb5.187309ce5a674f69d996887ff6d742bc.jpeg",
+            "id": "1F4F2B13CCF740EA834A1C8B975A2F3A",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fd3ccefd-6890-4d69-a301-87b957b4a19d.93835dda19068cf1c779fa2243a080e4.jpeg",
+            "id": "022207A18BC14BE0AA5F2B5A6F88AA11",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/5f5a02e2-8a10-4cbf-bea7-56910ac1f99c.3b6cdf734899e7ee2f5b6c7ee149d4d5.jpeg",
+            "id": "C4A8A74B25C14653A2D66A616D15EAC9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6ee297b8-0c63-4fe5-930f-91fda4f3d895.56471fe8539ddf5caf610a6ff012ded7.jpeg",
+            "id": "AB0683DEC56C49049B49191F175185ED",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "barrel_diameter",
+            "value": "1in"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Anchorage",
+    "state": "AK",
+    "zipcode": "99515",
+    "store_id": "2071"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1931,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8069,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "17478060996"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:14:55.158Z",
+    "processed_at": "2025-08-20T13:15:16.680Z",
+    "total_time_taken": 21.52,
+    "walmart_url": "https://www.walmart.com/ip/17478060996"
+  },
+  "product": {
+    "brand": "AORSHER",
+    "link": "https://www.walmart.com/ip/Diffuser-Attachment-Shark-FlexStyle-Air-Styling-Drying-System-Enhance-Natural-Curls-Accessories-Flex-Style-Dry-Styler-Styling-Tool-Wavy-Curly-Coily-H/17478060996",
+    "title": "AORSHER Diffuser Attachment for Shark FlexStyle Air Styling & Drying System, Enhance Natural Curls Accessories for Flex Style Dry Styler, Styling Tool for Wavy, Curly, Coily Hair, Grey",
+    "title_excluding_brand": "Diffuser Attachment for Shark FlexStyle Air Styling & Drying System, Enhance Natural Curls Accessories for Flex Style Dry Styler, Styling Tool for Wavy, Curly, Coily Hair, Grey",
+    "item_id": "17478060996",
+    "product_id": "0008",
+    "item_number": "75SNLXPQRBUV",
+    "description": "",
+    "description_html": "<br><br>",
+    "description_full": "* 【Designed for Shark】 Designed to seamlessly integrate with Shark FlexStyle HD430, HD435, and HD440BK, this diffuser attachment ensures a perfect fit. Note: Not compatible with Shark blow dryers.\n * 【Time-Saving Styling】Slash your styling time with the diffuser's quick-drying capabilities, allowing you to achieve professional-looking results in less time.\n * 【Heat Protection】Safeguard your hair from heat damage during styling, ensuring healthier and shinier locks with every use.\n * 【Curl Enhancement】Specifically crafted for wavy, curly, and coily hair textures, this diffuser enhances natural curls for defined and bouncy styles.\n * 【Salon-Quality Results】Tailored to suit wavy, curly, and coily hair types, this diffuser delivers salon-quality results at home, leaving your hair looking and feeling healthy and vibrant.\n * 【User-Friendly Design】Designed for ease of use and maintenance, the diffuser attachment is simple to attach, detach, and clean after each use, ensuring hassle-free styling sessions.",
+    "description_full_html": "<br><br> <ul>  <li>【Designed for Shark】 Designed to seamlessly integrate with Shark FlexStyle HD430, HD435, and HD440BK, this diffuser attachment ensures a perfect fit. Note: Not compatible with Shark blow dryers.</li>  <li>【Time-Saving Styling】Slash your styling time with the diffuser's quick-drying capabilities, allowing you to achieve professional-looking results in less time.</li>  <li>【Heat Protection】Safeguard your hair from heat damage during styling, ensuring healthier and shinier locks with every use.</li>  <li>【Curl Enhancement】Specifically crafted for wavy, curly, and coily hair textures, this diffuser enhances natural curls for defined and bouncy styles.</li>  <li>【Salon-Quality Results】Tailored to suit wavy, curly, and coily hair types, this diffuser delivers salon-quality results at home, leaving your hair looking and feeling healthy and vibrant.</li>  <li>【User-Friendly Design】Designed for ease of use and maintenance, the diffuser attachment is simple to attach, detach, and clean after each use, ensuring hassle-free styling sessions.</li> </ul>",
+    "ratings_total": 0,
+    "type": "Other Hair Styling Tools & Products",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Diffuser-Attachment-Shark-FlexStyle-Air-Styling-Drying-System-Enhance-Natural-Curls-Accessories-Flex-Style-Dry-Styler-Styling-Tool-Wavy-Curly-Coily-H_2c85281f-3993-42de-b83f-f44888115f47.ed17d17a4b3c280fa2342e22566d50a5.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Diffuser-Attachment-Shark-FlexStyle-Air-Styling-Drying-System-Enhance-Natural-Curls-Accessories-Flex-Style-Dry-Styler-Styling-Tool-Wavy-Curly-Coily-H_2c85281f-3993-42de-b83f-f44888115f47.ed17d17a4b3c280fa2342e22566d50a5.jpeg",
+        "id": "EA43BF6D12494D52A8B6022A63B87FAD",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/7fb1de97-282f-4414-b410-fd9305003950.cc233cdc907b15a90898acf1dbb5cce8.jpeg",
+        "id": "195E5225A91A4910BCBB3871ABB79D63",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/2dafa235-aaaa-486f-8304-88a451fee625.e8feed5dfbb0dba9bfb7fdcc8b2198a9.jpeg",
+        "id": "392B852A64E44395A61C664961B1D729",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/16d0542d-0080-42c5-afe3-8f8772b42bf8.b2aab6b035ca871a8c45ab830e7f92f0.jpeg",
+        "id": "91B2F9188D22495DA389E1FBE672C98D",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1ffa1135-cf6e-4850-a28d-6c7f4f19cee7.0c1582528f290619bc3b3b2ac6eabe64.jpeg",
+        "id": "144F24A47BAA4350895110D2D0B2594F",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4d891b24-c447-48d2-a75d-5764543e16b7.eeb463088f1b6f60cd274b5cd64cee22.jpeg",
+        "id": "E007C88D4A6E4185B8FEA8A6449C93B7",
+        "zoomable": true
+      }
+    ],
+    "buybox_winner": {
+      "price": 19.99,
+      "currency_symbol": "$",
+      "id": "260D23E51A023F4AB767B3A2BF8FD867",
+      "seller": {
+        "name": "Aorsher Flagship Store",
+        "id_secondary": "EF6A8E4C47D54C65BD70D1DDA4A2E743",
+        "id": 101593786,
+        "link": "https://www.walmart.com/seller/101593786"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Mon, Sep 8 to San Jose, 95116",
+        "message": "Free shipping, arrives by Mon, Sep 8 to San Jose, 95116",
+        "zipcode": "95116"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Aorsher Flagship Store"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "17478060996",
+        "product_id": "75SNLXPQRBUV",
+        "link": "https://www.walmart.com/ip/17478060996",
+        "in_stock": true,
+        "price": 19.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Diffuser-Attachment-Shark-FlexStyle-Air-Styling-Drying-System-Enhance-Natural-Curls-Accessories-Flex-Style-Dry-Styler-Styling-Tool-Wavy-Curly-Coily-H_2c85281f-3993-42de-b83f-f44888115f47.ed17d17a4b3c280fa2342e22566d50a5.jpeg",
+            "id": "EA43BF6D12494D52A8B6022A63B87FAD",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7fb1de97-282f-4414-b410-fd9305003950.cc233cdc907b15a90898acf1dbb5cce8.jpeg",
+            "id": "195E5225A91A4910BCBB3871ABB79D63",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2dafa235-aaaa-486f-8304-88a451fee625.e8feed5dfbb0dba9bfb7fdcc8b2198a9.jpeg",
+            "id": "392B852A64E44395A61C664961B1D729",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/16d0542d-0080-42c5-afe3-8f8772b42bf8.b2aab6b035ca871a8c45ab830e7f92f0.jpeg",
+            "id": "91B2F9188D22495DA389E1FBE672C98D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1ffa1135-cf6e-4850-a28d-6c7f4f19cee7.0c1582528f290619bc3b3b2ac6eabe64.jpeg",
+            "id": "144F24A47BAA4350895110D2D0B2594F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4d891b24-c447-48d2-a75d-5764543e16b7.eeb463088f1b6f60cd274b5cd64cee22.jpeg",
+            "id": "E007C88D4A6E4185B8FEA8A6449C93B7",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "beige"
+          }
+        ]
+      },
+      {
+        "item_id": "17477806575",
+        "product_id": "142FJBKBAELF",
+        "link": "https://www.walmart.com/ip/17477806575",
+        "in_stock": true,
+        "price": 19.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Diffuser-Attachment-Shark-FlexStyle-Air-Styling-Drying-System-Enhance-Natural-Curls-Accessories-Flex-Style-Dry-Styler-Styling-Tool-Wavy-Curly-Coily-H_e1f1db6a-b318-42c9-bf68-7892fc4d3c3d.c17f435dc14aa04c4225468c356f50b3.jpeg",
+            "id": "D02AE4CFCD6345B9AA3FCB609446D488",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/5be6e8ca-6f11-4d80-b8da-5529ddd521b6.7c11abdd69d8dd87b78fe66d69eaf5f7.jpeg",
+            "id": "AD90AF4A18484379A863416BC3D3A115",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/5440d1fa-e569-41f9-9877-40bcbf2088bd.4b943d6b96fb52e2025802cc51f3dddd.jpeg",
+            "id": "EE7CD00109B948D38C39165C58105B70",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/88a29d45-8d3b-4b75-b384-68d9c2ee761a.3bf94a8040e31ffee48778447f61e5ee.jpeg",
+            "id": "3F143043D7514EC79266FF8F0E3498EA",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7eaec8d8-d730-40f8-bffb-86336fa96051.2aed000d2d299937cc03cb67adb4e969.jpeg",
+            "id": "208EC86CA21C46EB8D219B8AABC44A98",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/05d4c3fa-ac70-4b38-874d-8ea34389416d.a72edfbb852e5c798de5f5988b0d18d1.jpeg",
+            "id": "55DF9387549E45C3A765304E87573971",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2c85281f-3993-42de-b83f-f44888115f47.ed17d17a4b3c280fa2342e22566d50a5.jpeg",
+            "id": "EA43BF6D12494D52A8B6022A63B87FAD",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7fb1de97-282f-4414-b410-fd9305003950.cc233cdc907b15a90898acf1dbb5cce8.jpeg",
+            "id": "195E5225A91A4910BCBB3871ABB79D63",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2dafa235-aaaa-486f-8304-88a451fee625.e8feed5dfbb0dba9bfb7fdcc8b2198a9.jpeg",
+            "id": "392B852A64E44395A61C664961B1D729",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/16d0542d-0080-42c5-afe3-8f8772b42bf8.b2aab6b035ca871a8c45ab830e7f92f0.jpeg",
+            "id": "91B2F9188D22495DA389E1FBE672C98D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1ffa1135-cf6e-4850-a28d-6c7f4f19cee7.0c1582528f290619bc3b3b2ac6eabe64.jpeg",
+            "id": "144F24A47BAA4350895110D2D0B2594F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4d891b24-c447-48d2-a75d-5764543e16b7.eeb463088f1b6f60cd274b5cd64cee22.jpeg",
+            "id": "E007C88D4A6E4185B8FEA8A6449C93B7",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "San Jose",
+    "state": "CA",
+    "zipcode": "95116",
+    "store_id": "5435"
+  }
+}

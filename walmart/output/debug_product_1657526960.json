@@ -1,0 +1,217 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 332,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9668,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "1657526960"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:13:54.118Z",
+    "processed_at": "2025-08-18T11:13:59.168Z",
+    "total_time_taken": 5.05,
+    "walmart_url": "https://www.walmart.com/ip/1657526960"
+  },
+  "product": {
+    "brand": "Conair",
+    "link": "https://www.walmart.com/ip/Conair-Infiniti-ProThermal-Hair-Blower-Shine-Styler-Styling-Tool-Ionic-Blow-Dryer-1875-Watt-Purple/1657526960",
+    "title": "Conair Infiniti ProThermal Hair Blower Shine Styler Styling Tool Ionic Blow Dryer; 1875 Watt Purple",
+    "upc": "605930405095",
+    "item_id": "1657526960",
+    "product_id": "Conair",
+    "item_number": "3APKTWVXJQN4",
+    "description": "Conair Infiniti ProThermal Hair Blower Shine Styler Styling Tool Ionic Blow Dryer; 1875 Watt Purple",
+    "description_html": "Conair Infiniti ProThermal Hair Blower Shine Styler Styling Tool Ionic Blow Dryer; 1875 Watt Purple",
+    "description_full": "Conair Infiniti ProThermal Hair Blower Shine Styler Styling Tool Ionic Blow Dryer; 1875 Watt Purple *   * Ionic conditioning to help reduce frizz while creating more shine\n    * 3 Heat and 2 speed settings\n    * Includes cool shot button to help lock style in place\n    * Includes concentrator attachment for pinpoint styling\n   \n   \n * Ionic conditioning to help reduce frizz while creating more shine|3 Heat and 2 speed settings|Includes cool shot button to help lock style in place|Includes concentrator attachment for pinpoint styling",
+    "description_full_html": "Conair Infiniti ProThermal Hair Blower Shine Styler Styling Tool Ionic Blow Dryer; 1875 Watt Purple <ul>  <li>   <ul>    <li>Ionic conditioning to help reduce frizz while creating more shine</li>    <li>3 Heat and 2 speed settings</li>    <li>Includes cool shot button to help lock style in place</li>    <li>Includes concentrator attachment for pinpoint styling</li>   </ul></li>  <li>Ionic conditioning to help reduce frizz while creating more shine|3 Heat and 2 speed settings|Includes cool shot button to help lock style in place|Includes concentrator attachment for pinpoint styling</li> </ul>",
+    "model": "Conair",
+    "ratings_total": 1,
+    "rating": 5,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Conair-Infiniti-ProThermal-Hair-Blower-Shine-Styler-Styling-Tool-Ionic-Blow-Dryer-1875-Watt-Purple_1c9707e2-c0d3-40da-8167-36ff033f9c29.ab1ae9ff91738493cc2f328d4f12c859.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Conair-Infiniti-ProThermal-Hair-Blower-Shine-Styler-Styling-Tool-Ionic-Blow-Dryer-1875-Watt-Purple_1c9707e2-c0d3-40da-8167-36ff033f9c29.ab1ae9ff91738493cc2f328d4f12c859.jpeg",
+        "id": "76407579CD224BC196673D0C179BE83E",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/99655ff9-25fa-4e18-a2d5-44823a86bd78.01fb619493595267a161b57e7dbb59cf.jpeg",
+        "id": "BE0ED489B3F04C568B71E89344863411",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/44690074-c973-4a28-95f2-dad614761a04.5a621ec993181b8c53c580fecc3abf40.jpeg",
+        "id": "7F40C2815EBF41D09A46B0069B79CD85",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/37c75d8f-73ca-45b4-92a0-cc4129e90aa2.7760549a7c4ca2c5a0805acab40d1740.jpeg",
+        "id": "77435BC8B3F74F5CB29956AB437F2258",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b36d5711-3cd0-4409-969a-ca22c3951a55.f158b600127049a0e041dedcb10d7b24.jpeg",
+        "id": "B94EE55C6CF041B68D1E60538AF9DA20",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Color",
+        "value": "Purple"
+      },
+      {
+        "name": "Hair Dryer Type",
+        "value": "Ionic Hair Dryers"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1.19 lbs"
+      },
+      {
+        "name": "Model",
+        "value": "Conair"
+      },
+      {
+        "name": "Brand",
+        "value": "Conair"
+      }
+    ],
+    "buybox_winner": {
+      "price": 39.9,
+      "currency_symbol": "$",
+      "id": "90A40F39B9064168B0787495A7245BAD",
+      "seller": {
+        "name": "Bingo Products",
+        "id_secondary": "28ED03803EAD4B0981C15A1D4F624BAB",
+        "id": 9104,
+        "link": "https://www.walmart.com/seller/9104"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Tue, Aug 26 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Tue, Aug 26 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Bingo Products"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        }
+      ]
+    },
+    "color": "Purple",
+    "variants": [
+      {
+        "item_id": "1657526960",
+        "product_id": "Conair",
+        "link": "https://www.walmart.com/ip/Conair-Infiniti-ProThermal-Hair-Blower-Shine-Styler-Styling-Tool-Ionic-Blow-Dryer-1875-Watt-Purple/1657526960",
+        "price": 39.9,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Conair-Infiniti-ProThermal-Hair-Blower-Shine-Styler-Styling-Tool-Ionic-Blow-Dryer-1875-Watt-Purple_1c9707e2-c0d3-40da-8167-36ff033f9c29.ab1ae9ff91738493cc2f328d4f12c859.jpeg",
+            "id": "76407579CD224BC196673D0C179BE83E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/99655ff9-25fa-4e18-a2d5-44823a86bd78.01fb619493595267a161b57e7dbb59cf.jpeg",
+            "id": "BE0ED489B3F04C568B71E89344863411",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/44690074-c973-4a28-95f2-dad614761a04.5a621ec993181b8c53c580fecc3abf40.jpeg",
+            "id": "7F40C2815EBF41D09A46B0069B79CD85",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/37c75d8f-73ca-45b4-92a0-cc4129e90aa2.7760549a7c4ca2c5a0805acab40d1740.jpeg",
+            "id": "77435BC8B3F74F5CB29956AB437F2258",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b36d5711-3cd0-4409-969a-ca22c3951a55.f158b600127049a0e041dedcb10d7b24.jpeg",
+            "id": "B94EE55C6CF041B68D1E60538AF9DA20",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

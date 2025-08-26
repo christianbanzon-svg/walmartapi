@@ -1,0 +1,197 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1736,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8264,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.cn",
+    "type": "product",
+    "item_id": "525639887"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T12:21:58.183Z",
+    "processed_at": "2025-08-20T12:22:01.909Z",
+    "total_time_taken": 3.73,
+    "walmart_url": "https://www.walmart.com/ip/525639887"
+  },
+  "product": {
+    "brand": "Annie",
+    "link": "https://www.walmart.com/ip/Annie-Extra-Super-Nozzle-2999-Hair-Styling-Dryer-Attachment/525639887",
+    "title": "Annie Extra Super Nozzle 2999 Hair Styling Dryer Attachment",
+    "upc": "745557770326",
+    "item_id": "525639887",
+    "product_id": "2999",
+    "item_number": "1IW1CQAGKIG0",
+    "description": "Product ID : 33612418635\n\nDescription\n\nLifts, shapes and smoothes as you dry hair. Your best choice for fine and distinctive hair products with a promise of superior quality and value.",
+    "description_html": "<p>Product ID : <strong>33612418635</strong></p><p><strong>Description</strong></p><p>Lifts, shapes and smoothes as you dry hair. Your best choice  for fine and distinctive hair products with a promise of superior quality and value.</p>",
+    "description_full": "Product ID : 33612418635\n\nDescription\n\nLifts, shapes and smoothes as you dry hair. Your best choice for fine and distinctive hair products with a promise of superior quality and value. Annie Extra Super Nozzle 2999 Hair Styling Dryer Attachment",
+    "description_full_html": "<p>Product ID : <strong>33612418635</strong></p><p><strong>Description</strong></p><p>Lifts, shapes and smoothes as you dry hair. Your best choice  for fine and distinctive hair products with a promise of superior quality and value.</p> Annie Extra Super Nozzle 2999 Hair Styling Dryer Attachment",
+    "model": "2999",
+    "ratings_total": 0,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Annie-Extra-Super-Nozzle-2999-Hair-Styling-Dryer-Attachment_b06a42ab-bfb7-4860-9b38-fa5bb983065a.a1f98082ad011b99ad64546e9003050d.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Annie-Extra-Super-Nozzle-2999-Hair-Styling-Dryer-Attachment_b06a42ab-bfb7-4860-9b38-fa5bb983065a.a1f98082ad011b99ad64546e9003050d.jpeg",
+        "id": "C23C2C484C0F400EB71B073CE0703DE4",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Model",
+        "value": "2999"
+      },
+      {
+        "name": "Brand",
+        "value": "Annie"
+      }
+    ],
+    "buybox_winner": {
+      "price": 11.28,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$9.68",
+        "value": 9.68
+      },
+      "id": "121E79BB6B6F3E7DA7F0B032CD9D2A85",
+      "seller": {
+        "name": "YKYU LLC",
+        "id_secondary": "31E8094764DF4CFB8ECA2B5953269D57",
+        "id": 101601278,
+        "link": "https://www.walmart.com/seller/101601278"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Wed, Aug 27 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Wed, Aug 27 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "YKYU LLC"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10702915011",
+          "id": "D7482BB8E273385D80E3A56B0AB514EF",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 2,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$2.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10692570769",
+          "id": "83B9CAB3B6BE3DCB9DE8AD8A770E9D27",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        }
+      ]
+    },
+    "color": "Black",
+    "variants": [
+      {
+        "item_id": "525639887",
+        "product_id": "1IW1CQAGKIG0",
+        "link": "https://www.walmart.com/ip/525639887",
+        "in_stock": true,
+        "price": 11.28,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Annie-Extra-Super-Nozzle-2999-Hair-Styling-Dryer-Attachment_b06a42ab-bfb7-4860-9b38-fa5bb983065a.a1f98082ad011b99ad64546e9003050d.jpeg",
+            "id": "C23C2C484C0F400EB71B073CE0703DE4",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "count_per_pack",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "item_id": "880946179",
+        "product_id": "3P8TSGSIUPZP",
+        "link": "https://www.walmart.com/ip/880946179",
+        "in_stock": true,
+        "price": 9.95,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Annie-Extra-Super-Nozzle-2999-Hair-Styling-Dryer-Attachment-Pack-of-6_b06a42ab-bfb7-4860-9b38-fa5bb983065a.a1f98082ad011b99ad64546e9003050d.jpeg",
+            "id": "C23C2C484C0F400EB71B073CE0703DE4",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "count_per_pack",
+            "value": "6"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

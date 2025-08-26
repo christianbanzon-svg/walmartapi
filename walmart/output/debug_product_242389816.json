@@ -1,0 +1,252 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1803,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8197,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "242389816"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T12:55:54.892Z",
+    "processed_at": "2025-08-20T12:55:58.472Z",
+    "total_time_taken": 3.58,
+    "walmart_url": "https://www.walmart.com/ip/242389816"
+  },
+  "product": {
+    "brand": "Hairitage",
+    "link": "https://www.walmart.com/ip/Hairitage-Ceramic-Volumizing-Blow-Dryer-Brush-for-Curling-and-Straightening/242389816",
+    "title": "Hairitage Ceramic Volumizing Blow Dryer Brush for Curling and Straightening",
+    "upc": "840797154223",
+    "item_id": "242389816",
+    "product_id": "840797154223",
+    "item_number": "2MKTE6ZLLOSF",
+    "description": "Get ready to be wowed with the perfect blowout in minutes with the Hairitage Up In The Air Volumizing Brush! Whether you want to sport a chic, sleek look, a bouncy style full of body , or a soft, wavy look, this hair volumizing brush will have you out the door with perfect hair every time. The built-in cool shot technology helps lock in and extend styles for days. This hair styling brush features ceramic tourmaline construction and tufted bristles, so say goodbye to bad hair days and hello to shiny, silky hair! Guaranteed with a one-year warranty. Recommended for hair types and textures 1A–4C.",
+    "description_html": "Get ready to be wowed with the perfect blowout in minutes with the Hairitage Up In The Air Volumizing Brush! Whether you want to sport a chic, sleek look, a bouncy style full of body , or a soft, wavy look, this hair volumizing brush will have you out the door with perfect hair every time. The built-in cool shot technology helps lock in and extend styles for days. This hair styling brush features ceramic tourmaline construction and tufted bristles, so say goodbye to bad hair days and hello to shiny, silky hair! Guaranteed with a one-year warranty. Recommended for hair types and textures 1A–4C.",
+    "description_full": "Get ready to be wowed with the perfect blowout in minutes with the Hairitage Up In The Air Volumizing Brush! Whether you want to sport a chic, sleek look, a bouncy style full of body , or a soft, wavy look, this hair volumizing brush will have you out the door with perfect hair every time. The built-in cool shot technology helps lock in and extend styles for days. This hair styling brush features ceramic tourmaline construction and tufted bristles, so say goodbye to bad hair days and hello to shiny, silky hair! Guaranteed with a one-year warranty. Recommended for hair types and textures 1A–4C. * Volumizing Brush + Ceramic Tourmaline + Blow Dryer\n * For hair types 1A–4C\n * 2 Heat/Speed settings and a Cool option\n * 8ft. swivel power cord\n * Tufted bristles and unique oval brush design\n * Lightweight construction\n * Delivers maximum heat and air-flow technology for quick styling\n * Ceramic tourmaline barrel for healthy-looking hair\n * Volumizing hair dryer blowout brush is for at-home salon styling",
+    "description_full_html": "Get ready to be wowed with the perfect blowout in minutes with the Hairitage Up In The Air Volumizing Brush! Whether you want to sport a chic, sleek look, a bouncy style full of body , or a soft, wavy look, this hair volumizing brush will have you out the door with perfect hair every time. The built-in cool shot technology helps lock in and extend styles for days. This hair styling brush features ceramic tourmaline construction and tufted bristles, so say goodbye to bad hair days and hello to shiny, silky hair! Guaranteed with a one-year warranty. Recommended for hair types and textures 1A–4C. <ul>  <li>Volumizing Brush + Ceramic Tourmaline + Blow Dryer&nbsp;</li>  <li>For hair types 1A–4C</li>  <li>2 Heat/Speed settings and a Cool option</li>  <li>8ft. swivel power cord</li>  <li>Tufted bristles and unique oval brush design</li>  <li>Lightweight construction</li>  <li>Delivers maximum heat and air-flow technology for quick styling</li>  <li>Ceramic tourmaline barrel for healthy-looking hair</li>  <li>Volumizing hair dryer blowout brush is for at-home salon styling</li> </ul>",
+    "model": "VIPRB-Up In The Air Volumizing Brush, Pink/Grey",
+    "ratings_total": 778,
+    "rating": 4.4,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Hairitage-Ceramic-Volumizing-Blow-Dryer-Brush-for-Curling-and-Straightening_a393e4fc-5fa1-4132-af3a-4bda98c4be78.807781efd6fd1d8cd6770873b33a0f43.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Hairitage-Ceramic-Volumizing-Blow-Dryer-Brush-for-Curling-and-Straightening_a393e4fc-5fa1-4132-af3a-4bda98c4be78.807781efd6fd1d8cd6770873b33a0f43.jpeg",
+        "id": "77BE4CA531C54812B5AFCA7C03333386",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/137f2839-8e6f-4fa6-a2f6-938a55592686.ca6b1475f094157bb0a7b5ec0b026b8b.jpeg",
+        "id": "251AE03597414D1B950802569E1C0783",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8e9f89c9-1d5e-4d9c-afae-dc8b83abe992.3c268202c59d8e19c800f2e9b05dc982.jpeg",
+        "id": "72AE994F127B4D188814DC2B0BDC2F44",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/cfbe4740-abd1-4b6f-93a6-2eff14a0bb26.cd2ad4b9b284c03767345082d3cab1a0.jpeg",
+        "id": "F4EAB5D070464C3CAB6471947750DF8F",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1a4dc1e9-1088-4220-a28d-16d27f7ca240.4da734916f8d894b6557d1a0f7ada9bf.jpeg",
+        "id": "F78FCD94A1B3487282F4909F58938431",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/48201dd3-0d07-49fa-9041-60b1f99004e0.b82728e300884c124387e15755441cf6.jpeg",
+        "id": "7593D8B1BB854F4C9F548D83C48E0929",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/d3c4886c-4c4a-4f4d-aabb-8d10e596a067.59ae8fffb5ea128a518b4e72bf48980e.jpeg",
+        "id": "FC70207222FE4E79BAE312C14D7F4911",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/3f97823e-a8ac-4976-b464-063cb4e8bf36.22848dd5f4ab4f05a7e4ff7ad4b1815b.jpeg",
+        "id": "21F69A2B5D514DBA8258ADEC634E683C",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Beauty Best Sellers",
+        "link": "https://www.walmart.com/cp/beauty-best-sellers/7876574"
+      },
+      {
+        "name": "Haircare Best Sellers",
+        "link": "https://www.walmart.com/cp/haircare-best-sellers/4034645"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "Hairitage"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "840797154223"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "MAESA"
+      },
+      {
+        "name": "Model",
+        "value": "VIPRB-Up In The Air Volumizing Brush, Pink/Grey"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1.73 lb"
+      },
+      {
+        "name": "Color",
+        "value": "Gray"
+      }
+    ],
+    "buybox_winner": {
+      "price": 25.13,
+      "was_price": 39.94,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$22.00",
+        "value": 22
+      },
+      "id": "9B4BB098D0EB49A7B265EFF3EA10E60F",
+      "seller": {
+        "name": "Walmart.com",
+        "id_secondary": "F55CDC31AB754BB68FE0B39041159D63",
+        "id": "F55CDC31AB754BB68FE0B39041159D63"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Shipping, arrives by tomorrow to Washington, 20019",
+        "message": "Shipping, arrives by tomorrow to Washington, 20019",
+        "zipcode": "20019",
+        "pickup_message": "Pickup not available at Landover Hills Store"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Walmart.com"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10713110096",
+          "id": "CF7F59ABF5533C2296475F2B179C7953",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-20-29-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10705452909",
+          "id": "FA78F6B45A373CF78DD492E3B2590A83",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-20-29-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        }
+      ]
+    },
+    "color": "Gray",
+    "variants": [
+      {
+        "item_id": "242389816",
+        "product_id": "840797154223",
+        "link": "https://www.walmart.com/ip/Hairitage-Ceramic-Volumizing-Blow-Dryer-Brush-for-Curling-and-Straightening/242389816",
+        "price": 25.13,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Hairitage-Ceramic-Volumizing-Blow-Dryer-Brush-for-Curling-and-Straightening_a393e4fc-5fa1-4132-af3a-4bda98c4be78.807781efd6fd1d8cd6770873b33a0f43.jpeg",
+            "id": "77BE4CA531C54812B5AFCA7C03333386",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/137f2839-8e6f-4fa6-a2f6-938a55592686.ca6b1475f094157bb0a7b5ec0b026b8b.jpeg",
+            "id": "251AE03597414D1B950802569E1C0783",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8e9f89c9-1d5e-4d9c-afae-dc8b83abe992.3c268202c59d8e19c800f2e9b05dc982.jpeg",
+            "id": "72AE994F127B4D188814DC2B0BDC2F44",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/cfbe4740-abd1-4b6f-93a6-2eff14a0bb26.cd2ad4b9b284c03767345082d3cab1a0.jpeg",
+            "id": "F4EAB5D070464C3CAB6471947750DF8F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1a4dc1e9-1088-4220-a28d-16d27f7ca240.4da734916f8d894b6557d1a0f7ada9bf.jpeg",
+            "id": "F78FCD94A1B3487282F4909F58938431",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/48201dd3-0d07-49fa-9041-60b1f99004e0.b82728e300884c124387e15755441cf6.jpeg",
+            "id": "7593D8B1BB854F4C9F548D83C48E0929",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d3c4886c-4c4a-4f4d-aabb-8d10e596a067.59ae8fffb5ea128a518b4e72bf48980e.jpeg",
+            "id": "FC70207222FE4E79BAE312C14D7F4911",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3f97823e-a8ac-4976-b464-063cb4e8bf36.22848dd5f4ab4f05a7e4ff7ad4b1815b.jpeg",
+            "id": "21F69A2B5D514DBA8258ADEC634E683C",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Washington",
+    "state": "DC",
+    "zipcode": "20019",
+    "store_id": "5129"
+  }
+}

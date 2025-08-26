@@ -1,0 +1,263 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1918,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8082,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "532036104"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:13:27.088Z",
+    "processed_at": "2025-08-20T13:13:29.545Z",
+    "total_time_taken": 2.46,
+    "walmart_url": "https://www.walmart.com/ip/532036104"
+  },
+  "product": {
+    "brand": "Andis",
+    "link": "https://www.walmart.com/ip/Andis-Ceramic-Ionic-Hair-Dryer-with-Bristle-Brush-Fine-Tooth-Wide-Tooth-Pick-1875-Watts-Gold/532036104",
+    "title": "Andis Ceramic Ionic Hair Dryer with Bristle Brush, Fine-Tooth & Wide-Tooth Pick, 1875 Watts, Gold",
+    "upc": "040102821257",
+    "item_id": "532036104",
+    "product_id": "82125",
+    "item_number": "6TJQ4A85ACXS",
+    "description": "The Andis Ceramic Ionic Hair Dryer features 1875 watts of drying power. Ionic technology breaks up water molecules, resulting in quicker drying time, and the ceramic even-heat technology preserves natural oils and seals in moisture. It has a high velocity airflow with 3 air/heat settings, a cool-shot button that locks in style, turbo boost for high speed, and dual voltage for worldwide travel. Includes: soft-bristle attachment, wide tooth comb and fine tooth comb. This dryer uses ceramic technology to provide healthier hair compared to standard dryers. Ceramic technology also helps keep the heat even and consistent. This dryer is equipped with a cool shot button. To deliver the cool shot of air, press the button on front side of handle. The cool shot is ideal for locking in curl for longer lasting style. Air intake helps speed up the heating and cooling process while you style your hair. Three different settings from high, medium and low which will give you the desired temperature when styling.",
+    "description_html": "The Andis Ceramic Ionic Hair Dryer features 1875 watts of drying power. Ionic technology breaks up water molecules, resulting in quicker drying time, and the ceramic even-heat technology preserves natural oils and seals in moisture. It has a high velocity airflow with 3 air/heat settings, a cool-shot button that locks in style, turbo boost for high speed, and dual voltage for worldwide travel. Includes: soft-bristle attachment, wide tooth comb and fine tooth comb.  This dryer uses ceramic technology to provide healthier hair compared to standard dryers. Ceramic technology also helps keep the heat even and consistent.  This dryer is equipped with a cool shot button. To deliver the cool shot of air, press the button on front side of handle. The cool shot is ideal for locking in curl for longer lasting style.  Air intake helps speed up the heating and cooling process while you style your hair.  Three different settings from high, medium and low which will give you the desired temperature when styling.",
+    "description_full": "The Andis Ceramic Ionic Hair Dryer features 1875 watts of drying power. Ionic technology breaks up water molecules, resulting in quicker drying time, and the ceramic even-heat technology preserves natural oils and seals in moisture. It has a high velocity airflow with 3 air/heat settings, a cool-shot button that locks in style, turbo boost for high speed, and dual voltage for worldwide travel. Includes: soft-bristle attachment, wide tooth comb and fine tooth comb. This dryer uses ceramic technology to provide healthier hair compared to standard dryers. Ceramic technology also helps keep the heat even and consistent. This dryer is equipped with a cool shot button. To deliver the cool shot of air, press the button on front side of handle. The cool shot is ideal for locking in curl for longer lasting style. Air intake helps speed up the heating and cooling process while you style your hair. Three different settings from high, medium and low which will give you the desired temperature when styling. * Includes 3 attachments: soft bristle brush, fine-tooth & wide-tooth combs\n * Ceramic technology delivers even heat and preserves natural oils and moisture for shiny, silky, healthy hair\n * Tourmaline ionic technology dries hair faster by breaking up water molecules\n * High velocity airflow with 3 speed/heat settings\n * Cool shot button that locks in style\n * 1875 watts of drying power\n * Dual voltage for worldwide use",
+    "description_full_html": "The Andis Ceramic Ionic Hair Dryer features 1875 watts of drying power. Ionic technology breaks up water molecules, resulting in quicker drying time, and the ceramic even-heat technology preserves natural oils and seals in moisture. It has a high velocity airflow with 3 air/heat settings, a cool-shot button that locks in style, turbo boost for high speed, and dual voltage for worldwide travel. Includes: soft-bristle attachment, wide tooth comb and fine tooth comb.  This dryer uses ceramic technology to provide healthier hair compared to standard dryers. Ceramic technology also helps keep the heat even and consistent.  This dryer is equipped with a cool shot button. To deliver the cool shot of air, press the button on front side of handle. The cool shot is ideal for locking in curl for longer lasting style.  Air intake helps speed up the heating and cooling process while you style your hair.  Three different settings from high, medium and low which will give you the desired temperature when styling. <ul>  <li>Includes 3 attachments: soft bristle brush, fine-tooth &amp; wide-tooth combs&nbsp;</li>  <li>Ceramic technology delivers even heat and preserves natural oils and moisture for shiny, silky, healthy hair</li>  <li>Tourmaline ionic technology dries hair faster by breaking up water molecules</li>  <li>High velocity airflow with 3 speed/heat settings</li>  <li>Cool shot button that locks in style</li>  <li>1875 watts of drying power</li>  <li>Dual voltage for worldwide use</li> </ul>",
+    "model": "HS-2",
+    "ratings_total": 363,
+    "rating": 4.6,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Andis-Ceramic-Ionic-Hair-Dryer-with-Bristle-Brush-Fine-Tooth-Wide-Tooth-Pick-1875-Watts-Gold_7b9d0a3f-80db-4e4f-b726-0c96fc08d120.275d09422ae5c349323d8409bdc17914.png"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Andis-Ceramic-Ionic-Hair-Dryer-with-Bristle-Brush-Fine-Tooth-Wide-Tooth-Pick-1875-Watts-Gold_7b9d0a3f-80db-4e4f-b726-0c96fc08d120.275d09422ae5c349323d8409bdc17914.png",
+        "id": "3E41C1A404644F3AA3BF7BC12E0CF5F9",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8aa072d3-b345-425a-986a-1d255917df95.edda0b3884ef907941952242097c9c77.jpeg",
+        "id": "649285D7E4004B19860CCB561406E820",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/092b1710-7520-47de-b0e4-ca2dd9809fc6.dc4c9159f535a465856c5572eed03f9f.jpeg",
+        "id": "05BDA3EB417A41D59B44F2842183E46B",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ae374c16-e621-4787-a89f-6ea8ed476f5f.591c502e4a1e028913685619ebb1e3c2.png",
+        "id": "929120B7DBB54ED3A04073D921044005",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/59aabcf8-4e83-4e4c-bf24-e2b86c05b892.9d4824e5ff38a05a02cec4a8c3ea91d9.png",
+        "id": "31E7CDB835EE406BA7926D15C47DA603",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4d2216ba-f6bb-42d0-b975-d290453511b5.0118b6bd78c143510fada40a503bddf4.png",
+        "id": "488FEC25804E44AC944F5F9A22F03BAD",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e17b9242-40a9-43e0-b349-96937f5a72b0.a58db85d16df8a0759115bca4a139324.png",
+        "id": "1A2ADBB87E104A2AA468842EF163BFBD",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/78473aa5-09cd-41ea-a32e-3405847389d2.633779e980d54c0eb651b4b583ce17b2.jpeg",
+        "id": "87FB7491AFD441ABA485C17290983CF2",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Care Brands",
+        "link": "https://www.walmart.com/cp/hair-care-brands/8028415"
+      },
+      {
+        "name": "Andis Hair Styling Tools",
+        "link": "https://www.walmart.com/cp/andis-hair-styling-tools/4908345"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Color",
+        "value": "Gold"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "82125"
+      },
+      {
+        "name": "Hair Dryer Type",
+        "value": "Ceramic Hair Dryers"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1.65 lb"
+      },
+      {
+        "name": "Model",
+        "value": "HS-2"
+      },
+      {
+        "name": "Brand",
+        "value": "Andis"
+      }
+    ],
+    "buybox_winner": {
+      "price": 39.99,
+      "currency_symbol": "$",
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$23.99",
+        "value": 23.99
+      },
+      "id": "F6CA832B9C2A3A4092352ECCF2925B1A",
+      "seller": {
+        "name": "ELECTRONIC WAREHOUSE OUTLET",
+        "id_secondary": "3CBBF9BC897148A3903BF9489503110C",
+        "id": 923,
+        "link": "https://www.walmart.com/seller/923"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 29 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Fri, Aug 29 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "ELECTRONIC WAREHOUSE OUTLET"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        }
+      ]
+    },
+    "color": "Gold",
+    "variants": [
+      {
+        "item_id": "532036104",
+        "product_id": "6TJQ4A85ACXS",
+        "link": "https://www.walmart.com/ip/532036104",
+        "in_stock": true,
+        "price": 39.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Andis-Ceramic-Ionic-Hair-Dryer-with-Bristle-Brush-Fine-Tooth-Wide-Tooth-Pick-1875-Watts-Gold_7b9d0a3f-80db-4e4f-b726-0c96fc08d120.275d09422ae5c349323d8409bdc17914.png",
+            "id": "3E41C1A404644F3AA3BF7BC12E0CF5F9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8aa072d3-b345-425a-986a-1d255917df95.edda0b3884ef907941952242097c9c77.jpeg",
+            "id": "649285D7E4004B19860CCB561406E820",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/092b1710-7520-47de-b0e4-ca2dd9809fc6.dc4c9159f535a465856c5572eed03f9f.jpeg",
+            "id": "05BDA3EB417A41D59B44F2842183E46B",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ae374c16-e621-4787-a89f-6ea8ed476f5f.591c502e4a1e028913685619ebb1e3c2.png",
+            "id": "929120B7DBB54ED3A04073D921044005",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/59aabcf8-4e83-4e4c-bf24-e2b86c05b892.9d4824e5ff38a05a02cec4a8c3ea91d9.png",
+            "id": "31E7CDB835EE406BA7926D15C47DA603",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4d2216ba-f6bb-42d0-b975-d290453511b5.0118b6bd78c143510fada40a503bddf4.png",
+            "id": "488FEC25804E44AC944F5F9A22F03BAD",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e17b9242-40a9-43e0-b349-96937f5a72b0.a58db85d16df8a0759115bca4a139324.png",
+            "id": "1A2ADBB87E104A2AA468842EF163BFBD",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/78473aa5-09cd-41ea-a32e-3405847389d2.633779e980d54c0eb651b4b583ce17b2.jpeg",
+            "id": "87FB7491AFD441ABA485C17290983CF2",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "gold"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

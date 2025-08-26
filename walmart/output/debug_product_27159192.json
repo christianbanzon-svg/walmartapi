@@ -1,0 +1,240 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1414,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8586,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com.mx",
+    "type": "product",
+    "item_id": "27159192"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T11:38:19.464Z",
+    "processed_at": "2025-08-20T11:38:25.084Z",
+    "total_time_taken": 5.62,
+    "walmart_url": "https://www.walmart.com/ip/27159192"
+  },
+  "product": {
+    "brand": "Conair",
+    "link": "https://www.walmart.com/ip/INFINITIPRO-BY-CONAIR-Curl-Secret-CD203NN/27159192",
+    "title": "INFINITIPRO BY CONAIR Curl Secret CD203NN",
+    "upc": "074108285591",
+    "item_id": "27159192",
+    "product_id": "CD203",
+    "item_number": "479EV5YC9UZS",
+    "description": "The Infiniti Pro Curl Secret Curling Iron from Conair uses Tourmaline Ceramic technology to help reduce frizz and flyaways while protecting hair from damage. The high-performance heater heats up instantly and evenly, up to 400 degrees Fahrenheit. It also features two heat levels and three timer settings to help you customize your look. Plus, it includes a safety tangle feature, a sleep mode function, auto shut-off, and a long, professional-style 6 ' swivel cord. This hair styling curling iron is easy to use. Simply place hair in, select your desired settings, and experience loose, medium, or tight curls and waves. The Conair Infiniti Pro Curl Secret Curling Iron is suitable for home and travel use.",
+    "description_html": "The Infiniti Pro Curl Secret Curling Iron from Conair uses Tourmaline Ceramic technology to help reduce frizz and flyaways while protecting hair from damage. The high-performance heater heats up instantly and evenly, up to 400 degrees Fahrenheit. It also features two heat levels and three timer settings to help you customize your look. Plus, it includes a safety tangle feature, a sleep mode function, auto shut-off, and a long, professional-style 6 ' swivel cord. This hair styling curling iron is easy to use. Simply place hair in, select your desired settings, and experience loose, medium, or tight curls and waves. The Conair Infiniti Pro Curl Secret Curling Iron is suitable for home and travel use.",
+    "description_full": "The Infiniti Pro Curl Secret Curling Iron from Conair uses Tourmaline Ceramic technology to help reduce frizz and flyaways while protecting hair from damage. The high-performance heater heats up instantly and evenly, up to 400 degrees Fahrenheit. It also features two heat levels and three timer settings to help you customize your look. Plus, it includes a safety tangle feature, a sleep mode function, auto shut-off, and a long, professional-style 6 ' swivel cord. This hair styling curling iron is easy to use. Simply place hair in, select your desired settings, and experience loose, medium, or tight curls and waves. The Conair Infiniti Pro Curl Secret Curling Iron is suitable for home and travel use. * Hair Goes In, Curl Comes Out: a revolutionary way to create beautiful curls. Auto-Curl tangle-free technology draws hair safely into the curl chamber where it is gently held, timed, and heated to create the perfect curl.\n * Professional Brushless Motor & High-Performance Heater: long-life motor with safety sensor for tangle-free curls and precision styling, while the high-performance heaters allow for 30-second heat-up, even heat, and instant recovery.\n * Styling Control: With 2 Heat levels & 3 timer settings, create your desired look from medium to tight curls. Curl Secret heats up to 400-degrees F highest heat and has Auto Beep Indicator to confirm when it is safe to release the curl; Auto-OFF\n * Innovative Styling Tools: From curling irons and wands to flat irons, hot air brushes, auto curlers, and more; Conair makes high-quality styling tools for all hair types\n * Conair Hair Care: Since 1959, we have made innovative small appliances, hair styling tools, and more; Our hair care line includes high-quality hair dryers, brushes, styling tools, and hair accessories",
+    "description_full_html": "The Infiniti Pro Curl Secret Curling Iron from Conair uses Tourmaline Ceramic technology to help reduce frizz and flyaways while protecting hair from damage. The high-performance heater heats up instantly and evenly, up to 400 degrees Fahrenheit. It also features two heat levels and three timer settings to help you customize your look. Plus, it includes a safety tangle feature, a sleep mode function, auto shut-off, and a long, professional-style 6 ' swivel cord. This hair styling curling iron is easy to use. Simply place hair in, select your desired settings, and experience loose, medium, or tight curls and waves. The Conair Infiniti Pro Curl Secret Curling Iron is suitable for home and travel use. <ul>  <li><strong>Hair Goes In, Curl Comes Out: </strong>a revolutionary way to create beautiful curls. Auto-Curl tangle-free technology draws hair safely into the curl chamber where it is gently held, timed, and heated to create the perfect curl.</li>  <li><strong>Professional Brushless Motor &amp; High-Performance Heater: </strong>long-life motor with safety sensor for tangle-free curls and precision styling, while the high-performance heaters allow for 30-second heat-up, even heat, and instant recovery.</li>  <li><strong>Styling Control:</strong> With 2 Heat levels &amp; 3 timer settings, create your desired look from medium to tight curls. Curl Secret heats up to 400-degrees F highest heat and has Auto Beep Indicator to confirm when it is safe to release the curl; Auto-OFF</li>  <li><strong>Innovative Styling Tools:</strong> From curling irons and wands to flat irons, hot air brushes, auto curlers, and more; Conair makes high-quality styling tools for all hair types</li>  <li><strong>Conair Hair Care: </strong>Since 1959, we have made innovative small appliances, hair styling tools, and more; Our hair care line includes high-quality hair dryers, brushes, styling tools, and hair accessories</li> </ul>",
+    "model": "CD203",
+    "ratings_total": 768,
+    "rating": 4,
+    "type": "Hair Curling Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-CONAIR-Curl-Secret-CD203NN_ce561942-fb6f-4d81-af78-2bab54864484.0e8df1a409bab18b62dd4adf7dbd9763.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-CONAIR-Curl-Secret-CD203NN_ce561942-fb6f-4d81-af78-2bab54864484.0e8df1a409bab18b62dd4adf7dbd9763.jpeg",
+        "id": "1E943CFDC2FD4DDF86A8C5EA1679C478",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/03993a93-f209-41df-a7d6-b793e6821821.f4c58938c6726c37212b9b94792962c8.jpeg",
+        "id": "F053858D583941A1AF863222B0FE2EDA",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0ba1556b-a977-475f-a456-b0957b14dc37.5d6438428c8753aeae7da85a2c336ed4.jpeg",
+        "id": "8E3B018D45BF4A2EABED88EA65057C3F",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/494ecef7-1dce-47d4-989c-5ede2e1b4aa9.339ab025749182bf6e28bb7f5e8587b1.jpeg",
+        "id": "912BC5E25CFF48B7AB9367FCAACB575B",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/d81f1fbc-6e29-4697-99ed-c56a6a7874a0.965d918667b79b2643655cc9e2ec8b18.jpeg",
+        "id": "6170BD34801C453D806B227BA9128EE3",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/03c6544c-899d-4fee-b20b-ffca4ce4a31b.1b984e56733e265f35a13aed7ff8f243.jpeg",
+        "id": "F68B9815A6714E449852978F15CE0E14",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4ed50173-7bea-4e85-b988-5f1656a95343.41829867990321a3c5ea2f2630f2d928.jpeg",
+        "id": "EF2ECA7F122144C6806E43A1082129BE",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "Conair"
+      },
+      {
+        "name": "Barrel Diameter",
+        "value": "0.75\""
+      },
+      {
+        "name": "Manufacturer",
+        "value": "INFINITIPRO BY CONAIR"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "4.00 x 5.00 x 13.00 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 54,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$69.99",
+        "value": 69.99
+      },
+      "id": "EDA118BBB89E3368AF99B23BF23B1AC9",
+      "seller": {
+        "name": "Slick Returns",
+        "id_secondary": "2890DD290C954C3CB890F7C062F77B36",
+        "id": 101553990,
+        "link": "https://www.walmart.com/seller/101553990"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Tue, Aug 26 to Clermont, 34711",
+        "message": "Free shipping, arrives by Tue, Aug 26 to Clermont, 34711",
+        "zipcode": "34711"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Slick Returns"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10692620493",
+          "id": "C629352191D53576AF4B5A1DDDFA9915",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-50-59-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 7,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$7.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10691058374",
+          "id": "9587E624B8613231B0B3134E8022028F",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-50-59-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 10,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$10.00"
+          }
+        }
+      ]
+    },
+    "dimensions": "4.00 x 5.00 x 13.00 in",
+    "variants": [
+      {
+        "item_id": "27159192",
+        "product_id": "CD203",
+        "link": "https://www.walmart.com/ip/INFINITIPRO-BY-CONAIR-Curl-Secret-CD203NN/27159192",
+        "price": 54,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-CONAIR-Curl-Secret-CD203NN_ce561942-fb6f-4d81-af78-2bab54864484.0e8df1a409bab18b62dd4adf7dbd9763.jpeg",
+            "id": "1E943CFDC2FD4DDF86A8C5EA1679C478",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/03993a93-f209-41df-a7d6-b793e6821821.f4c58938c6726c37212b9b94792962c8.jpeg",
+            "id": "F053858D583941A1AF863222B0FE2EDA",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0ba1556b-a977-475f-a456-b0957b14dc37.5d6438428c8753aeae7da85a2c336ed4.jpeg",
+            "id": "8E3B018D45BF4A2EABED88EA65057C3F",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/494ecef7-1dce-47d4-989c-5ede2e1b4aa9.339ab025749182bf6e28bb7f5e8587b1.jpeg",
+            "id": "912BC5E25CFF48B7AB9367FCAACB575B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d81f1fbc-6e29-4697-99ed-c56a6a7874a0.965d918667b79b2643655cc9e2ec8b18.jpeg",
+            "id": "6170BD34801C453D806B227BA9128EE3",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/03c6544c-899d-4fee-b20b-ffca4ce4a31b.1b984e56733e265f35a13aed7ff8f243.jpeg",
+            "id": "F68B9815A6714E449852978F15CE0E14",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4ed50173-7bea-4e85-b988-5f1656a95343.41829867990321a3c5ea2f2630f2d928.jpeg",
+            "id": "EF2ECA7F122144C6806E43A1082129BE",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Clermont",
+    "state": "FL",
+    "zipcode": "34711",
+    "store_id": "2695"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2214,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7786,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "102872584"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T13:55:57.524Z",
+    "processed_at": "2025-08-25T13:56:00.870Z",
+    "total_time_taken": 3.35,
+    "walmart_url": "https://www.walmart.com/seller/102872584"
+  },
+  "seller_details": {
+    "name": "Hongyuang CO.",
+    "id": "F137B58FBA254C0EA9644ABCC19EE1B7",
+    "link": "https://www.walmart.com/seller/102872584",
+    "is_pro_seller": false,
+    "phone": "17197534196",
+    "rating": 0,
+    "rating_breakdown": {
+      "one_star": 0,
+      "two_star": 0,
+      "three_star": 0,
+      "four_star": 0,
+      "five_star": 0
+    },
+    "email": "808780026@wm.data.ci",
+    "address": {
+      "address1": "No. 179, Chang'an Avenue, Xian'an District, Xianning City, Hubei Province",
+      "city": "xianning",
+      "state": "HB",
+      "zipcode": "437000",
+      "country": "CN"
+    }
+  }
+}

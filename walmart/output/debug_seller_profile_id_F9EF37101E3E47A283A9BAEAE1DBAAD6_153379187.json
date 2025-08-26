@@ -1,0 +1,44 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2220,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7780,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "1790"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T13:56:42.481Z",
+    "processed_at": "2025-08-25T13:56:51.247Z",
+    "total_time_taken": 8.77,
+    "walmart_url": "https://www.walmart.com/seller/1790"
+  },
+  "seller_details": {
+    "name": "Highflyer214",
+    "id": "F9EF37101E3E47A283A9BAEAE1DBAAD6",
+    "link": "https://www.walmart.com/seller/1790",
+    "is_pro_seller": false,
+    "phone": "9292602575",
+    "rating": 4.1,
+    "rating_breakdown": {
+      "one_star": 43,
+      "two_star": 9,
+      "three_star": 15,
+      "four_star": 31,
+      "five_star": 185
+    },
+    "email": "walmart.highflyer@gmail.com",
+    "address": {
+      "address1": "1790 Swarthmore Ave, Unit #5",
+      "city": "Lakewood",
+      "state": "NJ",
+      "zipcode": "08701",
+      "country": "US"
+    }
+  }
+}

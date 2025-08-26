@@ -1,0 +1,31 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2200,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7800,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "612BE8A55DFF4521A3017F330009A798"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T13:13:10.213Z",
+    "processed_at": "2025-08-25T13:13:54.875Z",
+    "total_time_taken": 44.66,
+    "walmart_url": "https://www.walmart.com/seller/612BE8A55DFF4521A3017F330009A798"
+  },
+  "seller_details": {
+    "rating": 0,
+    "rating_breakdown": {
+      "one_star": 0,
+      "two_star": 0,
+      "three_star": 0,
+      "four_star": 0,
+      "five_star": 0
+    }
+  }
+}

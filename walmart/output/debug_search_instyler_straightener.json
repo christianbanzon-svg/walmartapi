@@ -1,0 +1,933 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1968,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8032,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "search",
+    "search_term": "instyler straightener",
+    "page": "1"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:19:16.096Z",
+    "processed_at": "2025-08-20T13:19:19.241Z",
+    "total_time_taken": 3.15,
+    "walmart_url": "https://www.walmart.com/search?q=instyler+straightener&page=1"
+  },
+  "search_results": [
+    {
+      "position": 1,
+      "product": {
+        "title": "InStyler Ionic Pro Hair Straightener Ceramic Flat Iron Hair Dryer Brush Curling Iron 4 in 1 Styling Tool",
+        "link": "https://www.walmart.com/ip/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool/39804291?classType=REGULAR",
+        "description": "<li>Replaces 4 different styling tools - round brush, flat iron, curling iron and styling wand</li><li>Cool Touch Ionic Bristles add shine without burning or tangling</li><li>Ceramic Flat Iron for</li>",
+        "item_id": "39804291",
+        "product_id": "51VFGHBXM4QQ",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool_0ebab82a-a44d-4a43-a262-254df5374cd4.695879061acfc86126b35c937c2f1140.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool_0ebab82a-a44d-4a43-a262-254df5374cd4.695879061acfc86126b35c937c2f1140.jpeg",
+        "rating": 4.1,
+        "ratings_total": 750
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 20.89,
+          "currency_symbol": "$",
+          "id": "27D65826E3153C1E94236C25FADC2514",
+          "seller": {
+            "name": "Ammery Essence",
+            "id": "B38CB175649B4DE39F11A7656D0B049A"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 2,
+      "product": {
+        "title": "InStyler Professional Hair Straightening Iron Curling Iron Straightener&Curler Styler 2 In 1 Multi Hair Styling Tool Flat Iron With Brush",
+        "link": "https://www.walmart.com/ip/InStyler-Professional-Hair-Straightening-Iron-Curling-Iron-Straightener-Curler-Styler-2-In-1-Multi-Hair-Styling-Tool-Flat-Iron-With-Brush/16849973669?classType=VARIANT",
+        "description": "<li>1.Adopted infrared heating , fast heating, long life and good temperature stability.</li><li>2. Exquisite ceramic plate, smooth and bright, less damage to the hair.</li><li>3.Rapidly heating</li>",
+        "item_id": "16849973669",
+        "product_id": "0ULZVUE83LBG",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-Professional-Hair-Straightening-Iron-Curling-Iron-Straightener-Curler-Styler-2-In-1-Multi-Hair-Styling-Tool-Flat-Iron-With-Brush_8871432d-7165-4f8e-8e5e-d33ff43edf11.da615e5ca0a0bd3517ad3d228caf9cb5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-Professional-Hair-Straightening-Iron-Curling-Iron-Straightener-Curler-Styler-2-In-1-Multi-Hair-Styling-Tool-Flat-Iron-With-Brush_8871432d-7165-4f8e-8e5e-d33ff43edf11.da615e5ca0a0bd3517ad3d228caf9cb5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 36.99,
+          "currency_symbol": "$",
+          "id": "3CAACB09CA1F334F83FD595CBB3CB068",
+          "seller": {
+            "name": "cuichunli",
+            "id": "B5CD25622BBB4A89BEDFCEA702D9BA66"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 3,
+      "product": {
+        "title": "Instyler Freestyle Ionic Ceramic Styler, Hair Curling Brush, Hair Straightening Brush",
+        "link": "https://www.walmart.com/ip/Instyler-Freestyle-Ionic-Ceramic-Styler-Hair-Curling-Brush-Hair-Straightening-Brush/928084105?classType=REGULAR&athbdg=L1600",
+        "description": "<li>Ceramic Heated Barrel</li><li>Tourmaline Ceramic Heated Bristles</li><li>Cool Tip Ionic Bristles</li>",
+        "item_id": "928084105",
+        "product_id": "2KWR3S7KSLIX",
+        "images": [
+          "https://i5.walmartimages.com/seo/Instyler-Freestyle-Ionic-Ceramic-Styler-Hair-Curling-Brush-Hair-Straightening-Brush_1644b412-7a10-4483-8896-f2db6e115ba5_1.3aa887c0e316576d0549c8f908e10c6a.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Instyler-Freestyle-Ionic-Ceramic-Styler-Hair-Curling-Brush-Hair-Straightening-Brush_1644b412-7a10-4483-8896-f2db6e115ba5_1.3aa887c0e316576d0549c8f908e10c6a.jpeg",
+        "rating": 4.2,
+        "ratings_total": 83,
+        "best_seller": true
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 32.99,
+          "currency_symbol": "$",
+          "id": "8A743A5EB718474E9D5065ECD459E9FA",
+          "list_price": 50,
+          "savings_amount": 17.009999999999998,
+          "seller": {
+            "name": "Walmart.com",
+            "id": "F55CDC31AB754BB68FE0B39041159D63"
+          }
+        },
+        "is_marketplace_item": false
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 4,
+      "product": {
+        "title": "InStyler 2 in 1 Hair Curler Straighter Rotating Iron for Hair Curling and Straighting, Professional Hot Brush Styler Irons Hairdressing Tool with Adjustable",
+        "link": "https://www.walmart.com/ip/InStyler-2-1-Hair-Curler-Straighter-Rotating-Iron-Hair-Curling-Straighting-Professional-Hot-Brush-Styler-Irons-Hairdressing-Tool-Adjustable/16266913831?classType=VARIANT",
+        "description": "<li>1.Adopted infrared heating , fast heating, long life and good temperature stability.</li><li>2. Exquisite ceramic plate, smooth and bright, less damage to the hair.</li><li>3.Rapidly heating</li>",
+        "item_id": "16266913831",
+        "product_id": "7ARRW1PDZ1PK",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-2-1-Hair-Curler-Straighter-Rotating-Iron-Hair-Curling-Straighting-Professional-Hot-Brush-Styler-Irons-Hairdressing-Tool-Adjustable_be14dfed-8709-4927-8439-bd8d0a15deb1.0cd48e46642c028a339a28b26ace360b.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-2-1-Hair-Curler-Straighter-Rotating-Iron-Hair-Curling-Straighting-Professional-Hot-Brush-Styler-Irons-Hairdressing-Tool-Adjustable_be14dfed-8709-4927-8439-bd8d0a15deb1.0cd48e46642c028a339a28b26ace360b.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 3,
+        "ratings_total": 1
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 36.99,
+          "currency_symbol": "$",
+          "id": "46CD11B6E4E734D88DE6437F8223A3ED",
+          "list_price": 42.5,
+          "savings_amount": 5.509999999999998,
+          "seller": {
+            "name": "cuichunli",
+            "id": "B5CD25622BBB4A89BEDFCEA702D9BA66"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 5,
+      "product": {
+        "title": "2-in-1 Multi-Function Hair Brush (Straightening and Curling), instyler Dual Purpose Automatic Straightening or Curling Magic, Professional Hot Brush Styling Flat Iron Hairdressing Tool",
+        "link": "https://www.walmart.com/ip/2-in-1-Multi-Function-Hair-Brush-Straightening-Curling-instyler-Dual-Purpose-Automatic-Straightening-Curling-Magic-Professional-Hot-Brush-Styling-Fla/15541601778?classType=REGULAR",
+        "description": "<li>Dual Functionality: Seamlessly combines straightening and curling functions, eliminating the need for multiple styling tools.</li><li>Automatic Styling Magic: The instyler mechanism enables</li>",
+        "item_id": "15541601778",
+        "product_id": "20GB2I9PJB12",
+        "images": [
+          "https://i5.walmartimages.com/seo/2-in-1-Multi-Function-Hair-Brush-Straightening-Curling-instyler-Dual-Purpose-Automatic-Straightening-Curling-Magic-Professional-Hot-Brush-Styling-Fla_c08f80fd-cd89-49f1-9612-c94e3948448e.891ea222a317d546508ac7714432d84f.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/2-in-1-Multi-Function-Hair-Brush-Straightening-Curling-instyler-Dual-Purpose-Automatic-Straightening-Curling-Magic-Professional-Hot-Brush-Styling-Fla_c08f80fd-cd89-49f1-9612-c94e3948448e.891ea222a317d546508ac7714432d84f.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 36.99,
+          "currency_symbol": "$",
+          "id": "705C1251DD8433BC8661B78CD2AB43BF",
+          "seller": {
+            "name": "YangCo.Ltd",
+            "id": "A431303E38D44043AE985BF1075B40FD"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 6,
+      "product": {
+        "title": "InStyler 2 in 1 Rotating Hair Curling Iron for Curling and Straightening Hair, Professional Hot Brush Hairdressing Tool with Adjustable Temperature",
+        "link": "https://www.walmart.com/ip/InStyler-2-in-1-Rotating-Hair-Curling-Iron-for-Curling-and-Straightening-Hair-Professional-Hot-Brush-Hairdressing-Tool-with-Adjustable-Temperature/16685669308?classType=REGULAR",
+        "description": "<li>1. Adopted infrared heating, fast heating, long life and good temperature stability.</li><li>2. Exquisite ceramic plate, smooth and shiny, less damage to hair.</li><li>3. Quickly heat up inside,</li>",
+        "item_id": "16685669308",
+        "product_id": "5UM9VC5XPQ5E",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-2-in-1-Rotating-Hair-Curling-Iron-for-Curling-and-Straightening-Hair-Professional-Hot-Brush-Hairdressing-Tool-with-Adjustable-Temperature_5b153f81-12f4-45ae-abb0-7e8f39cf37bd.c2b49f1cfd11f78a73e161acbd0110ad.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-2-in-1-Rotating-Hair-Curling-Iron-for-Curling-and-Straightening-Hair-Professional-Hot-Brush-Hairdressing-Tool-with-Adjustable-Temperature_5b153f81-12f4-45ae-abb0-7e8f39cf37bd.c2b49f1cfd11f78a73e161acbd0110ad.jpeg",
+        "rating": 1,
+        "ratings_total": 10
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 37.79,
+          "currency_symbol": "$",
+          "id": "B23ABBABA1DC3DA0B8C639B84B205DA3",
+          "seller": {
+            "name": "cuichunli",
+            "id": "B5CD25622BBB4A89BEDFCEA702D9BA66"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 7,
+      "product": {
+        "title": "Remington Shine Therapy Argan Oil & Keratin Infused 1 inch plate Hair Straightener/Flat Iron, S9511",
+        "link": "https://www.walmart.com/ip/Remington-Shine-Therapy-Argan-Oil-Keratin-Infused-1-inch-plate-Hair-Straightener-Flat-Iron-S9511/542771703?classType=VARIANT&athbdg=L1103",
+        "description": "Remington Merchandise",
+        "item_id": "542771703",
+        "product_id": "1MG432OWD2DZ",
+        "images": [
+          "https://i5.walmartimages.com/seo/Remington-Shine-Therapy-Argan-Oil-Keratin-Infused-1-inch-plate-Hair-Straightener-Flat-Iron-S9511_19578044-7778-4066-8d87-75b87c074d7a.1b2032cd30421dcd8c84ac3f11270ab7.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Remington-Shine-Therapy-Argan-Oil-Keratin-Infused-1-inch-plate-Hair-Straightener-Flat-Iron-S9511_19578044-7778-4066-8d87-75b87c074d7a.1b2032cd30421dcd8c84ac3f11270ab7.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.7,
+        "ratings_total": 2414,
+        "variants": [
+          {
+            "item_id": "542771703",
+            "product_id": "2XUT45S5LNDF",
+            "title": "1\"",
+            "image": "https://i5.walmartimages.com/asr/19578044-7778-4066-8d87-75b87c074d7a.1b2032cd30421dcd8c84ac3f11270ab7.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/REMINGTON-SHINE-THERAPY-Argan-Oil-Keratin-Infused-1-Inch-Hair-Straightener-Flat-Iron-S9511/542771703?classType=undefined&variantFieldId=size"
+          },
+          {
+            "item_id": "994006280",
+            "product_id": "3QHY7GF7FVQF",
+            "title": "2\"",
+            "image": "https://i5.walmartimages.com/asr/62abbd54-bed1-434e-bc29-0681a1c5be2d.2452803dd048d9b2b91b05b3d09c175f.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/REMINGTON-SHINE-THERAPY-2-Inch-Hair-Straightener-Flat-Iron-infused-with-Argan-Oil-Keratin-S9531/994006280?classType=undefined&variantFieldId=size"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 33.99,
+          "currency_symbol": "$",
+          "id": "66E707BFFCCF3404A710B3E695E41D2B",
+          "seller": {
+            "name": "Spectrum Brands HPC",
+            "id": "22229DB48F2D469CBCDAF44DF4CCFC5A"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 8,
+      "product": {
+        "title": "InfinitiPro by Conair 1\" Tourmaline Ceramic Flat Iron, Model CS710",
+        "link": "https://www.walmart.com/ip/InfinitiPro-by-Conair-1-Tourmaline-Ceramic-Flat-Iron-Model-CS710/16004946?classType=REGULAR",
+        "description": "Get shiny smooth results with the INFINITIPRO BY CONAIR Tourmaline Ceramic 1-inch Flat Iron</li>1-inch floating plate for better contact with hair; extra-long plates for quicker styling</li>",
+        "item_id": "16004946",
+        "product_id": "3S47DWVLUAOX",
+        "images": [
+          "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-1-Tourmaline-Ceramic-Flat-Iron-Model-CS710_708beff8-577d-4f83-bb6a-0c33b2351f56.82a1ab4bf9b7112f3f89cbd17422b4ac.png"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InfinitiPro-by-Conair-1-Tourmaline-Ceramic-Flat-Iron-Model-CS710_708beff8-577d-4f83-bb6a-0c33b2351f56.82a1ab4bf9b7112f3f89cbd17422b4ac.png",
+        "rating": 4.3,
+        "ratings_total": 460
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 31.99,
+          "currency_symbol": "$",
+          "id": "36EEC302E3B5348499902FD913CC2DF8",
+          "seller": {
+            "name": "Moto's Bargain Mania",
+            "id": "BEB663FC99004A8CAD0E24BABB53B87E"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 9,
+      "product": {
+        "title": "Air Straightener Flat Iron, IG INGLAM 2 in 1 Wet to Dry for Hair Styling, 200 Million Negative Ions, No Heat Damage for All Hair Types, Light Pink",
+        "link": "https://www.walmart.com/ip/Air-Straightener-Flat-Iron-IG-INGLAM-2-in-1-Wet-to-Dry-for-Hair-Styling-200-Million-Negative-Ions-No-Heat-Damage-for-All-Hair-Types-Light-Pink/17346910942?classType=VARIANT",
+        "description": "No Hot Plate, No Heat Damage - The air straightener directly abandons the original heating plate inherent in traditional hair straighteners so it will not cause irreversible damage to the hair. At the",
+        "item_id": "17346910942",
+        "product_id": "4GE07414XYUG",
+        "images": [
+          "https://i5.walmartimages.com/seo/Air-Straightener-Flat-Iron-IG-INGLAM-2-in-1-Wet-to-Dry-for-Hair-Styling-200-Million-Negative-Ions-No-Heat-Damage-for-All-Hair-Types-Light-Pink_fae416db-e4ea-46a3-9467-4dd6f23521b7.cd61e6a53786c22ad2ad51f8bbf37fcc.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Air-Straightener-Flat-Iron-IG-INGLAM-2-in-1-Wet-to-Dry-for-Hair-Styling-200-Million-Negative-Ions-No-Heat-Damage-for-All-Hair-Types-Light-Pink_fae416db-e4ea-46a3-9467-4dd6f23521b7.cd61e6a53786c22ad2ad51f8bbf37fcc.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 5,
+        "ratings_total": 6,
+        "variants": [
+          {
+            "item_id": "17346910942",
+            "product_id": "2V5880DZRP9G",
+            "title": "Light Pink",
+            "image": "https://i5.walmartimages.com/asr/fae416db-e4ea-46a3-9467-4dd6f23521b7.cd61e6a53786c22ad2ad51f8bbf37fcc.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Air-Straightener-Flat-Iron-IG-INGLAM-2-in-1-Wet-to-Dry-for-Hair-Styling-200-Million-Negative-Ions-No-Heat-Damage-for-All-Hair-Types-Light-Pink/17346910942?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "17323952998",
+            "product_id": "46C0SF4K3VPC",
+            "title": "Prussian Blue",
+            "image": "https://i5.walmartimages.com/asr/be389f1e-60d4-454f-abcc-20647d947e5b.c65d5aacbac3dc954b989d891ef47714.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Air-Straightener-Flat-Iron-IG-INGLAM-2-in-1-Wet-to-Dry-for-Hair-Styling-200-Million-Negative-Ions-No-Heat-Damage-for-All-Hair-Types-Prussian-Blue/17323952998?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 99.99,
+          "currency_symbol": "$",
+          "id": "0D62865947DD301584C44C665708FA5C",
+          "seller": {
+            "name": "Haircaresshop Direct",
+            "id": "D1F8C45C927E4FD28DE5263B1D8D7FC3"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 10,
+      "product": {
+        "title": "IG INGLAM Air Straightener - Advanced One-Step High-Speed Airflow Hair Straightener & Dryer with 110,000 RPM Brushless Motor, Airflow Flat Iron with 200 Million Negative Ions,Pink",
+        "link": "https://www.walmart.com/ip/IG-INGLAM-Air-Straightener-Advanced-One-Step-High-Speed-Airflow-Hair-Straightener-Dryer-110-000-RPM-Brushless-Motor-Airflow-Flat-Iron-200-Million-Neg/14239502724?classType=VARIANT",
+        "description": "IG INGLAM 2 Inch Air Straightener|One-step Drying & Shaping |Airflow Flar Iron |Champagne Silver",
+        "item_id": "14239502724",
+        "product_id": "3NED8ALQGFMU",
+        "images": [
+          "https://i5.walmartimages.com/seo/IG-INGLAM-Air-Straightener-Advanced-One-Step-High-Speed-Airflow-Hair-Straightener-Dryer-110-000-RPM-Brushless-Motor-Airflow-Flat-Iron-200-Million-Neg_5f661645-2c4e-44eb-9132-9c5bfe6220b9.15e61cd3629ddfd4faa7224df8c767d5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/IG-INGLAM-Air-Straightener-Advanced-One-Step-High-Speed-Airflow-Hair-Straightener-Dryer-110-000-RPM-Brushless-Motor-Airflow-Flat-Iron-200-Million-Neg_5f661645-2c4e-44eb-9132-9c5bfe6220b9.15e61cd3629ddfd4faa7224df8c767d5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4,
+        "ratings_total": 37,
+        "variants": [
+          {
+            "item_id": "5563532728",
+            "product_id": "4AV4UA67GV05",
+            "title": "Champagne Silver",
+            "image": "https://i5.walmartimages.com/asr/0083e620-bd79-4ddb-80e5-f02bc81e81cd.4d4f25cf13851bb4b7eae66768b1c231.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-2-Inch-Air-Straightener-One-step-Drying-Shaping-Airflow-Flar-Iron-Champagne-Silver/5563532728?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "11899956994",
+            "product_id": "2XW4H02EVHGX",
+            "title": "Dark Green",
+            "image": "https://i5.walmartimages.com/asr/7dd915f2-2e9c-4236-9c55-dbe837473a0a.d99b0a40a767d3ab78412180c1007e20.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Air-Straightener-Advanced-One-Step-High-Speed-Airflow-Hair-Dryer-110-000-RPM-Brushless-Motor-Flat-Iron-200-Million-Negative-Ions-Dark-Green/11899956994?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "14239502724",
+            "product_id": "1P1KE6ZKQZL3",
+            "title": "Pink",
+            "image": "https://i5.walmartimages.com/asr/5f661645-2c4e-44eb-9132-9c5bfe6220b9.15e61cd3629ddfd4faa7224df8c767d5.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Air-Straightener-Advanced-One-Step-High-Speed-Airflow-Hair-Dryer-110-000-RPM-Brushless-Motor-Flat-Iron-200-Million-Negative-Ions-Pink/14239502724?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "11881204542",
+            "product_id": "61NN5WFG0HOV",
+            "title": "Prussian Blue",
+            "image": "https://i5.walmartimages.com/asr/60523df2-983a-4a9b-b3eb-92d803f2b535.604d602151c10a2dc2426ff0a99997d6.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Air-Straightener-Advanced-One-Step-High-Speed-Airflow-Hair-Dryer-110-000-RPM-Brushless-Motor-Flat-Iron-200-Million-Negative-Ions-Prussian-B/11881204542?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 134.99,
+          "currency_symbol": "$",
+          "id": "C9B7E593131F39468D06AE69C90D51B2",
+          "list_price": 199,
+          "savings_amount": 64.00999999999999,
+          "seller": {
+            "name": "Haircaresshop",
+            "id": "FBF6E83D407B4F71A9F6656A1B0DC1CB"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 11,
+      "product": {
+        "title": "INSMART 2-in-1 Hair Straightener and Curler, Ceramic Flat Iron with Dual Ionic Technology for Shinier & Smoother Hair, 72H Long-Lasting Style, Adjustable Temperature",
+        "link": "https://www.walmart.com/ip/INSMART-2-in-1-Hair-Straightener-Curler-Ceramic-Flat-Iron-Dual-Ionic-Technology-Shinier-Smoother-Hair-72H-Long-Lasting-Style-Adjustable-Temperature/15565319680?classType=REGULAR&athbdg=L1400",
+        "description": "<li>2-in-1 Versatility: Straighten or curl your hair with one tool, perfect for creating multiple styles effortlessly.</li><li>Dual Ionic Technology: Infuses hair with negative ions to reduce frizz,</li>",
+        "item_id": "15565319680",
+        "product_id": "18LZN3JUIOW0",
+        "images": [
+          "https://i5.walmartimages.com/seo/INSMART-2-in-1-Hair-Straightener-Curler-Ceramic-Flat-Iron-Dual-Ionic-Technology-Shinier-Smoother-Hair-72H-Long-Lasting-Style-Adjustable-Temperature_314756cb-5671-4e58-99f4-c6fd7da64501.5f38d3d1f01cd79e6afe2bb8cdba1613.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/INSMART-2-in-1-Hair-Straightener-Curler-Ceramic-Flat-Iron-Dual-Ionic-Technology-Shinier-Smoother-Hair-72H-Long-Lasting-Style-Adjustable-Temperature_314756cb-5671-4e58-99f4-c6fd7da64501.5f38d3d1f01cd79e6afe2bb8cdba1613.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 15.99,
+          "currency_symbol": "$",
+          "id": "C2CA7A7FD2703EEA9B9467B897DD889A",
+          "list_price": 19.99,
+          "savings_amount": 3.9999999999999982,
+          "seller": {
+            "name": "IBTORO",
+            "id": "AD0160C714F44394948DCED94A2B69EB"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 12,
+      "product": {
+        "title": "Herstyler Colorful Seasons Ceramic Flat Iron, Dual Voltage, 1.25 Inch Pink",
+        "link": "https://www.walmart.com/ip/Herstyler-Colorful-Seasons-Ceramic-Flat-Iron-Dual-Voltage-1-25-Inch-Pink/132136124?classType=VARIANT",
+        "description": "<li>Features 360-degree swivel cord, floating ceramic plates, adjustable temperature and 1-year warranty</li><li>Suits all types of hair, from long, fragile or thin to short, coarse, wavy or thick</li>",
+        "item_id": "132136124",
+        "product_id": "1HOFP4ETT12V",
+        "images": [
+          "https://i5.walmartimages.com/seo/Herstyler-Colorful-Seasons-Ceramic-Flat-Iron-Dual-Voltage-1-25-Inch-Pink_12f3f43b-57bb-4b76-a665-70fdbec6274c.ddaed16e577885ccfa7e86af29ff3d89.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Herstyler-Colorful-Seasons-Ceramic-Flat-Iron-Dual-Voltage-1-25-Inch-Pink_12f3f43b-57bb-4b76-a665-70fdbec6274c.ddaed16e577885ccfa7e86af29ff3d89.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.1,
+        "ratings_total": 14,
+        "variants": [
+          {
+            "item_id": "132136124",
+            "product_id": "3EOD1CB3TYVM",
+            "title": "Pink",
+            "image": "https://i5.walmartimages.com/asr/12f3f43b-57bb-4b76-a665-70fdbec6274c.ddaed16e577885ccfa7e86af29ff3d89.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Herstyler-Colorful-Seasons-Ceramic-Flat-Iron-Dual-Voltage-1-25-Inch-Pink/132136124?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "210666939",
+            "product_id": "4ZTIY74TMKPZ",
+            "title": "Purple",
+            "image": "https://i5.walmartimages.com/asr/c7d87f21-cd0a-46f0-897e-137439739034_1.94bb05b3289272df3cb0b7b43b8c80eb.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/HerStyler-Colorful-Seasons-8-1-25-Flat-Iron-Straightener-Purple/210666939?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 27.99,
+          "currency_symbol": "$",
+          "id": "9209E55B4F6D4CCA8CB7BA04F526F62E",
+          "seller": {
+            "name": "Sales Direct",
+            "id": "7EA4DF0534C6484A96EF44C35F3F1F41"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 13,
+      "product": {
+        "title": "IG INGLAM Titanium Hair Straightener Flat Iron, Curling Iron 1 Inch, Infrared Negative Ionic Hair Straightener 11 Adjust Temp 250°F to 450°F, Shiny Hair Dual Voltage, Purple",
+        "link": "https://www.walmart.com/ip/IG-INGLAM-Titanium-Hair-Straightener-Flat-Iron-Curling-Iron-1-Inch-Infrared-Negative-Ionic-Hair-Straightener-11-Adjust-Temp-250-F-450-F-Shiny-Hair-Du/16347565054?classType=VARIANT",
+        "description": "One Hair Styling Tool Two Use - The 2 in 1 hair straightener and curler features a round shape that helps to curl the hair to meet your needs, allowing you to have a beautiful hairstyle every day and",
+        "item_id": "16347565054",
+        "product_id": "4U69RPPKLOM0",
+        "images": [
+          "https://i5.walmartimages.com/seo/IG-INGLAM-Titanium-Hair-Straightener-Flat-Iron-Curling-Iron-1-Inch-Infrared-Negative-Ionic-Hair-Straightener-11-Adjust-Temp-250-F-450-F-Shiny-Hair-Du_4a8a98b4-51c7-45be-96b7-0930a44434bc.832011bee231e633e613e0ac0d770ce2.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/IG-INGLAM-Titanium-Hair-Straightener-Flat-Iron-Curling-Iron-1-Inch-Infrared-Negative-Ionic-Hair-Straightener-11-Adjust-Temp-250-F-450-F-Shiny-Hair-Du_4a8a98b4-51c7-45be-96b7-0930a44434bc.832011bee231e633e613e0ac0d770ce2.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0,
+        "variants": [
+          {
+            "item_id": "16438458930",
+            "product_id": "6SV4A4G56S9V",
+            "title": "Pink",
+            "image": "https://i5.walmartimages.com/asr/6abb3f44-d9ad-45fd-bf62-97c392ec6f8b.fa386a405023ce5f8d962baa23ebf1b8.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Titanium-Flat-Iron-Hair-Straightener-Infrared-Curling-1-Inch-Negative-Ionic-Dual-Voltage-Straightener-11-Adjust-Temp-250-F-450-F-Shiny-110/16438458930?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16335357560",
+            "product_id": "2GDJ581VQMSU",
+            "title": "Prussian Blue",
+            "image": "https://i5.walmartimages.com/asr/10a613bf-42ea-4d17-af1f-d7907cbc08ed.730cae9f49e5764dbd3af04875e537b6.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Titanium-Hair-Straightener-Flat-Iron-Curling-Iron-1-Inch-Infrared-Negative-Ionic-11-Adjust-Temp-250-F-450-F-Shiny-Dual-Voltage-Prussian-Blu/16335357560?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16347565054",
+            "product_id": "154QKDULE7LC",
+            "title": "Rose Gold",
+            "image": "https://i5.walmartimages.com/asr/4a8a98b4-51c7-45be-96b7-0930a44434bc.832011bee231e633e613e0ac0d770ce2.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Titanium-Hair-Straightener-Flat-Iron-Curling-Iron-1-Inch-Infrared-Negative-Ionic-11-Adjust-Temp-250-F-450-F-Shiny-Dual-Voltage-Purple/16347565054?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 59.99,
+          "currency_symbol": "$",
+          "id": "98CAC93567933347AA7EED7D4FC056C7",
+          "seller": {
+            "name": "Haircaresshop Direct",
+            "id": "D1F8C45C927E4FD28DE5263B1D8D7FC3"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 14,
+      "product": {
+        "title": "Professional 3 in 1 Hair Straightener Flat Iron, Hair Curler with Built-in Comb, Hair Straightener Brush with Adjustable Temperature, Instant Heat-Up, Dual Voltage, Ideal Gift",
+        "link": "https://www.walmart.com/ip/Professional-3-1-Hair-Straightener-Flat-Iron-Hair-Curler-Built-in-Comb-Hair-Straightener-Brush-Adjustable-Temperature-Instant-Heat-Up-Dual-Voltage-Id/2630622078?classType=REGULAR",
+        "description": "<li>3 in 1 Multi-Function: The AIKO PRO ceramic tourmaline ionic flat iron hair straightener creates dramatic results on even the frizziest coarsest hair; quickly straighten, flip, and curl to create</li>",
+        "item_id": "2630622078",
+        "product_id": "12N82ZKFRUR6",
+        "images": [
+          "https://i5.walmartimages.com/seo/Professional-3-1-Hair-Straightener-Flat-Iron-Hair-Curler-Built-in-Comb-Hair-Straightener-Brush-Adjustable-Temperature-Instant-Heat-Up-Dual-Voltage-Id_6a6fcd8a-16a9-4d0c-a2d0-56df3ca96afa.9fd23d1c55004c353db90b952616fa7a.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Professional-3-1-Hair-Straightener-Flat-Iron-Hair-Curler-Built-in-Comb-Hair-Straightener-Brush-Adjustable-Temperature-Instant-Heat-Up-Dual-Voltage-Id_6a6fcd8a-16a9-4d0c-a2d0-56df3ca96afa.9fd23d1c55004c353db90b952616fa7a.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 29.99,
+          "currency_symbol": "$",
+          "id": "D71774651C223B5EB4C103F72607F808",
+          "list_price": 35.99,
+          "savings_amount": 6.0000000000000036,
+          "seller": {
+            "name": "aikoprobeauty",
+            "id": "45F6587B33124E9A886C3511602D9FCC"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 15,
+      "product": {
+        "title": "Conair Infiniti Pro 1\" Straightener With Titanium Ceramic Flat Iron + Bonus Argan Oil",
+        "link": "https://www.walmart.com/ip/Conair-Infiniti-Pro-1-Straightener-With-Titanium-Ceramic-Flat-Iron-Bonus-Argan-Oil/118355503?classType=REGULAR",
+        "description": "Conair Infiniti Pro 1\" Straightener With Titanium Ceramic Flat Iron + Bonus Argan Oil",
+        "item_id": "118355503",
+        "product_id": "25121EIIDL28",
+        "images": [
+          "https://i5.walmartimages.com/seo/Conair-Infiniti-Pro-1-Straightener-With-Titanium-Ceramic-Flat-Iron-Bonus-Argan-Oil_2aa5fa1b-0cf3-413d-8b39-fbedd8f0932c.04958e7f361049fdce6ab89c94286cfa.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Conair-Infiniti-Pro-1-Straightener-With-Titanium-Ceramic-Flat-Iron-Bonus-Argan-Oil_2aa5fa1b-0cf3-413d-8b39-fbedd8f0932c.04958e7f361049fdce6ab89c94286cfa.jpeg",
+        "rating": 4,
+        "ratings_total": 4
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 42.5,
+          "currency_symbol": "$",
+          "id": "B3CFEC04CC764234BFCCAFD778A53025",
+          "seller": {
+            "name": "Bingo Products",
+            "id": "28ED03803EAD4B0981C15A1D4F624BAB"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 16,
+      "product": {
+        "title": "InfinitiPRO by Conair Rose Gold Titanium Ceramic Flat Iron, 1.75\" CS812NN",
+        "link": "https://www.walmart.com/ip/InfinitiPRO-by-Conair-Rose-Gold-Titanium-Ceramic-Flat-Iron-1-75-CS812NN/336321438?classType=REGULAR",
+        "description": "<li>Heats up to 455 degrees F</li><li>Extra-long and wide plates for quick styling</li><li>Floating plate for better contact with hair</li>",
+        "item_id": "336321438",
+        "product_id": "3S5LYH2HXYP4",
+        "images": [
+          "https://i5.walmartimages.com/seo/InfinitiPRO-by-Conair-Rose-Gold-Titanium-Ceramic-Flat-Iron-1-75-CS812NN_e8d9d95c-6772-48d3-bb7c-94f4f20398f0_1.3d33a85623f256818c9093746308e754.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InfinitiPRO-by-Conair-Rose-Gold-Titanium-Ceramic-Flat-Iron-1-75-CS812NN_e8d9d95c-6772-48d3-bb7c-94f4f20398f0_1.3d33a85623f256818c9093746308e754.jpeg",
+        "rating": 4.1,
+        "ratings_total": 21
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 61.99,
+          "currency_symbol": "$",
+          "id": "8ADE9BC1291F3FCF8E8420838B7F9DD4",
+          "seller": {
+            "name": "Moto's Bargain Mania",
+            "id": "BEB663FC99004A8CAD0E24BABB53B87E"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    }
+  ],
+  "facets": [
+    {
+      "name": "brand",
+      "display_name": "Brand",
+      "values": [
+        {
+          "name": "InStyler",
+          "param_value": "facets=brand=InStyler"
+        },
+        {
+          "name": "KeJieShunCheng",
+          "param_value": "facets=brand=KeJieShunCheng"
+        },
+        {
+          "name": "WXLCISI",
+          "param_value": "facets=brand=WXLCISI"
+        }
+      ]
+    },
+    {
+      "name": "fulfillment_speed",
+      "display_name": "Fulfillment Speed",
+      "values": [
+        {
+          "name": "Today",
+          "param_value": "facets=fulfillment_speed=Today"
+        },
+        {
+          "name": "Tomorrow",
+          "param_value": "facets=fulfillment_speed=Tomorrow"
+        },
+        {
+          "name": "2 days",
+          "param_value": "facets=fulfillment_speed=2+days"
+        },
+        {
+          "name": "Anytime",
+          "param_value": "facets=fulfillment_speed=Anytime"
+        }
+      ]
+    },
+    {
+      "name": "hair_type",
+      "display_name": "Hair Type",
+      "values": [
+        {
+          "name": "All Hair Types",
+          "param_value": "facets=hair_type=All+Hair+Types"
+        }
+      ]
+    },
+    {
+      "name": "power_type",
+      "display_name": "Power Type",
+      "values": [
+        {
+          "name": "Corded Electric",
+          "param_value": "facets=power_type=Corded+Electric"
+        }
+      ]
+    },
+    {
+      "name": "gender",
+      "display_name": "Gender",
+      "values": [
+        {
+          "name": "Unisex",
+          "param_value": "facets=gender=Unisex"
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "display_name": "Category",
+      "values": [
+        {
+          "name": "Flat Irons",
+          "param_value": "facets=category=Flat+Irons"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "display_name": "Color",
+      "values": [
+        {
+          "name": "Purple",
+          "param_value": "facets=color=Purple"
+        },
+        {
+          "name": "Gray",
+          "param_value": "facets=color=Gray"
+        },
+        {
+          "name": "Silver",
+          "param_value": "facets=color=Silver"
+        },
+        {
+          "name": "White",
+          "param_value": "facets=color=White"
+        },
+        {
+          "name": "Other",
+          "param_value": "facets=color=Other"
+        }
+      ]
+    },
+    {
+      "name": "exclude_oos",
+      "display_name": "Availability",
+      "values": [
+        {
+          "name": "Show available items only",
+          "param_value": "facets=exclude_oos=Show+available+items+only"
+        }
+      ]
+    },
+    {
+      "name": "cat_id",
+      "display_name": "Departments",
+      "values": [
+        {
+          "name": "Beauty",
+          "param_value": "facets=cat_id=Beauty"
+        },
+        {
+          "name": "Personal Care",
+          "param_value": "facets=cat_id=Personal+Care"
+        }
+      ]
+    },
+    {
+      "name": "customer_rating",
+      "display_name": "Customer Rating",
+      "values": [
+        {
+          "name": "4 - 5 Stars",
+          "param_value": "facets=customer_rating=4+-+5+Stars"
+        },
+        {
+          "name": "3 - 3.9 Stars",
+          "param_value": "facets=customer_rating=3+-+3.9+Stars"
+        },
+        {
+          "name": "2 - 2.9 Stars",
+          "param_value": "facets=customer_rating=2+-+2.9+Stars"
+        },
+        {
+          "name": "1 - 1.9 Stars",
+          "param_value": "facets=customer_rating=1+-+1.9+Stars"
+        }
+      ]
+    },
+    {
+      "name": "retailer_type",
+      "display_name": "Retailer",
+      "values": [
+        {
+          "name": "Walmart",
+          "param_value": "facets=retailer_type=Walmart"
+        },
+        {
+          "name": "Pro Sellers",
+          "param_value": "facets=retailer_type=Pro+Sellers"
+        },
+        {
+          "name": "Marketplace Sellers fulfilled by Walmart",
+          "param_value": "facets=retailer_type=Marketplace+Sellers+fulfilled+by+Walmart"
+        }
+      ]
+    },
+    {
+      "name": "Gifting",
+      "display_name": "Gifting",
+      "values": [
+        {
+          "name": "Gift eligible",
+          "param_value": "facets=Gifting=Gift+eligible"
+        }
+      ]
+    }
+  ],
+  "category_info": {
+    "is_landing_page": false
+  },
+  "pagination": {
+    "current": {
+      "page": 1,
+      "link": "https://www.walmart.com/search?q=instyler+straightener&page=1"
+    },
+    "total_pages": 1,
+    "other_pages": [
+      {
+        "page": 1,
+        "link": "https://www.walmart.com/search?q=instyler+straightener&page=1"
+      }
+    ],
+    "total_results": 6
+  },
+  "location_info": {
+    "city": "Lansing",
+    "state": "MI",
+    "zipcode": "48912",
+    "store_id": "2867"
+  }
+}

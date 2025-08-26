@@ -1,0 +1,494 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1889,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8111,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "16310609592"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:09:48.728Z",
+    "processed_at": "2025-08-20T13:09:52.956Z",
+    "total_time_taken": 4.23,
+    "walmart_url": "https://www.walmart.com/ip/16310609592"
+  },
+  "product": {
+    "brand": "InGlam",
+    "link": "https://www.walmart.com/ip/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray/16310609592",
+    "title": "IG INGLAM 4 in 1 Hot Air Brush, Negative Ion Detachable Hair Styler & Volumizer with 2 Brush Heads, Updated Push Switch, Silver",
+    "upc": "607603919236",
+    "item_id": "16310609592",
+    "product_id": "AB0329-4P",
+    "item_number": "4TX4KG7Z94FA",
+    "description": "IG INGLAM Hair Dryer Brush/Hair Straightener Brush/Hair Dryer/Volumizer Four in One, Blowout Brush Set Multi-Temperature Settings, Detachable Design suitable for families, business trips, weddings, and vacations, allowing you to design the hairstyle you want as you want! The exquisite packaging also allows you to use it as a gift for friends, family, or other loved ones.\n\n\n\n\nAbout this item:\n\n\n\n\nProduct Name: IG INGLAM BLOW OUT BRUSH DRYER SET\n\n\n\n\nItem Weight: 3.4 lb\n\n\n\n\nItem Condition: New\n\n\n\n\nCord length: 6 FT\n\n\n\n\nRating Voltage: 125V~ 60Hz\n\n\n\n\nRating Power: 1100W\n\n\n\n\nKey Features:\n\n\n\n\n1. Negative ion care\n\n\n\n\n2. Polyester bag for easy store\n\n\n\n\n3. Three temperature settings- High/ Low/ Cool\n\n\n\n\n4. Detachable design for travel\n\n\n\n\n5. Multifunctional - Drying/Straightening/Volume/Curling\n\n\n\n\n6. Nylon bristles and Nylon pins Design reduces static and leaves healthy and shiny hair.\n\n\n\n\nPre-Styling Dryer-\n\n\n\n\nThe hair dryer can speed up drying and has no extreme heat. It provides gentle airflow and releases negative ions to avoid damage to the hair. It is an essential tool for drying and styling hair efficiently.\n\n\n\n\n3.5 Inch Oval Styling Brush-\n\n\n\n\nThis brush features a nylon tufted design that prevents tangles and helps straighten curls. It can also be used to create voluminous curls or waves.\n\n\n\n\nSmoothing Brush-\n\n\n\n\nCreates a smoother and straightener with less frizz and fewer flyaways.\n\n\n\n\nVolumizer Diffuser-\n\n\n\n\nThis brush head helps create flowing curls and waves. Makes the hairstyle more fluffy and charming. Has a three-dimensional feel.",
+    "description_html": "<p>IG INGLAM Hair Dryer Brush/Hair Straightener Brush/Hair Dryer/Volumizer Four in One, Blowout Brush Set Multi-Temperature Settings, Detachable Design suitable for families, business trips, weddings, and vacations, allowing you to design the hairstyle you want as you want! The exquisite packaging also allows you to use it as a gift for friends, family, or other loved ones.</p><p><br></p><p>About this item:</p><p><br></p><p>Product Name: IG INGLAM BLOW OUT BRUSH DRYER SET</p><p><br></p><p>Item Weight: 3.4 lb</p><p><br></p><p>Item Condition: New</p><p><br></p><p>Cord length: 6 FT</p><p><br></p><p>Rating Voltage: 125V~ 60Hz</p><p><br></p><p>Rating Power: 1100W</p><p><br></p><p>Key Features:</p><p><br></p><p>1. Negative ion care</p><p><br></p><p>2. Polyester bag for easy store&nbsp;</p><p><br></p><p>3. Three temperature settings- High/ Low/ Cool</p><p><br></p><p>4. Detachable design for travel</p><p><br></p><p>5. Multifunctional - Drying/Straightening/Volume/Curling</p><p><br></p><p>6. Nylon bristles and Nylon pins Design reduces static and leaves healthy and shiny hair.</p><p><br></p><p>Pre-Styling Dryer-</p><p><br></p><p>The hair dryer can speed up drying and has no extreme heat. It provides gentle airflow and releases negative ions to avoid damage to the hair. It is an essential tool for drying and styling hair efficiently.</p><p><br></p><p>3.5 Inch Oval Styling Brush-</p><p><br></p><p>This brush features a nylon tufted design that prevents tangles and helps straighten curls. It can also be used to create voluminous curls or waves.&nbsp;</p><p><br></p><p>Smoothing Brush-</p><p><br></p><p>Creates a smoother and straightener with less frizz and fewer flyaways.</p><p><br></p><p>Volumizer Diffuser-</p><p><br></p><p>This brush head helps create flowing curls and waves. Makes the hairstyle more fluffy and charming. Has a three-dimensional feel.</p>",
+    "description_full": "IG INGLAM Hair Dryer Brush/Hair Straightener Brush/Hair Dryer/Volumizer Four in One, Blowout Brush Set Multi-Temperature Settings, Detachable Design suitable for families, business trips, weddings, and vacations, allowing you to design the hairstyle you want as you want! The exquisite packaging also allows you to use it as a gift for friends, family, or other loved ones.\n\n\n\n\nAbout this item:\n\n\n\n\nProduct Name: IG INGLAM BLOW OUT BRUSH DRYER SET\n\n\n\n\nItem Weight: 3.4 lb\n\n\n\n\nItem Condition: New\n\n\n\n\nCord length: 6 FT\n\n\n\n\nRating Voltage: 125V~ 60Hz\n\n\n\n\nRating Power: 1100W\n\n\n\n\nKey Features:\n\n\n\n\n1. Negative ion care\n\n\n\n\n2. Polyester bag for easy store\n\n\n\n\n3. Three temperature settings- High/ Low/ Cool\n\n\n\n\n4. Detachable design for travel\n\n\n\n\n5. Multifunctional - Drying/Straightening/Volume/Curling\n\n\n\n\n6. Nylon bristles and Nylon pins Design reduces static and leaves healthy and shiny hair.\n\n\n\n\nPre-Styling Dryer-\n\n\n\n\nThe hair dryer can speed up drying and has no extreme heat. It provides gentle airflow and releases negative ions to avoid damage to the hair. It is an essential tool for drying and styling hair efficiently.\n\n\n\n\n3.5 Inch Oval Styling Brush-\n\n\n\n\nThis brush features a nylon tufted design that prevents tangles and helps straighten curls. It can also be used to create voluminous curls or waves.\n\n\n\n\nSmoothing Brush-\n\n\n\n\nCreates a smoother and straightener with less frizz and fewer flyaways.\n\n\n\n\nVolumizer Diffuser-\n\n\n\n\nThis brush head helps create flowing curls and waves. Makes the hairstyle more fluffy and charming. Has a three-dimensional feel. * Multifunctional Hair Dryer Brush - The IG INGLAM 4 in 1 blowout brush is a multifunctional hair dryer brush which has four different-size brush heads to satisfy your styling needs. Served as a dryer, volumizer, curler and straightener, it allows you to achieve gorgeous hair styles efficiently, saving your time and money.\n * Interchangeable Brush Head Design - This hot air brush set is equipped with 4 brush heads for drying, volumizing, straightening and curling. Just press the button on the brush and you can easily change the brush head for different needs.\n * 3-Mode Heat Setting - With 3 adjustable heating levels, you can customize the temperature to achieve endless looks and styles. Low temperature or low wind for thin and fine hair. Cool setting for locking in your hair styling. High temp or high wind for thick and coarse hair. Temperature control allows you to choose the optimum one to fit for your hair type.\n * Negative Ions Technology - Featured by a built-in generator that releases negative ions, the hair dryer brush head made of nylon bristles and nylon pins helps to maintain the neutral electric charge on the hair surface, reducing static and leaving healthy and shiny hair.\n * Safety & After-Sales Guarantee - The blow dryer brush meets U.S. safety requirements and proudly features the ETL Certification seal(1100W, 125V, 60Hz). Please note that the plastic smell of the brush is normal when used for the first time. As it is under one year warranty, you can feel free to contact us.",
+    "description_full_html": "<p>IG INGLAM Hair Dryer Brush/Hair Straightener Brush/Hair Dryer/Volumizer Four in One, Blowout Brush Set Multi-Temperature Settings, Detachable Design suitable for families, business trips, weddings, and vacations, allowing you to design the hairstyle you want as you want! The exquisite packaging also allows you to use it as a gift for friends, family, or other loved ones.</p><p><br></p><p>About this item:</p><p><br></p><p>Product Name: IG INGLAM BLOW OUT BRUSH DRYER SET</p><p><br></p><p>Item Weight: 3.4 lb</p><p><br></p><p>Item Condition: New</p><p><br></p><p>Cord length: 6 FT</p><p><br></p><p>Rating Voltage: 125V~ 60Hz</p><p><br></p><p>Rating Power: 1100W</p><p><br></p><p>Key Features:</p><p><br></p><p>1. Negative ion care</p><p><br></p><p>2. Polyester bag for easy store&nbsp;</p><p><br></p><p>3. Three temperature settings- High/ Low/ Cool</p><p><br></p><p>4. Detachable design for travel</p><p><br></p><p>5. Multifunctional - Drying/Straightening/Volume/Curling</p><p><br></p><p>6. Nylon bristles and Nylon pins Design reduces static and leaves healthy and shiny hair.</p><p><br></p><p>Pre-Styling Dryer-</p><p><br></p><p>The hair dryer can speed up drying and has no extreme heat. It provides gentle airflow and releases negative ions to avoid damage to the hair. It is an essential tool for drying and styling hair efficiently.</p><p><br></p><p>3.5 Inch Oval Styling Brush-</p><p><br></p><p>This brush features a nylon tufted design that prevents tangles and helps straighten curls. It can also be used to create voluminous curls or waves.&nbsp;</p><p><br></p><p>Smoothing Brush-</p><p><br></p><p>Creates a smoother and straightener with less frizz and fewer flyaways.</p><p><br></p><p>Volumizer Diffuser-</p><p><br></p><p>This brush head helps create flowing curls and waves. Makes the hairstyle more fluffy and charming. Has a three-dimensional feel.</p> <ul>  <li>Multifunctional Hair Dryer Brush - The IG INGLAM 4 in 1 blowout brush is a multifunctional hair dryer brush which has four different-size brush heads to satisfy your styling needs. Served as a dryer, volumizer, curler and straightener, it allows you to achieve gorgeous hair styles efficiently, saving your time and money.</li>  <li>Interchangeable Brush Head Design - This hot air brush set is equipped with 4 brush heads for drying, volumizing, straightening and curling. Just press the button on the brush and you can easily change the brush head for different needs.</li>  <li>3-Mode Heat Setting - With 3 adjustable heating levels, you can customize the temperature to achieve endless looks and styles. Low temperature or low wind for thin and fine hair. Cool setting for locking in your hair styling. High temp or high wind for thick and coarse hair. Temperature control allows you to choose the optimum one to fit for your hair type.</li>  <li>Negative Ions Technology - Featured by a built-in generator that releases negative ions, the hair dryer brush head made of nylon bristles and nylon pins helps to maintain the neutral electric charge on the hair surface, reducing static and leaving healthy and shiny hair.</li>  <li>Safety &amp; After-Sales Guarantee - The blow dryer brush meets U.S. safety requirements and proudly features the ETL Certification seal(1100W, 125V, 60Hz). Please note that the plastic smell of the brush is normal when used for the first time. As it is under one year warranty, you can feel free to contact us.</li> </ul>",
+    "model": "AB0329-4P",
+    "ratings_total": 3,
+    "rating": 5,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray_b96f4110-0cd1-4c3d-b7e8-878ac9fd6a26.29ab28eb44818389c6213ab301c73194.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray_b96f4110-0cd1-4c3d-b7e8-878ac9fd6a26.29ab28eb44818389c6213ab301c73194.jpeg",
+        "id": "F925FCD8D4A346689B8A9153937E5629",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c7ac2986-c85f-4c64-a277-270efbd3fbca.6bd97fdc9d4fa1e45b84464e8686d298.jpeg",
+        "id": "8D945DBB1F9B4C9AA3F10F55CF61995D",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/3e8c43ae-8486-4d0d-a4a1-0891e3ed9e47.db4141323fe0e10a623c2e03f089d04f.jpeg",
+        "id": "D070E66841F6417BA087395BE333A828",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c5038d6f-029d-42f2-be9a-e626be9cb058.366f2a801394c0d7a72387511b511fb3.jpeg",
+        "id": "67F75F87BD4842109BF21BFB6CE6860D",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ea8abc35-b9e8-47c2-9a0d-a1b36ea0e1a2.4dd3392a5fb9e4afbe43fc7c46e0f586.jpeg",
+        "id": "233D3863187F438E8616418B5DDEC3D4",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0bf10d33-daba-4da8-861f-69f21091130d.9cb231a6ce1c878111262d8c5111b23d.jpeg",
+        "id": "D6368756FD9C4B2E9D442E2EC153895E",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1e3d4c1a-6f21-4fe4-a609-64bdeb09ba40.589f5b76c263e5f9056778092eca4cab.jpeg",
+        "id": "F1826F589E104E14A3B46D0BC7FFDCD9",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e2c9623a-3dc7-4838-8f1b-1a47e5ce923a.70de5001dbff2a6e1dc20ae4be27df23.jpeg",
+        "id": "426F9746C0C54FDA997E546202725DF0",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "InGlam"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "AB0329-4P"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "IG INGLAM"
+      },
+      {
+        "name": "Model",
+        "value": "AB0329-4P"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "12.32 oz"
+      },
+      {
+        "name": "Color",
+        "value": "Silver"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "8.30 x 2.40 x 3.80 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 65.99,
+      "was_price": 75.99,
+      "currency_symbol": "$",
+      "id": "D8921C32ABA43D92B524E66E4173CAD9",
+      "seller": {
+        "name": "Haircaresshop Direct",
+        "id_secondary": "D1F8C45C927E4FD28DE5263B1D8D7FC3",
+        "id": 102820641,
+        "link": "https://www.walmart.com/seller/102820641"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 22 to Memphis, 38117",
+        "message": "Free shipping, arrives by Fri, Aug 22 to Memphis, 38117",
+        "zipcode": "38117"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Haircaresshop Direct"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10702612997",
+          "id": "F57F829C405036B198D911FE60A7F0B7",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-60-69-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 11,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$11.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10676611624",
+          "id": "FEC38FCF3BB439EC838AB0E14291EE63",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-60-69-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 8,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$8.00"
+          }
+        }
+      ]
+    },
+    "color": "Silver",
+    "dimensions": "8.30 x 2.40 x 3.80 in",
+    "variants": [
+      {
+        "item_id": "16310609592",
+        "product_id": "4TX4KG7Z94FA",
+        "link": "https://www.walmart.com/ip/16310609592",
+        "in_stock": true,
+        "price": 65.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray_b96f4110-0cd1-4c3d-b7e8-878ac9fd6a26.29ab28eb44818389c6213ab301c73194.jpeg",
+            "id": "F925FCD8D4A346689B8A9153937E5629",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c7ac2986-c85f-4c64-a277-270efbd3fbca.6bd97fdc9d4fa1e45b84464e8686d298.jpeg",
+            "id": "8D945DBB1F9B4C9AA3F10F55CF61995D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3e8c43ae-8486-4d0d-a4a1-0891e3ed9e47.db4141323fe0e10a623c2e03f089d04f.jpeg",
+            "id": "D070E66841F6417BA087395BE333A828",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c5038d6f-029d-42f2-be9a-e626be9cb058.366f2a801394c0d7a72387511b511fb3.jpeg",
+            "id": "67F75F87BD4842109BF21BFB6CE6860D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ea8abc35-b9e8-47c2-9a0d-a1b36ea0e1a2.4dd3392a5fb9e4afbe43fc7c46e0f586.jpeg",
+            "id": "233D3863187F438E8616418B5DDEC3D4",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0bf10d33-daba-4da8-861f-69f21091130d.9cb231a6ce1c878111262d8c5111b23d.jpeg",
+            "id": "D6368756FD9C4B2E9D442E2EC153895E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1e3d4c1a-6f21-4fe4-a609-64bdeb09ba40.589f5b76c263e5f9056778092eca4cab.jpeg",
+            "id": "F1826F589E104E14A3B46D0BC7FFDCD9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e2c9623a-3dc7-4838-8f1b-1a47e5ce923a.70de5001dbff2a6e1dc20ae4be27df23.jpeg",
+            "id": "426F9746C0C54FDA997E546202725DF0",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "silver"
+          }
+        ]
+      },
+      {
+        "item_id": "16298769929",
+        "product_id": "1JLPBZBYZI8X",
+        "link": "https://www.walmart.com/ip/16298769929",
+        "in_stock": true,
+        "price": 65.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/IG-INGLAM-4-in-1-Blowout-Hair-Dryer-Brush-Set-Negative-Ion-Detachable-Hair-Dryer-Volumizer-Styler-with-2-Brush-Heads-Pink_e5b40ac2-3f4c-41f3-8c05-92bb2eadf22f.43a28254a0d3d25d69dcf1bfaa6d37b7.jpeg",
+            "id": "396472556723465099656B32C7E7DD04",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/54e61a7b-f3d9-4580-b2ea-d59c66c720d4.ecadc26feca82408e48d93496c941908.jpeg",
+            "id": "3905E00AB5604D759AE1D7BEA4C7683B",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fe1f7e68-3aef-4684-9f1d-aed56aea78bd.4d67afd078f4ced531ba272dc8b77086.jpeg",
+            "id": "C2D7F936DC224C7C9FF6CBD378C93913",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3aa15994-f518-46c0-a571-4e539c049fed.5c1664c853b7ef5781629b3723055f49.jpeg",
+            "id": "80284608C5854E3DB99A2A67F5DFF33E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4f8e7f4b-1bb6-41fc-a491-7f53c374955d.f0d9fc8e2090c9c4438e7449601b2867.jpeg",
+            "id": "240A591824DB42B7A1DAA3484E5C1D18",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/30c7b114-b560-451e-a0eb-7905bf054bee.6940c3b50b6012f2bce9229bf0bad832.jpeg",
+            "id": "2E58D2AE63CD4289AD8EF7C16D3B4F4E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a9d9e2e7-319e-4977-9fdc-f70cba064c54.87e5d28ec64a0f8f637e62fe40653154.jpeg",
+            "id": "BD6AAF6A208F41CDBDE38C7BC66D2338",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/46795b62-895c-4393-941c-fdddba6c1c3b.79c336d0df8336de6c5591eab5d24629.jpeg",
+            "id": "0DD168C93C5740F3815E6471F21DEE8E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1f54f6ba-d34c-437e-a833-25e1808e8fde.f5a6e8ac430b4a3d2b500811e2def8a2.jpeg",
+            "id": "57510FDAE06F42C6893561F204AD99AB",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "pink"
+          }
+        ]
+      },
+      {
+        "item_id": "16284472363",
+        "product_id": "4A1HTHLR7CZP",
+        "link": "https://www.walmart.com/ip/16284472363",
+        "in_stock": true,
+        "price": 65.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/IG-INGLAM-Hair-Dryer-Brush-4-in-1-Detachable-Blow-Dryer-Brush-Ionic-Diffuser-Hair-Dryer-Styler-Volumizer-Oval-Titanium-Barrel-One-Step-Hot-Air-Blowou_7324c6d6-ac34-4cb4-b24c-dd09c9df624c.c5a69d62b4f26f9c9d86f3e3948d33e2.jpeg",
+            "id": "0AFFD1A21C564F73A8F07352D6810356",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fb5231b4-9be7-4dfd-a16d-39790475c92a.43a6c1c1eb29504ad0a190c9a10c3c68.jpeg",
+            "id": "3E8290A34B914CD5825A430E91DA394F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e97625dc-8277-4b6a-8c13-b8b11cd85c08.4acede66b86ebfd6359f5c64bfc64f9f.jpeg",
+            "id": "67D4F384FAED493F989717B4A6DE64A1",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/53e38cc7-0585-4eba-b2cc-4e45aa273ec6.70c4ce1e1abf94807ded7c336ec1cb0b.jpeg",
+            "id": "8A5FA2DDE5DE447993FDDD7442F44DD4",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4ad9b09e-ffe8-4fa8-8803-ddaccd3088c0.5e70a6a5a4ebf1999553bd49229b50ef.jpeg",
+            "id": "852D86B2FE234C15BE04BCBB25A4E26D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2406d200-87c0-49dc-9d30-f882cd88cb8d.5c247287a708825e7512c37918613510.jpeg",
+            "id": "731B397030244AB5AECB2CDB20FDC56B",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9978d62e-2529-4fc2-8eaa-c4565412e975.6ea813c10abb704fdacacd10ebd94bc5.jpeg",
+            "id": "FE09DBBB35724914A6BB0063EA7AAFCB",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7205f070-c968-4f46-9af1-66fb47633a23.7090ef06989aa13ff998042ff779ee06.jpeg",
+            "id": "3B2B7DC515254C03A6530A8449A38B0F",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "darkgreen"
+          }
+        ]
+      },
+      {
+        "item_id": "16329517642",
+        "product_id": "4FW69QEYBUO3",
+        "link": "https://www.walmart.com/ip/16329517642",
+        "in_stock": true,
+        "price": 65.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Hair-Dryer-Brush-Set-IG-INGLAM-4-1-Blowout-Brush-Negative-Ion-Detachable-Hair-Dryer-Styler-Volumizer-Hot-Air-Hair-Dryer-Brush-2-Styling-Brush-Heads-P_f01028f3-4a6e-4e01-8825-d270023fadfb.5328dbf33ebfd3f880af13b737316a47.jpeg",
+            "id": "EBA639D9C5D0497DAA1ADAB2E6BE6259",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0508c41b-cdbb-462b-a13d-aeb6a7104470.c34663901904abd06f1a76252936930f.jpeg",
+            "id": "B1EFF382F8F5457282E2B0D17772B849",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f62014d6-fbf9-4720-b9a9-dfc90dae4f5f.e31b8a7fdeeb1af9698f157aaa114078.jpeg",
+            "id": "7DD33CE3F691408085539FAF5C8063FF",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9176f8b7-6f85-47ef-9f47-915b0d942a08.e4a8c4bb1763a0cc0ce8a4333de00450.jpeg",
+            "id": "F7DC57C012A14EFB9B43F6088C717E95",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f21bec92-ba2d-4c99-8d76-65bdff9f9c61.b60e664c2522a20d4f444b4bd1e9e575.jpeg",
+            "id": "E0DE9977BFF34C12B577B176EAD08239",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/56d652fe-f95d-42e7-b842-e977ec29d3f5.de20f14d3e160b11e038c632f81d5e2d.jpeg",
+            "id": "5CFE4DD4570641B9876E4408219D40C8",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b28b0764-0d61-45f2-96cd-9929f157eed4.9cd8d59da16a2b55aef168fc0e0534db.jpeg",
+            "id": "B1D4666C88B8428EB226016F3363EFB4",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b89f5ef7-a06c-4151-8474-5bbea098f973.ec92b144c9ede504671a95031d8cfe8e.jpeg",
+            "id": "1F6CE5340F3942029CD9123132BA829E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/344cd34a-4379-4b5e-b658-4f5027954300.5830c02cba4887e965d5d5b42f39719e.jpeg",
+            "id": "6A5BC146C69E4D50AD0D717D1671D2B4",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "prussianblue"
+          }
+        ]
+      },
+      {
+        "item_id": "16362105760",
+        "product_id": "10YUMCFCQ40U",
+        "link": "https://www.walmart.com/ip/16362105760",
+        "in_stock": true,
+        "price": 65.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/IG-INGLAM-4-in-1-Blowout-Brush-Negative-Ion-Detachable-Hair-Dryer-Styler-Volumizer-Hot-Air-Brush-with-2-Styling-Brush-Heads-Silver_bbac59a4-0232-4b48-9db1-76a86d34bbf8.3f1ba75c1a27a66ebab693347427df4e.jpeg",
+            "id": "03AF9223BDFC4791B6C8D1835CA2DAFF",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/05e653fe-38de-4887-bf85-090a9d727b37.953652efe5b4f07036edf05481a0db7f.jpeg",
+            "id": "D4A2E66B37594EA99ED9711E528E78A5",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b4e73152-ed68-42d1-bb1d-1937f3fc02b0.613ec40926d513500ba5e563eba5a9cd.jpeg",
+            "id": "EFC69BF167BC42AEA25EB2C85AEB0BDB",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/cd45dae0-2fa0-4330-8214-10cd25aa732d.6ba0450e1760d8751fcd12c9f02d301e.jpeg",
+            "id": "7D0CDEDC3F9C413E9CEC577D6D0C038D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7cabb2ea-6228-4d13-b8ae-6bb0d917df67.6480a73252c5265ee4cc80fef29847ab.jpeg",
+            "id": "4FE53741D01443B9A9133241C5DD22BA",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/25eca1e2-0684-49dd-9fa1-49cb071cf794.19789103bdb05213f97bdb1a11de8961.jpeg",
+            "id": "D566043FFEF942A484D019F182B1FFDC",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/5468e589-bc09-4155-974f-5f27b577930c.2674c01f63e9202ae869358810d7f1e2.jpeg",
+            "id": "7DAB587C6B48443F8C8A23F39DCFD405",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/52a58455-9772-4363-8eb4-ddb01d5351e0.29e7eb3eb43e03b1f774bb948013baf5.jpeg",
+            "id": "D6D4E543219049EE946FD5E861557F42",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/569eecfd-2907-47c3-b252-5dab1b3fb9f4.94e046ba81c9c2ec393adac444588e15.jpeg",
+            "id": "958A572FBD1A405383810BEBE050E12C",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "gray"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Memphis",
+    "state": "TN",
+    "zipcode": "38117",
+    "store_id": "6807"
+  }
+}

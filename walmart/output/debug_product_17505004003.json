@@ -1,0 +1,303 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 374,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9626,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "17505004003"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:18:39.521Z",
+    "processed_at": "2025-08-18T11:18:42.047Z",
+    "total_time_taken": 2.53,
+    "walmart_url": "https://www.walmart.com/ip/17505004003"
+  },
+  "product": {
+    "brand": "VivaVault",
+    "link": "https://www.walmart.com/ip/Straight-Curler-Hair-Styling-Tools-Curling-Roller-Replacement-Clip-U-Shaped-Hot-Roller-Clips-for-Effortless-Curls-8pc-Pack-8PCS/17505004003",
+    "title": "VivaVault Straight & Curler Hair Styling Tools - Curling Roller Replacement Clip U Shaped Hot Roller Clips for Effortless Curls 8pc Pack 8PCS",
+    "title_excluding_brand": "Straight & Curler Hair Styling Tools - Curling Roller Replacement Clip U Shaped Hot Roller Clips for Effortless Curls 8pc Pack 8PCS",
+    "item_id": "17505004003",
+    "product_id": "VivaVault-001",
+    "item_number": "4UOV3QVAYG2U",
+    "description": "curling roller replacement clip Fixed clip U-shaped curling hot roller clip 8pc a pack\nMaterial: Stainless steel\nColor: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\nPackage weight: 25g\nPackage size: 12x8x1cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.)",
+    "description_html": "curling roller replacement clip Fixed clip U-shaped curling hot roller clip 8pc a pack\n<br>Material: Stainless steel\n<br>Color: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\n<br>Package weight: 25g\n<br>Package size: 12x8x1cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.)",
+    "description_full": "curling roller replacement clip Fixed clip U-shaped curling hot roller clip 8pc a pack\nMaterial: Stainless steel\nColor: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\nPackage weight: 25g\nPackage size: 12x8x1cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.) * Durable U-shaped design secure fixing of hot rollers for a seamless curling experience.\n * Compatible with various hot roller brands, providing versatile styling options for your hair.\n * quality material designed for long-lasting use, withstands high temperatures without warping.\n * Convenient 8-piece pack allows for multistyle hair , for everyday use or .\n * Compact and lightweight, easily portable for travel and hairstyling.",
+    "description_full_html": "curling roller replacement clip Fixed clip U-shaped curling hot roller clip 8pc a pack\n<br>Material: Stainless steel\n<br>Color: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\n<br>Package weight: 25g\n<br>Package size: 12x8x1cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.) <ul>  <li>Durable U-shaped design secure fixing of hot rollers for a seamless curling experience.</li>  <li>Compatible with various hot roller brands, providing versatile styling options for your hair.</li>  <li>quality material designed for long-lasting use, withstands high temperatures without warping.</li>  <li>Convenient 8-piece pack allows for multistyle hair , for everyday use or .</li>  <li>Compact and lightweight, easily portable for travel and hairstyling.</li> </ul>",
+    "model": "9SDg4que",
+    "ratings_total": 0,
+    "type": "Hair Rollers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Straight-Curler-Hair-Styling-Tools-Curling-Roller-Replacement-Clip-U-Shaped-Hot-Roller-Clips-for-Effortless-Curls-8pc-Pack-8PCS_eb356e38-9ef4-41a5-8611-05ef6f62ee69.2e945986d9cfaba5d2752f8ee12d6dee.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Straight-Curler-Hair-Styling-Tools-Curling-Roller-Replacement-Clip-U-Shaped-Hot-Roller-Clips-for-Effortless-Curls-8pc-Pack-8PCS_eb356e38-9ef4-41a5-8611-05ef6f62ee69.2e945986d9cfaba5d2752f8ee12d6dee.jpeg",
+        "id": "5FF365D039514E6684867770A9F89673",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/7af38e30-0496-4124-b3b8-692dedccb2a3.29bb600c42aefc8921617bca1a7bef16.jpeg",
+        "id": "4AF5D92DC5B249A48970874657024A77",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/25fcf9a0-8914-4fd8-b33e-219c903e739d.6adc6e2bfff92fb8996a08a8a4a6d8ae.jpeg",
+        "id": "A09E4803FD284263A5C8384123145016",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/29cd0208-34c3-4cfa-83a4-a081c9004c82.1f284eabb8b58a2c2232a336e16ded5b.jpeg",
+        "id": "DF9A52B235C7464596BE9BEF5DF2DB42",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/7bc54fd2-1f56-4328-ae59-60a4a30f2395.654e90877524f064fc2d7200528a77b5.jpeg",
+        "id": "F281A11D397F4CA3B902F94D514C72DA",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/817b67ed-ce47-4e7f-ab1c-0a243a7f9101.4d44ee21f77943d235e631b176444c53.jpeg",
+        "id": "B8100F93C8DC4ECB89740D710259119C",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/adc23a50-0ded-4ad0-9c70-bd36edabea48.ab9f414cdbad5d541c9349dde9ba26ac.jpeg",
+        "id": "CF821DCD65824644B61B9001EF3149AB",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "VivaVault"
+      }
+    ],
+    "buybox_winner": {
+      "price": 6.91,
+      "currency_symbol": "$",
+      "id": "AD75A3E516973AEAA0030F8966A54B9E",
+      "seller": {
+        "name": "wanxiangxiang",
+        "id_secondary": "0A2803B2410C433CB707D4A2EF678D0E",
+        "id": 102738730,
+        "link": "https://www.walmart.com/seller/102738730"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Wed, Aug 27 to Philadelphia, 19130",
+        "message": "Free shipping, arrives by Wed, Aug 27 to Philadelphia, 19130",
+        "zipcode": "19130"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "wanxiangxiang"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "17505004003",
+        "product_id": "4UOV3QVAYG2U",
+        "link": "https://www.walmart.com/ip/17505004003",
+        "in_stock": true,
+        "price": 6.91,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Straight-Curler-Hair-Styling-Tools-Curling-Roller-Replacement-Clip-U-Shaped-Hot-Roller-Clips-for-Effortless-Curls-8pc-Pack-8PCS_eb356e38-9ef4-41a5-8611-05ef6f62ee69.2e945986d9cfaba5d2752f8ee12d6dee.jpeg",
+            "id": "5FF365D039514E6684867770A9F89673",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7af38e30-0496-4124-b3b8-692dedccb2a3.29bb600c42aefc8921617bca1a7bef16.jpeg",
+            "id": "4AF5D92DC5B249A48970874657024A77",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/25fcf9a0-8914-4fd8-b33e-219c903e739d.6adc6e2bfff92fb8996a08a8a4a6d8ae.jpeg",
+            "id": "A09E4803FD284263A5C8384123145016",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/29cd0208-34c3-4cfa-83a4-a081c9004c82.1f284eabb8b58a2c2232a336e16ded5b.jpeg",
+            "id": "DF9A52B235C7464596BE9BEF5DF2DB42",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7bc54fd2-1f56-4328-ae59-60a4a30f2395.654e90877524f064fc2d7200528a77b5.jpeg",
+            "id": "F281A11D397F4CA3B902F94D514C72DA",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/817b67ed-ce47-4e7f-ab1c-0a243a7f9101.4d44ee21f77943d235e631b176444c53.jpeg",
+            "id": "B8100F93C8DC4ECB89740D710259119C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/adc23a50-0ded-4ad0-9c70-bd36edabea48.ab9f414cdbad5d541c9349dde9ba26ac.jpeg",
+            "id": "CF821DCD65824644B61B9001EF3149AB",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "onesize"
+          },
+          {
+            "name": "actual_color",
+            "value": "a"
+          }
+        ]
+      },
+      {
+        "item_id": "17496058479",
+        "product_id": "7C8FZ88KJI05",
+        "link": "https://www.walmart.com/ip/17496058479",
+        "in_stock": true,
+        "price": 6.91,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Straight-Curler-Hair-Styling-Tools-Curling-Roller-Replacement-Clip-U-Shaped-Hot-Roller-Clips-for-Effortless-Curls-8pc-Pack-8PCS_b3ac15d1-7596-4f51-8e8d-b97e83fd435a.a433fd131ecff30f8c4745b142a29cb6.jpeg",
+            "id": "7E44FF8C09834F0F8076DCF6861091E6",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7af38e30-0496-4124-b3b8-692dedccb2a3.29bb600c42aefc8921617bca1a7bef16.jpeg",
+            "id": "4AF5D92DC5B249A48970874657024A77",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/25fcf9a0-8914-4fd8-b33e-219c903e739d.6adc6e2bfff92fb8996a08a8a4a6d8ae.jpeg",
+            "id": "A09E4803FD284263A5C8384123145016",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/29cd0208-34c3-4cfa-83a4-a081c9004c82.1f284eabb8b58a2c2232a336e16ded5b.jpeg",
+            "id": "DF9A52B235C7464596BE9BEF5DF2DB42",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7bc54fd2-1f56-4328-ae59-60a4a30f2395.654e90877524f064fc2d7200528a77b5.jpeg",
+            "id": "F281A11D397F4CA3B902F94D514C72DA",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/817b67ed-ce47-4e7f-ab1c-0a243a7f9101.4d44ee21f77943d235e631b176444c53.jpeg",
+            "id": "B8100F93C8DC4ECB89740D710259119C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/adc23a50-0ded-4ad0-9c70-bd36edabea48.ab9f414cdbad5d541c9349dde9ba26ac.jpeg",
+            "id": "CF821DCD65824644B61B9001EF3149AB",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "onesize"
+          },
+          {
+            "name": "actual_color",
+            "value": "c"
+          }
+        ]
+      },
+      {
+        "item_id": "17462209264",
+        "product_id": "1APA5G9UO7S7",
+        "link": "https://www.walmart.com/ip/17462209264",
+        "in_stock": true,
+        "price": 6.91,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Straight-Curler-Hair-Styling-Tools-Curling-Roller-Replacement-Clip-U-Shaped-Hot-Roller-Clips-for-Effortless-Curls-8pc-Pack-8PCS_5d83bcc5-0306-48e9-9838-360da1ba5e1e.c9c1ee28458c5cab04c2118a92c83186.jpeg",
+            "id": "24CB06328F244DDB95154433F5292283",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7af38e30-0496-4124-b3b8-692dedccb2a3.29bb600c42aefc8921617bca1a7bef16.jpeg",
+            "id": "4AF5D92DC5B249A48970874657024A77",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/25fcf9a0-8914-4fd8-b33e-219c903e739d.6adc6e2bfff92fb8996a08a8a4a6d8ae.jpeg",
+            "id": "A09E4803FD284263A5C8384123145016",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/29cd0208-34c3-4cfa-83a4-a081c9004c82.1f284eabb8b58a2c2232a336e16ded5b.jpeg",
+            "id": "DF9A52B235C7464596BE9BEF5DF2DB42",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7bc54fd2-1f56-4328-ae59-60a4a30f2395.654e90877524f064fc2d7200528a77b5.jpeg",
+            "id": "F281A11D397F4CA3B902F94D514C72DA",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/817b67ed-ce47-4e7f-ab1c-0a243a7f9101.4d44ee21f77943d235e631b176444c53.jpeg",
+            "id": "B8100F93C8DC4ECB89740D710259119C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/adc23a50-0ded-4ad0-9c70-bd36edabea48.ab9f414cdbad5d541c9349dde9ba26ac.jpeg",
+            "id": "CF821DCD65824644B61B9001EF3149AB",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "onesize"
+          },
+          {
+            "name": "actual_color",
+            "value": "b"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "zipcode": "19130",
+    "store_id": "2141"
+  }
+}

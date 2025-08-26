@@ -1,0 +1,45 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2236,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7764,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "102706004"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T14:18:55.561Z",
+    "processed_at": "2025-08-25T14:19:09.409Z",
+    "total_time_taken": 13.85,
+    "walmart_url": "https://www.walmart.com/seller/102706004"
+  },
+  "seller_details": {
+    "name": "LLBB CORP INC",
+    "id": "E9B258DCB8554E128CB8C4750B6A134E",
+    "link": "https://www.walmart.com/seller/102706004",
+    "is_pro_seller": true,
+    "phone": "7082612519",
+    "rating": 4.7,
+    "rating_breakdown": {
+      "one_star": 0,
+      "two_star": 0,
+      "three_star": 0,
+      "four_star": 1,
+      "five_star": 2
+    },
+    "email": "linasbmw@hotmail.com",
+    "address": {
+      "address1": "2215 w washington blvd",
+      "address2": "apt 1",
+      "city": "chicago",
+      "state": "IL",
+      "zipcode": "60612",
+      "country": "US"
+    }
+  }
+}

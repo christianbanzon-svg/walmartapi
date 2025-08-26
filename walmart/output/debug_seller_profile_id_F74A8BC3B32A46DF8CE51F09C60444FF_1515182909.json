@@ -1,0 +1,44 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2222,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7778,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "101681981"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T13:57:02.602Z",
+    "processed_at": "2025-08-25T13:57:10.777Z",
+    "total_time_taken": 8.18,
+    "walmart_url": "https://www.walmart.com/seller/101681981"
+  },
+  "seller_details": {
+    "name": "Huayi LLC",
+    "id": "F74A8BC3B32A46DF8CE51F09C60444FF",
+    "link": "https://www.walmart.com/seller/101681981",
+    "is_pro_seller": false,
+    "phone": "18675537414",
+    "rating": 3.7,
+    "rating_breakdown": {
+      "one_star": 38,
+      "two_star": 5,
+      "three_star": 13,
+      "four_star": 13,
+      "five_star": 91
+    },
+    "email": "bischsdsa@163.com",
+    "address": {
+      "address1": "GUANGDONGSHENGDONGGUANSHIDALANGZHENJUXIANGSANLU25HAO403FANG",
+      "city": "DONGGUAN",
+      "state": "GD",
+      "zipcode": "523000",
+      "country": "CN"
+    }
+  }
+}

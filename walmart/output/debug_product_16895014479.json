@@ -1,0 +1,190 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1941,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8059,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "16895014479"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:16:22.168Z",
+    "processed_at": "2025-08-20T13:16:24.892Z",
+    "total_time_taken": 2.72,
+    "walmart_url": "https://www.walmart.com/ip/16895014479"
+  },
+  "product": {
+    "brand": "Sutra Beauty",
+    "link": "https://www.walmart.com/ip/Sutra-Interchangeable-Blowout-Brush-Attachment-2-inch-50MM-Oval-Barrel-Base-Mixed-Bristle-Brush-Tool-Base-Not-Included/16895014479",
+    "title": "Sutra Beauty Sutra Interchangeable Blowout Brush Attachment, 2-inch, 50MM Oval Barrel + Base, Mixed Bristle Brush, Tool Base Not Included",
+    "title_excluding_brand": "Sutra Interchangeable Blowout Brush Attachment, 2-inch, 50MM Oval Barrel + Base, Mixed Bristle Brush, Tool Base Not Included",
+    "upc": "850031507326",
+    "item_id": "16895014479",
+    "product_id": "SUTRA",
+    "item_number": "709TJCMR2XOG",
+    "description": "The Sutra Beauty® Interchangeable Blowout Brush is a versatile all-in-one dryer and styling tool, utilizing an Oval Tourmaline Infused Ceramic Barrel combined with Infrared and Ionic Technology to reduce drying time while styling hair. Create unique styles with multiple Interchangeable Brush Head Attachments.",
+    "description_html": "The Sutra Beauty® Interchangeable Blowout Brush is a versatile all-in-one dryer and styling tool, utilizing an Oval Tourmaline Infused Ceramic Barrel combined with Infrared and Ionic Technology to reduce drying time while styling hair. Create unique styles with multiple Interchangeable Brush Head Attachments.",
+    "description_full": "The Sutra Beauty® Interchangeable Blowout Brush is a versatile all-in-one dryer and styling tool, utilizing an Oval Tourmaline Infused Ceramic Barrel combined with Infrared and Ionic Technology to reduce drying time while styling hair. Create unique styles with multiple Interchangeable Brush Head Attachments. * 2” / 50MM Tourmaline Infused Ceramic Oval Barrel\n * Mixed Bristle Brush\n * Safe For All Hair Types\n * Tool Base Not Included",
+    "description_full_html": "The Sutra Beauty® Interchangeable Blowout Brush is a versatile all-in-one dryer and styling tool, utilizing an Oval Tourmaline Infused Ceramic Barrel combined with Infrared and Ionic Technology to reduce drying time while styling hair. Create unique styles with multiple Interchangeable Brush Head Attachments. <ul>   <li>2” / 50MM Tourmaline Infused Ceramic Oval Barrel</li>   <li>Mixed Bristle Brush</li>   <li>Safe For All Hair Types</li>   <li>Tool Base Not Included</li>  </ul>",
+    "model": "SUTRA",
+    "ratings_total": 0,
+    "type": "Hair Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Sutra-Interchangeable-Blowout-Brush-Attachment-2-inch-50MM-Oval-Barrel-Base-Mixed-Bristle-Brush-Tool-Base-Not-Included_fb0c89e0-f393-4137-89de-7e80bf7e79c2.a505b991d5afbbd2b9afe3d6570bfcbd.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Sutra-Interchangeable-Blowout-Brush-Attachment-2-inch-50MM-Oval-Barrel-Base-Mixed-Bristle-Brush-Tool-Base-Not-Included_fb0c89e0-f393-4137-89de-7e80bf7e79c2.a505b991d5afbbd2b9afe3d6570bfcbd.jpeg",
+        "id": "D0041AA0820B4026B373B62DC2450F4D",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/fcdad179-b4be-4397-877f-0dce746db79c.7694075354858e3612d9a2ba41ce8343.jpeg",
+        "id": "CF84DC55BD254B3985B9F00AAAE9B38C",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a2e4c425-9808-48d1-98fc-a2f1f423f6f7.5ef5a3b3f83d9ad98887d6c287c51597.jpeg",
+        "id": "0E0D49AF2A1140ACA86FF1D8F3233992",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1baa650f-e5f6-4011-ae53-b77fa2a977a4.70ce20c64bbd7082049033fa04bec03f.jpeg",
+        "id": "28A8C00EB14C4A8EB2EB1161B4FCD575",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8e84306c-064e-4867-8eff-9b02a8cd5fc4.8d3814f0a2fee6030d92233929290294.jpeg",
+        "id": "5460A2F19D414F2FBD64EEEE30EB871F",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/41cf9eaa-716d-47c2-b417-0d9d86780abb.1b32dac52103c6c4e8c33a0b42601140.jpeg",
+        "id": "9D24BA5EF37C4A9B9BD79CEBD993362C",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8ecd3979-ed27-4b8d-99ee-a7183b7d7841.57159924cca5bf0c8930a95e37c35022.jpeg",
+        "id": "5E56ECB51581456BAE5DAC7B28A6DDA2",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "N/A"
+      },
+      {
+        "name": "Brand",
+        "value": "Sutra Beauty"
+      }
+    ],
+    "buybox_winner": {
+      "price": 42,
+      "currency_symbol": "$",
+      "id": "FD500EC42F1736B183344DCE88B6CAE3",
+      "seller": {
+        "name": "annoulas store",
+        "id_secondary": "CB4D7891CC7F44B9B8127DDB89A233A8",
+        "id": 101473959,
+        "link": "https://www.walmart.com/seller/101473959"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Tue, Sep 2 to Winston Salem, 27104",
+        "message": "Free shipping, arrives by Tue, Sep 2 to Winston Salem, 27104",
+        "zipcode": "27104"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "annoulas store"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "16895014479",
+        "product_id": "SUTRA",
+        "link": "https://www.walmart.com/ip/Sutra-Interchangeable-Blowout-Brush-Attachment-2-inch-50MM-Oval-Barrel-Base-Mixed-Bristle-Brush-Tool-Base-Not-Included/16895014479",
+        "price": 42,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Sutra-Interchangeable-Blowout-Brush-Attachment-2-inch-50MM-Oval-Barrel-Base-Mixed-Bristle-Brush-Tool-Base-Not-Included_fb0c89e0-f393-4137-89de-7e80bf7e79c2.a505b991d5afbbd2b9afe3d6570bfcbd.jpeg",
+            "id": "D0041AA0820B4026B373B62DC2450F4D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/fcdad179-b4be-4397-877f-0dce746db79c.7694075354858e3612d9a2ba41ce8343.jpeg",
+            "id": "CF84DC55BD254B3985B9F00AAAE9B38C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a2e4c425-9808-48d1-98fc-a2f1f423f6f7.5ef5a3b3f83d9ad98887d6c287c51597.jpeg",
+            "id": "0E0D49AF2A1140ACA86FF1D8F3233992",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1baa650f-e5f6-4011-ae53-b77fa2a977a4.70ce20c64bbd7082049033fa04bec03f.jpeg",
+            "id": "28A8C00EB14C4A8EB2EB1161B4FCD575",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8e84306c-064e-4867-8eff-9b02a8cd5fc4.8d3814f0a2fee6030d92233929290294.jpeg",
+            "id": "5460A2F19D414F2FBD64EEEE30EB871F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/41cf9eaa-716d-47c2-b417-0d9d86780abb.1b32dac52103c6c4e8c33a0b42601140.jpeg",
+            "id": "9D24BA5EF37C4A9B9BD79CEBD993362C",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8ecd3979-ed27-4b8d-99ee-a7183b7d7841.57159924cca5bf0c8930a95e37c35022.jpeg",
+            "id": "5E56ECB51581456BAE5DAC7B28A6DDA2",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Winston Salem",
+    "state": "NC",
+    "zipcode": "27104",
+    "store_id": "2472"
+  }
+}

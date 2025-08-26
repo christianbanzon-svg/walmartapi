@@ -1,0 +1,192 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 396,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9604,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "5614621209"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:21:09.444Z",
+    "processed_at": "2025-08-18T11:21:21.715Z",
+    "total_time_taken": 12.27,
+    "walmart_url": "https://www.walmart.com/ip/5614621209"
+  },
+  "product": {
+    "brand": "GHYJPAJK",
+    "link": "https://www.walmart.com/ip/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon/5614621209",
+    "title": "GHYJPAJK Hair Clips for Rollers Hot Roller Clips Hair Curler Claw Clips Salon-",
+    "item_id": "5614621209",
+    "item_number": "7FA3PLQT8K2S",
+    "description": "http://www.walmart.com/ip/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon/5614621209",
+    "description_html": "http://www.walmart.com/ip/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon/5614621209",
+    "description_full": "http://www.walmart.com/ip/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon/5614621209 GHYJPAJK Hair Clips for Rollers Hot Roller Clips Hair Curler Claw Clips Salon-",
+    "description_full_html": "http://www.walmart.com/ip/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon/5614621209 GHYJPAJK Hair Clips for Rollers Hot Roller Clips Hair Curler Claw Clips Salon-",
+    "ratings_total": 0,
+    "type": "Hair Barrettes, Pins & Clips",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon_48d589c2-d263-40da-8814-31309cd9eb85.accdd486e048cfb1e4bbcb38a7bb7fe6.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon_48d589c2-d263-40da-8814-31309cd9eb85.accdd486e048cfb1e4bbcb38a7bb7fe6.jpeg",
+        "id": "D002DB32A22542648B3947034DF4EC2C",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ab161f04-ff34-41f1-b230-0af44530964b.b5222a67e055766ec75ed436cfc9273e.jpeg",
+        "id": "9799671343234BE5969D1815E7C2B602",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e9ea26fe-4494-4d89-b15c-e9976c581a12.ea75dcd5eafe49b1635512cd73d9f5b2.jpeg",
+        "id": "3DBD626FC97943D0A569ED90371A1C82",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e87ff344-1fc3-4124-a9ff-4add34e08551.2bf362ada02032f2b5c5fbbdc6706044.jpeg",
+        "id": "90331B422C7A4A8E92BD138512B23851",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/bebc91f9-af9a-41f5-aba3-426566084b21.16bf335434e9a9714ca11307baceda8d.jpeg",
+        "id": "FDA2CD77816C431490446FC5B7DDCB8B",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/b8acaabc-0ade-40a7-9b83-affc1ec9d3e5.63dd4162280086b53170ce619d0c9d63.jpeg",
+        "id": "6F8F5A90A33246B382F1887190246008",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/705a35c6-bc62-4864-887b-8bc5cc502e15.e31aea477f0653916549c5876076226d.jpeg",
+        "id": "84643A0A11E24D3FB16BCC80EEA25A14",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6d8cef90-f9a8-4288-81c4-b4527479d249.f1b94417e8795fbc93da68035135dcf3.jpeg",
+        "id": "4B69EC61109346E4B5CA6743C4C6FDD6",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Jewelry & Accessories",
+        "link": "https://www.walmart.com/cp/jewelry-accessories/1282109"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "GHYJPAJK"
+      },
+      {
+        "name": "Color",
+        "value": "White & Black Random Color"
+      }
+    ],
+    "buybox_winner": {
+      "price": 2.7,
+      "currency_symbol": "$",
+      "id": "EF003C41DE0836CCA10EB5DC4FC8B043",
+      "seller": {
+        "name": "RYGRZJ",
+        "id_secondary": "93C5E61D12E64D8989A9D0FDE8E39D3E",
+        "id": 101552408,
+        "link": "https://www.walmart.com/seller/101552408"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Seller shipping for $3.26, arrives by Wed, Sep 3 to Philadelphia, 19147",
+        "message": "Seller shipping for $3.26, arrives by Wed, Sep 3 to Philadelphia, 19147",
+        "zipcode": "19147"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "RYGRZJ"
+      }
+    },
+    "color": "White & Black Random Color",
+    "variants": [
+      {
+        "item_id": "5614621209",
+        "product_id": "7FA3PLQT8K2S",
+        "link": "https://www.walmart.com/ip/5614621209",
+        "in_stock": true,
+        "price": 2.7,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/GHYJPAJK-Hair-Clips-for-Rollers-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Salon_48d589c2-d263-40da-8814-31309cd9eb85.accdd486e048cfb1e4bbcb38a7bb7fe6.jpeg",
+            "id": "D002DB32A22542648B3947034DF4EC2C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ab161f04-ff34-41f1-b230-0af44530964b.b5222a67e055766ec75ed436cfc9273e.jpeg",
+            "id": "9799671343234BE5969D1815E7C2B602",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e9ea26fe-4494-4d89-b15c-e9976c581a12.ea75dcd5eafe49b1635512cd73d9f5b2.jpeg",
+            "id": "3DBD626FC97943D0A569ED90371A1C82",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e87ff344-1fc3-4124-a9ff-4add34e08551.2bf362ada02032f2b5c5fbbdc6706044.jpeg",
+            "id": "90331B422C7A4A8E92BD138512B23851",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/bebc91f9-af9a-41f5-aba3-426566084b21.16bf335434e9a9714ca11307baceda8d.jpeg",
+            "id": "FDA2CD77816C431490446FC5B7DDCB8B",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b8acaabc-0ade-40a7-9b83-affc1ec9d3e5.63dd4162280086b53170ce619d0c9d63.jpeg",
+            "id": "6F8F5A90A33246B382F1887190246008",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/705a35c6-bc62-4864-887b-8bc5cc502e15.e31aea477f0653916549c5876076226d.jpeg",
+            "id": "84643A0A11E24D3FB16BCC80EEA25A14",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6d8cef90-f9a8-4288-81c4-b4527479d249.f1b94417e8795fbc93da68035135dcf3.jpeg",
+            "id": "4B69EC61109346E4B5CA6743C4C6FDD6",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white&blackrandomcolor"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "zipcode": "19147",
+    "store_id": "2141"
+  }
+}

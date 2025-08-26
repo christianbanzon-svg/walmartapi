@@ -1,0 +1,168 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 388,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9612,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "3650471599"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:20:14.430Z",
+    "processed_at": "2025-08-18T11:20:17.952Z",
+    "total_time_taken": 3.52,
+    "walmart_url": "https://www.walmart.com/ip/3650471599"
+  },
+  "product": {
+    "brand": "Stgfyxgs",
+    "link": "https://www.walmart.com/ip/10PCS-Heat-Protector-Templates-Separator-Pads-Guards-Processing-Tool/3650471599",
+    "title": "Stgfyxgs 10PCS Heat Protector Templates Separator Pads Guards  Processing Tool",
+    "title_excluding_brand": "10PCS Heat Protector Templates Separator Pads Guards  Processing Tool",
+    "upc": "759765845240",
+    "item_id": "3650471599",
+    "product_id": "Does Not Apply",
+    "item_number": "2VBFHSKDT5HJ",
+    "description": "Description:\n\n new and high quality\nThe porous insulation film receiving hair piece\nA protective extension without \nFor the of and hair type hot melt adhesive, prevent damage of high temperature to the hair\nUse of imported PVC sand grinding materials\n\nSpecification:\n\nMaterial: PVC\nSize: approx. 14x4 cm / 5.51x1.57 inch\n\nPackage Includes:\n\n10Pcs Heat Protector",
+    "description_html": "<p><b>Description:</b></p><p> new and high quality<br>The porous insulation film receiving hair piece<br>A protective extension without <br>For the of and hair type hot melt adhesive, prevent damage of high temperature to the hair<br>Use of imported PVC sand grinding materials</p><p><b>Specification:</b></p><p>Material: PVC<br>Size: approx. 14x4 cm / 5.51x1.57 inch</p><p><b>Package Includes:</b></p><p>10Pcs Heat Protector </p>",
+    "description_full": "Description:\n\n new and high quality\nThe porous insulation film receiving hair piece\nA protective extension without \nFor the of and hair type hot melt adhesive, prevent damage of high temperature to the hair\nUse of imported PVC sand grinding materials\n\nSpecification:\n\nMaterial: PVC\nSize: approx. 14x4 cm / 5.51x1.57 inch\n\nPackage Includes:\n\n10Pcs Heat Protector * Hair Protector\n * Scalp Protector\n * Gurads",
+    "description_full_html": "<p><b>Description:</b></p><p> new and high quality<br>The porous insulation film receiving hair piece<br>A protective extension without <br>For the of and hair type hot melt adhesive, prevent damage of high temperature to the hair<br>Use of imported PVC sand grinding materials</p><p><b>Specification:</b></p><p>Material: PVC<br>Size: approx. 14x4 cm / 5.51x1.57 inch</p><p><b>Package Includes:</b></p><p>10Pcs Heat Protector </p> <ul>   <li>Hair Protector</li>   <li>Scalp Protector</li>   <li>Gurads</li>  </ul>",
+    "ratings_total": 0,
+    "type": "Other Hair Styling Tools & Products",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/10PCS-Heat-Protector-Templates-Separator-Pads-Guards-Processing-Tool_bb6e9cc7-ae96-4a3d-a564-979966c383da.2f414f7f301fcdadc42656e5dfa0cf1f.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/10PCS-Heat-Protector-Templates-Separator-Pads-Guards-Processing-Tool_bb6e9cc7-ae96-4a3d-a564-979966c383da.2f414f7f301fcdadc42656e5dfa0cf1f.jpeg",
+        "id": "76D8E9268F5C4214BD5E499ED1117FB3",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/148870e3-d66f-4799-933b-67837981470f.a6a485e3c7f4b6a996725b3cf03e65a8.jpeg",
+        "id": "E7A8BDA072344D48B7AF385B4AD74361",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c91c6b62-3c41-4a7b-ab62-53c580202659.198ce17ae218a526b0b3478445520930.jpeg",
+        "id": "E934FED6488E4D8AB0D1F2E5E2F8158C",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/45e59bb3-db2f-49ce-8ce0-ec51137783e6.87c914ab88e53a1d8c4ccbe154360dc4.jpeg",
+        "id": "00AFE55D53EB435EBD81D9A77DB98D44",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1c2bbadb-01aa-4e08-b454-8148f0c5f747.b1ad974d7f0d48659a91e9b2a46e8bcd.jpeg",
+        "id": "C155089D83B9435DB1A8B0D0BC6E2D21",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/10bd26ec-bd0c-4775-814c-ba5f3833be78.d1d22a7585fd67692fbdec403506c7a2.jpeg",
+        "id": "32B388D405A0418084B5201DC9A28568",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/18ce98eb-b14d-4cd2-9654-84d1ee17ac7e.cd53f489586cb2a3a0809f571972c981.jpeg",
+        "id": "429A40F98D844EFF8CF50EB403273E98",
+        "zoomable": true
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "5.51 x 1.57 x 0.39 Inches"
+      }
+    ],
+    "buybox_winner": {
+      "price": 10.99,
+      "currency_symbol": "$",
+      "id": "EF9C21833E12484C845CCDF67E70842E",
+      "seller": {
+        "name": "Stgfyxgs",
+        "id_secondary": "AAD15299BE8040BCB97B4FB6BC9B92E5",
+        "id": 101292306,
+        "link": "https://www.walmart.com/seller/101292306"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Tue, Sep 16 to Houston, 77075",
+        "message": "Free shipping, arrives by Tue, Sep 16 to Houston, 77075",
+        "zipcode": "77075"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Stgfyxgs"
+      }
+    },
+    "dimensions": "5.51 x 1.57 x 0.39 Inches",
+    "variants": [
+      {
+        "item_id": "3650471599",
+        "product_id": "Does Not Apply",
+        "link": "https://www.walmart.com/ip/10PCS-Heat-Protector-Templates-Separator-Pads-Guards-Processing-Tool/3650471599",
+        "price": 10.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/10PCS-Heat-Protector-Templates-Separator-Pads-Guards-Processing-Tool_bb6e9cc7-ae96-4a3d-a564-979966c383da.2f414f7f301fcdadc42656e5dfa0cf1f.jpeg",
+            "id": "76D8E9268F5C4214BD5E499ED1117FB3",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/148870e3-d66f-4799-933b-67837981470f.a6a485e3c7f4b6a996725b3cf03e65a8.jpeg",
+            "id": "E7A8BDA072344D48B7AF385B4AD74361",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c91c6b62-3c41-4a7b-ab62-53c580202659.198ce17ae218a526b0b3478445520930.jpeg",
+            "id": "E934FED6488E4D8AB0D1F2E5E2F8158C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/45e59bb3-db2f-49ce-8ce0-ec51137783e6.87c914ab88e53a1d8c4ccbe154360dc4.jpeg",
+            "id": "00AFE55D53EB435EBD81D9A77DB98D44",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1c2bbadb-01aa-4e08-b454-8148f0c5f747.b1ad974d7f0d48659a91e9b2a46e8bcd.jpeg",
+            "id": "C155089D83B9435DB1A8B0D0BC6E2D21",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/10bd26ec-bd0c-4775-814c-ba5f3833be78.d1d22a7585fd67692fbdec403506c7a2.jpeg",
+            "id": "32B388D405A0418084B5201DC9A28568",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/18ce98eb-b14d-4cd2-9654-84d1ee17ac7e.cd53f489586cb2a3a0809f571972c981.jpeg",
+            "id": "429A40F98D844EFF8CF50EB403273E98",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Houston",
+    "state": "TX",
+    "zipcode": "77075",
+    "store_id": "3425"
+  }
+}

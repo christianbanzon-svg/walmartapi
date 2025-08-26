@@ -1,0 +1,246 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1828,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8172,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "13335819597"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T12:59:54.008Z",
+    "processed_at": "2025-08-20T12:59:58.456Z",
+    "total_time_taken": 4.45,
+    "walmart_url": "https://www.walmart.com/ip/13335819597"
+  },
+  "product": {
+    "brand": "CNV",
+    "link": "https://www.walmart.com/ip/2-in-1-Rotating-Curling-Iron-Fast-Heat-PTC-Hair-Straightener-and-Curler/13335819597",
+    "title": "CNV 2 in 1 Rotating Curling Iron Fast Heat PTC Hair Straightener and Curler",
+    "title_excluding_brand": "2 in 1 Rotating Curling Iron Fast Heat PTC Hair Straightener and Curler",
+    "upc": "781434468009",
+    "item_id": "13335819597",
+    "item_number": "3OX2OHE6U8SI",
+    "description": "The 2-in-1 rotating curling iron uses a 100% hard oxidized heating plate, which can make the hair scales fit more closely and heat evenly without damaging the hair fiber.",
+    "description_html": "The 2-in-1 rotating curling iron uses a 100% hard oxidized heating plate, which can make the hair scales fit more closely and heat evenly without damaging the hair fiber.",
+    "description_full": "The 2-in-1 rotating curling iron uses a 100% hard oxidized heating plate, which can make the hair scales fit more closely and heat evenly without damaging the hair fiber. *  ·Hair Straightener and Curler:Girls' hairstyles are always changeable, sometimes playful and lively, sometimes fresh and refined. This styler can help you create vertical straight hair or charming curly hair. You will make favourite hairstyle everyday.\n   \n   \n *  ·2 Rows of Combs:This styler has 2 rows of temperature-resistant combs. The design of the combs is similar to that of normal hair combs, making it easy to get started. The comb teeth are reasonably spaced, so you can easily comb the end to solve the problem of hair knotting.\n   \n   \n *  Temperature Settings: 3-level temperature adjustment fully considers the needs of different hair types. 230°F is suitable for soft and damaged hair, 320°F is for normal and sofa hair, 392°F is for hard and natural curls. You can switch different temperature by pressing the button.\n   \n   \n *  Floating Panel: The floating panel can automatically adjust the strength according to the volume of hair, reducing hair damage caused by pulling. The panel can always keep the upper and lower panels in close contact, and evenly heated without damaging the hair fiber.\n   \n   \n *  Styler Material: The whole body adopts the process of baking varnish, which is thick and bright, wear-resistant, and not easy to fade. It ensures the safety performance and longevity of use. The handle is non-slip with aesthetic ergonomics and comfortable grip.",
+    "description_full_html": "The 2-in-1 rotating curling iron uses a 100% hard oxidized heating plate, which can make the hair scales fit more closely and heat evenly without damaging the hair fiber. <ul>  <li>   <p class=\"MsoNormal\"><span>·&nbsp;</span><span><font face=\"宋体\">Hair Straightener and Curler:Girls' hairstyles are always changeable, sometimes playful and lively, sometimes fresh and refined. This styler can help you create vertical straight hair or charming curly hair. You will make favourite hairstyle everyday.</font></span><span></span></p></li>  <li>   <p class=\"MsoNormal\"><span>·&nbsp;</span><span><font face=\"宋体\">2 Rows of Combs:This styler has 2 rows of temperature-resistant combs. The design of the combs is similar to that of normal hair combs, making it easy to get started. The comb teeth are reasonably spaced, so you can easily comb the end to solve the problem of hair knotting.</font></span><span></span></p></li>  <li>   <p class=\"MsoNormal\"><span><font face=\"宋体\">Temperature Settings: 3-level temperature adjustment fully considers the needs of different hair types. 230°F is suitable for soft and damaged hair, 320°F is for normal and sofa hair, 392°F is for hard and natural curls. You can switch different temperature by pressing the button.</font></span></p></li>  <li>   <p class=\"MsoNormal\"><span><font face=\"宋体\">Floating Panel: The floating panel can automatically adjust the strength according to the volume of hair, reducing hair damage caused by pulling. The panel can always keep the upper and lower panels in close contact, and evenly heated without damaging the hair fiber.</font></span></p></li>  <li>   <p class=\"MsoNormal\"><span><font face=\"宋体\">Styler Material: The whole body adopts the process of baking varnish, which is thick and bright, wear-resistant, and not easy to fade. It ensures the safety performance and longevity of use. The handle is non-slip with aesthetic ergonomics and comfortable grip.</font></span></p></li> </ul>",
+    "ratings_total": 1,
+    "rating": 1,
+    "type": "Hair Curling Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/2-in-1-Rotating-Curling-Iron-Fast-Heat-PTC-Hair-Straightener-and-Curler_4b27b889-8dd1-44a9-9379-f2062c51cdb9.70602b2a3a9b6e0df481a23f1dd86d98.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/2-in-1-Rotating-Curling-Iron-Fast-Heat-PTC-Hair-Straightener-and-Curler_4b27b889-8dd1-44a9-9379-f2062c51cdb9.70602b2a3a9b6e0df481a23f1dd86d98.jpeg",
+        "id": "CC4AB5D955C34E7A9ECB1136B9DB1E6B",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4e4ca2d4-3c07-4a7c-8a7d-692f5cfee827.97d23246ef055400a7181131c863fe61.jpeg",
+        "id": "7E7A4F7ECA144A298AA41C1D6B786CC5",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a44544a2-85b9-4665-a8b2-4d3611d029b9.c9d44049ec64530ab33fe8679363ff60.jpeg",
+        "id": "2572B249239344C3B06E3A403565548E",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c7902baf-a35f-4ecf-9e40-856d38a34c94.d8734501407090946085648aff82c41a.jpeg",
+        "id": "BDA914E2A8274F26825F936E41E65CEA",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ac360312-96fe-4e75-b9f2-b9834080628f.103acb4a096092a9a65fb74c6bfc475b.jpeg",
+        "id": "53843DE4FDBC43CCA4E453C72A9146C8",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/54d390ba-8ea9-4bdc-926a-c3dbedba9e08.ffd5009f2ddfa4053aa345aa38381e47.jpeg",
+        "id": "787E697B9286478082F4EE5F4E638B84",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c95cbe0b-146d-4830-89b0-1b8e3281c214.98825ab3498285c88f92bcd9e7a50a0a.jpeg",
+        "id": "571294CC43EE473796EC5B525DD15CD6",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8ff97509-290a-496d-a49f-25704567f88a.1d9d1b2ad83abd8ba8e158bad6412f33.jpeg",
+        "id": "F834627E486648DC9DB404271ABF2EE0",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/483c7bc6-528a-4fd1-8aed-731b78059d3b.1f26825f7352dba800e7443f1e266592.jpeg",
+        "id": "86919A0C87584A97822961846CF82BD7",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Rotating"
+      },
+      {
+        "name": "Brand",
+        "value": "CNV"
+      }
+    ],
+    "buybox_winner": {
+      "price": 38.99,
+      "was_price": 69.99,
+      "currency_symbol": "$",
+      "offers_total": 3,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$42.00",
+        "value": 42
+      },
+      "id": "EEE311BA51B439989DD4064207386EC0",
+      "seller": {
+        "name": "cuichunli",
+        "id_secondary": "B5CD25622BBB4A89BEDFCEA702D9BA66",
+        "id": 102916816,
+        "link": "https://www.walmart.com/seller/102916816"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Wed, Aug 27 to Alex City, 35010",
+        "message": "Free shipping, arrives by Wed, Aug 27 to Alex City, 35010",
+        "zipcode": "35010"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "cuichunli"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "13335819597",
+        "link": "https://www.walmart.com/ip/2-in-1-Rotating-Curling-Iron-Fast-Heat-PTC-Hair-Straightener-and-Curler/13335819597",
+        "price": 38.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/2-in-1-Rotating-Curling-Iron-Fast-Heat-PTC-Hair-Straightener-and-Curler_4b27b889-8dd1-44a9-9379-f2062c51cdb9.70602b2a3a9b6e0df481a23f1dd86d98.jpeg",
+            "id": "CC4AB5D955C34E7A9ECB1136B9DB1E6B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4e4ca2d4-3c07-4a7c-8a7d-692f5cfee827.97d23246ef055400a7181131c863fe61.jpeg",
+            "id": "7E7A4F7ECA144A298AA41C1D6B786CC5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a44544a2-85b9-4665-a8b2-4d3611d029b9.c9d44049ec64530ab33fe8679363ff60.jpeg",
+            "id": "2572B249239344C3B06E3A403565548E",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c7902baf-a35f-4ecf-9e40-856d38a34c94.d8734501407090946085648aff82c41a.jpeg",
+            "id": "BDA914E2A8274F26825F936E41E65CEA",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ac360312-96fe-4e75-b9f2-b9834080628f.103acb4a096092a9a65fb74c6bfc475b.jpeg",
+            "id": "53843DE4FDBC43CCA4E453C72A9146C8",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/54d390ba-8ea9-4bdc-926a-c3dbedba9e08.ffd5009f2ddfa4053aa345aa38381e47.jpeg",
+            "id": "787E697B9286478082F4EE5F4E638B84",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c95cbe0b-146d-4830-89b0-1b8e3281c214.98825ab3498285c88f92bcd9e7a50a0a.jpeg",
+            "id": "571294CC43EE473796EC5B525DD15CD6",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8ff97509-290a-496d-a49f-25704567f88a.1d9d1b2ad83abd8ba8e158bad6412f33.jpeg",
+            "id": "F834627E486648DC9DB404271ABF2EE0",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/483c7bc6-528a-4fd1-8aed-731b78059d3b.1f26825f7352dba800e7443f1e266592.jpeg",
+            "id": "86919A0C87584A97822961846CF82BD7",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Alex City",
+    "state": "AL",
+    "zipcode": "35010",
+    "store_id": "726"
+  }
+}

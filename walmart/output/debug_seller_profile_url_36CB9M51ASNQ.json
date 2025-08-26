@@ -1,0 +1,6 @@
+{
+  "request_info": {
+    "success": false,
+    "message": "'walmart.ca' is only supported for 'type=reviews|product|search' requests at this time."
+  }
+}

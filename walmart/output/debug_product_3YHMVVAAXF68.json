@@ -1,0 +1,6 @@
+{
+  "request_info": {
+    "success": false,
+    "message": "The 'store_id' is invalid (download a full list of supported walmart.ca store_ids here: https://data.bluecartapi.com/walmart-stores.json). Please contact customer support if the store you want is currently not supported"
+  }
+}

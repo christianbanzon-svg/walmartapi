@@ -1,0 +1,22 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1963,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8037,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "199426445"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:18:44.297Z",
+    "processed_at": "2025-08-20T13:18:47.545Z",
+    "total_time_taken": 3.25,
+    "walmart_url": "https://www.walmart.com/ip/199426445"
+  },
+  "message": "Product not found."
+}

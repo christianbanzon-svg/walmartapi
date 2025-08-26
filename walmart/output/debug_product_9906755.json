@@ -1,0 +1,210 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1895,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8105,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "9906755"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:10:37.676Z",
+    "processed_at": "2025-08-20T13:10:43.116Z",
+    "total_time_taken": 5.44,
+    "walmart_url": "https://www.walmart.com/ip/9906755"
+  },
+  "product": {
+    "brand": "Conair",
+    "link": "https://www.walmart.com/ip/Conair-Instant-Heat-Swivel-Cord-Hot-Hair-Brush-Black-BC84N/9906755",
+    "title": "Conair Instant Heat Hot Curl Brush, .75\"",
+    "upc": "074108110961",
+    "item_id": "9906755",
+    "product_id": "bc84wcsr",
+    "item_number": "439F9PJS60TF",
+    "description": "Hair Dryers / Heat Brush - Heat Brush 3/4\" Instant",
+    "description_html": "Hair Dryers / Heat Brush - Heat Brush 3/4\" Instant",
+    "description_full": "Hair Dryers / Heat Brush - Heat Brush 3/4\" Instant For the best in convenience and safety, the Conair heat hot brush features a cool tip and a tangle-free swivel cord. It also has an electronic touchpad control and is designed to rest on a counter. The Conair Instant 3/4\" Hot Brush comes with dual voltage so you can take it with you on international trips.\nConair Instant Heat 3/4\" Hot Brush:\n\n * For all hair types\n * Instant heat 60-second heat up\n * Auto shutoff\n * Tangle-free ball-tipped bristles\n * Patented Euro design nonslip grip handle\n * 25 temperature control settings\n * Dual voltage\n * Ready to use, on/off indicator light\n * Electronic touchpad control\n * Cool tip\n * Conair heat hot brush with tangle-free swivel cord",
+    "description_full_html": "Hair Dryers / Heat Brush - Heat Brush 3/4\" Instant <p>For the best in convenience and safety, the Conair heat hot brush features a cool tip and a tangle-free swivel cord. It also has an electronic touchpad control and is designed to rest on a counter. The Conair Instant 3/4\" Hot Brush comes with dual voltage so you can take it with you on international trips.<br><b>Conair Instant Heat 3/4\" Hot Brush:</b></p> <ul>  <li>For all hair types</li>  <li>Instant heat 60-second heat up</li>  <li>Auto shutoff</li>  <li>Tangle-free ball-tipped bristles</li>  <li>Patented Euro design nonslip grip handle</li>  <li>25 temperature control settings</li>  <li>Dual voltage</li>  <li>Ready to use, on/off indicator light</li>  <li>Electronic touchpad control</li>  <li>Cool tip</li>  <li>Conair heat hot brush with tangle-free swivel cord</li> </ul>",
+    "model": "BC84WCS",
+    "ratings_total": 319,
+    "rating": 4.5,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Conair-Instant-Heat-Swivel-Cord-Hot-Hair-Brush-Black-BC84N_3d0f0fc9-a69f-4a08-a095-9d9a99dd7191_1.413c0975563b0a734d62ce3f94f19517.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Conair-Instant-Heat-Swivel-Cord-Hot-Hair-Brush-Black-BC84N_3d0f0fc9-a69f-4a08-a095-9d9a99dd7191_1.413c0975563b0a734d62ce3f94f19517.jpeg",
+        "id": "33AA6ACEAD6041549CBE8455CA3C07C9",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f86976cc-1fd6-468f-880f-42c9af877157.2bdd3220a32067fc904ee5c033222f2e.jpeg",
+        "id": "8AB4013011A6458A8E9F53F5337CFDAD",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Beauty by Topic",
+        "link": "https://www.walmart.com/cp/beauty-by-topic/4820682"
+      },
+      {
+        "name": "Top-Rated Beauty",
+        "link": "https://www.walmart.com/cp/top-rated-beauty/1307057"
+      },
+      {
+        "name": "Top-Rated Hair Care",
+        "link": "https://www.walmart.com/cp/top-rated-hair-care/6702299"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Swivel Cord"
+      },
+      {
+        "name": "Brand",
+        "value": "Conair"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "bc84wcsr"
+      },
+      {
+        "name": "Gender",
+        "value": "Female"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Conair"
+      },
+      {
+        "name": "Model",
+        "value": "BC84WCS"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "0.65 lb"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "2.25 x 5.25 x 14.75 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 17.99,
+      "was_price": 29.99,
+      "currency_symbol": "$",
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$23.49",
+        "value": 23.49
+      },
+      "id": "C10846E7CF633978ADF90552CEC308D4",
+      "seller": {
+        "name": "BAHROSA",
+        "id_secondary": "782F8265EC6148B7A6E35846496BC669",
+        "id": 101430486,
+        "link": "https://www.walmart.com/seller/101430486"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Seller shipping for $5.5, arrives by Fri, Aug 29 to Sacramento, 95829",
+        "message": "Seller shipping for $5.5, arrives by Fri, Aug 29 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "BAHROSA"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10702915011",
+          "id": "D7482BB8E273385D80E3A56B0AB514EF",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 2,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$2.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10692570769",
+          "id": "83B9CAB3B6BE3DCB9DE8AD8A770E9D27",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        }
+      ]
+    },
+    "color": "Black",
+    "dimensions": "2.25 x 5.25 x 14.75 in",
+    "variants": [
+      {
+        "item_id": "9906755",
+        "product_id": "439F9PJS60TF",
+        "link": "https://www.walmart.com/ip/9906755",
+        "in_stock": true,
+        "price": 17.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Conair-Instant-Heat-Swivel-Cord-Hot-Hair-Brush-Black-BC84N_3d0f0fc9-a69f-4a08-a095-9d9a99dd7191_1.413c0975563b0a734d62ce3f94f19517.jpeg",
+            "id": "33AA6ACEAD6041549CBE8455CA3C07C9",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f86976cc-1fd6-468f-880f-42c9af877157.2bdd3220a32067fc904ee5c033222f2e.jpeg",
+            "id": "8AB4013011A6458A8E9F53F5337CFDAD",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "3/4\""
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

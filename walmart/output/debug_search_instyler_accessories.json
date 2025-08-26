@@ -1,0 +1,24 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2002,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7998,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "search",
+    "search_term": "instyler accessories",
+    "page": "1",
+    "zipcode": "94105",
+    "category_id": "133215"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:45:45.483Z",
+    "processed_at": "2025-08-20T13:45:51.835Z",
+    "total_time_taken": 6.35,
+    "walmart_url": "https://www.walmart.com/browse/133215?q=instyler+accessories&page=1"
+  }
+}

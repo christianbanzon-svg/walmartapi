@@ -1,0 +1,173 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1927,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8073,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "5712606563"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:14:30.916Z",
+    "processed_at": "2025-08-20T13:14:34.084Z",
+    "total_time_taken": 3.17,
+    "walmart_url": "https://www.walmart.com/ip/5712606563"
+  },
+  "product": {
+    "brand": "Binzhouyixin",
+    "link": "https://www.walmart.com/ip/Upgraded-Diffuser-for-Dyson-Airwrap-Styler-Hair-Dryer-Diffuser-Nozzle-Attachment-for-Dyson-for-Airwrap-HS05-HS03-HS01/5712606563",
+    "title": "Binzhouyixin Upgraded Diffuser for Dyson Airwrap Styler, Hair Dryer Diffuser Nozzle Attachment for Dyson for Airwrap HS05 HS03 HS01",
+    "title_excluding_brand": "Upgraded Diffuser for Dyson Airwrap Styler, Hair Dryer Diffuser Nozzle Attachment for Dyson for Airwrap HS05 HS03 HS01",
+    "item_id": "5712606563",
+    "item_number": "0ZTGZWA5FUPH",
+    "description": "1、Compatible for AKG K450/K430/K420/K480/Q460, for Sennheiser PX100/200, fit well. \n\n 2、Made of high?quality artificial leather, it is durable and flexible, allowing you to listen for a long time. \n\n 3、The soft memory foam can manage the ability to block noise from the outside. \n\n 4、Perfect for replacing lost, damaged or dirty ear pads of headphone, easy to operate. \n\n 5、Easy to install, just take out the previous one and install the new one, simple operation.",
+    "description_html": "<p> 1、Compatible for AKG K450/K430/K420/K480/Q460, for Sennheiser PX100/200, fit well. </p><p> 2、Made of high?quality artificial leather, it is durable and flexible, allowing you to listen for a long time. </p><p> 3、The soft memory foam can manage the ability to block noise from the outside. </p><p> 4、Perfect for replacing lost, damaged or dirty ear pads of headphone, easy to operate. </p><p> 5、Easy to install, just take out the previous one and install the new one, simple operation.</p><p></p>",
+    "description_full": "1、Compatible for AKG K450/K430/K420/K480/Q460, for Sennheiser PX100/200, fit well. \n\n 2、Made of high?quality artificial leather, it is durable and flexible, allowing you to listen for a long time. \n\n 3、The soft memory foam can manage the ability to block noise from the outside. \n\n 4、Perfect for replacing lost, damaged or dirty ear pads of headphone, easy to operate. \n\n 5、Easy to install, just take out the previous one and install the new one, simple operation. [Upgraded Diffuser Nozzle] Elevate your hair styling with our Upgraded Diffuser Nozzle - no adapter needed. Experience smoother airflow, a delicate feel, and refined appearance for salon-quality results at home. Its flexible, lightweight design ensures easy airflow control, suitable for all hair",
+    "description_full_html": "<p> 1、Compatible for AKG K450/K430/K420/K480/Q460, for Sennheiser PX100/200, fit well. </p><p> 2、Made of high?quality artificial leather, it is durable and flexible, allowing you to listen for a long time. </p><p> 3、The soft memory foam can manage the ability to block noise from the outside. </p><p> 4、Perfect for replacing lost, damaged or dirty ear pads of headphone, easy to operate. </p><p> 5、Easy to install, just take out the previous one and install the new one, simple operation.</p><p></p> [Upgraded Diffuser Nozzle] Elevate your hair styling with our Upgraded Diffuser Nozzle - no adapter needed. Experience smoother airflow, a delicate feel, and refined appearance for salon-quality results at home. Its flexible, lightweight design ensures easy airflow control, suitable for all hair",
+    "ratings_total": 0,
+    "type": "Hair Dryer Diffusers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Upgraded-Diffuser-for-Dyson-Airwrap-Styler-Hair-Dryer-Diffuser-Nozzle-Attachment-for-Dyson-for-Airwrap-HS05-HS03-HS01_07cc06be-6bd5-4635-8fa0-92ce31c11792.ea2d3fab53d3e6ff62af7ce36ea54405.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Upgraded-Diffuser-for-Dyson-Airwrap-Styler-Hair-Dryer-Diffuser-Nozzle-Attachment-for-Dyson-for-Airwrap-HS05-HS03-HS01_07cc06be-6bd5-4635-8fa0-92ce31c11792.ea2d3fab53d3e6ff62af7ce36ea54405.jpeg",
+        "id": "B00D1F2FD7FF45DAAC654522B4568799",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/385eac26-949e-4965-abae-b9a234139a53.e6813c51a6387d567eb86cb1ba8cf7d0.jpeg",
+        "id": "8F2E74F2693D481A9E82CCD9EBC9B87B",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/78998c5e-82ff-4b63-8185-b7729a2e0354.86be224dc79642a80e7c823fb8bf6343.jpeg",
+        "id": "E1F64AC9F5584F14A0B07EEDDB33E5CA",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/9b4902f5-e3ef-426c-bbfc-2621da177a42.42e399b6ea6bd424de0b08f55a9186c9.jpeg",
+        "id": "B5E2CFB8AC3A43B8ADE6B2118C232620",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8fd4fbc0-9b7f-47f4-934f-0d054ab9d255.c835e47e4c19875ceee0b8e3eaf43497.jpeg",
+        "id": "DB3ED522227B428D88A597D32709D6CD",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "artificial leather"
+      },
+      {
+        "name": "Brand",
+        "value": "Binzhouyixin"
+      }
+    ],
+    "buybox_winner": {
+      "price": 26,
+      "currency_symbol": "$",
+      "offers_total": 4,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$25.99",
+        "value": 25.99
+      },
+      "id": "01E8C27C7EE13916B0E8DE60EE14F98C",
+      "seller": {
+        "name": "huangguangming",
+        "id_secondary": "1E3339449F7E4DB2ADFE97712FE69EE6",
+        "id": 102755765,
+        "link": "https://www.walmart.com/seller/102755765"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 29 to Three Rivers, 49093",
+        "message": "Free shipping, arrives by Fri, Aug 29 to Three Rivers, 49093",
+        "zipcode": "49093"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "huangguangming"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "5712606563",
+        "link": "https://www.walmart.com/ip/Upgraded-Diffuser-for-Dyson-Airwrap-Styler-Hair-Dryer-Diffuser-Nozzle-Attachment-for-Dyson-for-Airwrap-HS05-HS03-HS01/5712606563",
+        "price": 26,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Upgraded-Diffuser-for-Dyson-Airwrap-Styler-Hair-Dryer-Diffuser-Nozzle-Attachment-for-Dyson-for-Airwrap-HS05-HS03-HS01_07cc06be-6bd5-4635-8fa0-92ce31c11792.ea2d3fab53d3e6ff62af7ce36ea54405.jpeg",
+            "id": "B00D1F2FD7FF45DAAC654522B4568799",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/385eac26-949e-4965-abae-b9a234139a53.e6813c51a6387d567eb86cb1ba8cf7d0.jpeg",
+            "id": "8F2E74F2693D481A9E82CCD9EBC9B87B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/78998c5e-82ff-4b63-8185-b7729a2e0354.86be224dc79642a80e7c823fb8bf6343.jpeg",
+            "id": "E1F64AC9F5584F14A0B07EEDDB33E5CA",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9b4902f5-e3ef-426c-bbfc-2621da177a42.42e399b6ea6bd424de0b08f55a9186c9.jpeg",
+            "id": "B5E2CFB8AC3A43B8ADE6B2118C232620",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8fd4fbc0-9b7f-47f4-934f-0d054ab9d255.c835e47e4c19875ceee0b8e3eaf43497.jpeg",
+            "id": "DB3ED522227B428D88A597D32709D6CD",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Three Rivers",
+    "state": "MI",
+    "zipcode": "49093",
+    "store_id": "3791"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2233,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7767,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "102762242"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T14:11:27.123Z",
+    "processed_at": "2025-08-25T14:11:33.653Z",
+    "total_time_taken": 6.53,
+    "walmart_url": "https://www.walmart.com/seller/102762242"
+  },
+  "seller_details": {
+    "name": "YangCo.Ltd",
+    "id": "A431303E38D44043AE985BF1075B40FD",
+    "link": "https://www.walmart.com/seller/102762242",
+    "is_pro_seller": false,
+    "phone": "15730728717",
+    "rating": 5,
+    "rating_breakdown": {
+      "one_star": 0,
+      "two_star": 0,
+      "three_star": 0,
+      "four_star": 0,
+      "five_star": 2
+    },
+    "email": "15730728717@163.com",
+    "address": {
+      "address1": "chongqinshibananqulongzhouwanjiedaoshenglonglu1390haofu7haozibianhaoZL03123",
+      "city": "Chongqing",
+      "state": "CQ",
+      "zipcode": "400000",
+      "country": "CN"
+    }
+  }
+}

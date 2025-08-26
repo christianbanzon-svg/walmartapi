@@ -1,0 +1,214 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2109,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7891,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "14426564277"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-22T08:25:59.944Z",
+    "processed_at": "2025-08-22T08:26:03.492Z",
+    "total_time_taken": 3.55,
+    "walmart_url": "https://www.walmart.com/ip/14426564277"
+  },
+  "product": {
+    "brand": "ION Audio",
+    "link": "https://www.walmart.com/ip/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types/14426564277",
+    "title": "ION Audio ion Luxe 8-In-1 Airstyler Pro, Interchangeable Hair Dryer & Curler for All Hair Types",
+    "title_excluding_brand": "ion Luxe 8-In-1 Airstyler Pro, Interchangeable Hair Dryer & Curler for All Hair Types",
+    "item_id": "14426564277",
+    "product_id": "IO2033",
+    "item_number": "1RKSXW0D3PQX",
+    "description": "The ion Luxe 8-In-1 Airstyler Pro is a versatile hair styling tool that combines the functionality of a hair dryer and curler into one sleek device. With its interchangeable attachments it allows you to create various hairstyles effortlessly. The powerful airflow and Coanda effectan aerodynamic phenomenon where air adheres to a curved surface to attract the hair for easy styling help to dry hair quickly while minimizing frizz and static. The ceramic barrel attachments provide even heat distribution for long-lasting curls and waves. This all-in-one styler is suitable for all hair types making it a convenient choice for achieving salon-quality results at home. Its compact design and ergonomic grip ensure comfortable handling during use. Elevate your hair styling routine with this professional-grade tool that offers multiple styling options in one convenient package.",
+    "description_html": "The ion Luxe 8-In-1 Airstyler Pro is a versatile hair styling tool that combines the functionality of a hair dryer and curler into one sleek device. With its interchangeable attachments it allows you to create various hairstyles effortlessly. The powerful airflow and Coanda effectan aerodynamic phenomenon where air adheres to a curved surface to attract the hair for easy styling help to dry hair quickly while minimizing frizz and static. The ceramic barrel attachments provide even heat distribution for long-lasting curls and waves. This all-in-one styler is suitable for all hair types making it a convenient choice for achieving salon-quality results at home. Its compact design and ergonomic grip ensure comfortable handling during use. Elevate your hair styling routine with this professional-grade tool that offers multiple styling options in one convenient package.",
+    "description_full": "The ion Luxe 8-In-1 Airstyler Pro is a versatile hair styling tool that combines the functionality of a hair dryer and curler into one sleek device. With its interchangeable attachments it allows you to create various hairstyles effortlessly. The powerful airflow and Coanda effectan aerodynamic phenomenon where air adheres to a curved surface to attract the hair for easy styling help to dry hair quickly while minimizing frizz and static. The ceramic barrel attachments provide even heat distribution for long-lasting curls and waves. This all-in-one styler is suitable for all hair types making it a convenient choice for achieving salon-quality results at home. Its compact design and ergonomic grip ensure comfortable handling during use. Elevate your hair styling routine with this professional-grade tool that offers multiple styling options in one convenient package. * Versatile: This 8-in-1 airstyler pro is a multi-functional hair tool with interchangeable attachments for drying, curling, straightening, and styling all hair types.\n * Powerful: Equipped with a professional AC motor that delivers powerful airflow and ionic technology for fast and efficient styling.\n * Customizable: Features 3 heat settings and 2 speed settings to customize the heat and airflow for your desired style.\n * Attachments: Includes a concentrator, diffuser, Smoothing Brush, Oval Brush, Volumizing Pik, ad 2 sets of Curling Barrels with left and right direction.\n * *Not Compatible With 4-In-1 Airstyler Attachments*",
+    "description_full_html": "The ion Luxe 8-In-1 Airstyler Pro is a versatile hair styling tool that combines the functionality of a hair dryer and curler into one sleek device. With its interchangeable attachments it allows you to create various hairstyles effortlessly. The powerful airflow and Coanda effectan aerodynamic phenomenon where air adheres to a curved surface to attract the hair for easy styling help to dry hair quickly while minimizing frizz and static. The ceramic barrel attachments provide even heat distribution for long-lasting curls and waves. This all-in-one styler is suitable for all hair types making it a convenient choice for achieving salon-quality results at home. Its compact design and ergonomic grip ensure comfortable handling during use. Elevate your hair styling routine with this professional-grade tool that offers multiple styling options in one convenient package. <ul>  <li>Versatile: This 8-in-1 airstyler pro is a multi-functional hair tool with interchangeable attachments for drying, curling, straightening, and styling all hair types.</li>  <li>Powerful: Equipped with a professional AC motor that delivers powerful airflow and ionic technology for fast and efficient styling.</li>  <li>Customizable: Features 3 heat settings and 2 speed settings to customize the heat and airflow for your desired style.</li>  <li>Attachments: Includes a concentrator, diffuser, Smoothing Brush, Oval Brush, Volumizing Pik, ad 2 sets of Curling Barrels with left and right direction.</li>  <li>*Not Compatible With 4-In-1 Airstyler Attachments*</li> </ul>",
+    "model": "Luxe 8-In-1 Airstyler Pro",
+    "ratings_total": 50,
+    "rating": 4,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types_bcaf0a73-fc30-4c38-9422-de8c4bdfc754.cb38c5f290cfa7d1737efd248272fa8a.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types_bcaf0a73-fc30-4c38-9422-de8c4bdfc754.cb38c5f290cfa7d1737efd248272fa8a.jpeg",
+        "id": "69085549EB6144F9ABEB1CA9286C4162",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/2228eb4c-a702-4e15-982a-acf879df327c.311da9204adede7e03dc6780d766939d.jpeg",
+        "id": "105B62F1C3204F92A74BB50C60F21702",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c6055ab0-e14a-4b73-b5dc-1d6537fd73a5.6ad8ca509c9141b5c3dcc7a28d2d55f6.jpeg",
+        "id": "FB6BE839A4514430BDBFC4CAD612E9D0",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/08c00901-3ee6-45e1-b3ec-88d8bdaf9beb.d8ba4869aa664a0d1f78f7f7d9dd547c.jpeg",
+        "id": "7A13A0FE64A5448ABCBC82936410398F",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/25faf1ca-57d5-4502-8e36-f8ff4286df14.bccdaf6f2a5eb1205b8ee3298a76b3dc.jpeg",
+        "id": "8C61D1FC21914350BE9230909EBAD9F0",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "IO2033"
+      },
+      {
+        "name": "Hair Dryer Type",
+        "value": "Ionic Hair Dryers"
+      },
+      {
+        "name": "Model",
+        "value": "Luxe 8-In-1 Airstyler Pro"
+      },
+      {
+        "name": "Brand",
+        "value": "ION Audio"
+      }
+    ],
+    "buybox_winner": {
+      "price": 219.99,
+      "currency_symbol": "$",
+      "id": "CCB0B7953C04344FB62463413DBA9002",
+      "seller": {
+        "name": "Sally Beauty",
+        "id_secondary": "82D9D988A22C4148B93378460D129E00",
+        "id": 101414937,
+        "link": "https://www.walmart.com/seller/101414937"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Seller shipping for $4.95, arrives by Thu, Aug 28 to Boston, 02118",
+        "message": "Seller shipping for $4.95, arrives by Thu, Aug 28 to Boston, 02118",
+        "zipcode": "02118"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Sally Beauty"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10712456409",
+          "id": "D18297B7525D31BB8DDBB847D1C1B08A",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-200-299-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 32,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$32.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 4-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908817",
+          "id": "8B2A9AEC0A22391E89CBFD437661053C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-200-299-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 43,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$43.00"
+          }
+        }
+      ]
+    },
+    "color": "Black",
+    "variants": [
+      {
+        "item_id": "14426564277",
+        "product_id": "IO2033",
+        "link": "https://www.walmart.com/ip/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types/14426564277",
+        "price": 219.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/ion-Luxe-8-In-1-Airstyler-Pro-Interchangeable-Hair-Dryer-Curler-for-All-Hair-Types_bcaf0a73-fc30-4c38-9422-de8c4bdfc754.cb38c5f290cfa7d1737efd248272fa8a.jpeg",
+            "id": "69085549EB6144F9ABEB1CA9286C4162",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2228eb4c-a702-4e15-982a-acf879df327c.311da9204adede7e03dc6780d766939d.jpeg",
+            "id": "105B62F1C3204F92A74BB50C60F21702",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c6055ab0-e14a-4b73-b5dc-1d6537fd73a5.6ad8ca509c9141b5c3dcc7a28d2d55f6.jpeg",
+            "id": "FB6BE839A4514430BDBFC4CAD612E9D0",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/08c00901-3ee6-45e1-b3ec-88d8bdaf9beb.d8ba4869aa664a0d1f78f7f7d9dd547c.jpeg",
+            "id": "7A13A0FE64A5448ABCBC82936410398F",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/25faf1ca-57d5-4502-8e36-f8ff4286df14.bccdaf6f2a5eb1205b8ee3298a76b3dc.jpeg",
+            "id": "8C61D1FC21914350BE9230909EBAD9F0",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Boston",
+    "state": "MA",
+    "zipcode": "02118",
+    "store_id": "2341"
+  }
+}

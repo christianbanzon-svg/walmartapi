@@ -1,0 +1,295 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 549,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9451,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "1634326621"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-19T14:11:42.795Z",
+    "processed_at": "2025-08-19T14:11:47.353Z",
+    "total_time_taken": 4.56,
+    "walmart_url": "https://www.walmart.com/ip/1634326621"
+  },
+  "product": {
+    "brand": "Shark",
+    "link": "https://www.walmart.com/ip/Shark-FlexStyle-Air-Styling-Drying-System-Powerful-Hair-Blow-Dryer-and-Multi-Styler-Straight-Wavy-HD430/1634326621",
+    "title": "Shark FlexStyle Air Styling & Drying System, Powerful Hair Blow Dryer and Multi-Styler,Straight & Wavy, HD430",
+    "upc": "622356593199",
+    "item_id": "1634326621",
+    "product_id": "HD430",
+    "item_number": "1PCKHY17SM5Z",
+    "description": "With the Shark FlexStyle HD430 Air Styling & Drying System, you can easily transform between a powerful, fast, hair dryer, and an ultra-versatile multi-styler with no-heat-damage. One twist is all it takes to flex from one to the other. Attach different stylers and unlock the ability to curl, volumize, smooth, and dry. Lightweight & powerful, FlexStyle is the answer to fast, easy styling.",
+    "description_html": "With the Shark FlexStyle HD430 Air Styling & Drying System, you can easily transform between a powerful, fast, hair dryer, and an ultra-versatile multi-styler with no-heat-damage. One twist is all it takes to flex from one to the other. Attach different  stylers and unlock the ability to curl, volumize, smooth, and dry. Lightweight & powerful, FlexStyle is the answer to fast, easy styling.",
+    "description_full": "With the Shark FlexStyle HD430 Air Styling & Drying System, you can easily transform between a powerful, fast, hair dryer, and an ultra-versatile multi-styler with no-heat-damage. One twist is all it takes to flex from one to the other. Attach different stylers and unlock the ability to curl, volumize, smooth, and dry. Lightweight & powerful, FlexStyle is the answer to fast, easy styling. * MULTI-STYLING TOOL: Rotate the powerful hair dryer and transform it into a versatile multi-styler.\n * CURL, VOLUMIZE, SMOOTH, & DRY: The versatile stylers attach to the styling wand & hair dryer and give you the power to explore styles for any hair type.\n * NO HEAT DAMAGE: Giving you fast drying while maintaining low heat, measuring & regulating temperatures 1,000x per second to ensure consistent air temperature. Rather than getting hotter as it runs, Shark minimizes heat exposure & regulates temperatures.\n * POWERFUL, FAST DRYING: It may be compact and lightweight at just over 1.5lbs, but FlexStyle gives you power and speed for ultra-fast performance. Style while you dry with no heat damage.\n * FOR ALL HAIR KIND: Powerful, fast-drying hair dryer and ultra-versatile multi-styler for straight, wavy, curly, and coily hair.\n * 1.25 AUTO-WRAP CURLERS: Attach to the Shark FlexStyle styler. Wrap, curl and set automatically using Coanda Technology. Includes 2 curlers to curl in different directions.\n * 2 BRUSHES: Attachable OVAL BRUSH smooths, defrizzes, and adds volume & bounce, while delivering powerful airflow. The attachable PADDLE BRUSH employs powerful airflow, straightening & smoothing your hair, all at once.\n * STYLING CONCENTRATOR: Attach the rotatable nozzle when in hair dryer mode. The rotatable nozzle gives you better angle control while you style and dry.\n * TEMPERATURE AND AIRFLOW SETTINGS: Includes 4 heat and 3 airflow settings that can be increased or decreased manually based on your preference. The cool shot button locks in your style.\n * INCLUDES: Shark FlexStyle 2- 1.25? Auto-Wrap Curlers, Oval Brush, Paddle Brush, Concentrator",
+    "description_full_html": "With the Shark FlexStyle HD430 Air Styling & Drying System, you can easily transform between a powerful, fast, hair dryer, and an ultra-versatile multi-styler with no-heat-damage. One twist is all it takes to flex from one to the other. Attach different  stylers and unlock the ability to curl, volumize, smooth, and dry. Lightweight & powerful, FlexStyle is the answer to fast, easy styling. <ul>  <li>MULTI-STYLING TOOL: Rotate the powerful hair dryer and transform it into a versatile multi-styler.</li>  <li>CURL, VOLUMIZE, SMOOTH, &amp; DRY: The versatile stylers attach to the styling wand &amp; hair dryer and give you the power to explore styles for any hair type.</li>  <li>NO HEAT DAMAGE: Giving you fast drying while maintaining low heat, measuring &amp; regulating temperatures 1,000x per second to ensure consistent air temperature. Rather than getting hotter as it runs, Shark minimizes heat exposure &amp; regulates temperatures.</li>  <li>POWERFUL, FAST DRYING: It may be compact and lightweight at just over 1.5lbs, but FlexStyle gives you power and speed for ultra-fast performance. Style while you dry with no heat damage.</li>  <li>FOR ALL HAIR KIND: Powerful, fast-drying hair dryer and ultra-versatile multi-styler for straight, wavy, curly, and coily hair.</li>  <li>1.25 AUTO-WRAP CURLERS: Attach to the Shark FlexStyle styler. Wrap, curl and set automatically using Coanda Technology. Includes 2 curlers to curl in different directions.</li>  <li>2 BRUSHES: Attachable OVAL BRUSH smooths, defrizzes, and adds volume &amp; bounce, while delivering powerful airflow. The attachable PADDLE BRUSH employs powerful airflow, straightening &amp; smoothing your hair, all at once.</li>  <li>STYLING CONCENTRATOR: Attach the rotatable nozzle when in hair dryer mode. The rotatable nozzle gives you better angle control while you style and dry.</li>  <li>TEMPERATURE AND AIRFLOW SETTINGS: Includes 4 heat and 3 airflow settings that can be increased or decreased manually based on your preference. The cool shot button locks in your style.</li>  <li>INCLUDES: Shark FlexStyle 2- 1.25? Auto-Wrap Curlers, Oval Brush, Paddle Brush, Concentrator</li> </ul>",
+    "model": "HD430",
+    "ratings_total": 1844,
+    "rating": 4.4,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Shark-FlexStyle-Air-Styling-Drying-System-Powerful-Hair-Blow-Dryer-and-Multi-Styler-Straight-Wavy-HD430_8b0ddb72-c626-40bd-91c7-7f1e7936140d.ee2a2112505379a3d2d76429f2d4f34e.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Shark-FlexStyle-Air-Styling-Drying-System-Powerful-Hair-Blow-Dryer-and-Multi-Styler-Straight-Wavy-HD430_8b0ddb72-c626-40bd-91c7-7f1e7936140d.ee2a2112505379a3d2d76429f2d4f34e.jpeg",
+        "id": "AE775B1F49CB44C9BA72838F9ECB6B94",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/17e001d9-0705-4fd0-bd2b-cebf154843e2.27a753fc952b62fe1dcf247b5ffc7c6a.jpeg",
+        "id": "E9AEACE0D4CD48F58E0163BFDC692F9D",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/d0f9835f-cbbf-4ea5-a4d8-fa9e3abf0f5a.425e1d66ddf9a7aaf1b0b1c950c12e53.jpeg",
+        "id": "26AAC5E60C2E4F2288577CC01E9D0EE6",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/08045fb2-0982-4b5c-a966-e3b0193fd5e5.a1eac8cb3f9cff12dbf093d71b676a11.jpeg",
+        "id": "4CF0152BA12E428DA003A7D448FF5E70",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/bbd7fe0b-e96d-4b21-b605-3e9a294e7f4a.f4dee48f348e49e2d22ad76c365e6fca.jpeg",
+        "id": "162DD92D84704732978C3D847A3B79C6",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8003b21b-f903-48de-a448-1fbcce4dab64.bc193794a389e1a66bcbfe6867692c65.jpeg",
+        "id": "BFDEF5A9639B477BB5931901C9F46FE4",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/caf13a4c-4915-430d-aad8-30404976c9fd.c8faabc02fa20c8b46e307cd8f5bdc7a.jpeg",
+        "id": "809363079D2C415992C2EFE208132269",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/bc4c5f0c-73d3-4a28-9a75-dae930fab531.6e2487791765881541d04ace658e24de.jpeg",
+        "id": "8A860767EAA34E71A0AD6126AC5B5AD9",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6af0fb66-43f1-4e5a-96fb-66534743941d.daa7e2fb1cb57da921efdc9869b3e319.jpeg",
+        "id": "550E4CE82EA146EB807ECA58B3DACB5E",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0823ecb9-5495-4dc3-ab46-d5ae321d479e.3d286a7f3c96460d037116b290c24dd0.jpeg",
+        "id": "07C7471F28604124884E73BFB0640FF5",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/22e79430-63dd-4851-9a6a-c544f90b042f.3c29983efb5393187d1bd552ba3ad75e.jpeg",
+        "id": "1664CAAEA4A74FF2A0A9D559B5F67980",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Beauty by Topic",
+        "link": "https://www.walmart.com/cp/beauty-by-topic/4820682"
+      },
+      {
+        "name": "Top-Rated Beauty",
+        "link": "https://www.walmart.com/cp/top-rated-beauty/1307057"
+      },
+      {
+        "name": "Top-Rated Hair Care",
+        "link": "https://www.walmart.com/cp/top-rated-hair-care/6702299"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Color",
+        "value": "Stone"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "HD430"
+      },
+      {
+        "name": "Hair Dryer Type",
+        "value": "Pet Grooming Blow Dryer"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1.54 lb"
+      },
+      {
+        "name": "Model",
+        "value": "HD430"
+      },
+      {
+        "name": "Brand",
+        "value": "Shark"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "1.80 x 1.80 x 13.50 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 222.99,
+      "was_price": 299.99,
+      "unit_price": 111.5,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$349.99",
+        "value": 349.99
+      },
+      "id": "D916FB841DA1374B9DB1130F75E10FF0",
+      "seller": {
+        "name": "SnagTime LLC",
+        "id_secondary": "B1D0BB96447D47D3A77AAA2387B8F446",
+        "id": 101106945,
+        "link": "https://www.walmart.com/seller/101106945"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 22 to Philadelphia, 19143",
+        "message": "Free shipping, arrives by Fri, Aug 22 to Philadelphia, 19143",
+        "zipcode": "19143"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "SnagTime LLC"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10712456409",
+          "id": "D18297B7525D31BB8DDBB847D1C1B08A",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-200-299-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 32,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$32.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 4-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908817",
+          "id": "8B2A9AEC0A22391E89CBFD437661053C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-200-299-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 43,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$43.00"
+          }
+        }
+      ]
+    },
+    "color": "Stone",
+    "dimensions": "1.80 x 1.80 x 13.50 in",
+    "variants": [
+      {
+        "item_id": "1634326621",
+        "product_id": "HD430",
+        "link": "https://www.walmart.com/ip/Shark-FlexStyle-Air-Styling-Drying-System-Powerful-Hair-Blow-Dryer-and-Multi-Styler-Straight-Wavy-HD430/1634326621",
+        "price": 222.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Shark-FlexStyle-Air-Styling-Drying-System-Powerful-Hair-Blow-Dryer-and-Multi-Styler-Straight-Wavy-HD430_8b0ddb72-c626-40bd-91c7-7f1e7936140d.ee2a2112505379a3d2d76429f2d4f34e.jpeg",
+            "id": "AE775B1F49CB44C9BA72838F9ECB6B94",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/17e001d9-0705-4fd0-bd2b-cebf154843e2.27a753fc952b62fe1dcf247b5ffc7c6a.jpeg",
+            "id": "E9AEACE0D4CD48F58E0163BFDC692F9D",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d0f9835f-cbbf-4ea5-a4d8-fa9e3abf0f5a.425e1d66ddf9a7aaf1b0b1c950c12e53.jpeg",
+            "id": "26AAC5E60C2E4F2288577CC01E9D0EE6",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/08045fb2-0982-4b5c-a966-e3b0193fd5e5.a1eac8cb3f9cff12dbf093d71b676a11.jpeg",
+            "id": "4CF0152BA12E428DA003A7D448FF5E70",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/bbd7fe0b-e96d-4b21-b605-3e9a294e7f4a.f4dee48f348e49e2d22ad76c365e6fca.jpeg",
+            "id": "162DD92D84704732978C3D847A3B79C6",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8003b21b-f903-48de-a448-1fbcce4dab64.bc193794a389e1a66bcbfe6867692c65.jpeg",
+            "id": "BFDEF5A9639B477BB5931901C9F46FE4",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/caf13a4c-4915-430d-aad8-30404976c9fd.c8faabc02fa20c8b46e307cd8f5bdc7a.jpeg",
+            "id": "809363079D2C415992C2EFE208132269",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/bc4c5f0c-73d3-4a28-9a75-dae930fab531.6e2487791765881541d04ace658e24de.jpeg",
+            "id": "8A860767EAA34E71A0AD6126AC5B5AD9",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6af0fb66-43f1-4e5a-96fb-66534743941d.daa7e2fb1cb57da921efdc9869b3e319.jpeg",
+            "id": "550E4CE82EA146EB807ECA58B3DACB5E",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0823ecb9-5495-4dc3-ab46-d5ae321d479e.3d286a7f3c96460d037116b290c24dd0.jpeg",
+            "id": "07C7471F28604124884E73BFB0640FF5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/22e79430-63dd-4851-9a6a-c544f90b042f.3c29983efb5393187d1bd552ba3ad75e.jpeg",
+            "id": "1664CAAEA4A74FF2A0A9D559B5F67980",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "zipcode": "19143",
+    "store_id": "2141"
+  }
+}

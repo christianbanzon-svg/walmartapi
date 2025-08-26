@@ -1,0 +1,624 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2253,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7747,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "418803891"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T14:21:30.792Z",
+    "processed_at": "2025-08-25T14:21:33.119Z",
+    "total_time_taken": 2.33,
+    "walmart_url": "https://www.walmart.com/ip/418803891"
+  },
+  "product": {
+    "brand": "Nike",
+    "link": "https://www.walmart.com/ip/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Grey-Red-L/418803891",
+    "title": "Nike Men's Short Sleeve Just Do It Swoosh Graphic Active T-Shirt Grey Red L",
+    "upc": "886059914280",
+    "item_id": "418803891",
+    "product_id": "Nike",
+    "item_number": "0XM24X01YDD9",
+    "description": "Nike Men's Short Sleeve Just Do It Swoosh Graphic Active T-Shirt Black L",
+    "description_html": "Nike Men's Short Sleeve Just Do It Swoosh Graphic Active T-Shirt Black L",
+    "description_full": "Nike Men's Short Sleeve Just Do It Swoosh Graphic Active T-Shirt Black L Athletic Cut",
+    "description_full_html": "Nike Men's Short Sleeve Just Do It Swoosh Graphic Active T-Shirt Black L Athletic Cut",
+    "model": "Nike",
+    "ratings_total": 97,
+    "rating": 4.6,
+    "type": "T-Shirts",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Grey-Red-L_a33499ce-2f75-4c9c-8e12-9682e45893a6.dfcc95c6009133c5c6f34bb2f34152c4.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Grey-Red-L_a33499ce-2f75-4c9c-8e12-9682e45893a6.dfcc95c6009133c5c6f34bb2f34152c4.jpeg",
+        "id": "E1DEBD5F46994F8FBA24B3FA8122E4A1",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/bbbd69e2-1e22-4251-b7bc-d5ee8424767a.d54a221ed3a13103e5b96fbd8bb2a6f7.jpeg",
+        "id": "38D838C4F2064E3CBF35578345D345CC",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/78587a93-65ef-4715-9f0d-1c9eec99b601.72ac2b128e027db2a21bbd0cf81cefe7.jpeg",
+        "id": "CAE5929767FA4F3DA6997BFD3A74CD5F",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Mens Clothing",
+        "link": "https://www.walmart.com/cp/mens-clothing/133197"
+      },
+      {
+        "name": "Mens Workout Clothing",
+        "link": "https://www.walmart.com/cp/mens-workout-clothing/1589613"
+      },
+      {
+        "name": "Mens Workout Shirts",
+        "link": "https://www.walmart.com/cp/mens-workout-shirts/1852229"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Sleeve Length Style",
+        "value": "Short Sleeve"
+      },
+      {
+        "name": "Fabric Content",
+        "value": "Cotton"
+      },
+      {
+        "name": "Pattern",
+        "value": "Solid Print"
+      },
+      {
+        "name": "Gender",
+        "value": "Male"
+      },
+      {
+        "name": "Clothing Neck Style",
+        "value": "Crew Neck"
+      },
+      {
+        "name": "Brand",
+        "value": "Nike"
+      }
+    ],
+    "buybox_winner": {
+      "price": 21.07,
+      "currency_symbol": "$",
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$18.49",
+        "value": 18.49
+      },
+      "id": "4A4495F90099481A95A47B7101447900",
+      "seller": {
+        "name": "DesignerBrandsForLess",
+        "id_secondary": "0D01AA04A9B74F01B595DDFFEE7E60CE",
+        "id": 2743,
+        "link": "https://www.walmart.com/seller/2743"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 29 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Fri, Aug 29 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "DesignerBrandsForLess"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "418803891",
+        "product_id": "0XM24X01YDD9",
+        "link": "https://www.walmart.com/ip/418803891",
+        "in_stock": true,
+        "price": 21.07,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Grey-Red-L_a33499ce-2f75-4c9c-8e12-9682e45893a6.dfcc95c6009133c5c6f34bb2f34152c4.jpeg",
+            "id": "E1DEBD5F46994F8FBA24B3FA8122E4A1",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/bbbd69e2-1e22-4251-b7bc-d5ee8424767a.d54a221ed3a13103e5b96fbd8bb2a6f7.jpeg",
+            "id": "38D838C4F2064E3CBF35578345D345CC",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/78587a93-65ef-4715-9f0d-1c9eec99b601.72ac2b128e027db2a21bbd0cf81cefe7.jpeg",
+            "id": "CAE5929767FA4F3DA6997BFD3A74CD5F",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "grey"
+          },
+          {
+            "name": "clothing_size",
+            "value": "l"
+          }
+        ]
+      },
+      {
+        "item_id": "199881667",
+        "product_id": "67O4ALGBST8M",
+        "link": "https://www.walmart.com/ip/199881667",
+        "in_stock": true,
+        "price": 21.07,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-White-L_dfb336c0-4f0d-4055-b58f-040996c95ea4.1a28fae9660444cb1013c5f95575e32f.jpeg",
+            "id": "A40063EAAAD64E52B171A360179E44DC",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2a783d9d-b73e-4a5d-8040-fc7252cbb1fb.df5aaf6cca9a51d82cf2b48542996d33.jpeg",
+            "id": "EDED136CDB7F4644BAE0FA3B88C4C23D",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/608647e3-9763-41f9-8513-f74e6a7894a3.4dfcd7fa8bef82982c323ab9409d7be0.jpeg",
+            "id": "9B5F3696D0C141DBB060CDECB8213F7F",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white"
+          },
+          {
+            "name": "clothing_size",
+            "value": "l"
+          }
+        ]
+      },
+      {
+        "item_id": "150053644",
+        "product_id": "73FDP8DKCDVM",
+        "link": "https://www.walmart.com/ip/150053644",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white"
+          },
+          {
+            "name": "clothing_size",
+            "value": "s"
+          }
+        ]
+      },
+      {
+        "item_id": "415782599",
+        "product_id": "3JBOKYZS0R44",
+        "link": "https://www.walmart.com/ip/415782599",
+        "in_stock": false,
+        "price": 20.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Black-M_3949eb68-2840-4883-87a6-eab3ae61fafc.ab05c3fa920617fdb1ecdbb73a85cd90.jpeg",
+            "id": "CF3D5809CE8B4AB2BB2062053EB486B7",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/dac4b60d-118e-49c8-b4da-6007b1540dcc_1.7acd23e46bd5d916274ff9f0d2bbfc84.jpeg",
+            "id": "3AFD0D8992104001A11664BF274EDEF9",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/906091f4-86f8-43c3-8f44-36aef25dc101.f822bd46e87aeb0dda21fa0ba8d121a1.jpeg",
+            "id": "950E8A349B574FF5A60D555B8A67E235",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black"
+          },
+          {
+            "name": "clothing_size",
+            "value": "m"
+          }
+        ]
+      },
+      {
+        "item_id": "474961091",
+        "product_id": "7GILKFOLK9D1",
+        "link": "https://www.walmart.com/ip/474961091",
+        "in_stock": true,
+        "price": 21.07,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Red-S_9a6f7b80-0187-4308-8637-3db7164df71d.5cfb0e76b9fe374d3962e007ffa7cc4b.jpeg",
+            "id": "73CFEC783D0F4A62A2602A9E85816299",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/cf793682-fe3d-4483-80b4-6d1b10301f0a.8826e58d3098de40c37c2940b93d83f4.jpeg",
+            "id": "A0A07B75CE6B43A8ACBC25D7AAA5BA6B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/cd8c3426-9205-4b99-8f40-75c942f47683.e2a1f03ea50cff4c73dc2fa6b05e4a7a.jpeg",
+            "id": "A6174F7797104C21B6F13B2D9D088751",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "red"
+          },
+          {
+            "name": "clothing_size",
+            "value": "s"
+          }
+        ]
+      },
+      {
+        "item_id": "171566858",
+        "product_id": "3I2L1X48YM8G",
+        "link": "https://www.walmart.com/ip/171566858",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "grey"
+          },
+          {
+            "name": "clothing_size",
+            "value": "s"
+          }
+        ]
+      },
+      {
+        "item_id": "853381076",
+        "product_id": "1KB3DIE2AAT9",
+        "link": "https://www.walmart.com/ip/853381076",
+        "in_stock": false,
+        "price": 20.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Orange-Grey-S_fd205b18-a58a-4c1b-b19f-1eb9bf8af8f5.f559f81a1113815541ca4b2341ae52ba.jpeg",
+            "id": "7871196CEFC3450E9524F263DC04524E",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7b8dcdcd-60c9-4ebe-8756-a76b1eedf728.8732a8efec31cd9ba133476e573d6ffe.jpeg",
+            "id": "0D54D915987D49B7AB4FE31F4CC020F6",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/705eb672-33f4-4e59-af86-a52bf0eb6e4a.edd0b2843229e5242f813ff4c7dd25b4.jpeg",
+            "id": "3DFECC685E964276ADA432E764D6F08B",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "greyorange"
+          },
+          {
+            "name": "clothing_size",
+            "value": "s"
+          }
+        ]
+      },
+      {
+        "item_id": "316287053",
+        "product_id": "5EAS6PW2RAP3",
+        "link": "https://www.walmart.com/ip/316287053",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "red"
+          },
+          {
+            "name": "clothing_size",
+            "value": "l"
+          }
+        ]
+      },
+      {
+        "item_id": "412847906",
+        "product_id": "6OCUC6W93D1J",
+        "link": "https://www.walmart.com/ip/412847906",
+        "in_stock": false,
+        "price": 20.41,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "greyorange"
+          },
+          {
+            "name": "clothing_size",
+            "value": "l"
+          }
+        ]
+      },
+      {
+        "item_id": "545002130",
+        "product_id": "50HZBC87FFBA",
+        "link": "https://www.walmart.com/ip/545002130",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "grey"
+          },
+          {
+            "name": "clothing_size",
+            "value": "m"
+          }
+        ]
+      },
+      {
+        "item_id": "508404450",
+        "product_id": "776X8ABTE2PS",
+        "link": "https://www.walmart.com/ip/508404450",
+        "in_stock": true,
+        "price": 21.07,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Short-Sleeve-Just-Do-It-Swoosh-Graphic-Active-T-Shirt-Navy-XL_e8496125-ff33-4272-9b51-fcad4619c318.d044446465ab36f705d5523a0baca223.jpeg",
+            "id": "9F62660491BC42E38A01698749BA0EEF",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/faead52d-088a-41e2-b10e-e0e26f6ef334.148cc0f185be0691a36e45b51fb031db.jpeg",
+            "id": "515C52A12CEB4AEDA75ECEA706A6C7D2",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0282da89-6dfa-4fe4-8643-e34d2e7dacbd.3c531ed0b8118a62bc6a5acb80202bd2.jpeg",
+            "id": "DAC972F5DB6F4EE4B046F2215A7F3DE4",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "navy"
+          },
+          {
+            "name": "clothing_size",
+            "value": "xl"
+          }
+        ]
+      },
+      {
+        "item_id": "457770687",
+        "product_id": "0ZC77E594GZH",
+        "link": "https://www.walmart.com/ip/457770687",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "red"
+          },
+          {
+            "name": "clothing_size",
+            "value": "xl"
+          }
+        ]
+      },
+      {
+        "item_id": "634370233",
+        "product_id": "2K07Q1I3W4SW",
+        "link": "https://www.walmart.com/ip/634370233",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "navy"
+          },
+          {
+            "name": "clothing_size",
+            "value": "s"
+          }
+        ]
+      },
+      {
+        "item_id": "476750658",
+        "product_id": "0Z529JEMNWHG",
+        "link": "https://www.walmart.com/ip/476750658",
+        "in_stock": false,
+        "price": 20.41,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "greyorange"
+          },
+          {
+            "name": "clothing_size",
+            "value": "m"
+          }
+        ]
+      },
+      {
+        "item_id": "649322708",
+        "product_id": "2DSKBO2TKL8K",
+        "link": "https://www.walmart.com/ip/649322708",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black"
+          },
+          {
+            "name": "clothing_size",
+            "value": "l"
+          }
+        ]
+      },
+      {
+        "item_id": "221724026",
+        "product_id": "11IK0N9NJ4NT",
+        "link": "https://www.walmart.com/ip/221724026",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black"
+          },
+          {
+            "name": "clothing_size",
+            "value": "xl"
+          }
+        ]
+      },
+      {
+        "item_id": "841623311",
+        "product_id": "3EFEENP9SOKN",
+        "link": "https://www.walmart.com/ip/841623311",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "navy"
+          },
+          {
+            "name": "clothing_size",
+            "value": "m"
+          }
+        ]
+      },
+      {
+        "item_id": "898870501",
+        "product_id": "6ZZBKTLOSP4Z",
+        "link": "https://www.walmart.com/ip/898870501",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "grey"
+          },
+          {
+            "name": "clothing_size",
+            "value": "xl"
+          }
+        ]
+      },
+      {
+        "item_id": "117388587",
+        "product_id": "478HOUL00SBR",
+        "link": "https://www.walmart.com/ip/117388587",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white"
+          },
+          {
+            "name": "clothing_size",
+            "value": "xl"
+          }
+        ]
+      },
+      {
+        "item_id": "214828416",
+        "product_id": "4LJR3YAYYHKX",
+        "link": "https://www.walmart.com/ip/214828416",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black"
+          },
+          {
+            "name": "clothing_size",
+            "value": "s"
+          }
+        ]
+      },
+      {
+        "item_id": "430944177",
+        "product_id": "3S3X26Y00RLX",
+        "link": "https://www.walmart.com/ip/430944177",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white"
+          },
+          {
+            "name": "clothing_size",
+            "value": "m"
+          }
+        ]
+      },
+      {
+        "item_id": "348598850",
+        "product_id": "4YE7334T0TBF",
+        "link": "https://www.walmart.com/ip/348598850",
+        "in_stock": true,
+        "price": 21.07,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "red"
+          },
+          {
+            "name": "clothing_size",
+            "value": "m"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

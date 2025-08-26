@@ -1,0 +1,186 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 484,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9516,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "40574989"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:31:27.505Z",
+    "processed_at": "2025-08-18T11:31:38.783Z",
+    "total_time_taken": 11.28,
+    "walmart_url": "https://www.walmart.com/ip/40574989"
+  },
+  "product": {
+    "brand": "Conair",
+    "link": "https://www.walmart.com/ip/Infiniti-Pro-by-Conair-2-in-1-Tourmaline-Ceramic-Styler/40574989",
+    "title": "Infiniti Pro by Conair 2 in 1 Tourmaline Ceramic Styler",
+    "upc": "074108271723",
+    "item_id": "40574989",
+    "product_id": "\"CS584N\"",
+    "item_number": "5A42GSV9HK3L",
+    "description": "Give your locks a sleek, professional look with the help of this Conair Infiniti Pro 2-in-1 Tourmaline Ceramic Styler. It features versatile tourmaline ceramic heating plates that are specially designed for creating a variety of looks, including flips, curls, waves and straight styles using simple strokes. This Conair ceramic styler warms up incredibly fast, just 30 seconds after turning it on, saving you precious time during your beauty routine. Additional features include two settings that provide customized styling and a sleek design that allows for easy transporting. This 2-in-1 hair styler allow you to turn it a complete 360 degrees for curls and offers anti-static and anti-frizz protection.",
+    "description_html": "Give your locks a sleek, professional look with the help of this Conair Infiniti Pro 2-in-1 Tourmaline Ceramic Styler. It features versatile tourmaline ceramic heating plates that are specially designed for creating a variety of looks, including flips, curls, waves and straight styles using simple strokes. This Conair ceramic styler warms up incredibly fast, just 30 seconds after turning it on, saving you precious time during your beauty routine. Additional features include two settings that provide customized styling and a sleek design that allows for easy transporting. This 2-in-1 hair styler allow you to turn it a complete 360 degrees for curls and offers anti-static and anti-frizz protection.",
+    "description_full": "Give your locks a sleek, professional look with the help of this Conair Infiniti Pro 2-in-1 Tourmaline Ceramic Styler. It features versatile tourmaline ceramic heating plates that are specially designed for creating a variety of looks, including flips, curls, waves and straight styles using simple strokes. This Conair ceramic styler warms up incredibly fast, just 30 seconds after turning it on, saving you precious time during your beauty routine. Additional features include two settings that provide customized styling and a sleek design that allows for easy transporting. This 2-in-1 hair styler allow you to turn it a complete 360 degrees for curls and offers anti-static and anti-frizz protection. Conair Infiniti Pro 2-in-1 Tourmaline Ceramic Styler: \n * Tourmaline ceramic heating plates\n * Turns 360 degrees for curls\n * Produces ultra-high, constant heat\n * Delivers even heat\n * Prevents hot spots\n * 4 cooling plates\n * 2 temperature settings\n * Revolutionary design\n * Conair ceramic styler straightens, curls, waves and creates body in a single stroke\n * Anti-static, anti-frizz protection, for silky, shiny curls\n * #1 styling brand\n * Fast, 30-second heat-up\n * Limited 2-year warranty",
+    "description_full_html": "Give your locks a sleek, professional look with the help of this Conair Infiniti Pro 2-in-1 Tourmaline Ceramic Styler. It features versatile tourmaline ceramic heating plates that are specially designed for creating a variety of looks, including flips, curls, waves and straight styles using simple strokes. This Conair ceramic styler warms up incredibly fast, just 30 seconds after turning it on, saving you precious time during your beauty routine. Additional features include two settings that provide customized styling and a sleek design that allows for easy transporting. This 2-in-1 hair styler allow you to turn it a complete 360 degrees for curls and offers anti-static and anti-frizz protection. <br><b>Conair Infiniti Pro 2-in-1 Tourmaline Ceramic Styler:</b> <br> <ul>  <li>Tourmaline ceramic heating plates</li>  <li>Turns 360 degrees for curls</li>  <li>Produces ultra-high, constant heat</li>  <li>Delivers even heat</li>  <li>Prevents hot spots</li>  <li>4 cooling plates</li>  <li>2 temperature settings</li>  <li>Revolutionary design</li>  <li>Conair ceramic styler straightens, curls, waves and creates body in a single stroke</li>  <li>Anti-static, anti-frizz protection, for silky, shiny curls</li>  <li>#1 styling brand</li>  <li>Fast, 30-second heat-up</li>  <li>Limited 2-year warranty</li> </ul>",
+    "model": "CS584N",
+    "ratings_total": 12,
+    "rating": 3.9,
+    "type": "Hair Flat Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Infiniti-Pro-by-Conair-2-in-1-Tourmaline-Ceramic-Styler_b09d6879-14c9-4d75-8227-459ae4008c01.87d88b446151b6eb7e74787193ca4322.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Infiniti-Pro-by-Conair-2-in-1-Tourmaline-Ceramic-Styler_b09d6879-14c9-4d75-8227-459ae4008c01.87d88b446151b6eb7e74787193ca4322.jpeg",
+        "id": "BC5F992D04FB44CABA1723FEDC2A9F79",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ae85a576-5012-44ae-9874-c9f6a51d32f6_1.f61230f800d456c79567bdd57da76995.jpeg",
+        "id": "4375EA56D8FA4A7FB72B290F255EB78D",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Styling Tools",
+        "link": "https://www.walmart.com/cp/hair-styling-tools/3847754"
+      },
+      {
+        "name": "Flat Irons",
+        "link": "https://www.walmart.com/cp/flat-irons/3414479"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "Conair"
+      },
+      {
+        "name": "Plate Width",
+        "value": "1 in"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Conair"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "2.00 x 5.00 x 13.00 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 40.25,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$37.68",
+        "value": 37.68
+      },
+      "id": "06209B08A4B43CE98D3B65CAC15A4053",
+      "seller": {
+        "name": "Deals Distribution 2024",
+        "id_secondary": "D4193B927B9943F28CEB14A4245676B3",
+        "id": 101528400,
+        "link": "https://www.walmart.com/seller/101528400"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by tomorrow to Dallas, 75287",
+        "message": "Free shipping, arrives by tomorrow to Dallas, 75287",
+        "zipcode": "75287"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Deals Distribution 2024"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10696153957",
+          "id": "6A4CDF1F57B634E1A0060DD7DC8BC83D",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 5,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$5.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10688450824",
+          "id": "A4ED9F6CD60A32C587D44500FD037B81",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 7,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$7.00"
+          }
+        }
+      ]
+    },
+    "dimensions": "2.00 x 5.00 x 13.00 in",
+    "variants": [
+      {
+        "item_id": "40574989",
+        "product_id": "\"CS584N\"",
+        "link": "https://www.walmart.com/ip/Infiniti-Pro-by-Conair-2-in-1-Tourmaline-Ceramic-Styler/40574989",
+        "price": 40.25,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Infiniti-Pro-by-Conair-2-in-1-Tourmaline-Ceramic-Styler_b09d6879-14c9-4d75-8227-459ae4008c01.87d88b446151b6eb7e74787193ca4322.jpeg",
+            "id": "BC5F992D04FB44CABA1723FEDC2A9F79",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ae85a576-5012-44ae-9874-c9f6a51d32f6_1.f61230f800d456c79567bdd57da76995.jpeg",
+            "id": "4375EA56D8FA4A7FB72B290F255EB78D",
+            "zoomable": false
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Dallas",
+    "state": "TX",
+    "zipcode": "75287",
+    "store_id": "2996"
+  }
+}

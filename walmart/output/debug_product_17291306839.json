@@ -1,0 +1,226 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1926,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8074,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "17291306839"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:14:22.527Z",
+    "processed_at": "2025-08-20T13:14:28.178Z",
+    "total_time_taken": 5.65,
+    "walmart_url": "https://www.walmart.com/ip/17291306839"
+  },
+  "product": {
+    "brand": "AORSHER",
+    "link": "https://www.walmart.com/ip/Aorsher-Brush-Attachments-Hair-Curling-Barrel-Volumizing-Brush-Set-Adapter-Dyson-Airwrap-Supersonic-Styler-Hair-Dryers-Convert-Styler-Smooth-Styling/17291306839",
+    "title": "Aorsher Brush Attachments, Hair Curling Barrel & Volumizing Brush Set with Adapter for Airwrap & Supersonic Styler Hair Dryers to Convert to a Styler for Smooth Styling",
+    "item_id": "17291306839",
+    "item_number": "2MJ6R0GIVP7C",
+    "description": "Color\nStyle 1\nMaterial\nPlastic\nPower Source\nno\nSpecial Feature\nPortable\n\nNote: It may not be properly secured, and heating is normal. Please pay attention to adjust the gear and usage time of the machine, use it according to the recommend method in the listing. lf you want to uninstall after using one, to avoid burn, pls use thick gloves or something else that can insulate heat to help you.",
+    "description_html": "<p>Color<br>Style 1<br>Material<br>Plastic<br>Power Source<br>no<br>Special Feature<br>Portable</p>\n<p>Note: It may not be properly secured, and heating is normal. Please pay attention to adjust the gear and usage time of the machine, use it according to the recommend method in the listing. lf you want to uninstall after using one, to avoid burn, pls use thick gloves or something else that can insulate heat to help you.</p>",
+    "description_full": "Color\nStyle 1\nMaterial\nPlastic\nPower Source\nno\nSpecial Feature\nPortable\n\nNote: It may not be properly secured, and heating is normal. Please pay attention to adjust the gear and usage time of the machine, use it according to the recommend method in the listing. lf you want to uninstall after using one, to avoid burn, pls use thick gloves or something else that can insulate heat to help you. *  Ultimate Styler Upgrade – Effortless Curls & Volume: This premium set revolutionizes your Airwrap or Supersonic experience with 2x 1.2\" professional curling barrels and 1 salon-grade volumizing brush. The included smart adapter instantly converts your Dyson hair dryer (HD01-HD08 models) into a complete styling system, delivering 3x more styling options without switching tools. \n *  Smart-Tech Barrels, 8-Hour Curl Retention: Our patented bi-directional curling barrels (clockwise & counter-clockwise) feature advanced airflow channels that create perfect, heat-protected curls in seconds. Unlike basic attachments, these barrels lock in styles for all-day hold with zero frizz – whether you want beachy waves or tight spirals. \n *  Clinical-Grade Volumizing: The engineered volumizing brush features medical-grade bristles that gently tension hair while stimulating scalp circulation. Clinically proven to add 2X more volume than standard brushes, it transforms flat, lifeless hair into bouncy, salon-worthy blowouts with just 3-5 minutes of styling. \n *  Universal Adapter: The aerospace-grade aluminum adapter securely fits all Supersonic models (HD01-HD08), unlocking 6 professional functions: curling iron, wave styler, volumizer, smooth-finish brush, hot air dryer, and cool shot setter – all with your existing dryer. \n *  Complete Pro Kit: Your premium set includes: 2x medical-grade curling barrels (1.2\"), 1x keratin-protect volumizing brush, 1x aircraft aluminum adapter, plus digital styling guide. Backed by our 365-day curl guarantee – the only accessory system that grows with your styling evolution.",
+    "description_full_html": "<p>Color<br>Style 1<br>Material<br>Plastic<br>Power Source<br>no<br>Special Feature<br>Portable</p>\n<p>Note: It may not be properly secured, and heating is normal. Please pay attention to adjust the gear and usage time of the machine, use it according to the recommend method in the listing. lf you want to uninstall after using one, to avoid burn, pls use thick gloves or something else that can insulate heat to help you.</p> <ul>  <li>   <div>    Ultimate Styler Upgrade – Effortless Curls &amp; Volume: This premium set revolutionizes your Airwrap or Supersonic experience with 2x 1.2\" professional curling barrels and 1 salon-grade volumizing brush. The included smart adapter instantly converts your Dyson hair dryer (HD01-HD08 models) into a complete styling system, delivering 3x more styling options without switching tools.   </div></li>  <li>   <div>    Smart-Tech Barrels, 8-Hour Curl Retention: Our patented bi-directional curling barrels (clockwise &amp; counter-clockwise) feature advanced airflow channels that create perfect, heat-protected curls in seconds. Unlike basic attachments, these barrels lock in styles for all-day hold with zero frizz – whether you want beachy waves or tight spirals.   </div></li>  <li>   <div>    Clinical-Grade Volumizing: The engineered volumizing brush features medical-grade bristles that gently tension hair while stimulating scalp circulation. Clinically proven to add 2X more volume than standard brushes, it transforms flat, lifeless hair into bouncy, salon-worthy blowouts with just 3-5 minutes of styling.   </div></li>  <li>   <div>    Universal Adapter: The aerospace-grade aluminum adapter securely fits all Supersonic models (HD01-HD08), unlocking 6 professional functions: curling iron, wave styler, volumizer, smooth-finish brush, hot air dryer, and cool shot setter – all with your existing dryer.   </div></li>  <li>   <div>    Complete Pro Kit: Your premium set includes: 2x medical-grade curling barrels (1.2\"), 1x keratin-protect volumizing brush, 1x aircraft aluminum adapter, plus digital styling guide. Backed by our 365-day curl guarantee – the only accessory system that grows with your styling evolution.   </div></li> </ul>",
+    "ratings_total": 0,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Aorsher-Brush-Attachments-Hair-Curling-Barrel-Volumizing-Brush-Set-Adapter-Dyson-Airwrap-Supersonic-Styler-Hair-Dryers-Convert-Styler-Smooth-Styling_cdf3f434-f1e5-45ca-94bb-8f5f27f3f507.8986c39b832504c3d18a65b92544b5e4.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Aorsher-Brush-Attachments-Hair-Curling-Barrel-Volumizing-Brush-Set-Adapter-Dyson-Airwrap-Supersonic-Styler-Hair-Dryers-Convert-Styler-Smooth-Styling_cdf3f434-f1e5-45ca-94bb-8f5f27f3f507.8986c39b832504c3d18a65b92544b5e4.jpeg",
+        "id": "5306CB38A20B4E96961545DD1C3C0765",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/9ffdd194-426b-43cf-80be-6b23d5e7df6c.3740ab8669beba9c6026d1ce6060283a.jpeg",
+        "id": "4AB2420861624E798E1984AFE82267D9",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/3a70f86e-6959-4fc6-9b3e-d6b6e2c26227.75694c55b5c121f9575a6e50d9fcc998.jpeg",
+        "id": "5D539CCE037646EAB440E6443580D506",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/70928124-e01b-4c1e-b623-9f93c991b973.c675c24dd1b279011c106bca6af2130a.jpeg",
+        "id": "C1A9EA63F6E14B44974ABCC9F147F3E6",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/42fcf67f-f134-44f7-9668-dd86b94cbebd.df579d7a0757c4461a29a0d970c21043.jpeg",
+        "id": "4F6747F8222C452CAA879D220BFF23A2",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/7eabb175-59e9-4920-836d-a3802396f3a6.b935afb6a16250d2ffac3a7051243e53.jpeg",
+        "id": "772B8DF4DCEE4DEA8812F74D040F0709",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/d77aa3df-716c-4e14-9a3f-40b7b8ff7bff.78f0b4301c88c44337d600e8647fdfed.jpeg",
+        "id": "2423EF289FE94E20A1C0F13B341C0E76",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4b2da963-11d7-454d-8125-7174d4361a13.9f0b187c97e513aeb70ec86f248cc9cd.jpeg",
+        "id": "2ADDC98066AA4166AA8CF664C549BD10",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "AORSHER"
+      },
+      {
+        "name": "Color",
+        "value": "black"
+      }
+    ],
+    "buybox_winner": {
+      "price": 41.99,
+      "currency_symbol": "$",
+      "id": "FB99C9215960337087F5FE8E1F73D8C6",
+      "seller": {
+        "name": "Aorsher Flagship Store",
+        "id_secondary": "EF6A8E4C47D54C65BD70D1DDA4A2E743",
+        "id": 101593786,
+        "link": "https://www.walmart.com/seller/101593786"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Mon, Sep 8 to Los Angeles, 90057",
+        "message": "Free shipping, arrives by Mon, Sep 8 to Los Angeles, 90057",
+        "zipcode": "90057"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Aorsher Flagship Store"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10696153957",
+          "id": "6A4CDF1F57B634E1A0060DD7DC8BC83D",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 5,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$5.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10688450824",
+          "id": "A4ED9F6CD60A32C587D44500FD037B81",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 7,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$7.00"
+          }
+        }
+      ]
+    },
+    "color": "black",
+    "variants": [
+      {
+        "item_id": "17291306839",
+        "link": "https://www.walmart.com/ip/Aorsher-Brush-Attachments-Hair-Curling-Barrel-Volumizing-Brush-Set-Adapter-Dyson-Airwrap-Supersonic-Styler-Hair-Dryers-Convert-Styler-Smooth-Styling/17291306839",
+        "price": 41.99,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Aorsher-Brush-Attachments-Hair-Curling-Barrel-Volumizing-Brush-Set-Adapter-Dyson-Airwrap-Supersonic-Styler-Hair-Dryers-Convert-Styler-Smooth-Styling_cdf3f434-f1e5-45ca-94bb-8f5f27f3f507.8986c39b832504c3d18a65b92544b5e4.jpeg",
+            "id": "5306CB38A20B4E96961545DD1C3C0765",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9ffdd194-426b-43cf-80be-6b23d5e7df6c.3740ab8669beba9c6026d1ce6060283a.jpeg",
+            "id": "4AB2420861624E798E1984AFE82267D9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3a70f86e-6959-4fc6-9b3e-d6b6e2c26227.75694c55b5c121f9575a6e50d9fcc998.jpeg",
+            "id": "5D539CCE037646EAB440E6443580D506",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/70928124-e01b-4c1e-b623-9f93c991b973.c675c24dd1b279011c106bca6af2130a.jpeg",
+            "id": "C1A9EA63F6E14B44974ABCC9F147F3E6",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/42fcf67f-f134-44f7-9668-dd86b94cbebd.df579d7a0757c4461a29a0d970c21043.jpeg",
+            "id": "4F6747F8222C452CAA879D220BFF23A2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7eabb175-59e9-4920-836d-a3802396f3a6.b935afb6a16250d2ffac3a7051243e53.jpeg",
+            "id": "772B8DF4DCEE4DEA8812F74D040F0709",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d77aa3df-716c-4e14-9a3f-40b7b8ff7bff.78f0b4301c88c44337d600e8647fdfed.jpeg",
+            "id": "2423EF289FE94E20A1C0F13B341C0E76",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4b2da963-11d7-454d-8125-7174d4361a13.9f0b187c97e513aeb70ec86f248cc9cd.jpeg",
+            "id": "2ADDC98066AA4166AA8CF664C549BD10",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipcode": "90057",
+    "store_id": "3180"
+  }
+}

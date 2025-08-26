@@ -1,0 +1,229 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2221,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7779,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "1515182909"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T13:56:52.845Z",
+    "processed_at": "2025-08-25T13:57:01.591Z",
+    "total_time_taken": 8.75,
+    "walmart_url": "https://www.walmart.com/ip/1515182909"
+  },
+  "product": {
+    "brand": "111 State",
+    "link": "https://www.walmart.com/ip/Rotating-Hot-Air-Comb-Electric-Hair-Straightener-Brush-Hair-Curler-Hair-Dryer-Brush-Negative-Ion-Hair-Styler-Comb/1515182909",
+    "title": "111 State Rotating Hot Air Comb Electric Hair Straightener Brush Hair Curler Hair Dryer Brush  Negative Ion Hair Styler Comb",
+    "title_excluding_brand": "Rotating Hot Air Comb Electric Hair Straightener Brush Hair Curler Hair Dryer Brush  Negative Ion Hair Styler Comb",
+    "upc": "614161139860",
+    "item_id": "1515182909",
+    "item_number": "49DKKAZVSG8O",
+    "description": "Rotating Roller Brush Multifunction Electric Hot Air Hair Brush Hair Dryer Comb Professional Hair Curling Roller Wand Salon Hot Air Brush Styler Straightener Curler Comb",
+    "description_html": "Rotating Roller Brush\nMultifunction Electric Hot Air Hair Brush Hair Dryer Comb\nProfessional Hair Curling Roller Wand\nSalon Hot Air Brush Styler Straightener Curler Comb",
+    "description_full": "Rotating Roller Brush Multifunction Electric Hot Air Hair Brush Hair Dryer Comb Professional Hair Curling Roller Wand Salon Hot Air Brush Styler Straightener Curler Comb Package Content: 1 x hand shank 2 x replaceable heads \nFeatures: 【1】Revolutionized Your Hair-game Time: You can make your hair light, anti-tangle, bringing silky shine and texture with this hot air brush instead of blow dryer. \n【2】Versatile Hot Air Brush:Perfect for plumping blow dryers, brushes, straighteners and curlers. Compact and easy to create beautiful hairstyles. Easily creates volume in hair, straightens, frizzes and dries hair. \n【3】Hot Air Brush:2 speed and 3 heat settings for your styling flexibility. blow dryer brush is beginner friendly and can be placed closer to the scalp for lift. \n【4】Ionic Technology: Negative ions anion hair dryer diffuser technology design .Negative ions can penetrate the hair quickly to help lock in moisture, nourish damaged hair, reduce frizz and static for smoother, shinier hair. \n【5】Brush hair dryer with ceramic coating distributes heat evenly for faster drying time. \n【6】The hot air brush creates rich curls for a more effective, moisturized and radiant hair. \n【7】Multifunctional hair dryer brush, fit for drying, curling a variety of hair styles. \n【8】 Users Friendly Design:Anti-scald bristles design, 360°tangle-free rotation cord, suitable for travel and business trip.",
+    "description_full_html": "Rotating Roller Brush\nMultifunction Electric Hot Air Hair Brush Hair Dryer Comb\nProfessional Hair Curling Roller Wand\nSalon Hot Air Brush Styler Straightener Curler Comb <div>  <div>   <font><b>Package Content:</b></font>  </div>  <div>   <font>1 x hand shank</font>  </div>  <div>   <font>2 x replaceable heads</font>  </div> </div> <div>  <font face=\"MyriadPro\"><b><br></b></font> </div> <div>  <font face=\"MyriadPro\"><b>Features:</b></font> </div> <div>  <font face=\"MyriadPro\"><b>【1】</b>Revolutionized Your Hair-game Time: You can make your hair light, anti-tangle, bringing silky shine and texture with this hot air brush instead of blow dryer.</font> </div> <div>  <font face=\"MyriadPro\"><br></font> </div> <div>  <font face=\"MyriadPro\"><b>【2】</b>Versatile&nbsp; Hot Air Brush:Perfect for plumping blow dryers, brushes, straighteners and curlers.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Compact and easy to create beautiful hairstyles.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Easily creates volume in hair, straightens, frizzes and dries hair.</font> </div> <div>  <font face=\"MyriadPro\"><b><br></b></font> </div> <div>  <font face=\"MyriadPro\"><b>【3】</b>Hot Air Brush:2 speed and 3 heat settings for your styling flexibility. blow dryer brush is beginner friendly and can be placed closer to the scalp for lift.</font> </div> <div>  <font face=\"MyriadPro\"><br></font> </div> <div>  <font face=\"MyriadPro\"><b>【4】</b>Ionic Technology: Negative ions anion hair dryer diffuser technology design .Negative ions can penetrate the hair quickly to help lock in moisture, nourish damaged hair, reduce frizz and static for smoother, shinier hair.</font> </div> <div>  <font face=\"MyriadPro\"><br></font> </div> <div>  <font face=\"MyriadPro\"><b>【5】</b>Brush hair dryer with ceramic coating distributes heat evenly for faster drying time.</font> </div> <div>  <font face=\"MyriadPro\"><br></font> </div> <div>  <font face=\"MyriadPro\"><b>【6】</b>The hot air brush creates rich curls for a more effective, moisturized and radiant hair.</font> </div> <div>  <font face=\"MyriadPro\"><br></font> </div> <div>  <font face=\"MyriadPro\"><b>【7】</b>Multifunctional hair dryer brush, fit for drying, curling a variety of hair styles.</font> </div> <div>  <font face=\"MyriadPro\"><br></font> </div> <div>  <font face=\"MyriadPro\"><b>【8】 </b>Users Friendly Design:Anti-scald bristles design, 360°tangle-free rotation cord, suitable for travel and business trip.</font> </div> <div>  <font face=\"MyriadPro\"><br></font> </div> <div>  <br> </div>",
+    "ratings_total": 3,
+    "rating": 5,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Rotating-Hot-Air-Comb-Electric-Hair-Straightener-Brush-Hair-Curler-Hair-Dryer-Brush-Negative-Ion-Hair-Styler-Comb_d009dedc-93d4-4dc5-aca5-96d8233f7a17.ac7a69b1b2495307f9a0a780aa451a78.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Rotating-Hot-Air-Comb-Electric-Hair-Straightener-Brush-Hair-Curler-Hair-Dryer-Brush-Negative-Ion-Hair-Styler-Comb_d009dedc-93d4-4dc5-aca5-96d8233f7a17.ac7a69b1b2495307f9a0a780aa451a78.jpeg",
+        "id": "444766129AD645159027C6C406328956",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/86d14c15-6daa-4233-8004-c800f8dce19c.45891d4ffc8955e7df9cabf4924b4529.jpeg",
+        "id": "08611C9213C6423B8D38602B7C97F365",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/6b7d2823-73ab-4a90-8bc6-ff84b5a957a0.bbe79b61eb01c53a55c904c892ffcf51.jpeg",
+        "id": "5C587565B05745148EA8CBF3971F54C6",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/d5dfbdb4-51ba-496b-b820-4ea044ac459a.911e0720c44422c633368e7edeac5c8d.jpeg",
+        "id": "05C6F05A88C54612B9B362DA848BB2BF",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/9c4c023b-aec5-4b26-afa6-1ce125c0d880.d2ac07a973c2d4c8b769cc0147137237.jpeg",
+        "id": "280F9C23C67E4D24B125E45E7E23EC27",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/eaa10ce4-2959-4336-b61c-e6f985d18957.78975eb230cb260d18a9a452423f10ed.jpeg",
+        "id": "0E251C8AE6EA4B9491BA4182F0E68FC3",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/cc59435e-2bd9-4f68-a011-c217b56623b9.b3a1bca2f0f31a371c84f84cd547649e.jpeg",
+        "id": "0BC82F9234B34ADA9A6FFFED6072F702",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "111 State"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Wenzhou liucai trading co.LTD"
+      }
+    ],
+    "buybox_winner": {
+      "price": 39.45,
+      "currency_symbol": "$",
+      "offers_total": 2,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$33.39",
+        "value": 33.39
+      },
+      "id": "D55B34A68C5233098FA513429F7CC6D7",
+      "seller": {
+        "name": "Huayi LLC",
+        "id_secondary": "F74A8BC3B32A46DF8CE51F09C60444FF",
+        "id": 101681981,
+        "link": "https://www.walmart.com/seller/101681981"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Mon, Sep 8 to Las Vegas, 89130",
+        "message": "Free shipping, arrives by Mon, Sep 8 to Las Vegas, 89130",
+        "zipcode": "89130"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "Huayi LLC"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "1515182909",
+        "link": "https://www.walmart.com/ip/Rotating-Hot-Air-Comb-Electric-Hair-Straightener-Brush-Hair-Curler-Hair-Dryer-Brush-Negative-Ion-Hair-Styler-Comb/1515182909",
+        "price": 39.45,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Rotating-Hot-Air-Comb-Electric-Hair-Straightener-Brush-Hair-Curler-Hair-Dryer-Brush-Negative-Ion-Hair-Styler-Comb_d009dedc-93d4-4dc5-aca5-96d8233f7a17.ac7a69b1b2495307f9a0a780aa451a78.jpeg",
+            "id": "444766129AD645159027C6C406328956",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/86d14c15-6daa-4233-8004-c800f8dce19c.45891d4ffc8955e7df9cabf4924b4529.jpeg",
+            "id": "08611C9213C6423B8D38602B7C97F365",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/6b7d2823-73ab-4a90-8bc6-ff84b5a957a0.bbe79b61eb01c53a55c904c892ffcf51.jpeg",
+            "id": "5C587565B05745148EA8CBF3971F54C6",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d5dfbdb4-51ba-496b-b820-4ea044ac459a.911e0720c44422c633368e7edeac5c8d.jpeg",
+            "id": "05C6F05A88C54612B9B362DA848BB2BF",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9c4c023b-aec5-4b26-afa6-1ce125c0d880.d2ac07a973c2d4c8b769cc0147137237.jpeg",
+            "id": "280F9C23C67E4D24B125E45E7E23EC27",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/eaa10ce4-2959-4336-b61c-e6f985d18957.78975eb230cb260d18a9a452423f10ed.jpeg",
+            "id": "0E251C8AE6EA4B9491BA4182F0E68FC3",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/cc59435e-2bd9-4f68-a011-c217b56623b9.b3a1bca2f0f31a371c84f84cd547649e.jpeg",
+            "id": "0BC82F9234B34ADA9A6FFFED6072F702",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "zipcode": "89130",
+    "store_id": "3351"
+  }
+}

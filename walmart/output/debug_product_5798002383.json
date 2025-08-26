@@ -1,0 +1,241 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1234,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8766,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "5798002383"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T11:14:56.172Z",
+    "processed_at": "2025-08-20T11:14:58.563Z",
+    "total_time_taken": 2.39,
+    "walmart_url": "https://www.walmart.com/ip/5798002383"
+  },
+  "product": {
+    "brand": "Herrenming",
+    "link": "https://www.walmart.com/ip/New-2-1-Hair-Dryer-Brush-Automatic-Rotating-Roller-Hot-Air-Styler-Tourmaline-Ceramic-Heating-Curling-Automatic-Rotating-Curling-New-Big-Curling-Curli/5798002383",
+    "title": "Herrenming New 2 In 1 Hair Dryer Brush Automatic Rotating Roller Hot Air Styler Tourmaline Ceramic Heating Curling Automatic Rotating Curling New Big Curling Curling",
+    "title_excluding_brand": "New 2 In 1 Hair Dryer Brush Automatic Rotating Roller Hot Air Styler Tourmaline Ceramic Heating Curling Automatic Rotating Curling New Big Curling Curling",
+    "item_id": "5798002383",
+    "product_id": "Herrenming-003",
+    "item_number": "5LHQ49YV19DM",
+    "description": "2 In 1 Hair Dryer Brush Automatic Rotating Roller Hot Air Styler Tourmaline ceramic heating curling automatic rotating curling new big curling curling\nMaterial: Tourmaline ceramics\nColor: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\nPackage weight: 361g\nPackage size: 33.5x9.5x6cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.)",
+    "description_html": "2 In 1 Hair Dryer Brush Automatic Rotating Roller Hot Air Styler Tourmaline ceramic heating curling automatic rotating curling new big curling curling \n<br>Material: Tourmaline ceramics\n<br>Color: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\n<br>Package weight: 361g\n<br>Package size: 33.5x9.5x6cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.)",
+    "description_full": "2 In 1 Hair Dryer Brush Automatic Rotating Roller Hot Air Styler Tourmaline ceramic heating curling automatic rotating curling new big curling curling\nMaterial: Tourmaline ceramics\nColor: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\nPackage weight: 361g\nPackage size: 33.5x9.5x6cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.) * Multifunctional Hair Styling Brush\n * Straighten, Dry, Curl, Style, Smooth And A Dramatic Volume And To Your Hair And Get Long Lasting Curls Without Hair Products. The Oval Shaped Brush Keeps Hair From Getting And The Round Edges Help Volume To Hair.\n * 360° Swivel Cord Allows High Flexibility To Move Without The Cord Or Damaged.",
+    "description_full_html": "2 In 1 Hair Dryer Brush Automatic Rotating Roller Hot Air Styler Tourmaline ceramic heating curling automatic rotating curling new big curling curling \n<br>Material: Tourmaline ceramics\n<br>Color: as the picture shows, (Due to the difference between different monitors, the picture may have slight color difference. please make sure you do not mind before ordering, Thank you!)\n<br>Package weight: 361g\n<br>Package size: 33.5x9.5x6cm,(Please allow 1-3mm error due to manual measurement. please make sure you do not mind before ordering.) <ul>  <li>Multifunctional Hair Styling Brush</li>  <li>Straighten, Dry, Curl, Style, Smooth And A Dramatic Volume And To Your Hair And Get Long Lasting Curls Without Hair Products. The Oval Shaped Brush Keeps Hair From Getting And The Round Edges Help Volume To Hair.</li>  <li>360° Swivel Cord Allows High Flexibility To Move Without The Cord Or Damaged.</li> </ul>",
+    "model": "QLIaL2WH",
+    "ratings_total": 0,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/New-2-1-Hair-Dryer-Brush-Automatic-Rotating-Roller-Hot-Air-Styler-Tourmaline-Ceramic-Heating-Curling-Automatic-Rotating-Curling-New-Big-Curling-Curli_1130b007-3dc5-4324-8488-ad1615ef5d52.dd982e34f612c696479bde70e9cd9eda.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/New-2-1-Hair-Dryer-Brush-Automatic-Rotating-Roller-Hot-Air-Styler-Tourmaline-Ceramic-Heating-Curling-Automatic-Rotating-Curling-New-Big-Curling-Curli_1130b007-3dc5-4324-8488-ad1615ef5d52.dd982e34f612c696479bde70e9cd9eda.jpeg",
+        "id": "6DD1BF31BDB8471B8ADF0A2BE4605955",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0d1e9533-16f2-40e1-b6f0-de8e0ce5e91d.a370b12bc340c6acd760589e8a02b77f.jpeg",
+        "id": "0B74DFA7DA224A20AF857B76F33DD044",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/9af77b78-9cfe-4f9e-ae9a-765bfecd720f.25b36a6bcd7df8284de551dd2aa375f3.jpeg",
+        "id": "D239C261D49E4E6FA45C40AB0A483E0C",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f1ae3e3e-58a7-480e-93dd-0070527f72b2.462b672b051295d82e60732908d41028.jpeg",
+        "id": "AB9F44D4B4D94B9D95A0EAF5D95090BF",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/0705d927-cf66-4ead-8f5d-69c021bc73e7.0471311f310ded9452cf69b5db556bc9.jpeg",
+        "id": "F3CD643DF3294D6FAC302F75DC97E176",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/88693248-c1b0-4fdf-a03b-1dc6ab8c1d4b.8127fc259ab42f6d6e15e8b0ee22abbc.jpeg",
+        "id": "F9F5F65583894ED39084E597A4A1250E",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Rotating"
+      },
+      {
+        "name": "Gender",
+        "value": "Unisex"
+      },
+      {
+        "name": "Color",
+        "value": "Pink"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "Herrenming-003"
+      },
+      {
+        "name": "Hair Dryer Type",
+        "value": "Tourmaline Hair Dryers"
+      },
+      {
+        "name": "Model",
+        "value": "QLIaL2WH"
+      },
+      {
+        "name": "Brand",
+        "value": "Herrenming"
+      }
+    ],
+    "buybox_winner": {
+      "price": 15.1,
+      "was_price": 20.44,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$20.24",
+        "value": 20.24
+      },
+      "id": "64C752555E3037E19F422887B08E39EF",
+      "seller": {
+        "name": "zhangwenli",
+        "id_secondary": "F18231F0E35F4D7AA2632B7C20B3388F",
+        "id": 102738723,
+        "link": "https://www.walmart.com/seller/102738723"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Seller shipping for $4.99, arrives by Fri, Sep 5 to Machesney Park, 61103",
+        "message": "Seller shipping for $4.99, arrives by Fri, Sep 5 to Machesney Park, 61103",
+        "zipcode": "61103"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "zhangwenli"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10702915011",
+          "id": "D7482BB8E273385D80E3A56B0AB514EF",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 2,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$2.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10692570769",
+          "id": "83B9CAB3B6BE3DCB9DE8AD8A770E9D27",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-10-19-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        }
+      ]
+    },
+    "color": "Pink",
+    "variants": [
+      {
+        "item_id": "5798002383",
+        "product_id": "5LHQ49YV19DM",
+        "link": "https://www.walmart.com/ip/5798002383",
+        "in_stock": true,
+        "price": 15.1,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/New-2-1-Hair-Dryer-Brush-Automatic-Rotating-Roller-Hot-Air-Styler-Tourmaline-Ceramic-Heating-Curling-Automatic-Rotating-Curling-New-Big-Curling-Curli_1130b007-3dc5-4324-8488-ad1615ef5d52.dd982e34f612c696479bde70e9cd9eda.jpeg",
+            "id": "6DD1BF31BDB8471B8ADF0A2BE4605955",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0d1e9533-16f2-40e1-b6f0-de8e0ce5e91d.a370b12bc340c6acd760589e8a02b77f.jpeg",
+            "id": "0B74DFA7DA224A20AF857B76F33DD044",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9af77b78-9cfe-4f9e-ae9a-765bfecd720f.25b36a6bcd7df8284de551dd2aa375f3.jpeg",
+            "id": "D239C261D49E4E6FA45C40AB0A483E0C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f1ae3e3e-58a7-480e-93dd-0070527f72b2.462b672b051295d82e60732908d41028.jpeg",
+            "id": "AB9F44D4B4D94B9D95A0EAF5D95090BF",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0705d927-cf66-4ead-8f5d-69c021bc73e7.0471311f310ded9452cf69b5db556bc9.jpeg",
+            "id": "F3CD643DF3294D6FAC302F75DC97E176",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/88693248-c1b0-4fdf-a03b-1dc6ab8c1d4b.8127fc259ab42f6d6e15e8b0ee22abbc.jpeg",
+            "id": "F9F5F65583894ED39084E597A4A1250E",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "pink"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Machesney Park",
+    "state": "IL",
+    "zipcode": "61103",
+    "store_id": "5398"
+  }
+}

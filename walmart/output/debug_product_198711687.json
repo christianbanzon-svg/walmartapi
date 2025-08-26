@@ -1,0 +1,186 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 369,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9631,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "198711687"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:18:03.942Z",
+    "processed_at": "2025-08-18T11:18:11.006Z",
+    "total_time_taken": 7.06,
+    "walmart_url": "https://www.walmart.com/ip/198711687"
+  },
+  "product": {
+    "brand": "Anself",
+    "link": "https://www.walmart.com/ip/12pcs-Hair-Rollers-Clip-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Hair-Perm-Insulation-Clip-Random-Color/198711687",
+    "title": "Anself 12pcs Hair Rollers Clip Hot Roller Clips Hair Curler Claw Clips Hair Perm Insulation Clip Random Color",
+    "title_excluding_brand": "12pcs Hair Rollers Clip Hot Roller Clips Hair Curler Claw Clips Hair Perm Insulation Clip Random Color",
+    "upc": "791392160198",
+    "item_id": "198711687",
+    "product_id": "W13007",
+    "item_number": "0RVZBUJPHZJL",
+    "description": "Description: These roller super clips are good for holding the roller or curler securely and insulating heat to create uniform and firmer hair curls. They can help you save time going to the salon and you can use them easily for your hair at home, very suitable for home, a beauty hair salon, and so on.",
+    "description_html": "<p>Description: These roller super clips are good for holding the roller or curler securely and insulating heat to create uniform and firmer hair curls. They can help you save time going to the salon and you can use them easily for your hair at home, very suitable for home, a beauty hair salon, and so on.</p>",
+    "description_full": "Description: These roller super clips are good for holding the roller or curler securely and insulating heat to create uniform and firmer hair curls. They can help you save time going to the salon and you can use them easily for your hair at home, very suitable for home, a beauty hair salon, and so on. * They fit most hair curlers: These clips are fantastic as replacements for lost or broken clamps\n * Compatible for use with most small, medium, large, and jumbo rollers and heated curlers within 60 mm, great for holding hair in place\n * Unique design: The claws design can hold the curler securely in place without marking the hair, and our clips are designed with different lengths of claws on both sides, bringing a better fixing\n * Quality Material: Made of quality, lightweight, and heat",
+    "description_full_html": "<p>Description: These roller super clips are good for holding the roller or curler securely and insulating heat to create uniform and firmer hair curls. They can help you save time going to the salon and you can use them easily for your hair at home, very suitable for home, a beauty hair salon, and so on.</p> <ul>  <li>They fit most hair curlers: These clips are fantastic as replacements for lost or broken clamps</li>  <li>Compatible for use with most small, medium, large, and jumbo rollers and heated curlers within 60 mm, great for holding hair in place</li>  <li>Unique design: The claws design can hold the curler securely in place without marking the hair, and our clips are designed with different lengths of claws on both sides, bringing a better fixing</li>  <li>Quality Material: Made of quality, lightweight, and heat</li> </ul>",
+    "model": "Hot Roller Clips",
+    "ratings_total": 11,
+    "rating": 4,
+    "type": "Hair Barrettes, Pins & Clips",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/12pcs-Hair-Rollers-Clip-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Hair-Perm-Insulation-Clip-Random-Color_d095eb90-d9da-4dfe-a966-2c9f1dba4075.43111376197a99725ad082e553fe6917.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/12pcs-Hair-Rollers-Clip-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Hair-Perm-Insulation-Clip-Random-Color_d095eb90-d9da-4dfe-a966-2c9f1dba4075.43111376197a99725ad082e553fe6917.jpeg",
+        "id": "DCFA1161B98D41AF9AC7125065DAEFB8",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/af809d59-049f-410b-bacf-187824b7ddb2.0129b8d9ae50d9a5ca929425f530aa46.jpeg",
+        "id": "1CBC92859D644381AF05FC9E29C37C31",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/41219f2a-4848-4ec5-85e7-f21a39e804eb.c17fd9b1c5e37d55d91ec5fbab224b57.jpeg",
+        "id": "38F635D4CB974ADE90D6D0AB9531119C",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/afcf650c-6b92-45ed-bad2-0a022f3410a5.36fd2d105c9d4f03569cd2ec404265b7.jpeg",
+        "id": "879ADD28DE73414F9F83FB15FD0F684D",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/62cda2af-5a5d-4cc5-9ff7-f6f4bbeb2388.f614e835795fed0824bf8df63793fd44.jpeg",
+        "id": "B8727D1522AF47DBA4C09621C93C2006",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1b5b7db2-c82d-43c8-b570-b35dd3868820.0880364eb4733fe8b88f2dff4192d8d0.jpeg",
+        "id": "4BB8FDB4BE22457B8D0A36E5D8B29E2F",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Jewelry & Accessories",
+        "link": "https://www.walmart.com/cp/jewelry-accessories/1282109"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "Anself"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "0.33 lb"
+      },
+      {
+        "name": "Color",
+        "value": "White/Black"
+      },
+      {
+        "name": "Gender",
+        "value": "Female"
+      }
+    ],
+    "buybox_winner": {
+      "price": 5.69,
+      "currency_symbol": "$",
+      "offers_total": 2,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$9.69",
+        "value": 9.69
+      },
+      "id": "1F9CA91DA88E3F76A7081C0C541ED2F4",
+      "seller": {
+        "name": "UrbanNestGoods",
+        "id_secondary": "E4DA35B1A6374CC5B969A82AC9F8CD7C",
+        "id": 101128105,
+        "link": "https://www.walmart.com/seller/101128105"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Seller shipping for $3.97, arrives by Wed, Sep 3 to Sacramento, 95829",
+        "message": "Seller shipping for $3.97, arrives by Wed, Sep 3 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "UrbanNestGoods"
+      }
+    },
+    "color": "White/Black",
+    "variants": [
+      {
+        "item_id": "198711687",
+        "product_id": "W13007",
+        "link": "https://www.walmart.com/ip/12pcs-Hair-Rollers-Clip-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Hair-Perm-Insulation-Clip-Random-Color/198711687",
+        "price": 5.69,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/12pcs-Hair-Rollers-Clip-Hot-Roller-Clips-Hair-Curler-Claw-Clips-Hair-Perm-Insulation-Clip-Random-Color_d095eb90-d9da-4dfe-a966-2c9f1dba4075.43111376197a99725ad082e553fe6917.jpeg",
+            "id": "DCFA1161B98D41AF9AC7125065DAEFB8",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/af809d59-049f-410b-bacf-187824b7ddb2.0129b8d9ae50d9a5ca929425f530aa46.jpeg",
+            "id": "1CBC92859D644381AF05FC9E29C37C31",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/41219f2a-4848-4ec5-85e7-f21a39e804eb.c17fd9b1c5e37d55d91ec5fbab224b57.jpeg",
+            "id": "38F635D4CB974ADE90D6D0AB9531119C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/afcf650c-6b92-45ed-bad2-0a022f3410a5.36fd2d105c9d4f03569cd2ec404265b7.jpeg",
+            "id": "879ADD28DE73414F9F83FB15FD0F684D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/62cda2af-5a5d-4cc5-9ff7-f6f4bbeb2388.f614e835795fed0824bf8df63793fd44.jpeg",
+            "id": "B8727D1522AF47DBA4C09621C93C2006",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1b5b7db2-c82d-43c8-b570-b35dd3868820.0880364eb4733fe8b88f2dff4192d8d0.jpeg",
+            "id": "4BB8FDB4BE22457B8D0A36E5D8B29E2F",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

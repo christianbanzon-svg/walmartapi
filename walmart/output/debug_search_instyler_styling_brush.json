@@ -1,0 +1,1512 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2101,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7899,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "search",
+    "search_term": "instyler styling brush",
+    "page": "1"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-22T08:15:53.083Z",
+    "processed_at": "2025-08-22T08:15:55.890Z",
+    "total_time_taken": 2.81,
+    "walmart_url": "https://www.walmart.com/search?q=instyler+styling+brush&page=1"
+  },
+  "search_results": [
+    {
+      "position": 1,
+      "product": {
+        "title": "InStyler Ionic Pro Hair Straightener Ceramic Flat Iron Hair Dryer Brush Curling Iron 4 in 1 Styling Tool",
+        "link": "https://www.walmart.com/ip/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool/39804291?classType=REGULAR",
+        "description": "<li>Replaces 4 different styling tools - round brush, flat iron, curling iron and styling wand</li><li>Cool Touch Ionic Bristles add shine without burning or tangling</li><li>Ceramic Flat Iron for</li>",
+        "item_id": "39804291",
+        "product_id": "51VFGHBXM4QQ",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool_0ebab82a-a44d-4a43-a262-254df5374cd4.695879061acfc86126b35c937c2f1140.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-Ionic-Pro-Hair-Straightener-Ceramic-Flat-Iron-Hair-Dryer-Brush-Curling-Iron-4-in-1-Styling-Tool_0ebab82a-a44d-4a43-a262-254df5374cd4.695879061acfc86126b35c937c2f1140.jpeg",
+        "rating": 4.1,
+        "ratings_total": 750
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 20.85,
+          "currency_symbol": "$",
+          "id": "27D65826E3153C1E94236C25FADC2514",
+          "seller": {
+            "name": "Ammery Essence",
+            "id": "B38CB175649B4DE39F11A7656D0B049A"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 2,
+      "product": {
+        "title": "InStyler 2 in 1 Rotating Hair Curling Iron for Curling and Straightening Hair, Professional Hot Brush Hairdressing Tool with Adjustable Temperature",
+        "link": "https://www.walmart.com/ip/InStyler-2-in-1-Rotating-Hair-Curling-Iron-for-Curling-and-Straightening-Hair-Professional-Hot-Brush-Hairdressing-Tool-with-Adjustable-Temperature/16685669308?classType=REGULAR",
+        "description": "<li>1. Adopted infrared heating, fast heating, long life and good temperature stability.</li><li>2. Exquisite ceramic plate, smooth and shiny, less damage to hair.</li><li>3. Quickly heat up inside,</li>",
+        "item_id": "16685669308",
+        "product_id": "5UM9VC5XPQ5E",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-2-in-1-Rotating-Hair-Curling-Iron-for-Curling-and-Straightening-Hair-Professional-Hot-Brush-Hairdressing-Tool-with-Adjustable-Temperature_5b153f81-12f4-45ae-abb0-7e8f39cf37bd.c2b49f1cfd11f78a73e161acbd0110ad.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-2-in-1-Rotating-Hair-Curling-Iron-for-Curling-and-Straightening-Hair-Professional-Hot-Brush-Hairdressing-Tool-with-Adjustable-Temperature_5b153f81-12f4-45ae-abb0-7e8f39cf37bd.c2b49f1cfd11f78a73e161acbd0110ad.jpeg",
+        "rating": 1,
+        "ratings_total": 10
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 37.79,
+          "currency_symbol": "$",
+          "id": "B23ABBABA1DC3DA0B8C639B84B205DA3",
+          "seller": {
+            "name": "cuichunli",
+            "id": "B5CD25622BBB4A89BEDFCEA702D9BA66"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 3,
+      "product": {
+        "title": "InStyler 2 in 1 Hair Curler Straighter Rotating Iron for Hair Curling and Straighting, Professional Hot Brush Styler Irons Hairdressing Tool with Adjustable",
+        "link": "https://www.walmart.com/ip/InStyler-2-1-Hair-Curler-Straighter-Rotating-Iron-Hair-Curling-Straighting-Professional-Hot-Brush-Styler-Irons-Hairdressing-Tool-Adjustable/16266913831?classType=VARIANT",
+        "description": "<li>1.Adopted infrared heating , fast heating, long life and good temperature stability.</li><li>2. Exquisite ceramic plate, smooth and bright, less damage to the hair.</li><li>3.Rapidly heating</li>",
+        "item_id": "16266913831",
+        "product_id": "7ARRW1PDZ1PK",
+        "images": [
+          "https://i5.walmartimages.com/seo/InStyler-2-1-Hair-Curler-Straighter-Rotating-Iron-Hair-Curling-Straighting-Professional-Hot-Brush-Styler-Irons-Hairdressing-Tool-Adjustable_be14dfed-8709-4927-8439-bd8d0a15deb1.0cd48e46642c028a339a28b26ace360b.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/InStyler-2-1-Hair-Curler-Straighter-Rotating-Iron-Hair-Curling-Straighting-Professional-Hot-Brush-Styler-Irons-Hairdressing-Tool-Adjustable_be14dfed-8709-4927-8439-bd8d0a15deb1.0cd48e46642c028a339a28b26ace360b.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 3,
+        "ratings_total": 1
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 36.99,
+          "currency_symbol": "$",
+          "id": "46CD11B6E4E734D88DE6437F8223A3ED",
+          "list_price": 42.5,
+          "savings_amount": 5.509999999999998,
+          "seller": {
+            "name": "cuichunli",
+            "id": "B5CD25622BBB4A89BEDFCEA702D9BA66"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 4,
+      "product": {
+        "title": "2-in-1 Multi-Function Hair Brush (Straightening and Curling), instyler Dual Purpose Automatic Straightening or Curling Magic, Professional Hot Brush Styling Flat Iron Hairdressing Tool",
+        "link": "https://www.walmart.com/ip/2-in-1-Multi-Function-Hair-Brush-Straightening-Curling-instyler-Dual-Purpose-Automatic-Straightening-Curling-Magic-Professional-Hot-Brush-Styling-Fla/15541601778?classType=REGULAR",
+        "description": "<li>Dual Functionality: Seamlessly combines straightening and curling functions, eliminating the need for multiple styling tools.</li><li>Automatic Styling Magic: The instyler mechanism enables</li>",
+        "item_id": "15541601778",
+        "product_id": "20GB2I9PJB12",
+        "images": [
+          "https://i5.walmartimages.com/seo/2-in-1-Multi-Function-Hair-Brush-Straightening-Curling-instyler-Dual-Purpose-Automatic-Straightening-Curling-Magic-Professional-Hot-Brush-Styling-Fla_c08f80fd-cd89-49f1-9612-c94e3948448e.891ea222a317d546508ac7714432d84f.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/2-in-1-Multi-Function-Hair-Brush-Straightening-Curling-instyler-Dual-Purpose-Automatic-Straightening-Curling-Magic-Professional-Hot-Brush-Styling-Fla_c08f80fd-cd89-49f1-9612-c94e3948448e.891ea222a317d546508ac7714432d84f.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 36.99,
+          "currency_symbol": "$",
+          "id": "705C1251DD8433BC8661B78CD2AB43BF",
+          "seller": {
+            "name": "YangCo.Ltd",
+            "id": "A431303E38D44043AE985BF1075B40FD"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 5,
+      "product": {
+        "title": "Hair Styler & Dryer Brush - Ionic Ceramic Round Brush with Ergonomic Handle for Voluminous, Frizz-Free Shine - Multifunctional for Straightening, Curling & Smoothing - Salon Blow-Dry at Home",
+        "link": "https://www.walmart.com/ip/Hair-Styler-Dryer-Brush-Ionic-Ceramic-Round-Brush-Ergonomic-Handle-Voluminous-Frizz-Free-Shine-Multifunctional-Straightening-Curling-Smoothing-Salon/16387967186?classType=VARIANT&athbdg=L1400",
+        "description": "<li>Hair Styler & Dryer Brush - Ionic Ceramic Round Brush with Ergonomic Handle for Voluminous, Frizz-Free Shine - Multifunctional for Straightening, Curling & Smoothing - Salon Blow-Dry at Home</li>",
+        "item_id": "16387967186",
+        "product_id": "6ZKAIFHZROCM",
+        "images": [
+          "https://i5.walmartimages.com/seo/Hair-Styler-Dryer-Brush-Ionic-Ceramic-Round-Brush-Ergonomic-Handle-Voluminous-Frizz-Free-Shine-Multifunctional-Straightening-Curling-Smoothing-Salon_8b638669-0986-4e43-a160-3c37555af5d4.c4a8dcf3ea75ece36f1063946dbb5458.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Hair-Styler-Dryer-Brush-Ionic-Ceramic-Round-Brush-Ergonomic-Handle-Voluminous-Frizz-Free-Shine-Multifunctional-Straightening-Curling-Smoothing-Salon_8b638669-0986-4e43-a160-3c37555af5d4.c4a8dcf3ea75ece36f1063946dbb5458.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 7.09,
+          "currency_symbol": "$",
+          "id": "1733A04568283C1899B588ED5209C501",
+          "list_price": 9.79,
+          "savings_amount": 2.6999999999999993,
+          "seller": {
+            "name": "Beauty & Fashion",
+            "id": "7C711EFD9E9645F2BDE091E717DF802C"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 6,
+      "product": {
+        "title": "IG INGLAM 4 in 1 Hot Air Brush, Negative Ion Detachable Hair Styler & Volumizer with 2 Brush Heads, Updated Push Switch, Silver",
+        "link": "https://www.walmart.com/ip/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray/16310609592?classType=VARIANT",
+        "description": "Multifunctional Hair Dryer Brush - The IG INGLAM 4 in 1 blowout brush is a multifunctional hair dryer brush which has four different-size brush heads to satisfy your styling needs. Served as a dryer,",
+        "item_id": "16310609592",
+        "product_id": "62SQ2BVY8TUX",
+        "images": [
+          "https://i5.walmartimages.com/seo/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray_b96f4110-0cd1-4c3d-b7e8-878ac9fd6a26.29ab28eb44818389c6213ab301c73194.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray_b96f4110-0cd1-4c3d-b7e8-878ac9fd6a26.29ab28eb44818389c6213ab301c73194.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 5,
+        "ratings_total": 3,
+        "variants": [
+          {
+            "item_id": "16284472363",
+            "product_id": "4A1HTHLR7CZP",
+            "title": "Dark Green",
+            "image": "https://i5.walmartimages.com/asr/7324c6d6-ac34-4cb4-b24c-dd09c9df624c.c5a69d62b4f26f9c9d86f3e3948d33e2.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Hair-Dryer-Brush-4-in-1-Detachable-Blow-Ionic-Diffuser-Styler-Volumizer-Oval-Titanium-Barrel-One-Step-Hot-Air-Blowout-Updated-Push-Switch-D/16284472363?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16362105760",
+            "product_id": "10YUMCFCQ40U",
+            "title": "Gray",
+            "image": "https://i5.walmartimages.com/asr/bbac59a4-0232-4b48-9db1-76a86d34bbf8.3f1ba75c1a27a66ebab693347427df4e.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-4-in-1-Blowout-Brush-Negative-Ion-Detachable-Hair-Dryer-Styler-Volumizer-Hot-Air-Brush-with-2-Styling-Brush-Heads-Silver/16362105760?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16298769929",
+            "product_id": "1JLPBZBYZI8X",
+            "title": "Pink",
+            "image": "https://i5.walmartimages.com/asr/e5b40ac2-3f4c-41f3-8c05-92bb2eadf22f.43a28254a0d3d25d69dcf1bfaa6d37b7.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-4-in-1-Blowout-Hair-Dryer-Brush-Set-Negative-Ion-Detachable-Hair-Dryer-Volumizer-Styler-with-2-Brush-Heads-Pink/16298769929?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16329517642",
+            "product_id": "4FW69QEYBUO3",
+            "title": "Prussian Blue",
+            "image": "https://i5.walmartimages.com/asr/f01028f3-4a6e-4e01-8825-d270023fadfb.5328dbf33ebfd3f880af13b737316a47.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Dryer-Brush-Set-IG-INGLAM-4-1-Blowout-Brush-Negative-Ion-Detachable-Styler-Volumizer-Hot-Air-2-Styling-Heads-Prussian-Blue/16329517642?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16310609592",
+            "product_id": "4TX4KG7Z94FA",
+            "title": "Silver",
+            "image": "https://i5.walmartimages.com/asr/b96f4110-0cd1-4c3d-b7e8-878ac9fd6a26.29ab28eb44818389c6213ab301c73194.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-4-in-1-Hot-Air-Brush-Negative-Ion-Detachable-Hair-Styler-Volumizer-with-2-Brush-Heads-Updated-Push-Switch-Gray/16310609592?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 59.99,
+          "currency_symbol": "$",
+          "id": "D8921C32ABA43D92B524E66E4173CAD9",
+          "list_price": 75.99,
+          "savings_amount": 15.999999999999993,
+          "seller": {
+            "name": "Haircaresshop Direct",
+            "id": "D1F8C45C927E4FD28DE5263B1D8D7FC3"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 7,
+      "product": {
+        "title": "Cosmopolitan Hot Airstyler Brush (Blue/Silver)",
+        "link": "https://www.walmart.com/ip/Cosmopolitan-Hot-Airstyler-Brush-Blue-Silver/1824241702?classType=VARIANT",
+        "description": "<li>Sold as 1 Each.</li><li>Creates blowouts with ease. Comes with rotating temperature control providing ultimate styling control. 5.7 ft. professional cord for free range of movement.</li><li>For</li>",
+        "item_id": "1824241702",
+        "product_id": "2PAKIF7HW26H",
+        "images": [
+          "https://i5.walmartimages.com/seo/Cosmopolitan-Hot-Airstyler-Brush-Blue-Silver_c329ec9b-913c-4c29-a213-a545222fbb8e.c0b2e56103ee0daad4b92b49ea857566.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Cosmopolitan-Hot-Airstyler-Brush-Blue-Silver_c329ec9b-913c-4c29-a213-a545222fbb8e.c0b2e56103ee0daad4b92b49ea857566.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.3,
+        "ratings_total": 22,
+        "variants": [
+          {
+            "item_id": "1231255641",
+            "product_id": "1KK4E6BYPS4V",
+            "title": "Black",
+            "image": "https://i5.walmartimages.com/asr/ba19541a-9e2a-4b7b-952a-5459ac650e87.5c884f24fe37087cec9efc22643a9820.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cosmopolitan-Hot-Airstyler-Brush-Black-Gold/1231255641?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "1824241702",
+            "product_id": "1MDX7M8EWMI9",
+            "title": "Blue",
+            "image": "https://i5.walmartimages.com/asr/c329ec9b-913c-4c29-a213-a545222fbb8e.c0b2e56103ee0daad4b92b49ea857566.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cosmopolitan-Hot-Airstyler-Brush-Blue-Silver/1824241702?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 35.73,
+          "currency_symbol": "$",
+          "id": "4242B4EBCDD6322EBF2D06250618AB0C",
+          "seller": {
+            "name": "Mbinze",
+            "id": "18FBE12636A54B819A9A4E07CE6F509D"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 8,
+      "product": {
+        "title": "2025   Professional Heated Round Brush - 1.5\" Ionic Styler for Instant Blowout Results(Rose Gold)",
+        "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold/16641769913?classType=REGULAR&athbdg=L1400",
+        "description": "<li>INNOVATIVE BUTTON DESIGN: Auto hair curler switches from celsius to fahrenheit by pressing the plus or minus button at the same time, giving you dual options.</li><li>FAST HEATING SPEED: Automatic</li>",
+        "item_id": "16641769913",
+        "product_id": "2NVH2QCA4ZWO",
+        "images": [
+          "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_29205b82-59a2-4069-a535-d1084e4930d3.31f007f0ad8a3244e7fde514ea1b6a50.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_29205b82-59a2-4069-a535-d1084e4930d3.31f007f0ad8a3244e7fde514ea1b6a50.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 60.19,
+          "currency_symbol": "$",
+          "id": "71EE337A89683317843C249992CBBF18",
+          "list_price": 68.88,
+          "savings_amount": 8.689999999999998,
+          "seller": {
+            "name": "OpalSkin",
+            "id": "1BD6A24A27084F7C920E5BDA2856F8BD"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 9,
+      "product": {
+        "title": "2025   Professional Heated Round Brush - 1.5\" Ionic Styler for Instant Blowout Results(Green)",
+        "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Green/16601219136?classType=VARIANT",
+        "description": "<li>Ionic Frizz Reduction: Our thermal brush releases negative ions to lock in moisture, smooth each strand, and reduce frizz and tangles. Effortlessly achieve a silky, frizz-free finish with every</li>",
+        "item_id": "16601219136",
+        "product_id": "1DKB67NDCTFO",
+        "images": [
+          "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Green_e41cfd38-a44a-40e6-af5a-73cc31f6445c.3c963ab881fe2a07b4c0e7f21aa41d94.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Green_e41cfd38-a44a-40e6-af5a-73cc31f6445c.3c963ab881fe2a07b4c0e7f21aa41d94.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0,
+        "variants": [
+          {
+            "item_id": "16601219136",
+            "product_id": "3FMNOF6XK52E",
+            "title": "Green",
+            "image": "https://i5.walmartimages.com/asr/e41cfd38-a44a-40e6-af5a-73cc31f6445c.3c963ab881fe2a07b4c0e7f21aa41d94.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Green/16601219136?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16656556498",
+            "product_id": "6RG1MVIVZ5WL",
+            "title": "Millennial Pink",
+            "image": "https://i5.walmartimages.com/asr/f373dd33-1534-44dc-9b88-96727c72290e.7766aec633ba6d01f37d94f004ed6a13.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Millennial-Pink/16656556498?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16650515111",
+            "product_id": "2HZSB0IKN2FC",
+            "title": "Rose Gold",
+            "image": "https://i5.walmartimages.com/asr/7f242364-f9f9-40a7-b1b1-0de9b4b5cfb2.e4876040ebd5635ee63d0fe65dfde736.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold/16650515111?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "16644318070",
+            "product_id": "2YTYKW2A5YUE",
+            "title": "White",
+            "image": "https://i5.walmartimages.com/asr/b812e764-c0f5-42c2-951f-d0ac9bce049e.2592848efcf749c8549dc36d501621c5.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-White/16644318070?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 52.88,
+          "currency_symbol": "$",
+          "id": "83E65C71B0713A2F8C7B60BD10864CF4",
+          "seller": {
+            "name": "SaiT-Enterprise",
+            "id": "CD82F20CD30248CAB0EA20ED02B0912D"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 10,
+      "product": {
+        "title": "Hair Styler, Hair Dryer Brush, Multifunctional 1-Step Volumizing Curling and Straightening Tool with Ionic Ceramic Coating, Ergonomic Handle, Anti-Frizz Soft Bristles for Salon Blow-Dry at Home",
+        "link": "https://www.walmart.com/ip/Hair-Styler-Hair-Dryer-Brush-Multifunctional-1-Step-Volumizing-Curling-Straightening-Tool-Ionic-Ceramic-Coating-Ergonomic-Handle-Anti-Frizz-Soft-Bris/17313114245?classType=VARIANT",
+        "description": "<li>curling iron</li><li>heated round brush</li><li>mini curling brush</li><li>ceramic hair tools</li><li>hair styler wand</li><li>Multifunctional 3-in-1 tool for drying, curling, and straightening</li>",
+        "item_id": "17313114245",
+        "product_id": "6U4FLUJXG40X",
+        "images": [
+          "https://i5.walmartimages.com/seo/Hair-Styler-Hair-Dryer-Brush-Multifunctional-1-Step-Volumizing-Curling-Straightening-Tool-Ionic-Ceramic-Coating-Ergonomic-Handle-Anti-Frizz-Soft-Bris_23e8f3e2-20f5-443a-8269-0294b07894fb.964e85326b3db0f6bef1ff031abc301d.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Hair-Styler-Hair-Dryer-Brush-Multifunctional-1-Step-Volumizing-Curling-Straightening-Tool-Ionic-Ceramic-Coating-Ergonomic-Handle-Anti-Frizz-Soft-Bris_23e8f3e2-20f5-443a-8269-0294b07894fb.964e85326b3db0f6bef1ff031abc301d.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0,
+        "variants": [
+          {
+            "item_id": "17296403681",
+            "product_id": "5KYR9R2WDUTJ",
+            "title": "A",
+            "image": "https://i5.walmartimages.com/asr/74653bad-d8d4-4884-881c-d757159c6b35.8ad8a7906e7657623b98986c5d54be5c.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Styler-Dryer-Brush-Multifunctional-1-Step-Volumizing-Curling-Straightening-Tool-Ionic-Ceramic-Coating-Ergonomic-Handle-Anti-Frizz-Soft-Bristles/17296403681?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "17313114245",
+            "product_id": "6OEHL64LZNZ9",
+            "title": "B",
+            "image": "https://i5.walmartimages.com/asr/23e8f3e2-20f5-443a-8269-0294b07894fb.964e85326b3db0f6bef1ff031abc301d.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Styler-Dryer-Brush-Multifunctional-1-Step-Volumizing-Curling-Straightening-Tool-Ionic-Ceramic-Coating-Ergonomic-Handle-Anti-Frizz-Soft-Bristles/17313114245?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "17295413172",
+            "product_id": "7KUIWY17JNUO",
+            "title": "C",
+            "image": "https://i5.walmartimages.com/asr/8bf83d64-6565-46ad-a846-4560b3f86736.a534a0951b14c7d43a59158cfa314723.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Styler-Dryer-Brush-Multifunctional-1-Step-Volumizing-Curling-Straightening-Tool-Ionic-Ceramic-Coating-Ergonomic-Handle-Anti-Frizz-Soft-Bristles/17295413172?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "17292754580",
+            "product_id": "3KVUNKD6PL3O",
+            "title": "D",
+            "image": "https://i5.walmartimages.com/asr/d70d0d0a-95c8-4c01-be16-8ddbb3340efc.cc3d6d542e3051a8707cb2e3f5e2c2be.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Styler-Dryer-Brush-Multifunctional-1-Step-Volumizing-Curling-Straightening-Tool-Ionic-Ceramic-Coating-Ergonomic-Handle-Anti-Frizz-Soft-Bristles/17292754580?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 7.2,
+          "currency_symbol": "$",
+          "id": "AC309DAAA1613821969245B8378DF9D2",
+          "seller": {
+            "name": "Beauty & Fashion",
+            "id": "7C711EFD9E9645F2BDE091E717DF802C"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 11,
+      "product": {
+        "title": "Cortex Beauty - Air Styler | 4-In-1 Hot Air Styler Brush - Gray",
+        "link": "https://www.walmart.com/ip/Cortex-Beauty-Air-Styler-4-in-1-Hot-Air-Styler-Brush-Gray-Rose-Gold/5131161510?classType=VARIANT",
+        "description": "Features & Benefits\n\n2 Heat settings\nCool Shot Button\nRemovable Heads/ Attachments\nNegative Ion Technology\nCeramic Coated Smooth Finish\nHeat Distribution with 360 Ventilation holes for faster drying",
+        "item_id": "5131161510",
+        "product_id": "19KA6DD1APJF",
+        "images": [
+          "https://i5.walmartimages.com/seo/Cortex-Beauty-Air-Styler-4-in-1-Hot-Air-Styler-Brush-Gray-Rose-Gold_82142e2c-c04d-427c-9064-8d9e143692aa.f11687f98964eb1c1dc31c3847f19ee3.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Cortex-Beauty-Air-Styler-4-in-1-Hot-Air-Styler-Brush-Gray-Rose-Gold_82142e2c-c04d-427c-9064-8d9e143692aa.f11687f98964eb1c1dc31c3847f19ee3.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 0,
+        "ratings_total": 0,
+        "variants": [
+          {
+            "item_id": "5105539435",
+            "product_id": "17VQV1ZS9WSO",
+            "title": "Black/Pink",
+            "image": "https://i5.walmartimages.com/asr/3b454d20-f67e-48bc-8470-ad3c59430406.d742b4cd9670345c5fb88ddad9bd3c36.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-Air-Styler-4-In-1-Hot-Air-Styler-Brush-Black/5105539435?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "5132665164",
+            "product_id": "5PBDO7NLG1DG",
+            "title": "Blush Pink",
+            "image": "https://i5.walmartimages.com/asr/6c3f6668-1e9a-4381-8032-30d18e17260e.eba9636247bc214c6bbcca4b949acc53.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-Air-Styler-4-In-1-Hot-Air-Styler-Brush-Blush-Pink/5132665164?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "5131161510",
+            "product_id": "2KHF7KJWI7WN",
+            "title": "Gray",
+            "image": "https://i5.walmartimages.com/asr/82142e2c-c04d-427c-9064-8d9e143692aa.f11687f98964eb1c1dc31c3847f19ee3.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-Air-Styler-4-In-1-Hot-Air-Styler-Brush-Gray/5131161510?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "5131111616",
+            "product_id": "317QUU3Z3G00",
+            "title": "Lavender",
+            "image": "https://i5.walmartimages.com/asr/ed29421a-144a-485e-bd8a-3a932f48e043.3fba96dd95b331f011fb87f53f1b5258.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-Air-Styler-4-In-1-Hot-Air-Styler-Brush-Lavender/5131111616?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "5130418476",
+            "product_id": "2G7P3SBIAQ54",
+            "title": "White/Pink Rose",
+            "image": "https://i5.walmartimages.com/asr/1381217c-4cb8-44d5-a6a0-3ac9f1c603c3.6ae1338524d7fab08b5e245c71865279.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-Air-Styler-4-In-1-Hot-Air-Styler-Brush-White-Pink-Rose/5130418476?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 79.98,
+          "currency_symbol": "$",
+          "id": "4529074B2A333364A30D9E4AE0ABC9A7",
+          "seller": {
+            "name": "Cortex Beauty",
+            "id": "1DA7985980244C78820225EA9652763B"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 12,
+      "product": {
+        "title": "Multifunctional Hot Air Brush, 3 in 1 Styler for Drying/Straightening/Curling, Quick Heating, Perfect for Salon Professionals and Beginners",
+        "link": "https://www.walmart.com/ip/Multifunctional-Hot-Air-Brush-3-in-1-Styler-for-Drying-Straightening-Curling-Quick-Heating-Perfect-for-Salon-Professionals-and-Beginners/16878353530?classType=REGULAR",
+        "description": "3-in-1 MultifunctionCombines curling, straightening, and blow-drying functions in one device, with 360 airflow channels that dry and style hair simultaneously for efficient styling.Smart Temperature",
+        "item_id": "16878353530",
+        "product_id": "4YNQR1B5H6VR",
+        "images": [
+          "https://i5.walmartimages.com/seo/Multifunctional-Hot-Air-Brush-3-in-1-Styler-for-Drying-Straightening-Curling-Quick-Heating-Perfect-for-Salon-Professionals-and-Beginners_9fd3e96d-5c72-42e2-9d71-975de4fb0930.b18680c435ae92e74a42764be860214d.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Multifunctional-Hot-Air-Brush-3-in-1-Styler-for-Drying-Straightening-Curling-Quick-Heating-Perfect-for-Salon-Professionals-and-Beginners_9fd3e96d-5c72-42e2-9d71-975de4fb0930.b18680c435ae92e74a42764be860214d.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 66.77,
+          "currency_symbol": "$",
+          "id": "F4E1F96426D93BA9A0DCE79C4DAB514B",
+          "seller": {
+            "name": "LuoS-Enterprise",
+            "id": "F1A4C84983C447169BA9176218944A7A"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 13,
+      "product": {
+        "title": "3 in 1 Hair Styler, One-Step Straightening & Curling with Adjustable Heat, Suitable for All Hair Types and Lengths",
+        "link": "https://www.walmart.com/ip/3-in-1-Hair-Styler-One-Step-Straightening-Curling-with-Adjustable-Heat-Suitable-for-All-Hair-Types-and-Lengths/16900611124?classType=REGULAR",
+        "description": "3-in-1 Styling FunctionalityThis hair styler integrates straightening, curling, and blow-drying into one tool, enabling one-step styling for curly, wavy, or straight hair of any length.Adjustable Heat",
+        "item_id": "16900611124",
+        "product_id": "3Z7YTS1THQ9H",
+        "images": [
+          "https://i5.walmartimages.com/seo/3-in-1-Hair-Styler-One-Step-Straightening-Curling-with-Adjustable-Heat-Suitable-for-All-Hair-Types-and-Lengths_2b57ad61-e2b3-485a-883e-abc4e1898c08.8af08244e045ac62f8740f55ee795f78.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/3-in-1-Hair-Styler-One-Step-Straightening-Curling-with-Adjustable-Heat-Suitable-for-All-Hair-Types-and-Lengths_2b57ad61-e2b3-485a-883e-abc4e1898c08.8af08244e045ac62f8740f55ee795f78.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 48.77,
+          "currency_symbol": "$",
+          "id": "A0EF76BA87EE3287B971BD364B696FB3",
+          "seller": {
+            "name": "LuoS-Enterprise",
+            "id": "F1A4C84983C447169BA9176218944A7A"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 14,
+      "product": {
+        "title": "2025   Professional Heated Round Brush - 1.5\" Ionic Styler for Instant Blowout Results(Rose Gold)",
+        "link": "https://www.walmart.com/ip/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold/16699760215?classType=REGULAR&athbdg=L1400",
+        "description": "<li>Healthy Design Concept:The hair of infants and pets is relatively fragile, and the high-power hair dryer has more radiation and should not be used. 300W power, both safe and fast drying.</li>",
+        "item_id": "16699760215",
+        "product_id": "117XDR337JSC",
+        "images": [
+          "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_dbfada94-5428-47bc-b0d3-d1f3a4dcf6a2.627f8a1a92b635221c47f49e5524b349.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/2025-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_dbfada94-5428-47bc-b0d3-d1f3a4dcf6a2.627f8a1a92b635221c47f49e5524b349.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 103.39,
+          "currency_symbol": "$",
+          "id": "5A3F4AA6C0C63879A04BC0C01ABDD242",
+          "list_price": 118.88,
+          "savings_amount": 15.489999999999995,
+          "seller": {
+            "name": "OpalSkin",
+            "id": "1BD6A24A27084F7C920E5BDA2856F8BD"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 15,
+      "product": {
+        "title": "RKXQT Professional Heated Round Brush - 1.5\" Ionic Styler for Instant Blowout Results(Rose Gold)",
+        "link": "https://www.walmart.com/ip/RKXQT-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold/16979215590?classType=REGULAR",
+        "description": "<li>INNOVATIVE BUTTON DESIGN: Auto hair curler switches from celsius to fahrenheit by pressing the plus or minus button at the same time, giving you dual options.</li><li>FAST HEATING SPEED: Automatic</li>",
+        "item_id": "16979215590",
+        "product_id": "6Z5ZD7KW21D4",
+        "images": [
+          "https://i5.walmartimages.com/seo/RKXQT-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_7859d983-4ddd-4dd7-8078-2006032b1d00.71f196070bddff7706f16b63418bb458.png"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/RKXQT-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_7859d983-4ddd-4dd7-8078-2006032b1d00.71f196070bddff7706f16b63418bb458.png",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 68.99,
+          "currency_symbol": "$",
+          "id": "4E33C9A935233B3982EDD059B530EAE8",
+          "seller": {
+            "name": "HLuo-Enterprise",
+            "id": "E3C32AF8E625489C8058BC5C0CA6CF1D"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 16,
+      "product": {
+        "title": "RKXQT Professional Heated Round Brush - 1.5\" Ionic Styler for Instant Blowout Results(Rose Gold)",
+        "link": "https://www.walmart.com/ip/RKXQT-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold/16964311475?classType=REGULAR",
+        "description": "<li>Healthy Design Concept:The hair of infants and pets is relatively fragile, and the high-power hair dryer has more radiation and should not be used. 300W power, both safe and fast drying.</li>",
+        "item_id": "16964311475",
+        "product_id": "4XW4DAVC9UC6",
+        "images": [
+          "https://i5.walmartimages.com/seo/RKXQT-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_2752cfd5-29b1-4c3c-b3d2-2fcb7068b15b.cca76561bea4a8ac4ec0904eb4c3612b.png"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/RKXQT-Professional-Heated-Round-Brush-1-5-Ionic-Styler-for-Instant-Blowout-Results-Rose-Gold_2752cfd5-29b1-4c3c-b3d2-2fcb7068b15b.cca76561bea4a8ac4ec0904eb4c3612b.png",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 118.99,
+          "currency_symbol": "$",
+          "id": "9CC31ED88E5733A3A0F7AE5A9F849B35",
+          "seller": {
+            "name": "HLuo-Enterprise",
+            "id": "E3C32AF8E625489C8058BC5C0CA6CF1D"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 17,
+      "product": {
+        "title": "Conair InfinitiPRO Knot Dr. All-in-One Mini Oval Hot Air Brush",
+        "link": "https://www.walmart.com/ip/INFINITIPRO-BY-CONAIR-The-Knot-Dr-All-in-One-MINI-Oval-Dryer-Brush-Hair-Dryer-Volumizer-Hot-Air-Brush-BC114/1150270448?classType=VARIANT",
+        "description": "<li>All in one styling tool: Detangle, dry, style and volumize your hair with one styling tool! The Knot Dr. All-in-one dryer brush is all you need to create salon caliber styles quickly and easily</li>",
+        "item_id": "1150270448",
+        "product_id": "3CEPWCFAIHPI",
+        "images": [
+          "https://i5.walmartimages.com/seo/INFINITIPRO-BY-CONAIR-The-Knot-Dr-All-in-One-MINI-Oval-Dryer-Brush-Hair-Dryer-Volumizer-Hot-Air-Brush-BC114_def11558-e95c-4e6b-829d-c801cb01ab48.929447325c7c732500c55bd9f67dbeb4.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-CONAIR-The-Knot-Dr-All-in-One-MINI-Oval-Dryer-Brush-Hair-Dryer-Volumizer-Hot-Air-Brush-BC114_def11558-e95c-4e6b-829d-c801cb01ab48.929447325c7c732500c55bd9f67dbeb4.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.4,
+        "ratings_total": 1592,
+        "variants": [
+          {
+            "item_id": "1150270448",
+            "product_id": "1YF8SR02YGFM",
+            "title": "Baby Pink",
+            "image": "https://i5.walmartimages.com/asr/def11558-e95c-4e6b-829d-c801cb01ab48.929447325c7c732500c55bd9f67dbeb4.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Conair-BC114-The-Knot-Dr-All-in-One-MINI-Oval-Dryer-Brush/1150270448?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "493136398",
+            "product_id": "6ZOR0P9ZEPFM",
+            "title": "Blue",
+            "image": "https://i5.walmartimages.com/asr/3e5eef71-7cfc-4dff-af0d-8dd102e3dc51.5947272a1e0352109aded6d5aaff46e7.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/InfinitiPro-by-Conair-The-Knot-Dr-All-in-One-Medium-Oval-Dryer-Hot-Air-Brush-BC117/493136398?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "945374911",
+            "product_id": "2LN0BRTE3274",
+            "title": "Pink",
+            "image": "https://i5.walmartimages.com/asr/39d94c1e-df21-41c6-b0d0-e763c5b5d5f5.6eab2b2ea2ca0434374c44a19f634ae7.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Infinitipro-by-Conair-with-The-Knot-Dr-All-in-One-Smoothing-Dryer-Brush-BC120/945374911?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 27.49,
+          "currency_symbol": "$",
+          "id": "D35F7FE2A37E40A79A62097238AF9F36",
+          "seller": {
+            "name": "Walmart.com",
+            "id": "F55CDC31AB754BB68FE0B39041159D63"
+          }
+        },
+        "is_marketplace_item": false
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 18,
+      "product": {
+        "title": "AIMIKE Rose Luxe Round Brush, 2.5” Blow Out Brush for Styling, Curling & Add Volume, Barrel 1.7 Inch",
+        "link": "https://www.walmart.com/ip/AIMIKE-Rose-Luxe-Round-Brush-Large-Nano-Ceramic-Ionic-Tech-1-7-inch-Barrel-with-4-clips-for-Blow-Drying-Styling-Curling-and-Shine/15861306289?classType=VARIANT",
+        "description": "<li>All for Yours:Ion-infused AIMIKE ROSE LUXE Series Round Brush for smoother, shinier hair with reduced frizz, lightweight and comfortable design for effortless styling.</li><li>Key Bristles:</li>",
+        "item_id": "15861306289",
+        "product_id": "55O7ZO08H8YB",
+        "images": [
+          "https://i5.walmartimages.com/seo/AIMIKE-Rose-Luxe-Round-Brush-Large-Nano-Ceramic-Ionic-Tech-1-7-inch-Barrel-with-4-clips-for-Blow-Drying-Styling-Curling-and-Shine_650b59a8-4c60-4831-a5bd-7889178a0e9b.04d6671f4a4b86418755dceab814465a.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/AIMIKE-Rose-Luxe-Round-Brush-Large-Nano-Ceramic-Ionic-Tech-1-7-inch-Barrel-with-4-clips-for-Blow-Drying-Styling-Curling-and-Shine_650b59a8-4c60-4831-a5bd-7889178a0e9b.04d6671f4a4b86418755dceab814465a.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 5,
+        "ratings_total": 4,
+        "variants": [
+          {
+            "item_id": "15861306289",
+            "product_id": "2DO5DGBGLA59",
+            "title": "1.7\"",
+            "image": "https://i5.walmartimages.com/asr/650b59a8-4c60-4831-a5bd-7889178a0e9b.04d6671f4a4b86418755dceab814465a.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/AIMIKE-Rose-Luxe-Round-Brush-Large-Nano-Ceramic-Ionic-Tech-1-7-inch-Barrel-with-4-clips-for-Blow-Drying-Styling-Curling-and-Shine/15861306289?classType=undefined&variantFieldId=size"
+          },
+          {
+            "item_id": "15860706145",
+            "product_id": "6I9KLO4GD1X0",
+            "title": "2.1\"",
+            "image": "https://i5.walmartimages.com/asr/a6fa8b5f-318e-45b4-a79b-57e6ff3d394b.4da197a88376f4ae0a055f87ec5bc5bc.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/AIMIKE-Rose-Luxe-Round-Brush-for-Blow-Out-Large-Nano-Ceramic-Ionic-Tech-2-1-inch-Barrel-with-4-clips-for-Blow-Drying-Styling-Curling-and-Shine/15860706145?classType=undefined&variantFieldId=size"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 17.99,
+          "currency_symbol": "$",
+          "id": "A59D9311D6813808A38EB04F8AB195F7",
+          "seller": {
+            "name": "AIMIKE Direct",
+            "id": "74D2B971CDDB4B29A51696EF7486133E"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 19,
+      "product": {
+        "title": "Blowout Brush, IG INGLAM 4 in 1 Hair Dryer Brush Set, Negative Ion Detachable Blow Dryer Brush Set & Styler Volumizer Hair Styling Tools, Gray",
+        "link": "https://www.walmart.com/ip/IG-INGLAM-Hair-Dryer-Brush-Styler-Volumizer-Hot-Air-Brush-with-4-Styling-Heads-Gray/3759948055?classType=VARIANT&athbdg=L1900",
+        "description": "<li>Multifunctional Hair Dryer Brush - The IG INGLAM 4 in 1 blowout brush is a multifunctional hair dryer brush which has four different-size brush heads to satisfy your styling needs. Served as a</li>",
+        "item_id": "3759948055",
+        "product_id": "776UFY4ZZ1ID",
+        "images": [
+          "https://i5.walmartimages.com/seo/IG-INGLAM-Hair-Dryer-Brush-Styler-Volumizer-Hot-Air-Brush-with-4-Styling-Heads-Gray_0c29e4fc-ad78-416d-9169-471de2d5051a.7421a73168e8449b40559a2ba528b0bf.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/IG-INGLAM-Hair-Dryer-Brush-Styler-Volumizer-Hot-Air-Brush-with-4-Styling-Heads-Gray_0c29e4fc-ad78-416d-9169-471de2d5051a.7421a73168e8449b40559a2ba528b0bf.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.3,
+        "ratings_total": 90,
+        "variants": [
+          {
+            "item_id": "5555473808",
+            "product_id": "30QZTTICADQU",
+            "title": "Dark Green",
+            "image": "https://i5.walmartimages.com/asr/221aede1-53c4-4428-a30b-4d66b47e8efe.741b962d4da6a324154cc9327aaf0b40.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-Hair-Dryer-Brush-4-in-1-Detachable-Blow-Ionic-Diffuser-Styler-Volumizer-Oval-Titanium-Barrel-One-Step-Hot-Air-Blowout-Updated-Push-Switch-D/5555473808?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "3759948055",
+            "product_id": "56WHN8J8VP0H",
+            "title": "Gray",
+            "image": "https://i5.walmartimages.com/asr/0c29e4fc-ad78-416d-9169-471de2d5051a.7421a73168e8449b40559a2ba528b0bf.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/IG-INGLAM-4-in-1-Blowout-Brush-Negative-Ion-Detachable-Hair-Dryer-Styler-Volumizer-Hot-Air-Brush-with-2-Styling-Brush-Heads-Gray/3759948055?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "3743333798",
+            "product_id": "4TTTH2QXIAS8",
+            "title": "Pink",
+            "image": "https://i5.walmartimages.com/asr/162d82b7-3389-4ee2-b308-1f39e43cfe1c.5e9c30572ab4f52d91a9932091ff2699.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Dryer-Brush-Set-IG-INGLAM-4-1-Blowout-Brush-Negative-Ion-Detachable-Styler-Volumizer-Hot-Air-2-Styling-Heads-Pink/3743333798?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "2775732185",
+            "product_id": "33TJX3HATFCX",
+            "title": "Prussian Blue",
+            "image": "https://i5.walmartimages.com/asr/1cef70d3-99ee-454d-9bef-b537697c5daf.b78a0457a6762c65e28c4f8d0895ce5a.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Dryer-Brush-Set-IG-INGLAM-4-1-Blowout-Brush-Negative-Ion-Detachable-Styler-Volumizer-Hot-Air-2-Styling-Heads-Prussian-Blue/2775732185?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "1132683079",
+            "product_id": "6ADV3TATVH9K",
+            "title": "Silver",
+            "image": "https://i5.walmartimages.com/asr/2888fa4c-d455-44c6-b0d4-0f478fdeb8d0.393cc0696db7487773ceca4ce0930c4e.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Hair-Dryer-Brush-Set-IG-INGLAM-4-1-Hot-Air-Brush-Negative-Ion-Detachable-Styler-Volumizer-Blow-2-Styling-Heads-Updated-Push-Switch-Silver/1132683079?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 53.19,
+          "currency_symbol": "$",
+          "id": "D95DE44B65293F57AE5C71213A28B2B8",
+          "list_price": 89.99,
+          "savings_amount": 36.8,
+          "seller": {
+            "name": "Haircaresshop",
+            "id": "FBF6E83D407B4F71A9F6656A1B0DC1CB"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 20,
+      "product": {
+        "title": "Conair Instant Heat Styling Brush, 0.75 Inch",
+        "link": "https://www.walmart.com/ip/Conair-Instant-Heat-Styling-Brush-0-75-Inch/446156230?classType=REGULAR",
+        "description": "<li>Hair Type: All</li><li>Color: Hot Black Silver</li><li>Brand: Conair</li><li>Material: Alloy Steel</li><li>Item Dimensions LxWxH: 6 x 3.3 x 15 inches</li><li>25 heat settings for all types of hair</li>",
+        "item_id": "446156230",
+        "product_id": "2578I8QN6ND3",
+        "images": [
+          "https://i5.walmartimages.com/seo/Conair-Instant-Heat-Styling-Brush-0-75-Inch_d90370d1-b10e-45b5-b1d1-739e5ce4067e.f543a75f2761191120a1f06bf360e643.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Conair-Instant-Heat-Styling-Brush-0-75-Inch_d90370d1-b10e-45b5-b1d1-739e5ce4067e.f543a75f2761191120a1f06bf360e643.jpeg",
+        "rating": 4.2,
+        "ratings_total": 5
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 24.99,
+          "currency_symbol": "$",
+          "id": "DE1740D1CE9D39BFA7EBE640EEF5DA48",
+          "seller": {
+            "name": "YAK SUPPLIES",
+            "id": "3FDA04F57447413C938BF18AD49AD358"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 21,
+      "product": {
+        "title": "Hair Dryer Brush Blow Dryer Brush 5 in 1 for Women, Detachable Blowout Brush & Hair Appliances for Straightening/ Drying/ Curling/ Styling/Volumizer, Copper Red",
+        "link": "https://www.walmart.com/ip/Hair-Dryer-Brush-Blow-Dryer-Brush-5-1-Women-Detachable-Blowout-Brush-Hair-Appliances-Straightening-Drying-Curling-Styling-Volumizer-Copper-Red/17230363491?classType=REGULAR",
+        "description": "<li>5 in 1 Hot Air Styler -\nThe hair appliances includes multiple attachments: A smoothing brush, oval brush, blow dryer,Barrel Brush and volumizer diffuser, allowing you to achieve diverse looks,</li>",
+        "item_id": "17230363491",
+        "product_id": "20VKS4TRPNMX",
+        "images": [
+          "https://i5.walmartimages.com/seo/Hair-Dryer-Brush-Blow-Dryer-Brush-5-1-Women-Detachable-Blowout-Brush-Hair-Appliances-Straightening-Drying-Curling-Styling-Volumizer-Copper-Red_45df6798-10e2-4818-8223-351f8b02560f.58f8431012291cc3ff07b293b07623ee.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Hair-Dryer-Brush-Blow-Dryer-Brush-5-1-Women-Detachable-Blowout-Brush-Hair-Appliances-Straightening-Drying-Curling-Styling-Volumizer-Copper-Red_45df6798-10e2-4818-8223-351f8b02560f.58f8431012291cc3ff07b293b07623ee.jpeg",
+        "rating": 5,
+        "ratings_total": 2
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 65.99,
+          "currency_symbol": "$",
+          "id": "2DA0CA014E5633799F69B8AB3E9F6C4C",
+          "seller": {
+            "name": "Haircaresshop",
+            "id": "FBF6E83D407B4F71A9F6656A1B0DC1CB"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 22,
+      "product": {
+        "title": "AIMIKE Round Brush for Blow Out, 3.3” Boar Bristle Round Brush for Styling, Curling, Adds Volume & Shine",
+        "link": "https://www.walmart.com/ip/AIMIKE-Round-Hair-Brush-for-Blow-Out-2-1-inch-Nano-Thermal-Ceramic-Tech-Blow-Drying-Volume-with-Smooth-Hair-Shine-4-Free-Clips/15878304926?classType=VARIANT",
+        "description": "<li>Nano Thermal Ceramic Ionic Technology: Enhance hair shine and texture with Nano Thermal Ceramic Ionic Technology, reduce frizz and split ends, create loose curls or waves, straighten shorter</li>",
+        "item_id": "15878304926",
+        "product_id": "5004GX5EDS3B",
+        "images": [
+          "https://i5.walmartimages.com/seo/AIMIKE-Round-Hair-Brush-for-Blow-Out-2-1-inch-Nano-Thermal-Ceramic-Tech-Blow-Drying-Volume-with-Smooth-Hair-Shine-4-Free-Clips_6ac2b3d3-649c-4d64-a261-f06030e7686c.e3025a535417517e4341c828c038aa59.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/AIMIKE-Round-Hair-Brush-for-Blow-Out-2-1-inch-Nano-Thermal-Ceramic-Tech-Blow-Drying-Volume-with-Smooth-Hair-Shine-4-Free-Clips_6ac2b3d3-649c-4d64-a261-f06030e7686c.e3025a535417517e4341c828c038aa59.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 5,
+        "ratings_total": 13,
+        "variants": [
+          {
+            "item_id": "16833652261",
+            "product_id": "1301MFK3GGN0",
+            "title": "1\"",
+            "image": "https://i5.walmartimages.com/asr/f1c2079e-559a-4188-8906-115519addc7d.81591280e964a5ff0b5c809e94c453dc.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/AIMIKE-Round-Brush-for-Blow-Out-2-Boar-Bristle-Round-Brush-for-Styling-Curling-Adds-Volume-Shine/16833652261?classType=undefined&variantFieldId=size"
+          },
+          {
+            "item_id": "15837818868",
+            "product_id": "4B4695PLV9KR",
+            "title": "1.3\"",
+            "image": "https://i5.walmartimages.com/asr/37a67e5e-df52-42f9-9b90-8d4d319cab9c.459e5de658940c9c1ce870ecf64721d1.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/AIMIKE-Professional-Thermal-Round-Brush-2-1-Ceramic-Ionic-Blowout-Styling-Tool-Boar-Bristles-Medium-Barrel-Hair-Smoothing-Curling-Shine-Salon-Grade-H/15837818868?classType=undefined&variantFieldId=size"
+          },
+          {
+            "item_id": "15827659878",
+            "product_id": "4NOJMH4HQ7N8",
+            "title": "1.7\"",
+            "image": "https://i5.walmartimages.com/asr/53eb153f-6a49-406d-8f06-8b17076d4da2.e0ceac86c2bf2dd7955bec32178d7627.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/AIMIKE-Round-Hair-Brush-for-Blow-Out-2-9-inch-Nano-Thermal-Ceramic-Tech-Blow-Drying-Volume-with-Smooth-Hair-Shine-4-Free-Clips/15827659878?classType=undefined&variantFieldId=size"
+          },
+          {
+            "item_id": "15878304926",
+            "product_id": "21410UYRVK2B",
+            "title": "2.1\"",
+            "image": "https://i5.walmartimages.com/asr/6ac2b3d3-649c-4d64-a261-f06030e7686c.e3025a535417517e4341c828c038aa59.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/AIMIKE-Round-Hair-Brush-for-Blow-Out-2-1-inch-Nano-Thermal-Ceramic-Tech-Blow-Drying-Volume-with-Smooth-Hair-Shine-4-Free-Clips/15878304926?classType=undefined&variantFieldId=size"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 14.99,
+          "currency_symbol": "$",
+          "id": "555ED33B72093002A879AA54682720E2",
+          "seller": {
+            "name": "AIMIKE Direct",
+            "id": "74D2B971CDDB4B29A51696EF7486133E"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 23,
+      "product": {
+        "title": "Cortex Beauty | 2\" Volumizing Blowout Hot Brush for Straight and Curly Styles with Anti Frizz Power",
+        "link": "https://www.walmart.com/ip/Cortex-Beauty-2-Volumizing-Blowout-Hot-Brush-for-Straight-and-Curly-Styles-with-Anti-Frizz-Power/2039769916?classType=VARIANT",
+        "description": "Cortex Beauty Volumizing Blow Out Hot Brush (CB-HABRSH2-RG) Product Features: \n\n1000 Watts of Drying Power \n2 Speed & Heat Settings \n360 Swivel Cord \n2\" Oval Barrel \n3601000 Watts of Drying Power \n2",
+        "item_id": "2039769916",
+        "product_id": "3D8VBSIP48DU",
+        "images": [
+          "https://i5.walmartimages.com/seo/Cortex-Beauty-2-Volumizing-Blowout-Hot-Brush-for-Straight-and-Curly-Styles-with-Anti-Frizz-Power_985d70b6-e40a-480d-a40b-7505a4a140fa.5e09e2427de47f2915f74ff37f989efa.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Cortex-Beauty-2-Volumizing-Blowout-Hot-Brush-for-Straight-and-Curly-Styles-with-Anti-Frizz-Power_985d70b6-e40a-480d-a40b-7505a4a140fa.5e09e2427de47f2915f74ff37f989efa.png?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 5,
+        "ratings_total": 2,
+        "variants": [
+          {
+            "item_id": "2615721198",
+            "product_id": "6RB5KQXBMAO6",
+            "title": "Black",
+            "image": "https://i5.walmartimages.com/asr/10084dfb-4bd4-4a1d-9845-fcfd5948bcf0.f0f1d49843832f268d57d4dde018c6b5.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-2-Volumizing-Blowout-Hot-Brush-for-Straight-and-Curly-Styles-with-Anti-Frizz-Power/2615721198?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "2003636596",
+            "product_id": "4UH2BCBACZU0",
+            "title": "Blue",
+            "image": "https://i5.walmartimages.com/asr/0e2ad2fc-33d5-4ee2-a426-8c98b098d078.4064aa860efdeb62266fe492b108553b.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-2-Volumizing-Blowout-Hot-Brush-for-Straight-and-Curly-Styles-with-Anti-Frizz-Power/2003636596?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "13587320282",
+            "product_id": "6633VDN4H92C",
+            "title": "MultiColor",
+            "image": "https://i5.walmartimages.com/asr/74a4e393-1b0c-45ca-a630-6d62066ec869.47f6ed0d94b460c830f7e100ecdb0305.jpeg?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-Volumizing-Blowout-Brush-2-inch-Professional-Hot-Brush-White-Rose-Gold/13587320282?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "3092268728",
+            "product_id": "1DCU3V7I6040",
+            "title": "Purple",
+            "image": "https://i5.walmartimages.com/asr/4b595053-05f5-4504-9487-504c573d5a57.09c8c25219f2a9f01f27bca9aab692a4.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-2-Volumizing-Blowout-Hot-Brush-for-Straight-and-Curly-Styles-with-Anti-Frizz-Technology/3092268728?classType=undefined&variantFieldId=actual_color"
+          },
+          {
+            "item_id": "2039769916",
+            "product_id": "2LF57MS8E5I2",
+            "title": "ROSEGOLD",
+            "image": "https://i5.walmartimages.com/asr/985d70b6-e40a-480d-a40b-7505a4a140fa.5e09e2427de47f2915f74ff37f989efa.png?odnHeight=180&odnWidth=180&odnBg=ffffff",
+            "link": "https://www.walmart.com/ip/Cortex-Beauty-2-Volumizing-Blowout-Hot-Brush-for-Straight-and-Curly-Styles-with-Anti-Frizz-Power/2039769916?classType=undefined&variantFieldId=actual_color"
+          }
+        ]
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 59.98,
+          "currency_symbol": "$",
+          "id": "D20B4EB63B3438D29DB1DBA50314E8D4",
+          "seller": {
+            "name": "Cortex Beauty",
+            "id": "1DA7985980244C78820225EA9652763B"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 24,
+      "product": {
+        "title": "Salon Edition Hair Styling Brush Iron | Smooth 2nd Day Hair Styles (1 in)",
+        "link": "https://www.walmart.com/ip/Salon-Edition-Hair-Styling-Brush-Iron-Smooth-2nd-Day-Hair-Styles-1-in/5588813705?classType=REGULAR",
+        "description": "None",
+        "item_id": "5588813705",
+        "product_id": "75KI5J8J9281",
+        "images": [
+          "https://i5.walmartimages.com/seo/Salon-Edition-Hair-Styling-Brush-Iron-Smooth-2nd-Day-Hair-Styles-1-in_2e4e6d0f-a814-4662-a787-f7328415d2e9.e01f810a0a47346e1730e5ecd6fd5ebb.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Salon-Edition-Hair-Styling-Brush-Iron-Smooth-2nd-Day-Hair-Styles-1-in_2e4e6d0f-a814-4662-a787-f7328415d2e9.e01f810a0a47346e1730e5ecd6fd5ebb.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 0,
+          "currency_symbol": "$",
+          "seller": {
+            "name": "Linan Palace",
+            "id": "43DC1FA8961141B58A8D6512509EDF31"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 25,
+      "product": {
+        "title": "Conair Instant Heat Hot Curl Brush, .75\"",
+        "link": "https://www.walmart.com/ip/Conair-Instant-Heat-Swivel-Cord-Hot-Hair-Brush-Black-BC84N/9906755?classType=VARIANT",
+        "description": "Conair Instant Heat 3/4\" Hot Brush - 25 Heat Settings - AC Supply Powered - Black<div><li>For all hair types</li><li>Instant heat 60-second heat up</li><li>Auto shutoff</li><li>25 temperature control</li></div>",
+        "item_id": "9906755",
+        "product_id": "1MYMLGSZWHDB",
+        "images": [
+          "https://i5.walmartimages.com/seo/Conair-Instant-Heat-Swivel-Cord-Hot-Hair-Brush-Black-BC84N_3d0f0fc9-a69f-4a08-a095-9d9a99dd7191_1.413c0975563b0a734d62ce3f94f19517.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/Conair-Instant-Heat-Swivel-Cord-Hot-Hair-Brush-Black-BC84N_3d0f0fc9-a69f-4a08-a095-9d9a99dd7191_1.413c0975563b0a734d62ce3f94f19517.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+        "rating": 4.5,
+        "ratings_total": 319
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 17.79,
+          "currency_symbol": "$",
+          "id": "DED11A5434903AF5AAAE0A11CDC80231",
+          "list_price": 29.99,
+          "savings_amount": 12.2,
+          "seller": {
+            "name": "YAK SUPPLIES",
+            "id": "3FDA04F57447413C938BF18AD49AD358"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    },
+    {
+      "position": 26,
+      "product": {
+        "title": "6 in 1 Hair Dryer BrushBlow Dryer Brush Ionic Hair DryerMulti Hair Styler for Fast Drying Styling Curling Straightening VolumizingHair Curler Hair Straightener Styler Autowrap Air Styler",
+        "link": "https://www.walmart.com/ip/6-1-Hair-Dryer-Brush-Blow-Dryer-Brush-Ionic-Hair-Dryer-Multi-Hair-Styler-Fast-Drying-Styling-Curling-Straightening-Volumizing-Hair-Curler-Hair-Straig/17341470586?classType=REGULAR",
+        "description": "6 In 1 Versatile Hair Dryer Brush Set: Transform your hair styling routine with our multifunctional hair dryer brush set, designed to unleash your inner stylist. This all-in-one tool features a hair",
+        "item_id": "17341470586",
+        "product_id": "57PTMTU5NV2G",
+        "images": [
+          "https://i5.walmartimages.com/seo/6-1-Hair-Dryer-Brush-Blow-Dryer-Brush-Ionic-Hair-Dryer-Multi-Hair-Styler-Fast-Drying-Styling-Curling-Straightening-Volumizing-Hair-Curler-Hair-Straig_b6e7e363-b713-4952-8a36-9f894837e65b.c5eb72b57f0808add29672f37cf06cd1.jpeg"
+        ],
+        "main_image": "https://i5.walmartimages.com/seo/6-1-Hair-Dryer-Brush-Blow-Dryer-Brush-Ionic-Hair-Dryer-Multi-Hair-Styler-Fast-Drying-Styling-Curling-Straightening-Volumizing-Hair-Curler-Hair-Straig_b6e7e363-b713-4952-8a36-9f894837e65b.c5eb72b57f0808add29672f37cf06cd1.jpeg",
+        "rating": 0,
+        "ratings_total": 0
+      },
+      "inventory": {
+        "in_stock": true,
+        "preorder": false
+      },
+      "offers": {
+        "primary": {
+          "price": 0,
+          "currency_symbol": "$",
+          "seller": {
+            "name": "xizheguyeshangmao",
+            "id": "4781BBC3563C42DCBE56A965344D69A3"
+          }
+        },
+        "is_marketplace_item": true
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true
+      }
+    }
+  ],
+  "facets": [
+    {
+      "name": "brand",
+      "display_name": "Brand",
+      "values": [
+        {
+          "name": "InStyler",
+          "param_value": "facets=brand=InStyler"
+        },
+        {
+          "name": "KeJieShunCheng",
+          "param_value": "facets=brand=KeJieShunCheng"
+        },
+        {
+          "name": "WXLCISI",
+          "param_value": "facets=brand=WXLCISI"
+        }
+      ]
+    },
+    {
+      "name": "fulfillment_speed",
+      "display_name": "Fulfillment Speed",
+      "values": [
+        {
+          "name": "Today",
+          "param_value": "facets=fulfillment_speed=Today"
+        },
+        {
+          "name": "Tomorrow",
+          "param_value": "facets=fulfillment_speed=Tomorrow"
+        },
+        {
+          "name": "2 days",
+          "param_value": "facets=fulfillment_speed=2+days"
+        },
+        {
+          "name": "Anytime",
+          "param_value": "facets=fulfillment_speed=Anytime"
+        }
+      ]
+    },
+    {
+      "name": "customer_rating",
+      "display_name": "Customer Rating",
+      "values": [
+        {
+          "name": "4 - 5 Stars",
+          "param_value": "facets=customer_rating=4+-+5+Stars"
+        },
+        {
+          "name": "3 - 3.9 Stars",
+          "param_value": "facets=customer_rating=3+-+3.9+Stars"
+        },
+        {
+          "name": "2 - 2.9 Stars",
+          "param_value": "facets=customer_rating=2+-+2.9+Stars"
+        },
+        {
+          "name": "1 - 1.9 Stars",
+          "param_value": "facets=customer_rating=1+-+1.9+Stars"
+        }
+      ]
+    },
+    {
+      "name": "gender",
+      "display_name": "Gender",
+      "values": [
+        {
+          "name": "Unisex",
+          "param_value": "facets=gender=Unisex"
+        }
+      ]
+    },
+    {
+      "name": "color",
+      "display_name": "Color",
+      "values": [
+        {
+          "name": "Gray",
+          "param_value": "facets=color=Gray"
+        },
+        {
+          "name": "Purple",
+          "param_value": "facets=color=Purple"
+        },
+        {
+          "name": "Other",
+          "param_value": "facets=color=Other"
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "display_name": "Category",
+      "values": [
+        {
+          "name": "Flat Irons",
+          "param_value": "facets=category=Flat+Irons"
+        }
+      ]
+    },
+    {
+      "name": "hair_type",
+      "display_name": "Hair Type",
+      "values": [
+        {
+          "name": "All Hair Types",
+          "param_value": "facets=hair_type=All+Hair+Types"
+        }
+      ]
+    },
+    {
+      "name": "number_of_pieces",
+      "display_name": "Number of Pieces",
+      "values": [
+        {
+          "name": "1",
+          "param_value": "facets=number_of_pieces=1"
+        }
+      ]
+    },
+    {
+      "name": "size",
+      "display_name": "Popular Sizes",
+      "values": [
+        {
+          "name": "1.25\"",
+          "param_value": "facets=size=1.25\""
+        }
+      ]
+    },
+    {
+      "name": "material",
+      "display_name": "Material",
+      "values": [
+        {
+          "name": "Ceramic",
+          "param_value": "facets=material=Ceramic"
+        },
+        {
+          "name": "Plastic",
+          "param_value": "facets=material=Plastic"
+        }
+      ]
+    },
+    {
+      "name": "power_type",
+      "display_name": "Power Type",
+      "values": [
+        {
+          "name": "Corded Electric",
+          "param_value": "facets=power_type=Corded+Electric"
+        }
+      ]
+    },
+    {
+      "name": "exclude_oos",
+      "display_name": "Availability",
+      "values": [
+        {
+          "name": "Show available items only",
+          "param_value": "facets=exclude_oos=Show+available+items+only"
+        }
+      ]
+    },
+    {
+      "name": "cat_id",
+      "display_name": "Departments",
+      "values": [
+        {
+          "name": "Beauty",
+          "param_value": "facets=cat_id=Beauty"
+        },
+        {
+          "name": "Personal Care",
+          "param_value": "facets=cat_id=Personal+Care"
+        }
+      ]
+    },
+    {
+      "name": "retailer_type",
+      "display_name": "Retailer",
+      "values": [
+        {
+          "name": "Walmart",
+          "param_value": "facets=retailer_type=Walmart"
+        },
+        {
+          "name": "Pro Sellers",
+          "param_value": "facets=retailer_type=Pro+Sellers"
+        },
+        {
+          "name": "Marketplace Sellers fulfilled by Walmart",
+          "param_value": "facets=retailer_type=Marketplace+Sellers+fulfilled+by+Walmart"
+        }
+      ]
+    }
+  ],
+  "category_info": {
+    "is_landing_page": false
+  },
+  "pagination": {
+    "current": {
+      "page": 1,
+      "link": "https://www.walmart.com/search?q=instyler+styling+brush&page=1"
+    },
+    "total_pages": 1,
+    "other_pages": [
+      {
+        "page": 1,
+        "link": "https://www.walmart.com/search?q=instyler+styling+brush&page=1"
+      }
+    ],
+    "total_results": 16
+  },
+  "location_info": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "zipcode": "19133",
+    "store_id": "5891"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1930,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8070,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "294682757"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:14:48.403Z",
+    "processed_at": "2025-08-20T13:14:52.517Z",
+    "total_time_taken": 4.11,
+    "walmart_url": "https://www.walmart.com/ip/294682757"
+  },
+  "product": {
+    "brand": "Hairitage",
+    "link": "https://www.walmart.com/ip/Hairitage-Stretch-It-Out-Hair-Comb-Attachment-Hair-Dryer-Salon-Tool-for-Straightening-Smoothing-Black/294682757",
+    "title": "Hairitage Stretch It Out Hair Comb Attachment | Hair Dryer Salon Tool for Straightening & Smoothing, Black",
+    "upc": "840797154704",
+    "item_id": "294682757",
+    "product_id": "840797154704",
+    "item_number": "5E58QQLXQLT1",
+    "description": "The Hairitage Stretch It Out Comb Attachment is the perfect addition to your Hairitage Comin’ In Hot Hair Dryer when it comes to elongating your hair. This blow-dryer attachment features long, heat-resistant teeth which allows you to get close to the root and slowly pull your hair through. The Stretch It Out Comb attachment gives concentrated, effective results while cutting back on your hair drying time, leaving your hair long, luscious, and with less heat damage. Recommended for curly and coily hair types and textures.",
+    "description_html": "The Hairitage Stretch It Out Comb Attachment is the perfect addition to your Hairitage Comin’ In Hot Hair Dryer when it comes to elongating your hair. This blow-dryer attachment features long, heat-resistant teeth which allows you to get close to the root and slowly pull your hair through. The Stretch It Out Comb attachment gives concentrated, effective results while cutting back on your hair drying time, leaving your hair long, luscious, and with less heat damage. Recommended for curly and coily hair types and textures.",
+    "description_full": "The Hairitage Stretch It Out Comb Attachment is the perfect addition to your Hairitage Comin’ In Hot Hair Dryer when it comes to elongating your hair. This blow-dryer attachment features long, heat-resistant teeth which allows you to get close to the root and slowly pull your hair through. The Stretch It Out Comb attachment gives concentrated, effective results while cutting back on your hair drying time, leaving your hair long, luscious, and with less heat damage. Recommended for curly and coily hair types and textures. * For hair types 3A–4C\n * Comb attachment tool for blow-dryer\n * Stretches and styles hair for smooth styles\n * Two rows of heat-resistant teeth dry and detangle hair\n * Helps shorten hair-drying time\n * Helps reduce heat damage\n * Fits the Hairitage Comin’ in Hot Hair Dryer",
+    "description_full_html": "The Hairitage Stretch It Out Comb Attachment is the perfect addition to your Hairitage Comin’ In Hot Hair Dryer when it comes to elongating your hair. This blow-dryer attachment features long, heat-resistant teeth which allows you to get close to the root and slowly pull your hair through. The Stretch It Out Comb attachment gives concentrated, effective results while cutting back on your hair drying time, leaving your hair long, luscious, and with less heat damage. Recommended for curly and coily hair types and textures. <ul>  <li>For hair types 3A–4C</li>  <li>Comb attachment tool for blow-dryer&nbsp;</li>  <li>Stretches and styles hair for smooth styles&nbsp;</li>  <li>Two rows of heat-resistant teeth dry and detangle hair</li>  <li>Helps shorten hair-drying time</li>  <li>Helps reduce heat damage</li>  <li>Fits the Hairitage Comin’ in Hot Hair Dryer</li> </ul>",
+    "ratings_total": 90,
+    "rating": 4.6,
+    "type": "Hair Combs",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Hairitage-Stretch-It-Out-Hair-Comb-Attachment-Hair-Dryer-Salon-Tool-for-Straightening-Smoothing-Black_a9e105f3-4378-47e0-bf73-2fc2f1723f4e.2647b84ebf39aa65482cf00546a93de1.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Hairitage-Stretch-It-Out-Hair-Comb-Attachment-Hair-Dryer-Salon-Tool-for-Straightening-Smoothing-Black_a9e105f3-4378-47e0-bf73-2fc2f1723f4e.2647b84ebf39aa65482cf00546a93de1.jpeg",
+        "id": "188F99608B5A4DCC8D2C016026B4ACE7",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f4c4aa1b-9147-4dd4-b610-c013d09b4a67.3aa75f9784d9e9c19d14a97d9e40fcb7.jpeg",
+        "id": "177E30D0C7994FE09D9E949138920891",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/d104b2f1-769c-4562-ab54-9f13b60ffd8c.eb2c1de521bc2bbd9122aeb53835aff9.jpeg",
+        "id": "CA8A2F3E9794417EB518D36A9DC8DC12",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/449d0805-c98b-4f06-8451-87807b2fe860.a1db6d611b833b73bd3c1e74dcd89b6a.jpeg",
+        "id": "E07776CDA22A485C905A05EEE6E07F7D",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a7b060c0-417d-4425-8e22-7518a7608579.8a97e34942fd69e165c67922ff8d1f6e.jpeg",
+        "id": "C3151F2AEC1D40C1BA4EA323A49AD82E",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/48201dd3-0d07-49fa-9041-60b1f99004e0.b82728e300884c124387e15755441cf6.jpeg",
+        "id": "7593D8B1BB854F4C9F548D83C48E0929",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/e5203302-6a98-4725-9216-fe8093cb1e0d.2f5a01843536cc0034adaa3846aee372.jpeg",
+        "id": "DD9374553D274861AB48AEB73746A90E",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c1d62297-a61b-450b-af1a-01dfb54ff1bf.3ad3f81538c9a0740bb997c4706d5809.jpeg",
+        "id": "DEC5F4CD70F14D63B6510CFDF97A3198",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Beauty by Top Brands",
+        "link": "https://www.walmart.com/cp/beauty-by-top-brands/3316357"
+      },
+      {
+        "name": "Hairitage",
+        "link": "https://www.walmart.com/cp/hairitage/7126357"
+      },
+      {
+        "name": "Hairitage Hair Tools",
+        "link": "https://www.walmart.com/cp/hairitage-hair-tools/7023318"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Heat-Resistant Teeth"
+      },
+      {
+        "name": "Color",
+        "value": "Gray"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "840797154704"
+      },
+      {
+        "name": "Hair Comb Type",
+        "value": "All Purpose Combs"
+      },
+      {
+        "name": "Brand",
+        "value": "Hairitage"
+      },
+      {
+        "name": "Features",
+        "value": "Detangling"
+      }
+    ],
+    "buybox_winner": {
+      "price": 10.39,
+      "currency_symbol": "$",
+      "offers_total": 8,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$10.40",
+        "value": 10.4
+      },
+      "id": "3D63184074CD32C5B325E40A34877D27",
+      "seller": {
+        "name": "Two One Two Products",
+        "id_secondary": "B722613787EB42ABB413396058B09013",
+        "id": 101627543,
+        "link": "https://www.walmart.com/seller/101627543"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Shipping, arrives by Fri, Aug 22 to South Gate, 90043",
+        "message": "Shipping, arrives by Fri, Aug 22 to South Gate, 90043",
+        "zipcode": "90043"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Two One Two Products"
+      }
+    },
+    "color": "Gray",
+    "variants": [
+      {
+        "item_id": "294682757",
+        "product_id": "840797154704",
+        "link": "https://www.walmart.com/ip/Hairitage-Stretch-It-Out-Hair-Comb-Attachment-Hair-Dryer-Salon-Tool-for-Straightening-Smoothing-Black/294682757",
+        "price": 10.39,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Hairitage-Stretch-It-Out-Hair-Comb-Attachment-Hair-Dryer-Salon-Tool-for-Straightening-Smoothing-Black_a9e105f3-4378-47e0-bf73-2fc2f1723f4e.2647b84ebf39aa65482cf00546a93de1.jpeg",
+            "id": "188F99608B5A4DCC8D2C016026B4ACE7",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f4c4aa1b-9147-4dd4-b610-c013d09b4a67.3aa75f9784d9e9c19d14a97d9e40fcb7.jpeg",
+            "id": "177E30D0C7994FE09D9E949138920891",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d104b2f1-769c-4562-ab54-9f13b60ffd8c.eb2c1de521bc2bbd9122aeb53835aff9.jpeg",
+            "id": "CA8A2F3E9794417EB518D36A9DC8DC12",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/449d0805-c98b-4f06-8451-87807b2fe860.a1db6d611b833b73bd3c1e74dcd89b6a.jpeg",
+            "id": "E07776CDA22A485C905A05EEE6E07F7D",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a7b060c0-417d-4425-8e22-7518a7608579.8a97e34942fd69e165c67922ff8d1f6e.jpeg",
+            "id": "C3151F2AEC1D40C1BA4EA323A49AD82E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/48201dd3-0d07-49fa-9041-60b1f99004e0.b82728e300884c124387e15755441cf6.jpeg",
+            "id": "7593D8B1BB854F4C9F548D83C48E0929",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e5203302-6a98-4725-9216-fe8093cb1e0d.2f5a01843536cc0034adaa3846aee372.jpeg",
+            "id": "DD9374553D274861AB48AEB73746A90E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c1d62297-a61b-450b-af1a-01dfb54ff1bf.3ad3f81538c9a0740bb997c4706d5809.jpeg",
+            "id": "DEC5F4CD70F14D63B6510CFDF97A3198",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "South Gate",
+    "state": "CA",
+    "zipcode": "90043",
+    "store_id": "3180"
+  }
+}

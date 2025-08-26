@@ -1,0 +1,344 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 925,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9075,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "5518955737"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T10:23:36.469Z",
+    "processed_at": "2025-08-20T10:23:40.639Z",
+    "total_time_taken": 4.17,
+    "walmart_url": "https://www.walmart.com/ip/5518955737"
+  },
+  "product": {
+    "brand": "K & K Interiors",
+    "link": "https://www.walmart.com/ip/K-K-1-5-Inch-Heated-Curling-Brush-Ceramic-Tourmaline-Ionic-Curling-Iron-Volumizing-Hot-Brush-Create-Root-Volume-Loose-Curls-Volume-Curls-Ceramic-Tour/5518955737",
+    "title": "K & K Interiors K&K 1.5 Inch Heated Curling Brush Ceramic Tourmaline Ionic Curling Iron Volumizing Hot Brush Create Root Volume & Loose Curls, Volume Curls Ceramic Tourmaline Ionic Round Brush Volumizer",
+    "title_excluding_brand": "K&K 1.5 Inch Heated Curling Brush Ceramic Tourmaline Ionic Curling Iron Volumizing Hot Brush Create Root Volume & Loose Curls, Volume Curls Ceramic Tourmaline Ionic Round Brush Volumizer",
+    "upc": "794414747117",
+    "item_id": "5518955737",
+    "item_number": "3SSY3GUAKXQS",
+    "description": "Create Volume without Frizz - K&K heated round brush with negative ion generator is a game-changer for anyone looking to achieve smooth & shinny hairstyles. It help smooth hair and add luxurious shine while reducing frizz and static. Tourmaline ceramic technology ensures even heat distribution and prevents hot spots that could damage your hair",
+    "description_html": "Create Volume without Frizz - K&K heated round brush with negative ion generator is a game-changer for anyone looking to achieve smooth & shinny hairstyles. It help smooth hair and add luxurious shine while reducing frizz and static. Tourmaline ceramic technology ensures even heat distribution and prevents hot spots that could damage your hair",
+    "description_full": "Create Volume without Frizz - K&K heated round brush with negative ion generator is a game-changer for anyone looking to achieve smooth & shinny hairstyles. It help smooth hair and add luxurious shine while reducing frizz and static. Tourmaline ceramic technology ensures even heat distribution and prevents hot spots that could damage your hair *   * K&K Ionic Hot Curl Brush: This brush features super ionic generation to eliminate static and tame frizz, and its 1.25 1.5 1.77 inch rose gold titanium barrel with nylon bristles is ideal for creating soft, silky curls\n   \n   \n * K&K Ionic Hot Curl Brush: This brush features super ionic generation to eliminate static and tame frizz, and its 1.25 1.5 1.77 inch rose gold titanium barrel with nylon bristles is ideal for creating soft, silky curls\n *   * One Tool, Diverse Styles - Combines curling wand with comb making it multifunctional. Curl, straighten and comb your hair with just one hair styler, creating a customizable styling experience. Hair brush glides easily through hair without tangle which is also gentle to the scalp.\n   \n   \n * One Tool, Diverse Styles - Combines curling wand with comb making it multifunctional. Curl, straighten and comb your hair with just one hair styler, creating a customizable styling experience. Hair brush glides easily through hair without tangle which is also gentle to the scalp.\n *   * Round brush head design:Features anti-scald nylon bristles and cool tip. Rubberized handle for a more comfortable, secure grip. No more burning by the hair iron. Automatically shuts off after 60 minutes when not in use.\n   \n   \n * Round brush head design:Features anti-scald nylon bristles and cool tip. Rubberized handle for a more comfortable, secure grip. No more burning by the hair iron. Automatically shuts off after 60 minutes when not in use.\n *   * NON-DAMAGING 350 DEGREE HEAT K&K heated brush is safe for everyday use and will never fry your hair, unlike an unnecessarily hot 400 degree curling iron.\n   \n   \n * NON-DAMAGING 350 DEGREE HEAT K&K heated brush is safe for everyday use and will never fry your hair, unlike an unnecessarily hot 400 degree curling iron.\n *   * Dual Voltage For Travel - 100V-240V dual voltage. Automatically adjust to the proper voltage with a compatible adapter. 360 rotatable power cord stretches up to 8ft. Quick and efficient styling when on the go.\n   \n   \n * Dual Voltage For Travel - 100V-240V dual voltage. Automatically adjust to the proper voltage with a compatible adapter. 360 rotatable power cord stretches up to 8ft. Quick and efficient styling when on the go.",
+    "description_full_html": "Create Volume without Frizz - K&K heated round brush with negative ion generator is a game-changer for anyone looking to achieve smooth & shinny hairstyles. It help smooth hair and add luxurious shine while reducing frizz and static. Tourmaline ceramic technology ensures even heat distribution and prevents hot spots that could damage your hair <ul>  <li>   <ul>    <li>K&amp;K Ionic Hot Curl Brush: This brush features super ionic generation to eliminate static and tame frizz, and its 1.25 1.5 1.77 inch rose gold titanium barrel with nylon bristles is ideal for creating soft, silky curls</li>   </ul></li>  <li>K&amp;K Ionic Hot Curl Brush: This brush features super ionic generation to eliminate static and tame frizz, and its 1.25 1.5 1.77 inch rose gold titanium barrel with nylon bristles is ideal for creating soft, silky curls</li>  <li>   <ul>    <li>One Tool, Diverse Styles - Combines curling wand with comb making it multifunctional. Curl, straighten and comb your hair with just one hair styler, creating a customizable styling experience. Hair brush glides easily through hair without tangle which is also gentle to the scalp.</li>   </ul></li>  <li>One Tool, Diverse Styles - Combines curling wand with comb making it multifunctional. Curl, straighten and comb your hair with just one hair styler, creating a customizable styling experience. Hair brush glides easily through hair without tangle which is also gentle to the scalp.</li>  <li>   <ul>    <li>Round brush head design:Features anti-scald nylon bristles and cool tip. Rubberized handle for a more comfortable, secure grip. No more burning by the hair iron. Automatically shuts off after 60 minutes when not in use.</li>   </ul></li>  <li>Round brush head design:Features anti-scald nylon bristles and cool tip. Rubberized handle for a more comfortable, secure grip. No more burning by the hair iron. Automatically shuts off after 60 minutes when not in use.</li>  <li>   <ul>    <li>NON-DAMAGING 350 DEGREE HEAT K&amp;K heated brush is safe for everyday use and will never fry your hair, unlike an unnecessarily hot 400 degree curling iron.</li>   </ul></li>  <li>NON-DAMAGING 350 DEGREE HEAT K&amp;K heated brush is safe for everyday use and will never fry your hair, unlike an unnecessarily hot 400 degree curling iron.</li>  <li>   <ul>    <li>Dual Voltage For Travel - 100V-240V dual voltage. Automatically adjust to the proper voltage with a compatible adapter. 360 rotatable power cord stretches up to 8ft. Quick and efficient styling when on the go.</li>   </ul></li>  <li>Dual Voltage For Travel - 100V-240V dual voltage. Automatically adjust to the proper voltage with a compatible adapter. 360 rotatable power cord stretches up to 8ft. Quick and efficient styling when on the go.</li> </ul>",
+    "ratings_total": 20,
+    "rating": 3.8,
+    "type": "Hot-Air Brushes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/K-K-1-5-Inch-Heated-Curling-Brush-Ceramic-Tourmaline-Ionic-Curling-Iron-Volumizing-Hot-Brush-Create-Root-Volume-Loose-Curls-Volume-Curls-Ceramic-Tour_4b2daebf-16eb-4dd2-a60f-896d46acfe38.8f08cb6d38442b066260fe7aa6a981a7.png"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/K-K-1-5-Inch-Heated-Curling-Brush-Ceramic-Tourmaline-Ionic-Curling-Iron-Volumizing-Hot-Brush-Create-Root-Volume-Loose-Curls-Volume-Curls-Ceramic-Tour_4b2daebf-16eb-4dd2-a60f-896d46acfe38.8f08cb6d38442b066260fe7aa6a981a7.png",
+        "id": "36DFE0A851A2485E9A9FEB5BACB5EC8B",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/7e970a23-91d7-418f-81e5-6134afc1f5a4.f6efae6907810c22cca9a122314f02c3.png",
+        "id": "F5C036CAC2FD4FBCBE620AAC45F1DEFD",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/72253580-f93c-4ab7-9359-9dd2f60c537e.643b495e660de4193793f20804b464aa.png",
+        "id": "61B5A841A2864E6EA287C9223FD0F732",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/5683dc69-2f86-423c-b649-cfcbf0f094b3.123218fead4b2af16c67114ed2e63e8a.png",
+        "id": "EB800B29FB774E0FBF59915530125606",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/a59b1c84-bb12-4822-a89f-37d497767f86.82be056a3bcb215eb21081c224b5aa96.png",
+        "id": "EAB9AFCEFB694E85884398015DB32C37",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/2e4a369b-ac68-4daf-860f-891e6bccc34d.1d1c38705a0ff548489a556709a25194.png",
+        "id": "AD2CC73FAA4641F7BBE4D015EE6C61E7",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/439dc871-f32f-4cf0-b051-65177827e7de.d99cfbef53e9f6e8d9d2c8ed2089677a.png",
+        "id": "2C2931F19F824453B595B34CA2545791",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Brand",
+        "value": "K & K Interiors"
+      },
+      {
+        "name": "Gender",
+        "value": "Female"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "K&K"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "1 lb"
+      },
+      {
+        "name": "Color",
+        "value": "Rose Gold"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "13.78 x 4.72 x 4.72 in"
+      }
+    ],
+    "buybox_winner": {
+      "price": 23.99,
+      "currency_symbol": "$",
+      "id": "512AC4B6548C3EB183A4D82F49134C1D",
+      "seller": {
+        "name": "KK hair tools",
+        "id_secondary": "44B10ACD9B6841AC8BBFCD19BCA998E4",
+        "id": 101639426,
+        "link": "https://www.walmart.com/seller/101639426"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Shipping, arrives by Fri, Aug 22 to Bayonne, 11225",
+        "message": "Shipping, arrives by Fri, Aug 22 to Bayonne, 11225",
+        "zipcode": "11225"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "KK hair tools"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10713110096",
+          "id": "CF7F59ABF5533C2296475F2B179C7953",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-20-29-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 3,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$3.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10705452909",
+          "id": "FA78F6B45A373CF78DD492E3B2590A83",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-20-29-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        }
+      ]
+    },
+    "color": "Rose Gold",
+    "dimensions": "13.78 x 4.72 x 4.72 in",
+    "variants": [
+      {
+        "item_id": "5518955737",
+        "product_id": "3SSY3GUAKXQS",
+        "link": "https://www.walmart.com/ip/5518955737",
+        "in_stock": true,
+        "price": 23.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/K-K-1-5-Inch-Heated-Curling-Brush-Ceramic-Tourmaline-Ionic-Curling-Iron-Volumizing-Hot-Brush-Create-Root-Volume-Loose-Curls-Volume-Curls-Ceramic-Tour_4b2daebf-16eb-4dd2-a60f-896d46acfe38.8f08cb6d38442b066260fe7aa6a981a7.png",
+            "id": "36DFE0A851A2485E9A9FEB5BACB5EC8B",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7e970a23-91d7-418f-81e5-6134afc1f5a4.f6efae6907810c22cca9a122314f02c3.png",
+            "id": "F5C036CAC2FD4FBCBE620AAC45F1DEFD",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/72253580-f93c-4ab7-9359-9dd2f60c537e.643b495e660de4193793f20804b464aa.png",
+            "id": "61B5A841A2864E6EA287C9223FD0F732",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/5683dc69-2f86-423c-b649-cfcbf0f094b3.123218fead4b2af16c67114ed2e63e8a.png",
+            "id": "EB800B29FB774E0FBF59915530125606",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/a59b1c84-bb12-4822-a89f-37d497767f86.82be056a3bcb215eb21081c224b5aa96.png",
+            "id": "EAB9AFCEFB694E85884398015DB32C37",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2e4a369b-ac68-4daf-860f-891e6bccc34d.1d1c38705a0ff548489a556709a25194.png",
+            "id": "AD2CC73FAA4641F7BBE4D015EE6C61E7",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/439dc871-f32f-4cf0-b051-65177827e7de.d99cfbef53e9f6e8d9d2c8ed2089677a.png",
+            "id": "2C2931F19F824453B595B34CA2545791",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "1.5\""
+          }
+        ]
+      },
+      {
+        "item_id": "5849996287",
+        "product_id": "7F7DZVV1QSXU",
+        "link": "https://www.walmart.com/ip/5849996287",
+        "in_stock": false,
+        "price": 39.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/K-K-1-77-Inch-Heated-Curling-Brush-Ceramic-Tourmaline-Ionic-Iron-Volumizing-Hot-Create-Root-Volume-Loose-Curls-Curls-Round-Volumizer_f29830d3-55b3-43e4-b5fd-75563af4ce5f.836fdfa0dba3ed8249786fab86580c21.png",
+            "id": "5E1B6160FA0B47CCB60674817AA43D92",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/02882c97-cb7a-4d85-bbb1-4eb2157fbb82.4ace8f9cba2c56e2373ac55ae0913dac.png",
+            "id": "30E8562A9F4D4036A2AC84EB51462CAE",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3e4f75fc-80dd-4f1f-9774-a72c748d2939.36c7d27c6aac43c51cd540c60bc3a4c8.jpeg",
+            "id": "C3EB93EB2B8F42DDB9D582083FC12740",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/e82b7f34-e8e3-43a8-8277-67723dcd88df.6a9baf2cba86f47e038b8b13d5a2c514.png",
+            "id": "BA13A66AEE8240689313ECEA6A9EEFC5",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/799315b9-0c20-42ea-be6c-b77fe3ec2671.1fbe6540bba23441082a03574201ae4f.png",
+            "id": "D08B4C3A65D24492BB340E43E59D8FCB",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/b40588f3-2533-4a73-ac4b-988d586604bb.79894904989fe07feea4c39394946528.png",
+            "id": "295426A2607644A4AA611AAD5863B543",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8995aabe-8711-4073-a073-a6a9a6503b4a.e24243bfb053e91106196c30e9dc63bb.png",
+            "id": "AB06E4D2B4CF41C3B8518C67B6E240B9",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "1.77\""
+          }
+        ]
+      },
+      {
+        "item_id": "6264402635",
+        "product_id": "34WVHHMZNNS0",
+        "link": "https://www.walmart.com/ip/6264402635",
+        "in_stock": true,
+        "price": 19.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/K-K-1-25-Inch-Heated-Curling-Brush-Ceramic-Tourmaline-Ionic-Curling-Iron-Volumizing-Hot-Brush-Create-Root-Volume-Loose-Curls-Volume-Curls-Ceramic-Tou_604432b8-9d34-4a72-8d63-8cfed9c959a0.fc457e8e0fe89926e0e1660fad315d4c.jpeg",
+            "id": "E55D0FE4E1EA4175A48F00DD762C7397",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/35b3dcbd-b5c3-49d6-9b66-ad1657fe12ef.1e9f5440e559bf8e4c23e6e2aa9111a9.jpeg",
+            "id": "3AEE4BD43DD249FEA40481DBD3798E81",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/13a83140-1fab-46e3-b19f-3dc28f6cc4e6.c529b4870bf05d2667c4fc13c010ab71.jpeg",
+            "id": "08086C041B814DF99440858FDD8B1192",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/68f42584-8f2b-4dbb-a1f1-066f92182b24.fafe2219fb86f18268216bde9bde1849.jpeg",
+            "id": "35D833BE81F84B8681227C181986C5CC",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/37304c68-6117-449b-8787-0be230c5bf37.08f539460179bd8ab9628753f4dbe504.jpeg",
+            "id": "E90AD42B96CD442280B12C566EEB5CFF",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/af054fa7-6d26-4847-b16a-3297d796869c.e08911ad9ad2ef47068c5ef1a9f08438.jpeg",
+            "id": "1C181780D8B9420D948BDB3CC101EC63",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/270e49b0-e377-46cc-9ac8-fcec2b37ad17.34d03a01b6342e8f95c2e57f941bb423.jpeg",
+            "id": "C7C95255A1D84BE89F874745FCA9C4BA",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "size",
+            "value": "1.25\""
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Bayonne",
+    "state": "NY",
+    "zipcode": "11225",
+    "store_id": "5867"
+  }
+}

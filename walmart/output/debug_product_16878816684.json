@@ -1,0 +1,198 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 334,
+    "credits_used_this_request": 1,
+    "credits_remaining": 9666,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.com",
+    "type": "product",
+    "item_id": "16878816684"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-18T11:14:06.484Z",
+    "processed_at": "2025-08-18T11:14:17.182Z",
+    "total_time_taken": 10.7,
+    "walmart_url": "https://www.walmart.com/ip/16878816684"
+  },
+  "product": {
+    "brand": "NOBRAND",
+    "link": "https://www.walmart.com/ip/INFINITIPRO-BY-3-in-1-Styling-Hair-Dryer-1875W-Hair-Dryer-3-Attachments/16878816684",
+    "title": "NOBRAND INFINITIPRO BY 3-in-1 Styling Hair Dryer, 1875W, Hair Dryer, 3 Attachments",
+    "title_excluding_brand": "INFINITIPRO BY 3-in-1 Styling Hair Dryer, 1875W, Hair Dryer, 3 Attachments",
+    "upc": "699516213563",
+    "item_id": "16878816684",
+    "item_number": "5QYB0HMA7KYX",
+    "description": "One Step Style And Dry: This 3 in 1 Styling System features three attachments to achieve the perfect look Lock Button keeps attachments in place while styling Hinged filter for easy maintenance Leader in Hair Dryers: From traditional bonnets to hi tech dryers equipped with cutting edge technology, has a great selection of hair dryers for every hair type and every hair style Hair Care: Since 1959, we have made innovative small appliances, hair styling tools, and more Our hair care line includes high quality hair dryers, brushes, styling tools, and hair accessories",
+    "description_html": "One Step Style And Dry: This 3 in 1 Styling System features three attachments to achieve the perfect look\n Lock Button keeps attachments in place while styling\n Hinged filter for easy maintenance\nLeader in Hair Dryers: From traditional bonnets to hi tech dryers equipped with cutting edge technology, has a great selection of hair dryers for every hair type and every hair style\nHair Care: Since 1959, we have made innovative small appliances, hair styling tools, and more\n Our hair care line includes high quality hair dryers, brushes, styling tools, and hair accessories",
+    "description_full": "One Step Style And Dry: This 3 in 1 Styling System features three attachments to achieve the perfect look Lock Button keeps attachments in place while styling Hinged filter for easy maintenance Leader in Hair Dryers: From traditional bonnets to hi tech dryers equipped with cutting edge technology, has a great selection of hair dryers for every hair type and every hair style Hair Care: Since 1959, we have made innovative small appliances, hair styling tools, and more Our hair care line includes high quality hair dryers, brushes, styling tools, and hair accessories * Innovative Design: This styler features Ionic and tourmaline ceramic technology that helps protect hair from heat while adding shine and decreasing frizz by up to 75 percent\n * Versatile Use: Includes three attachments for a variety of looks and styles: Bristle Styling Brush, Dual Row Straightening Comb and Thermal Wide Tooth Detangling Comb\n * Features 3 heat settings and 2 speed settings and a cool shot button to lock styles into place",
+    "description_full_html": "One Step Style And Dry: This 3 in 1 Styling System features three attachments to achieve the perfect look\n Lock Button keeps attachments in place while styling\n Hinged filter for easy maintenance\nLeader in Hair Dryers: From traditional bonnets to hi tech dryers equipped with cutting edge technology, has a great selection of hair dryers for every hair type and every hair style\nHair Care: Since 1959, we have made innovative small appliances, hair styling tools, and more\n Our hair care line includes high quality hair dryers, brushes, styling tools, and hair accessories <ul>  <li>Innovative Design: This styler features Ionic and tourmaline ceramic technology that helps protect hair from heat while adding shine and decreasing frizz by up to 75 percent</li>  <li>Versatile Use: Includes three attachments for a variety of looks and styles: Bristle Styling Brush, Dual Row Straightening Comb and Thermal Wide Tooth Detangling Comb</li>  <li>Features 3 heat settings and 2 speed settings and a cool shot button to lock styles into place</li> </ul>",
+    "ratings_total": 0,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-3-in-1-Styling-Hair-Dryer-1875W-Hair-Dryer-3-Attachments_4e322d7b-64d1-4525-864d-08a57374d5be.bd263df9a7fe1c614213d01f508d71fc.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-3-in-1-Styling-Hair-Dryer-1875W-Hair-Dryer-3-Attachments_4e322d7b-64d1-4525-864d-08a57374d5be.bd263df9a7fe1c614213d01f508d71fc.jpeg",
+        "id": "E16C95FA2277409D94390D304E329A60",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/10ad01f3-61a1-4fbe-8698-2a28c57fe859.fd353eb1376dece5a358eee6f8221fe8.jpeg",
+        "id": "CCA8DB52CA8B43189D124E44000184BA",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8203bc60-5f2d-413e-99bc-6ce70719a288.cb6963c102f0c84b44027d817efe9209.jpeg",
+        "id": "B85E02C5FF1B452D9629FE423EA09AE1",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/49e691fb-b80a-4be3-afcb-993513faf576.7221660cbd5909f6c533fb2a4816e8cd.jpeg",
+        "id": "FF6D2277E7EA4FF7A791BB0E46CBBC27",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Hair Dryer Type",
+        "value": "Bonnet Hair Dryers"
+      },
+      {
+        "name": "Brand",
+        "value": "NOBRAND"
+      }
+    ],
+    "buybox_winner": {
+      "price": 68,
+      "currency_symbol": "$",
+      "id": "A53255A8963838FA9B41E2A7AE4262CA",
+      "seller": {
+        "name": "anqingzhefenshangmao",
+        "id_secondary": "85BCA86DC1B343409FC3B8AE11B553C8",
+        "id": 102773396,
+        "link": "https://www.walmart.com/seller/102773396"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Thu, Aug 28 to Oakland Park, 33308",
+        "message": "Free shipping, arrives by Thu, Aug 28 to Oakland Park, 33308",
+        "zipcode": "33308"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "anqingzhefenshangmao"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10676611624",
+          "id": "FEC38FCF3BB439EC838AB0E14291EE63",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-60-69-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 8,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$8.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10702612997",
+          "id": "F57F829C405036B198D911FE60A7F0B7",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/2-Year-Health-Beauty-Protection-Plan-60-69-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 11,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$11.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "16878816684",
+        "product_id": "5QYB0HMA7KYX",
+        "link": "https://www.walmart.com/ip/16878816684",
+        "in_stock": true,
+        "price": 68,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/INFINITIPRO-BY-3-in-1-Styling-Hair-Dryer-1875W-Hair-Dryer-3-Attachments_4e322d7b-64d1-4525-864d-08a57374d5be.bd263df9a7fe1c614213d01f508d71fc.jpeg",
+            "id": "E16C95FA2277409D94390D304E329A60",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/10ad01f3-61a1-4fbe-8698-2a28c57fe859.fd353eb1376dece5a358eee6f8221fe8.jpeg",
+            "id": "CCA8DB52CA8B43189D124E44000184BA",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8203bc60-5f2d-413e-99bc-6ce70719a288.cb6963c102f0c84b44027d817efe9209.jpeg",
+            "id": "B85E02C5FF1B452D9629FE423EA09AE1",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/49e691fb-b80a-4be3-afcb-993513faf576.7221660cbd5909f6c533fb2a4816e8cd.jpeg",
+            "id": "FF6D2277E7EA4FF7A791BB0E46CBBC27",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black"
+          },
+          {
+            "name": "sports_league",
+            "value": "1count(packof1)"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Oakland Park",
+    "state": "FL",
+    "zipcode": "33308",
+    "store_id": "2962"
+  }
+}

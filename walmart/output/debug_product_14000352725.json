@@ -1,0 +1,288 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1856,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8144,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "14000352725"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:04:19.784Z",
+    "processed_at": "2025-08-20T13:04:26.111Z",
+    "total_time_taken": 6.33,
+    "walmart_url": "https://www.walmart.com/ip/14000352725"
+  },
+  "product": {
+    "brand": "Tideway",
+    "link": "https://www.walmart.com/ip/Tideway-PRO-M01-High-Speed-Hair-Dryer-Pro-Gold-Salon-Brushless-Motor-Ionic-Tech-4-Heat-Levels-Ergonomic-1500W-120V/14000352725",
+    "title": "Tideway Pro Gold High Speed Hair Dryer – 110,000 RPM Brushless Motor, Ionic Tech, 4 Heat Modes, Lightweight & Travel-Friendly, Salon Quality",
+    "item_id": "14000352725",
+    "product_id": "M01",
+    "item_number": "32U4JHU3U2DE",
+    "description": "Upgrade your styling routine with the Tideway PRO M01 Hair Dryer in Pro Gold. Designed for professional results at home, it features a 110,000 RPM brushless motor for ultra-fast drying and ionic technology to reduce frizz, enhance shine, and protect hair health. With 4 customizable heat settings, a lightweight ergonomic design, and a luxurious Pro Gold finish, the PRO M01 combines power, elegance, and comfort for a superior styling experience. Perfect for daily use or as a thoughtful gift, it’s the ultimate tool for achieving salon-quality hair at home.",
+    "description_html": "Upgrade your styling routine with the Tideway PRO M01 Hair Dryer in Pro Gold. Designed for professional results at home, it features a 110,000 RPM brushless motor for ultra-fast drying and ionic technology to reduce frizz, enhance shine, and protect hair health. With 4 customizable heat settings, a lightweight ergonomic design, and a luxurious Pro Gold finish, the PRO M01 combines power, elegance, and comfort for a superior styling experience. Perfect for daily use or as a thoughtful gift, it’s the ultimate tool for achieving salon-quality hair at home.",
+    "description_full": "Upgrade your styling routine with the Tideway PRO M01 Hair Dryer in Pro Gold. Designed for professional results at home, it features a 110,000 RPM brushless motor for ultra-fast drying and ionic technology to reduce frizz, enhance shine, and protect hair health. With 4 customizable heat settings, a lightweight ergonomic design, and a luxurious Pro Gold finish, the PRO M01 combines power, elegance, and comfort for a superior styling experience. Perfect for daily use or as a thoughtful gift, it’s the ultimate tool for achieving salon-quality hair at home. * 🎁 Perfect Gift for Any Occasion – The Tideway PRO M01 Hair Dryer is the ideal gift for Mother’s Day, birthdays, or holidays. Its sleek Pro Gold design and advanced features combine elegance with practicality, making it a thoughtful and appreciated present.\n * 🌡️ Intelligent Heat Control for Healthier Hair – Featuring advanced Thermo Control Technology, this hair dryer continuously monitors and adjusts the temperature to prevent overheating. It protects your hair’s natural moisture and color vibrancy, ensuring shiny, healthy locks with every use.\n * 💧 Frizz-Free Hair with Ionic Technology – Built-in negative ion technology reduces frizz and static, leaving your hair smooth, shiny, and salon-ready. Achieve professional-quality results at home, whether for everyday styling or special occasions.\n * 🌬️ Fast Drying with Powerful Brushless Motor – Equipped with a 110,000 RPM brushless motor, the Tideway PRO M01 delivers strong, even airflow for quick and efficient drying. It cuts drying time by up to 50%, perfect for busy mornings or on-the-go styling.\n * ✨ Elegant Design & Ergonomic Comfort – The PRO M01 features a luxurious Pro Gold finish, blending modern sophistication with functionality. Its lightweight body and ergonomic handle ensure a comfortable grip, making styling effortless and enjoyable.",
+    "description_full_html": "Upgrade your styling routine with the Tideway PRO M01 Hair Dryer in Pro Gold. Designed for professional results at home, it features a 110,000 RPM brushless motor for ultra-fast drying and ionic technology to reduce frizz, enhance shine, and protect hair health. With 4 customizable heat settings, a lightweight ergonomic design, and a luxurious Pro Gold finish, the PRO M01 combines power, elegance, and comfort for a superior styling experience. Perfect for daily use or as a thoughtful gift, it’s the ultimate tool for achieving salon-quality hair at home. <ul>  <li>🎁 Perfect Gift for Any Occasion – The Tideway PRO M01 Hair Dryer is the ideal gift for Mother’s Day, birthdays, or holidays. Its sleek Pro Gold design and advanced features combine elegance with practicality, making it a thoughtful and appreciated present.</li>  <li>🌡️ Intelligent Heat Control for Healthier Hair – Featuring advanced Thermo Control Technology, this hair dryer continuously monitors and adjusts the temperature to prevent overheating. It protects your hair’s natural moisture and color vibrancy, ensuring shiny, healthy locks with every use.</li>  <li>💧 Frizz-Free Hair with Ionic Technology – Built-in negative ion technology reduces frizz and static, leaving your hair smooth, shiny, and salon-ready. Achieve professional-quality results at home, whether for everyday styling or special occasions.</li>  <li>🌬️ Fast Drying with Powerful Brushless Motor – Equipped with a 110,000 RPM brushless motor, the Tideway PRO M01 delivers strong, even airflow for quick and efficient drying. It cuts drying time by up to 50%, perfect for busy mornings or on-the-go styling.</li>  <li>✨ Elegant Design &amp; Ergonomic Comfort – The PRO M01 features a luxurious Pro Gold finish, blending modern sophistication with functionality. Its lightweight body and ergonomic handle ensure a comfortable grip, making styling effortless and enjoyable.</li> </ul>",
+    "model": "M01",
+    "ratings_total": 41,
+    "rating": 4.3,
+    "type": "Hair Dryers",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Tideway-PRO-M01-High-Speed-Hair-Dryer-Pro-Gold-Salon-Brushless-Motor-Ionic-Tech-4-Heat-Levels-Ergonomic-1500W-120V_73b64822-5214-4cef-930f-c6a8daa29827.20a4b08f4bd3bda58687cd1a27456525.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Tideway-PRO-M01-High-Speed-Hair-Dryer-Pro-Gold-Salon-Brushless-Motor-Ionic-Tech-4-Heat-Levels-Ergonomic-1500W-120V_73b64822-5214-4cef-930f-c6a8daa29827.20a4b08f4bd3bda58687cd1a27456525.jpeg",
+        "id": "908256C5785F4F3DAB48DA62FCD58818",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c639a873-6f7e-4881-afbf-dc871d3f2943.97402bd4c666f521a77c1e86daab5648.jpeg",
+        "id": "35EECB0858C84C57A801D7A1D3400772",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/3118de1c-d256-434a-8035-efed38840c62.76b5562628c764bb7e7896875bb40ad5.jpeg",
+        "id": "0A204F1A304F48159C873EF241CA403F",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/282a61fc-b48f-4cdd-8db2-67389daa049b.7164a9c4666daca8753900ee381256fa.jpeg",
+        "id": "490ED7E6C8094EC0A87B610F758CFBE9",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8fb753fd-98a6-49b4-bf80-3786e17c652f.22513ca883d057497e4e86590090f2b4.jpeg",
+        "id": "A677DD7702E04A13A8952658D3EE5FC7",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/9b47fa6c-422b-4dac-bcba-e1af41224381.ca6aac2861daa37c62f7ed6e59bb13b7.jpeg",
+        "id": "EBE260F47470432E8C1013C27CB62512",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/705f8cc9-b326-46ed-9165-a887ab637b81.ffdcf74da872ad63a1ac60a8b6426e20.jpeg",
+        "id": "96568721716E425192CC8554D4390CEB",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Features",
+        "value": "Ionic"
+      },
+      {
+        "name": "Color",
+        "value": "M01 Gold"
+      },
+      {
+        "name": "Hair Dryer Type",
+        "value": "Ionic Hair Dryers"
+      },
+      {
+        "name": "Assembled Product Weight",
+        "value": "3 lb"
+      },
+      {
+        "name": "Model",
+        "value": "M01"
+      },
+      {
+        "name": "Brand",
+        "value": "Tideway"
+      }
+    ],
+    "buybox_winner": {
+      "price": 41.8,
+      "was_price": 94.99,
+      "currency_symbol": "$",
+      "id": "1ECC4A6342EA3F4EA7D9A6690AC16A34",
+      "seller": {
+        "name": "Tideway US",
+        "id_secondary": "546317A2B32F4AE48E28956BA2DFE577",
+        "id": 102580006,
+        "link": "https://www.walmart.com/seller/102580006"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Aug 22 to Arlington, 98223",
+        "message": "Free shipping, arrives by Fri, Aug 22 to Arlington, 98223",
+        "zipcode": "98223"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 90,
+        "type": "Day",
+        "seller": "Tideway US"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10688450824",
+          "id": "A4ED9F6CD60A32C587D44500FD037B81",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 7,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$7.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10696153957",
+          "id": "6A4CDF1F57B634E1A0060DD7DC8BC83D",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-40-49-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 5,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$5.00"
+          }
+        }
+      ]
+    },
+    "color": "M01 Gold",
+    "variants": [
+      {
+        "item_id": "14000352725",
+        "product_id": "32U4JHU3U2DE",
+        "link": "https://www.walmart.com/ip/14000352725",
+        "in_stock": true,
+        "price": 41.8,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Tideway-PRO-M01-High-Speed-Hair-Dryer-Pro-Gold-Salon-Brushless-Motor-Ionic-Tech-4-Heat-Levels-Ergonomic-1500W-120V_73b64822-5214-4cef-930f-c6a8daa29827.20a4b08f4bd3bda58687cd1a27456525.jpeg",
+            "id": "908256C5785F4F3DAB48DA62FCD58818",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c639a873-6f7e-4881-afbf-dc871d3f2943.97402bd4c666f521a77c1e86daab5648.jpeg",
+            "id": "35EECB0858C84C57A801D7A1D3400772",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/3118de1c-d256-434a-8035-efed38840c62.76b5562628c764bb7e7896875bb40ad5.jpeg",
+            "id": "0A204F1A304F48159C873EF241CA403F",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/282a61fc-b48f-4cdd-8db2-67389daa049b.7164a9c4666daca8753900ee381256fa.jpeg",
+            "id": "490ED7E6C8094EC0A87B610F758CFBE9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8fb753fd-98a6-49b4-bf80-3786e17c652f.22513ca883d057497e4e86590090f2b4.jpeg",
+            "id": "A677DD7702E04A13A8952658D3EE5FC7",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9b47fa6c-422b-4dac-bcba-e1af41224381.ca6aac2861daa37c62f7ed6e59bb13b7.jpeg",
+            "id": "EBE260F47470432E8C1013C27CB62512",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/705f8cc9-b326-46ed-9165-a887ab637b81.ffdcf74da872ad63a1ac60a8b6426e20.jpeg",
+            "id": "96568721716E425192CC8554D4390CEB",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "m01gold"
+          }
+        ]
+      },
+      {
+        "item_id": "16855822353",
+        "product_id": "1C9VSLU57OOW",
+        "link": "https://www.walmart.com/ip/16855822353",
+        "in_stock": true,
+        "price": 54.9,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Tideway-Official-C02-Gold-High-Speed-Hair-Dryer-110-000-RPM-Brushless-Motor-Ionic-Care-4-Heat-Modes-Intelligent-Thermo-Control-Ergonomic-Grip-with-Di_079d583f-282c-44ec-8869-2a967abaca70.68214a42300c45fc07b65c38c04919cb.jpeg",
+            "id": "69083DE00AB04DC1AA4D138F180496E9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ad3bd0db-8472-4e71-8a60-bcb0c1f78824.7cdb2ab1b25f2f5f85aa284b00e3eb1e.jpeg",
+            "id": "7F875ABEDB2140969BC35F6332F7C1BE",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/9ef1a862-7edb-4ef6-9ce0-a263ac7b8703.fbb3392ec1dfc58a39b2cd7ed3a3d0cf.jpeg",
+            "id": "CFE900EB1E3C4B76B0DFFD29C973807C",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f4a6af6d-f4a6-4dc1-b0c6-0783499fdaea.1578cbb8eb383d8a44531a6df549f757.jpeg",
+            "id": "B6016DBF31004DFE853AEBA4173FCE38",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/471627b8-f131-4dcf-bef8-7ac9c2b97704.1da8d4ca1011be05a5176c36580537c4.jpeg",
+            "id": "876389EB83F8468D9A7589FF5B831D9B",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/994520d7-f71c-4e84-882a-8a792cd68a03.356ce5497ad430157a15dfee5bec9c22.jpeg",
+            "id": "95018878837E4C3988726431671D8FBE",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "m02gold(withdiffuser)"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Arlington",
+    "state": "WA",
+    "zipcode": "98223",
+    "store_id": "3757"
+  }
+}

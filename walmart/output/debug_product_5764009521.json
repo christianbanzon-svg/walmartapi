@@ -1,0 +1,186 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 1843,
+    "credits_used_this_request": 1,
+    "credits_remaining": 8157,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "domain": "walmart.ca",
+    "type": "product",
+    "item_id": "5764009521"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-20T13:02:12.477Z",
+    "processed_at": "2025-08-20T13:02:15.555Z",
+    "total_time_taken": 3.08,
+    "walmart_url": "https://www.walmart.com/ip/5764009521"
+  },
+  "product": {
+    "brand": "Fullcome",
+    "link": "https://www.walmart.com/ip/Supply-high-power-700W-curling-iron-hair-dryer-comb-household-hair-styling-set/5764009521",
+    "title": "Fullcome Supply high-power 700W curling iron hair dryer comb household hair styling set",
+    "title_excluding_brand": "Supply high-power 700W curling iron hair dryer comb household hair styling set",
+    "upc": "989439485407",
+    "item_id": "5764009521",
+    "product_id": "1001-8",
+    "item_number": "28VG0NFG7D2W",
+    "description": "Beauty starts from the \"head\", and the ten in one multifunctional styling hair straightener has multiple hair styling components. Its hot air can penetrate deep into the hair roots, quickly drying your wet hair. It can also easily create various flowing and romantic hairstyles through flexible combinations. It is a good helper for family hair styling, actually moving the hair salon back home. You are a hairdresser, allowing you to create a beautiful and versatile hair without leaving home, making you more confident, beautiful, and more charming",
+    "description_html": "Beauty starts from the \"head\", and the ten in one multifunctional styling hair straightener has multiple hair styling components. Its hot air can penetrate deep into the hair roots, quickly drying your wet hair. It can also easily create various flowing and romantic hairstyles through flexible combinations. It is a good helper for family hair styling, actually moving the hair salon back home. You are a hairdresser, allowing you to create a beautiful and versatile hair without leaving home, making you more confident, beautiful, and more charming",
+    "description_full": "Beauty starts from the \"head\", and the ten in one multifunctional styling hair straightener has multiple hair styling components. Its hot air can penetrate deep into the hair roots, quickly drying your wet hair. It can also easily create various flowing and romantic hairstyles through flexible combinations. It is a good helper for family hair styling, actually moving the hair salon back home. You are a hairdresser, allowing you to create a beautiful and versatile hair without leaving home, making you more confident, beautiful, and more charming Overheat Protection: Yes  * Place of Origin: Shenzhen\n * Brand: FULLCOME\n * Article number: 1001-8\n * Handle folding: foldable\n * Product specifications: domestic, American, European and British.\n * Patented source: No.\n * Foreign trade: Yes (This product is for foreign trade purposes only and may not meet domestic product standards. Domestic buyers are advised to purchase with caution.)\n * Color: Silver+Black, Red+Black\n * Power supply method: AC\n * Model: 1001-8\n * Rated power: 650\n * Heating wire: spiral wire\n * Motor: DC motor\n * Shell material: ABS\n * Motor type: Brushed motor\n * Weight: 0.75\n * Rated voltage: 220\n * Wind nozzle style: collector nozzle+diffuser nozzle\n * Is it a cross-border export exclusive source of goods: No\n * Wind speed gear: 3 gears\n * Certification types: CE, FCC, ROHS\n * Main sales regions: Europe, North America, Middle East",
+    "description_full_html": "Beauty starts from the \"head\", and the ten in one multifunctional styling hair straightener has multiple hair styling components. Its hot air can penetrate deep into the hair roots, quickly drying your wet hair. It can also easily create various flowing and romantic hairstyles through flexible combinations. It is a good helper for family hair styling, actually moving the hair salon back home. You are a hairdresser, allowing you to create a beautiful and versatile hair without leaving home, making you more confident, beautiful, and more charming Overheat Protection: Yes  <ul>  <li>Place of Origin: Shenzhen</li>  <li>Brand: FULLCOME</li>  <li>Article number: 1001-8</li>  <li>Handle folding: foldable</li>  <li>Product specifications: domestic, American, European and British.</li>  <li>Patented source: No.</li>  <li>Foreign trade: Yes (This product is for foreign trade purposes only and may not meet domestic product standards. Domestic buyers are advised to purchase with caution.)</li>  <li>Color: Silver+Black, Red+Black</li>  <li>Power supply method: AC</li>  <li>Model: 1001-8</li>  <li>Rated power: 650</li>  <li>Heating wire: spiral wire</li>  <li>Motor: DC motor</li>  <li>Shell material: ABS</li>  <li>Motor type: Brushed motor</li>  <li>Weight: 0.75</li>  <li>Rated voltage: 220</li>  <li>Wind nozzle style: collector nozzle+diffuser nozzle</li>  <li>Is it a cross-border export exclusive source of goods: No</li>  <li>Wind speed gear: 3 gears</li>  <li>Certification types: CE, FCC, ROHS</li>  <li>Main sales regions: Europe, North America, Middle East</li> </ul>",
+    "model": "1001-8",
+    "ratings_total": 0,
+    "type": "Hair Curling Irons",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Supply-high-power-700W-curling-iron-hair-dryer-comb-household-hair-styling-set_78d13fad-020a-4698-9741-aec7a4a2e96f.1b03ce52a3e1f76965daf2cce6f49c99.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Supply-high-power-700W-curling-iron-hair-dryer-comb-household-hair-styling-set_78d13fad-020a-4698-9741-aec7a4a2e96f.1b03ce52a3e1f76965daf2cce6f49c99.jpeg",
+        "id": "7A87A4BF020643F2B6AA7E380BE5A3B3",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8c9a9997-4698-4032-884c-2f23b3f124c1.1753fdb5abb8a120d3066d62d606478c.jpeg",
+        "id": "CCA33A4FB55641F8BBBEED2BE4F3FA3F",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/681fc9a0-0b45-477d-a188-8c27715d79d6.69774087d9fd94fe753d45af44d2508d.jpeg",
+        "id": "C9D3AB6B7B894B55BB43D0CF4EA726A5",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Beauty",
+        "link": "https://www.walmart.com/cp/beauty/1085666"
+      },
+      {
+        "name": "Hair Care",
+        "link": "https://www.walmart.com/cp/hair-care/3147628"
+      },
+      {
+        "name": "Hair Accessories",
+        "link": "https://www.walmart.com/cp/hair-accessories/9459711"
+      },
+      {
+        "name": "Hair Tools & Accessories Combined",
+        "link": "https://www.walmart.com/cp/hair-tools-accessories-combined/1640110"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "Fullcome"
+      }
+    ],
+    "buybox_winner": {
+      "price": 38.99,
+      "currency_symbol": "$",
+      "id": "EE001E8418883CCDBDCB6F654FFB78BB",
+      "seller": {
+        "name": "JIANPUSH Lighting Shop",
+        "id_secondary": "B55B7BD7149841D9B04DED3484AEAFF7",
+        "id": 101288247,
+        "link": "https://www.walmart.com/seller/101288247"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Tue, Sep 9 to Virginia Beach, 23451",
+        "message": "Free shipping, arrives by Tue, Sep 9 to Virginia Beach, 23451",
+        "zipcode": "23451"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "JIANPUSH Lighting Shop"
+      },
+      "protection_plans": [
+        {
+          "title": "Walmart Protection Plan - 3-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10694768500",
+          "id": "F90AA0ACB64F39428365FB5A83CE420C",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 6,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$6.00"
+          }
+        },
+        {
+          "title": "Walmart Protection Plan - 2-Year Plan",
+          "description": "Protect it today, enjoy it for years. Get award-winning Allstate service and support that goes above and beyond the manufacturer’s warranty. Health & beauty plans cover: Mechanical & electrical failures Breakdowns or failures during normal use Fast repairs & replacements with easy online claims available 24/7Includes 100% parts & labor with no hidden fees When you add your new health & beauty item to cart, be sure to add a Walmart Protection Plan, too. Simply add your plan at checkout. There’s no need to register your plan for it to be active. We’ll email you protection plan details after you check out.",
+          "item_id": "10690908819",
+          "id": "59610DFA99AE3B4799EBC8ACA16FA1B9",
+          "is_walmart_protection_plan": true,
+          "image": "https://i5.walmartimages.com/seo/3-Year-Health-Beauty-Protection-Plan-30-39-99_b04b2969-4200-4781-9f3a-3da0ccca5d4d.06e6f536cfdbec82e8b0108a6488901d.jpeg",
+          "price": {
+            "value": 4,
+            "currency_symbol": "$",
+            "currency": "USD",
+            "raw": "$4.00"
+          }
+        }
+      ]
+    },
+    "variants": [
+      {
+        "item_id": "5764009521",
+        "product_id": "28VG0NFG7D2W",
+        "link": "https://www.walmart.com/ip/5764009521",
+        "in_stock": true,
+        "price": 38.99,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Supply-high-power-700W-curling-iron-hair-dryer-comb-household-hair-styling-set_78d13fad-020a-4698-9741-aec7a4a2e96f.1b03ce52a3e1f76965daf2cce6f49c99.jpeg",
+            "id": "7A87A4BF020643F2B6AA7E380BE5A3B3",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8c9a9997-4698-4032-884c-2f23b3f124c1.1753fdb5abb8a120d3066d62d606478c.jpeg",
+            "id": "CCA33A4FB55641F8BBBEED2BE4F3FA3F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/681fc9a0-0b45-477d-a188-8c27715d79d6.69774087d9fd94fe753d45af44d2508d.jpeg",
+            "id": "C9D3AB6B7B894B55BB43D0CF4EA726A5",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "number_of_pieces",
+            "value": "meigui"
+          },
+          {
+            "name": "actual_color",
+            "value": "silver+black"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Virginia Beach",
+    "state": "VA",
+    "zipcode": "23451",
+    "store_id": "1688"
+  }
+}

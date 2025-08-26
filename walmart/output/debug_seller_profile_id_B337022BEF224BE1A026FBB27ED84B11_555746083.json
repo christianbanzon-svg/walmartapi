@@ -1,0 +1,44 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2218,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7782,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "102845702"
+  },
+  "request_metadata": {
+    "created_at": "2025-08-25T13:56:30.384Z",
+    "processed_at": "2025-08-25T13:56:36.274Z",
+    "total_time_taken": 5.89,
+    "walmart_url": "https://www.walmart.com/seller/102845702"
+  },
+  "seller_details": {
+    "name": "JinYue xiechangming",
+    "id": "B337022BEF224BE1A026FBB27ED84B11",
+    "link": "https://www.walmart.com/seller/102845702",
+    "is_pro_seller": false,
+    "phone": "13825297073",
+    "rating": 0,
+    "rating_breakdown": {
+      "one_star": 0,
+      "two_star": 0,
+      "three_star": 0,
+      "four_star": 0,
+      "five_star": 0
+    },
+    "email": "xiechangming1989@163.com",
+    "address": {
+      "address1": "yunnanshengkunmingshiwuhuaqulianhuajiedaobanshichujianganxiaoquyuejiangli22dong1danyuan502",
+      "city": "kunmingshi",
+      "state": "YN",
+      "zipcode": "650000",
+      "country": "CN"
+    }
+  }
+}

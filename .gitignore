@@ -10,4 +10,7 @@ venv/
 .cursor/
 walmart/output/
 walmart/raw_html/
+*.sqlite3
 
+
+walmart/local_scripts/

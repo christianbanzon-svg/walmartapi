@@ -37,5 +37,23 @@ Disclaimer
 This client relies on BlueCart’s Walmart endpoints. Field availability can vary by product/seller. Code is defensive and will store whatever fields are returned.
 
 
+Docker
+
+- Build the image:
+  docker build -t walmartscraper:latest .
+
+- Run a quick scan (US by default):
+  docker run --rm -e BLUECART_API_KEY=YOUR_KEY -v %cd%/walmart/output:/data/output walmartscraper:latest --keywords nike --max-per-keyword 5 --export csv json
+
+- Canada run:
+  docker run --rm -e BLUECART_API_KEY=YOUR_KEY -e WALMART_DOMAIN=walmart.ca -v %cd%/walmart/output:/data/output walmartscraper:latest --keywords nike --max-per-keyword 5 --export csv json
+
+- Using docker compose (reads your host .env):
+  1) Create a `.env` with BLUECART_API_KEY=...
+  2) Edit `docker-compose.yml` command if needed
+  3) Run:
+     docker compose up --build
+
+
 
 

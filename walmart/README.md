@@ -49,10 +49,15 @@ Docker
   docker run --rm -e BLUECART_API_KEY=YOUR_KEY -e WALMART_DOMAIN=walmart.ca -v %cd%/walmart/output:/data/output walmartscraper:latest --keywords nike --max-per-keyword 5 --export csv json
 
 - Using docker compose (reads your host .env):
-  1) Create a `.env` with BLUECART_API_KEY=...
+  1) Copy `.env.example` to `.env` and set `BLUECART_API_KEY` (and optional vars)
   2) Edit `docker-compose.yml` command if needed
   3) Run:
      docker compose up --build
+
+Repository requirements compliance
+- Includes Dockerfile and docker-compose.yml at repo root.
+- All config values are read from `.env` (not committed). An `.env.example` is provided with placeholders.
+- `docker compose up` launches the service with no extra setup once `.env` exists.
 
 
 

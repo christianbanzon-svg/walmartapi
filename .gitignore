@@ -1,0 +1,13 @@
+.env
+.env.*
+__pycache__/
+*.pyc
+*.log
+venv/
+.venv/
+.idea/
+.vscode/
+.cursor/
+walmart/output/
+walmart/raw_html/
+

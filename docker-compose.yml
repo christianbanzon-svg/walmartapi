@@ -1,5 +1,23 @@
 version: "3.9"
 services:
+  walmart-api:
+    build: .
+    image: walmartscraper:latest
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - BLUECART_API_KEY=${BLUECART_API_KEY}
+      - BLUECART_BASE_URL=${BLUECART_BASE_URL:-https://api.bluecartapi.com/request}
+      - WALMART_DOMAIN=${WALMART_DOMAIN:-walmart.com}
+      - OUTPUT_DIR=${OUTPUT_DIR:-/data/output}
+      - DATABASE_PATH=${DATABASE_PATH:-/data/walmart.sqlite3}
+      - PYTHONPATH=/app
+    volumes:
+      - ./walmart/output:/data/output
+    command: python walmart/api.py
+
   walmart:
     build: .
     image: walmartscraper:latest

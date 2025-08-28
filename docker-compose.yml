@@ -11,7 +11,34 @@ services:
       - WALMART_DOMAIN=${WALMART_DOMAIN:-walmart.com}
       - OUTPUT_DIR=${OUTPUT_DIR:-/data/output}
       - DATABASE_PATH=${DATABASE_PATH:-/data/walmart.sqlite3}
+      - KEYWORDS=${KEYWORDS:-instyler}
+      - MAX_PER_KEYWORD=${MAX_PER_KEYWORD:-10}
+      - ZIPCODE=${ZIPCODE:-}
+      - CATEGORY_ID=${CATEGORY_ID:-}
+      - SLEEP=${SLEEP:-0.0}
+      - MAX_PAGES=${MAX_PAGES:-50}
+      - RETRY_SELLER_PASSES=${RETRY_SELLER_PASSES:-0}
+      - RETRY_SELLER_DELAY=${RETRY_SELLER_DELAY:-15.0}
     volumes:
       - ./walmart/output:/data/output
-    command: ["--keywords", "instyler", "--max-per-keyword", "10", "--export", "json", "csv"]
+    command:
+      - --keywords
+      - ${KEYWORDS}
+      - --max-per-keyword
+      - ${MAX_PER_KEYWORD}
+      - --export
+      - json
+      - csv
+      - --max-pages
+      - ${MAX_PAGES}
+      - --sleep
+      - ${SLEEP}
+      - --retry-seller-passes
+      - ${RETRY_SELLER_PASSES}
+      - --retry-seller-delay
+      - ${RETRY_SELLER_DELAY}
+      - --zipcode
+      - ${ZIPCODE}
+      - --category-id
+      - ${CATEGORY_ID}
 

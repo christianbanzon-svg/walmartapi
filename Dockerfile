@@ -16,6 +16,9 @@ COPY . /app
 # Ensure output directory exists for mounted volumes
 RUN mkdir -p /app/walmart/output
 
+# Expose port for API service
+EXPOSE 8000
+
 # Default entrypoint runs the main scraper; pass flags via `docker run ... -- <flags>` or compose `command:`
 ENTRYPOINT ["python", "-u", "walmart/run_walmart.py"]
 

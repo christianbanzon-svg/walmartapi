@@ -1,0 +1,344 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2784,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7216,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "5349378629"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T04:53:14.244Z",
+    "processed_at": "2025-09-01T04:53:17.403Z",
+    "total_time_taken": 3.16,
+    "walmart_url": "https://www.walmart.com/ip/5349378629"
+  },
+  "product": {
+    "brand": "Nike",
+    "link": "https://www.walmart.com/ip/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-11/5349378629",
+    "title": "Nike Jordan 1 Retro High OG PS Boys Shoes Size 11, Color: Black/White/White",
+    "upc": "196975634071",
+    "item_id": "5349378629",
+    "product_id": "FD1412010",
+    "item_number": "7LF4931Q0YQX",
+    "description": "Preschool Jordan 1 Retro High OG Black/White-White",
+    "description_html": "Preschool Jordan 1 Retro High OG Black/White-White",
+    "description_full": "Preschool Jordan 1 Retro High OG Black/White-White * Nike\n * Black/White/White\n * Nike Jordan 1 Retro High OG PS Boys Shoes Size 11, Color: Black/White/White",
+    "description_full_html": "Preschool Jordan 1 Retro High OG Black/White-White <ul>  <li>Nike</li>  <li>Black/White/White</li>  <li>Nike Jordan 1 Retro High OG PS Boys Shoes Size 11, Color: Black/White/White</li> </ul>",
+    "model": "FD1412 010",
+    "ratings_total": 9,
+    "rating": 4.1,
+    "type": "Athletic Shoes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-11_72ca9461-7e87-46e8-944d-25148645c9b7.6410ecaeb5c4e4a483f73c215254008b.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-11_72ca9461-7e87-46e8-944d-25148645c9b7.6410ecaeb5c4e4a483f73c215254008b.jpeg",
+        "id": "EE8208B4F6434D0583C890BB65245D4E",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/c59e96c7-ce2d-4828-bc0f-ce2871bf1c63.1f3a23ab5c2fd75b17654c03a0b5213b.jpeg",
+        "id": "427D69B2E3564F83AD9E335EA8E104F2",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f890bb95-5438-48b1-8dbe-760410095d05.3860cf0049651411c5c88eefe9ca3ec5.jpeg",
+        "id": "420837112F0A4D668501E315DF2FBBD2",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8a5f90ae-5234-4ac2-bda0-d24f98e50d42.e715b4b8a52aa3cfdfee78e5fb5749a9.jpeg",
+        "id": "DB2D414FF1434703BC4A5B4391CB4CC1",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Fashion Brands",
+        "link": "https://www.walmart.com/cp/fashion-brands/3317124"
+      },
+      {
+        "name": "Nike",
+        "link": "https://www.walmart.com/cp/nike/7807333"
+      },
+      {
+        "name": "Nike Shoes",
+        "link": "https://www.walmart.com/cp/nike-shoes/8183084"
+      },
+      {
+        "name": "Nike Sneakers",
+        "link": "https://www.walmart.com/cp/nike-sneakers/2084015"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Shoe Category",
+        "value": "Little Boys' Shoes"
+      },
+      {
+        "name": "Gender",
+        "value": "Unisex"
+      },
+      {
+        "name": "Color",
+        "value": "Black/White/White"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "FD1412010"
+      },
+      {
+        "name": "Brand",
+        "value": "Nike"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Nike"
+      }
+    ],
+    "buybox_winner": {
+      "price": 79.95,
+      "currency_symbol": "$",
+      "offers_total": 1,
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$89.90",
+        "value": 89.9
+      },
+      "id": "A3E04EC346893911BF2C049D656A00FB",
+      "seller": {
+        "name": "The Spot for Fits & Kicks",
+        "id_secondary": "50CD1769E0D5473F82184E87CD37ACBA",
+        "id": 101127721,
+        "link": "https://www.walmart.com/seller/101127721"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Mon, Sep 8 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Mon, Sep 8 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "The Spot for Fits & Kicks"
+      }
+    },
+    "color": "Black/White/White",
+    "variants": [
+      {
+        "item_id": "5349378629",
+        "product_id": "7LF4931Q0YQX",
+        "link": "https://www.walmart.com/ip/5349378629",
+        "in_stock": true,
+        "price": 79.95,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-11_72ca9461-7e87-46e8-944d-25148645c9b7.6410ecaeb5c4e4a483f73c215254008b.jpeg",
+            "id": "EE8208B4F6434D0583C890BB65245D4E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c59e96c7-ce2d-4828-bc0f-ce2871bf1c63.1f3a23ab5c2fd75b17654c03a0b5213b.jpeg",
+            "id": "427D69B2E3564F83AD9E335EA8E104F2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f890bb95-5438-48b1-8dbe-760410095d05.3860cf0049651411c5c88eefe9ca3ec5.jpeg",
+            "id": "420837112F0A4D668501E315DF2FBBD2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8a5f90ae-5234-4ac2-bda0-d24f98e50d42.e715b4b8a52aa3cfdfee78e5fb5749a9.jpeg",
+            "id": "DB2D414FF1434703BC4A5B4391CB4CC1",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "11"
+          }
+        ]
+      },
+      {
+        "item_id": "5483318363",
+        "product_id": "5H6IK2KJJRC8",
+        "link": "https://www.walmart.com/ip/5483318363",
+        "in_stock": false,
+        "price": 98.47,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-11-5_6e1bc938-adda-46e6-b689-ae2e991de38d.1e18722961c355a429f36872b55679db.jpeg",
+            "id": "8846982E6CB441048FC6E15CB08FE704",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/688d5034-e439-40b1-9e2a-68bcff23315c.eba6d530ac70967a5b07364cf1f1370b.jpeg",
+            "id": "D83AB85331234C8E8CCB7013505A8BE8",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/22104854-d38c-4a78-b04e-e130eedfb7ec.f40a7b972f049dd9db63c6c689d2c5ce.jpeg",
+            "id": "0024331553F148088AC4A39F3F81175C",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/0373345b-d987-4ea5-9ac6-e49b0800557e.e6e7cbbce169d0172ced47e11a3acbc4.jpeg",
+            "id": "A663E9218E69494EB741A554EE40C01F",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/62246fe4-de36-4851-a2b3-128df93b300a.59f86e96f5c54c5cefb9a1015e51fa33.jpeg",
+            "id": "D28BEF87308846B48C033C7D6E4B1D96",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "11.5"
+          }
+        ]
+      },
+      {
+        "item_id": "5481100829",
+        "product_id": "4ZMQDCZNGA69",
+        "link": "https://www.walmart.com/ip/5481100829",
+        "in_stock": false,
+        "price": 79.95,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-12_72ca9461-7e87-46e8-944d-25148645c9b7.6410ecaeb5c4e4a483f73c215254008b.jpeg",
+            "id": "EE8208B4F6434D0583C890BB65245D4E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c59e96c7-ce2d-4828-bc0f-ce2871bf1c63.1f3a23ab5c2fd75b17654c03a0b5213b.jpeg",
+            "id": "427D69B2E3564F83AD9E335EA8E104F2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f890bb95-5438-48b1-8dbe-760410095d05.3860cf0049651411c5c88eefe9ca3ec5.jpeg",
+            "id": "420837112F0A4D668501E315DF2FBBD2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8a5f90ae-5234-4ac2-bda0-d24f98e50d42.e715b4b8a52aa3cfdfee78e5fb5749a9.jpeg",
+            "id": "DB2D414FF1434703BC4A5B4391CB4CC1",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "item_id": "5474515571",
+        "product_id": "5NKGHQB25C3S",
+        "link": "https://www.walmart.com/ip/5474515571",
+        "in_stock": false,
+        "price": 79.95,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-10-5_a05f9350-c47c-4520-98af-8a0b0eaad540.cfe467bb2065d85b65d64f4c67f57b2b.jpeg",
+            "id": "DDBF04827443469E98EE23A517C6F32B",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/df52402a-42d2-4b9e-b60c-a75e479d2c7c.67f4ae15499c3c763fdba8dfad6dd59c.jpeg",
+            "id": "02950B66413E40599C5C61D266CAB16F",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f7d48703-b396-4ac0-80e6-f8e0b9056fa0.be9f8d68ad66b77383735aa2e9263337.jpeg",
+            "id": "5781D2E8B6934905952E47CC485A0CE3",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d7e18465-429b-44a0-87b3-9c047dab14d1.a853775fa8d6d988b02d52bd431beeee.jpeg",
+            "id": "73AA9DB4B205425D8E77A6CD82D9124C",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/511eb8d3-3714-45ca-ac62-a9f974f11b26.86a63a5cf3cb48048560c970920fcf24.jpeg",
+            "id": "B2D4A9B2005C4448A7B39BC8AA154971",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "10.5"
+          }
+        ]
+      },
+      {
+        "item_id": "5485924083",
+        "product_id": "18UFIH9Z7AIY",
+        "link": "https://www.walmart.com/ip/5485924083",
+        "in_stock": false,
+        "price": 79.95,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Little-Kid-s-Jordan-1-Retro-High-OG-Black-White-White-FD1412-010-13_72ca9461-7e87-46e8-944d-25148645c9b7.6410ecaeb5c4e4a483f73c215254008b.jpeg",
+            "id": "EE8208B4F6434D0583C890BB65245D4E",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/c59e96c7-ce2d-4828-bc0f-ce2871bf1c63.1f3a23ab5c2fd75b17654c03a0b5213b.jpeg",
+            "id": "427D69B2E3564F83AD9E335EA8E104F2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f890bb95-5438-48b1-8dbe-760410095d05.3860cf0049651411c5c88eefe9ca3ec5.jpeg",
+            "id": "420837112F0A4D668501E315DF2FBBD2",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8a5f90ae-5234-4ac2-bda0-d24f98e50d42.e715b4b8a52aa3cfdfee78e5fb5749a9.jpeg",
+            "id": "DB2D414FF1434703BC4A5B4391CB4CC1",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "shoe_size",
+            "value": "13"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

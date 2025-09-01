@@ -1,0 +1,432 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2782,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7218,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "11373913511"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T04:52:56.543Z",
+    "processed_at": "2025-09-01T04:52:59.752Z",
+    "total_time_taken": 3.21,
+    "walmart_url": "https://www.walmart.com/ip/11373913511"
+  },
+  "product": {
+    "brand": "Nike",
+    "link": "https://www.walmart.com/ip/Nike-Men-s-Dunk-Low-Retro-White-Black-Panda-Sneaker-from-StockX/11373913511",
+    "title": "Nike Men's Dunk Low Retro White Black Panda, from StockX",
+    "upc": "463225495202",
+    "item_id": "11373913511",
+    "product_id": "DD1391-100",
+    "item_number": "2S5RFQ3AN6ZQ",
+    "description": "As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached",
+    "description_html": "As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached",
+    "description_full": "* Nike Men's Dunk Low Retro White Black Panda - DD1391-100 - 12\n * Style code: DD1391-100\n * Colorway: White/Black\n * This item comes verified by StockX, brand new with tags\n * As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached\n * Items shipped from StockX are part of the Xpress Ship program which will ship out within 1 business day\n * Sneaker boxes will be original and in good condition. They may have minor cosmetic damage that could occur from the manufacturer, shipping, and storage\n * Shipping fee is included in the add to cart price for StockX items",
+    "description_full_html": "<ul>  <li>Nike Men's Dunk Low Retro White Black Panda - DD1391-100 - 12</li>  <li>Style code: DD1391-100</li>  <li>Colorway: White/Black</li>  <li>This item comes verified by StockX, brand new with tags</li>  <li>As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached</li>  <li>Items shipped from StockX are part of the Xpress Ship program which will ship out within 1 business day</li>  <li>Sneaker boxes will be original and in good condition. They may have minor cosmetic damage that could occur from the manufacturer, shipping, and storage</li>  <li>Shipping fee is included in the add to cart price for StockX items</li> </ul>",
+    "model": "Dunk Low Retro",
+    "ratings_total": 25,
+    "rating": 4.3,
+    "type": "Casual & Dress Shoes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Dunk-Low-Retro-White-Black-Panda-Sneaker-from-StockX_b31b1e86-86f6-4d2c-87c3-a50b81a39521.68b683f9546d1fd37b1e246ab4d8861f.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Dunk-Low-Retro-White-Black-Panda-Sneaker-from-StockX_b31b1e86-86f6-4d2c-87c3-a50b81a39521.68b683f9546d1fd37b1e246ab4d8861f.jpeg",
+        "id": "37999AA7183B430C992072E7B10104FD",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f1bb79e9-5748-4f4d-a04d-3c0a75f472dc.e95ca84706340e12316d984d64aebffe.jpeg",
+        "id": "1A8367ED6AB647BA8B8A4874E3C702DF",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/8a8da302-8463-4a43-914e-338c9deac7ce.d62c7c0124611aad8cbf2f787377689c.jpeg",
+        "id": "F61EBE8E1D664BCD935748768F770286",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f53702ed-398d-46dc-addc-9c8291cbadf2.651b70c7bde351f0544e518675e30169.jpeg",
+        "id": "50425D570705423A8D58C22CF52F8EF8",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/04fa1292-4478-43c9-ab71-7a1c954ac1ef.854e304bca07d327714ec4a30e24d9a5.jpeg",
+        "id": "54A2477C77C04D9FAF850F02F7EC1313",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Shoes",
+        "link": "https://www.walmart.com/cp/shoes/1045804"
+      },
+      {
+        "name": "Mens Shoes",
+        "link": "https://www.walmart.com/cp/mens-shoes/1045807"
+      },
+      {
+        "name": "Mens Sneakers",
+        "link": "https://www.walmart.com/cp/mens-sneakers/3383528"
+      },
+      {
+        "name": "Mens Casual Sneakers",
+        "link": "https://www.walmart.com/cp/mens-casual-sneakers/1662705"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "Nike"
+      },
+      {
+        "name": "Casual & Dress Shoe Style",
+        "value": "Low-Top Sneakers"
+      },
+      {
+        "name": "Shoe Category",
+        "value": "Men's Shoes"
+      },
+      {
+        "name": "Shoe Width",
+        "value": "Medium"
+      },
+      {
+        "name": "Material",
+        "value": "Leather"
+      },
+      {
+        "name": "Insole Material",
+        "value": "Faux Leather"
+      },
+      {
+        "name": "Shoe Sole Material",
+        "value": "PVC"
+      },
+      {
+        "name": "Toe Style",
+        "value": "Round Toe"
+      },
+      {
+        "name": "Shoe Heel Style",
+        "value": "Platform"
+      },
+      {
+        "name": "Heel Height Style",
+        "value": "Flat Heel"
+      },
+      {
+        "name": "Shoe Closure",
+        "value": "Lace-Up"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Nike"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "DD1391-100"
+      }
+    ],
+    "buybox_winner": {
+      "price": 91,
+      "currency_symbol": "$",
+      "id": "DDD46AE464A537A6907A0DFC74F45BF8",
+      "seller": {
+        "name": "StockX",
+        "id_secondary": "D00FBAB3A90E4243BCAF938753A7663B",
+        "id": 102524329,
+        "link": "https://www.walmart.com/seller/102524329"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Sep 5 to Sacramento, 95834",
+        "message": "Free shipping, arrives by Fri, Sep 5 to Sacramento, 95834",
+        "zipcode": "95834"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "StockX"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "11373913511",
+        "product_id": "2S5RFQ3AN6ZQ",
+        "link": "https://www.walmart.com/ip/11373913511",
+        "in_stock": true,
+        "price": 91,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Dunk-Low-Retro-White-Black-Panda-Sneaker-from-StockX_b31b1e86-86f6-4d2c-87c3-a50b81a39521.68b683f9546d1fd37b1e246ab4d8861f.jpeg",
+            "id": "37999AA7183B430C992072E7B10104FD",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f1bb79e9-5748-4f4d-a04d-3c0a75f472dc.e95ca84706340e12316d984d64aebffe.jpeg",
+            "id": "1A8367ED6AB647BA8B8A4874E3C702DF",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/8a8da302-8463-4a43-914e-338c9deac7ce.d62c7c0124611aad8cbf2f787377689c.jpeg",
+            "id": "F61EBE8E1D664BCD935748768F770286",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f53702ed-398d-46dc-addc-9c8291cbadf2.651b70c7bde351f0544e518675e30169.jpeg",
+            "id": "50425D570705423A8D58C22CF52F8EF8",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/04fa1292-4478-43c9-ab71-7a1c954ac1ef.854e304bca07d327714ec4a30e24d9a5.jpeg",
+            "id": "54A2477C77C04D9FAF850F02F7EC1313",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "item_id": "16835872494",
+        "product_id": "79DTQYI40WUA",
+        "link": "https://www.walmart.com/ip/16835872494",
+        "in_stock": true,
+        "price": 108,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "item_id": "16835772468",
+        "product_id": "7A94FAGAXN5T",
+        "link": "https://www.walmart.com/ip/16835772468",
+        "in_stock": false,
+        "price": 134,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "item_id": "16834123967",
+        "product_id": "263IA9FUMNDB",
+        "link": "https://www.walmart.com/ip/16834123967",
+        "in_stock": true,
+        "price": 107,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "9"
+          }
+        ]
+      },
+      {
+        "item_id": "11368500750",
+        "product_id": "5PMHKQFNDGH2",
+        "link": "https://www.walmart.com/ip/11368500750",
+        "in_stock": true,
+        "price": 107,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "6.5"
+          }
+        ]
+      },
+      {
+        "item_id": "16835972251",
+        "product_id": "36AFJV1F7IK6",
+        "link": "https://www.walmart.com/ip/16835972251",
+        "in_stock": true,
+        "price": 112,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "14"
+          }
+        ]
+      },
+      {
+        "item_id": "1255942418",
+        "product_id": "1AVW72IFTWBH",
+        "link": "https://www.walmart.com/ip/1255942418",
+        "in_stock": false,
+        "price": 126,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "6"
+          }
+        ]
+      },
+      {
+        "item_id": "16841259334",
+        "product_id": "4L22SIMV7O0N",
+        "link": "https://www.walmart.com/ip/16841259334",
+        "in_stock": false,
+        "price": 85,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "13"
+          }
+        ]
+      },
+      {
+        "item_id": "11365001704",
+        "product_id": "689C6FBU8BLX",
+        "link": "https://www.walmart.com/ip/11365001704",
+        "in_stock": false,
+        "price": 92,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "9.5"
+          }
+        ]
+      },
+      {
+        "item_id": "16843201795",
+        "product_id": "1GK2Q9XNQ57H",
+        "link": "https://www.walmart.com/ip/16843201795",
+        "in_stock": true,
+        "price": 171,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "15"
+          }
+        ]
+      },
+      {
+        "item_id": "11351916681",
+        "product_id": "6Y3QD6AP3CRP",
+        "link": "https://www.walmart.com/ip/11351916681",
+        "in_stock": true,
+        "price": 92,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "11.5"
+          }
+        ]
+      },
+      {
+        "item_id": "11374063207",
+        "product_id": "2HVD0AKUFL05",
+        "link": "https://www.walmart.com/ip/11374063207",
+        "in_stock": false,
+        "price": 100,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "item_id": "11389715805",
+        "product_id": "5GJHCM3EFQY0",
+        "link": "https://www.walmart.com/ip/11389715805",
+        "in_stock": true,
+        "price": 88,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "white/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "10"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95834",
+    "store_id": "2598"
+  }
+}

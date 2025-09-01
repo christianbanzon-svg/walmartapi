@@ -1,0 +1,44 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2707,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7293,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "102882337"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T03:45:16.384Z",
+    "processed_at": "2025-09-01T03:45:24.052Z",
+    "total_time_taken": 7.67,
+    "walmart_url": "https://www.walmart.com/seller/102882337"
+  },
+  "seller_details": {
+    "name": "New Variations LLC",
+    "id": "E883F4984433446AAD7F16B3EF372537",
+    "link": "https://www.walmart.com/seller/102882337",
+    "is_pro_seller": false,
+    "phone": "2149345708",
+    "rating": 0,
+    "rating_breakdown": {
+      "one_star": 0,
+      "two_star": 0,
+      "three_star": 0,
+      "four_star": 0,
+      "five_star": 0
+    },
+    "email": "new.variations@gmail.com",
+    "address": {
+      "address1": "2108 W PIONEER PKWY STE 111",
+      "city": "Pantego",
+      "state": "TX",
+      "zipcode": "76013",
+      "country": "US"
+    }
+  }
+}

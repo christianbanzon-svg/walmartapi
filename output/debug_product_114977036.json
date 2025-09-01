@@ -1,0 +1,259 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2775,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7225,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "114977036"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T04:41:51.326Z",
+    "processed_at": "2025-09-01T04:41:55.817Z",
+    "total_time_taken": 4.49,
+    "walmart_url": "https://www.walmart.com/ip/114977036"
+  },
+  "product": {
+    "brand": "Nike",
+    "link": "https://www.walmart.com/ip/NIKE-Men-s-Air-Max-Ltd-3-Running-Shoe/114977036",
+    "title": "NIKE Men's Air Max Ltd 3 Running Shoe",
+    "upc": "886549397449",
+    "item_id": "114977036",
+    "product_id": "687977 011",
+    "item_number": "46IAIHOE52PK",
+    "description": "The Nike Air Max LTD 3 Men's Running Shoes are composed of a durable leather upper. Cushioned tongue and lining combine to provide an excellent feel at your feet. Signature Air Max bubble at the heel and cushioned midsole give your feet long-lasting comfort. Non-marking rubber outsole features a traction increase pattern which enhances grip on all surfaces.\n\nFeatures:\n- Smooth leather upper\n- Cushioned Lining and padded tongue for added comfort\n- Air Bubble at the heel\n- Non-marking rubber outsole\n- Padded insole for increased comfort\n\nSKU: 687977-011\n\nMaterial: Leather\n\nColor: Black/White-Dark Grey",
+    "description_html": "<div style=\"text-align:left;\">The Nike Air Max LTD 3 Men's Running Shoes are composed of a durable leather upper. Cushioned tongue and lining combine to provide an excellent feel at your feet. Signature Air Max bubble at the heel and cushioned midsole give your feet long-lasting comfort. Non-marking rubber outsole features a traction increase pattern which enhances grip on all surfaces.<br><br><b>Features:</b><br>- Smooth leather upper<br>- Cushioned Lining and padded tongue for added comfort<br>- Air Bubble at the heel<br>- Non-marking rubber outsole<br>- Padded insole for increased comfort<br><br>SKU: 687977-011<br><br>Material: Leather<br><br>Color: Black/White-Dark Grey</div>",
+    "description_full": "The Nike Air Max LTD 3 Men's Running Shoes are composed of a durable leather upper. Cushioned tongue and lining combine to provide an excellent feel at your feet. Signature Air Max bubble at the heel and cushioned midsole give your feet long-lasting comfort. Non-marking rubber outsole features a traction increase pattern which enhances grip on all surfaces.\n\nFeatures:\n- Smooth leather upper\n- Cushioned Lining and padded tongue for added comfort\n- Air Bubble at the heel\n- Non-marking rubber outsole\n- Padded insole for increased comfort\n\nSKU: 687977-011\n\nMaterial: Leather\n\nColor: Black/White-Dark Grey * Removable cushioned insole for great, all around comfort\n * Breathable mesh shoe lining with a thick padded collar and tongue for comfort and support\n * Visible, Air-Sole unit at the heel for exceptional cushioning",
+    "description_full_html": "<div style=\"text-align:left;\">The Nike Air Max LTD 3 Men's Running Shoes are composed of a durable leather upper. Cushioned tongue and lining combine to provide an excellent feel at your feet. Signature Air Max bubble at the heel and cushioned midsole give your feet long-lasting comfort. Non-marking rubber outsole features a traction increase pattern which enhances grip on all surfaces.<br><br><b>Features:</b><br>- Smooth leather upper<br>- Cushioned Lining and padded tongue for added comfort<br>- Air Bubble at the heel<br>- Non-marking rubber outsole<br>- Padded insole for increased comfort<br><br>SKU: 687977-011<br><br>Material: Leather<br><br>Color: Black/White-Dark Grey</div> <ul>  <li>Removable cushioned insole for great, all around comfort</li>  <li>Breathable mesh shoe lining with a thick padded collar and tongue for comfort and support</li>  <li>Visible, Air-Sole unit at the heel for exceptional cushioning</li> </ul>",
+    "model": "687977 011",
+    "ratings_total": 0,
+    "type": "Casual & Dress Shoes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/NIKE-Men-s-Air-Max-Ltd-3-Running-Shoe_01b494ba-ca60-4e3f-83db-8e6f4763b8da_1.be12163f4b5b4ca186bb42aeab3f1e40.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/NIKE-Men-s-Air-Max-Ltd-3-Running-Shoe_01b494ba-ca60-4e3f-83db-8e6f4763b8da_1.be12163f4b5b4ca186bb42aeab3f1e40.jpeg",
+        "id": "D4C4EDA54D644A12B1FCF6E3AECD9969",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/2d8cafbb-198b-4820-b7ac-f143cb52c94d_1.dd6289b14a5e0aaf061f4b58bdd11ba3.jpeg",
+        "id": "759909EEF6944A32B9DD1D54E5C7EA24",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/7fc76016-8cd8-427f-9550-d9aa7997f90e_1.c1e40bd05f8fcb98b0da169b776d60c4.jpeg",
+        "id": "E1ACDB29156E4F799D65D34105955302",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/39721b84-900e-412f-bd9b-147d849456e9_1.9ae1d129306055e14e8b47813a28bca2.jpeg",
+        "id": "BF2497A3FEC14B0EB410C3DFA6BF1CA9",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/cf93412c-8585-4f64-be60-44f02a0f02de_1.9f9fca2f9a9b43cebc1d6e376d5fd826.jpeg",
+        "id": "0E67DEB809EE4AD483F84E994D41CBE7",
+        "zoomable": true
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/d03b3a2c-ed88-4131-baa2-a2c564e6078b_1.3164d89c0ee059ab111dc1a3ca206bf4.jpeg",
+        "id": "208D8C6E6C6F449DA586A75D83FC9D21",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Fashion Brands",
+        "link": "https://www.walmart.com/cp/fashion-brands/3317124"
+      },
+      {
+        "name": "Nike",
+        "link": "https://www.walmart.com/cp/nike/7807333"
+      },
+      {
+        "name": "Nike Mens",
+        "link": "https://www.walmart.com/cp/nike-mens/3042626"
+      },
+      {
+        "name": "Nike Mens Shoes",
+        "link": "https://www.walmart.com/cp/nike-mens-shoes/6400462"
+      },
+      {
+        "name": "Nike Mens Shoes",
+        "link": "https://www.walmart.com/cp/nike-mens-shoes/4798676"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Brand",
+        "value": "Nike"
+      },
+      {
+        "name": "Casual & Dress Shoe Style",
+        "value": "Running Shoes;Training Shoes;Lifestyle;Casual Shoes"
+      },
+      {
+        "name": "Shoe Category",
+        "value": "Running Shoes;Training Shoes;Lifestyle;Casual Shoes"
+      },
+      {
+        "name": "Shoe Size",
+        "value": "11.5"
+      },
+      {
+        "name": "Shoe Width",
+        "value": "Medium"
+      },
+      {
+        "name": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "Material",
+        "value": "Suede"
+      },
+      {
+        "name": "Insole Material",
+        "value": "Suede"
+      },
+      {
+        "name": "Shoe Sole Material",
+        "value": "Synthetic"
+      },
+      {
+        "name": "Toe Style",
+        "value": "Round Toe"
+      },
+      {
+        "name": "Shoe Heel Style",
+        "value": "687977"
+      },
+      {
+        "name": "Heel Height Style",
+        "value": "687977"
+      },
+      {
+        "name": "Heel Height",
+        "value": "0 in"
+      },
+      {
+        "name": "Shoe Closure",
+        "value": "Lace-Up"
+      },
+      {
+        "name": "Footwear Feature",
+        "value": "Removable cushioned insole for great, all around comfort\nBreathable mesh shoe lining with a thick padded collar and tongue for comfort and support\nVisible, Air-Sole unit at the heel for exceptional cushioning"
+      },
+      {
+        "name": "Manufacturer",
+        "value": "Nike"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "687977 011"
+      },
+      {
+        "name": "Assembled Product Dimensions (L x W x H)",
+        "value": "12.00 x 8.00 x 4.00 Inches"
+      }
+    ],
+    "buybox_winner": {
+      "price": 149.95,
+      "currency_symbol": "$",
+      "offers_from_price": {
+        "currency_symbol": "$",
+        "currency": "USD",
+        "raw": "$119.95",
+        "value": 119.95
+      },
+      "id": "924A1B80F8F6381CA4FF690189C50EC4",
+      "seller": {
+        "name": "The Spot for Fits & Kicks",
+        "id_secondary": "50CD1769E0D5473F82184E87CD37ACBA",
+        "id": 101127721,
+        "link": "https://www.walmart.com/seller/101127721"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Wed, Sep 10 to Titusville, 32780",
+        "message": "Free shipping, arrives by Wed, Sep 10 to Titusville, 32780",
+        "zipcode": "32780"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "The Spot for Fits & Kicks"
+      }
+    },
+    "color": "Black",
+    "dimensions": "12.00 x 8.00 x 4.00 Inches",
+    "variants": [
+      {
+        "item_id": "114977036",
+        "product_id": "687977 011",
+        "link": "https://www.walmart.com/ip/NIKE-Men-s-Air-Max-Ltd-3-Running-Shoe/114977036",
+        "price": 149.95,
+        "in_stock": true,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/NIKE-Men-s-Air-Max-Ltd-3-Running-Shoe_01b494ba-ca60-4e3f-83db-8e6f4763b8da_1.be12163f4b5b4ca186bb42aeab3f1e40.jpeg",
+            "id": "D4C4EDA54D644A12B1FCF6E3AECD9969",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/2d8cafbb-198b-4820-b7ac-f143cb52c94d_1.dd6289b14a5e0aaf061f4b58bdd11ba3.jpeg",
+            "id": "759909EEF6944A32B9DD1D54E5C7EA24",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/7fc76016-8cd8-427f-9550-d9aa7997f90e_1.c1e40bd05f8fcb98b0da169b776d60c4.jpeg",
+            "id": "E1ACDB29156E4F799D65D34105955302",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/39721b84-900e-412f-bd9b-147d849456e9_1.9ae1d129306055e14e8b47813a28bca2.jpeg",
+            "id": "BF2497A3FEC14B0EB410C3DFA6BF1CA9",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/cf93412c-8585-4f64-be60-44f02a0f02de_1.9f9fca2f9a9b43cebc1d6e376d5fd826.jpeg",
+            "id": "0E67DEB809EE4AD483F84E994D41CBE7",
+            "zoomable": true
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/d03b3a2c-ed88-4131-baa2-a2c564e6078b_1.3164d89c0ee059ab111dc1a3ca206bf4.jpeg",
+            "id": "208D8C6E6C6F449DA586A75D83FC9D21",
+            "zoomable": true
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Titusville",
+    "state": "FL",
+    "zipcode": "32780",
+    "store_id": "649"
+  }
+}

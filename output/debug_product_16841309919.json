@@ -1,0 +1,480 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2785,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7215,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "16841309919"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T04:53:20.906Z",
+    "processed_at": "2025-09-01T04:53:27.354Z",
+    "total_time_taken": 6.45,
+    "walmart_url": "https://www.walmart.com/ip/16841309919"
+  },
+  "product": {
+    "brand": "Nike",
+    "link": "https://www.walmart.com/ip/Nike-Men-s-Air-Force-1-Low-07-Black-from-StockX/16841309919",
+    "title": "Nike Men's Air Force 1 Low '07 Black Basketball Shoes, from StockX",
+    "upc": "469015058046",
+    "item_id": "16841309919",
+    "product_id": "315122-001/CW2288-001",
+    "item_number": "3DJH21VVHORS",
+    "description": "As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached",
+    "description_html": "As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached",
+    "description_full": "* Nike Men's Air Force 1 Low '07 Black Basketball Shoes - 315122-001/CW2288-001 - 9\n * Style code: 315122-001/CW2288-001\n * Colorway: Black/Black\n * This item comes verified by StockX, brand new with tags\n * As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached\n * Items shipped from StockX are part of the Xpress Ship program which will ship out within 1 business day\n * Sneaker boxes will be original and in good condition. They may have minor cosmetic damage that could occur from the manufacturer, shipping, and storage\n * Shipping fee is included in the add to cart price for StockX items",
+    "description_full_html": "<ul>  <li>Nike Men's Air Force 1 Low '07 Black Basketball Shoes - 315122-001/CW2288-001 - 9</li>  <li>Style code: 315122-001/CW2288-001</li>  <li>Colorway: Black/Black</li>  <li>This item comes verified by StockX, brand new with tags</li>  <li>As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached</li>  <li>Items shipped from StockX are part of the Xpress Ship program which will ship out within 1 business day</li>  <li>Sneaker boxes will be original and in good condition. They may have minor cosmetic damage that could occur from the manufacturer, shipping, and storage</li>  <li>Shipping fee is included in the add to cart price for StockX items</li> </ul>",
+    "ratings_total": 5,
+    "rating": 4.2,
+    "type": "Athletic Shoes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Air-Force-1-Low-07-Black-from-StockX_00880d4a-ca14-496f-a497-227b35e78158.1bf03d85d4037fd1844d72d9e106be2a.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Air-Force-1-Low-07-Black-from-StockX_00880d4a-ca14-496f-a497-227b35e78158.1bf03d85d4037fd1844d72d9e106be2a.jpeg",
+        "id": "16EFF4E188A047B4A3C8E0901AF303D4",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/1d29c96a-ff97-4778-a8af-4c194452a601.f98776c0b597156f6eb4df38008bfc74.jpeg",
+        "id": "E5AD316DDFA846B388949B576539B976",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f53702ed-398d-46dc-addc-9c8291cbadf2.651b70c7bde351f0544e518675e30169.jpeg",
+        "id": "50425D570705423A8D58C22CF52F8EF8",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/ecb660ae-7d29-4b94-a6da-b96d10c59693.b0e093e264fb2296203924c9bdfbc7cd.jpeg",
+        "id": "16CB955DF20F40A8B591AC3A8FA6DE70",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/46179bd8-e9cc-40a9-b9f2-5b59cea9cc4b.576e5a8334e022c324f6a80c9aa9b7b2.jpeg",
+        "id": "3EE1E20925BA417F849E4D9E94837BE4",
+        "zoomable": false
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Shoes",
+        "link": "https://www.walmart.com/cp/shoes/1045804"
+      },
+      {
+        "name": "Mens Shoes",
+        "link": "https://www.walmart.com/cp/mens-shoes/1045807"
+      },
+      {
+        "name": "Mens Sneakers",
+        "link": "https://www.walmart.com/cp/mens-sneakers/3383528"
+      },
+      {
+        "name": "Mens Casual Sneakers",
+        "link": "https://www.walmart.com/cp/mens-casual-sneakers/1662705"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Shoe Category",
+        "value": "Men's Shoes"
+      },
+      {
+        "name": "Gender",
+        "value": "Male"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "315122-001/CW2288-001"
+      },
+      {
+        "name": "Brand",
+        "value": "Nike"
+      }
+    ],
+    "buybox_winner": {
+      "price": 125,
+      "currency_symbol": "$",
+      "id": "AA76419234A73A86ADF36C03C4E8AF29",
+      "seller": {
+        "name": "StockX",
+        "id_secondary": "D00FBAB3A90E4243BCAF938753A7663B",
+        "id": 102524329,
+        "link": "https://www.walmart.com/seller/102524329"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Sep 5 to San Diego, 92119",
+        "message": "Free shipping, arrives by Fri, Sep 5 to San Diego, 92119",
+        "zipcode": "92119"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "StockX"
+      }
+    },
+    "variants": [
+      {
+        "item_id": "16841309919",
+        "product_id": "3DJH21VVHORS",
+        "link": "https://www.walmart.com/ip/16841309919",
+        "in_stock": true,
+        "price": 125,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-Air-Force-1-Low-07-Black-from-StockX_00880d4a-ca14-496f-a497-227b35e78158.1bf03d85d4037fd1844d72d9e106be2a.jpeg",
+            "id": "16EFF4E188A047B4A3C8E0901AF303D4",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/1d29c96a-ff97-4778-a8af-4c194452a601.f98776c0b597156f6eb4df38008bfc74.jpeg",
+            "id": "E5AD316DDFA846B388949B576539B976",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f53702ed-398d-46dc-addc-9c8291cbadf2.651b70c7bde351f0544e518675e30169.jpeg",
+            "id": "50425D570705423A8D58C22CF52F8EF8",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/ecb660ae-7d29-4b94-a6da-b96d10c59693.b0e093e264fb2296203924c9bdfbc7cd.jpeg",
+            "id": "16CB955DF20F40A8B591AC3A8FA6DE70",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/46179bd8-e9cc-40a9-b9f2-5b59cea9cc4b.576e5a8334e022c324f6a80c9aa9b7b2.jpeg",
+            "id": "3EE1E20925BA417F849E4D9E94837BE4",
+            "zoomable": false
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "9"
+          }
+        ]
+      },
+      {
+        "item_id": "17091711416",
+        "product_id": "1H0QH88ZLC4L",
+        "link": "https://www.walmart.com/ip/17091711416",
+        "in_stock": true,
+        "price": 125,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "10"
+          }
+        ]
+      },
+      {
+        "item_id": "16905355673",
+        "product_id": "6JV0EHPRNSMF",
+        "link": "https://www.walmart.com/ip/16905355673",
+        "in_stock": false,
+        "price": 147,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "12.5"
+          }
+        ]
+      },
+      {
+        "item_id": "17173556308",
+        "product_id": "3SAWLVY0BAXH",
+        "link": "https://www.walmart.com/ip/17173556308",
+        "in_stock": true,
+        "price": 211,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "item_id": "16877468013",
+        "product_id": "7L48T7HQU50P",
+        "link": "https://www.walmart.com/ip/16877468013",
+        "in_stock": true,
+        "price": 132,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "6"
+          }
+        ]
+      },
+      {
+        "item_id": "17091561698",
+        "product_id": "3VPXT3Z9MVSI",
+        "link": "https://www.walmart.com/ip/17091561698",
+        "in_stock": true,
+        "price": 117,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "8.5"
+          }
+        ]
+      },
+      {
+        "item_id": "17550604170",
+        "product_id": "243K2PYG3MCG",
+        "link": "https://www.walmart.com/ip/17550604170",
+        "in_stock": true,
+        "price": 148,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "6.5"
+          }
+        ]
+      },
+      {
+        "item_id": "16879707097",
+        "product_id": "5KHSYCZ4WR4Y",
+        "link": "https://www.walmart.com/ip/16879707097",
+        "in_stock": true,
+        "price": 127,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "item_id": "16864670015",
+        "product_id": "6TE7BQWXACUQ",
+        "link": "https://www.walmart.com/ip/16864670015",
+        "in_stock": true,
+        "price": 147,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "item_id": "16834123960",
+        "product_id": "0SQYXK004FQQ",
+        "link": "https://www.walmart.com/ip/16834123960",
+        "in_stock": false,
+        "price": 125,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "10.5"
+          }
+        ]
+      },
+      {
+        "item_id": "17059474394",
+        "product_id": "3V8EHBES3SAG",
+        "link": "https://www.walmart.com/ip/17059474394",
+        "in_stock": true,
+        "price": 143,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "7.5"
+          }
+        ]
+      },
+      {
+        "item_id": "16864517576",
+        "product_id": "6XA3FRYQEI6C",
+        "link": "https://www.walmart.com/ip/16864517576",
+        "in_stock": false,
+        "price": 126,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "15"
+          }
+        ]
+      },
+      {
+        "item_id": "16833874424",
+        "product_id": "2UUZWZZGSVMR",
+        "link": "https://www.walmart.com/ip/16833874424",
+        "in_stock": true,
+        "price": 119,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "item_id": "16910018191",
+        "product_id": "111NJFAWWR5B",
+        "link": "https://www.walmart.com/ip/16910018191",
+        "in_stock": false,
+        "price": 122,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "13"
+          }
+        ]
+      },
+      {
+        "item_id": "16888265433",
+        "product_id": "20MR7UFCU40O",
+        "link": "https://www.walmart.com/ip/16888265433",
+        "in_stock": true,
+        "price": 115,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "14"
+          }
+        ]
+      },
+      {
+        "item_id": "16817916612",
+        "product_id": "147752R7P8Q0",
+        "link": "https://www.walmart.com/ip/16817916612",
+        "in_stock": true,
+        "price": 125,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "9.5"
+          }
+        ]
+      },
+      {
+        "item_id": "16855100480",
+        "product_id": "3GC54GQDB7PG",
+        "link": "https://www.walmart.com/ip/16855100480",
+        "in_stock": true,
+        "price": 125,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "11.5"
+          }
+        ]
+      },
+      {
+        "item_id": "16834173104",
+        "product_id": "73DUHX4QCGO2",
+        "link": "https://www.walmart.com/ip/16834173104",
+        "in_stock": true,
+        "price": 111,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "11"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "San Diego",
+    "state": "CA",
+    "zipcode": "92119",
+    "store_id": "5140"
+  }
+}

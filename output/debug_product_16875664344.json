@@ -1,0 +1,355 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2781,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7219,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "product",
+    "item_id": "16875664344"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T04:52:51.760Z",
+    "processed_at": "2025-09-01T04:52:53.795Z",
+    "total_time_taken": 2.04,
+    "walmart_url": "https://www.walmart.com/ip/16875664344"
+  },
+  "product": {
+    "brand": "Nike",
+    "link": "https://www.walmart.com/ip/Nike-Men-s-ReactX-Rejuven8-Triple-Black-from-StockX/16875664344",
+    "title": "Nike Men's ReactX Rejuven8 Triple Black, from StockX",
+    "upc": "468912720445",
+    "item_id": "16875664344",
+    "product_id": "HV5060-001",
+    "item_number": "2WOF42502HYA",
+    "description": "As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached",
+    "description_html": "As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached",
+    "description_full": "* Nike Men's ReactX Rejuven8 Triple Black - HV5060-001 - 9\n * Style code: HV5060-001\n * Colorway: Black/Black-Black\n * This item comes verified by StockX, brand new with tags\n * As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached\n * Items shipped from StockX are part of the Xpress Ship program which will ship out within 1 business day\n * Sneaker boxes will be original and in good condition. They may have minor cosmetic damage that could occur from the manufacturer, shipping, and storage\n * Shipping fee is included in the add to cart price for StockX items",
+    "description_full_html": "<ul>  <li>Nike Men's ReactX Rejuven8 Triple Black - HV5060-001 - 9</li>  <li>Style code: HV5060-001</li>  <li>Colorway: Black/Black-Black</li>  <li>This item comes verified by StockX, brand new with tags</li>  <li>As part of this partnership with Walmart, StockX has a 14 day return policy and the item must be in original, new condition with the StockX tag attached</li>  <li>Items shipped from StockX are part of the Xpress Ship program which will ship out within 1 business day</li>  <li>Sneaker boxes will be original and in good condition. They may have minor cosmetic damage that could occur from the manufacturer, shipping, and storage</li>  <li>Shipping fee is included in the add to cart price for StockX items</li> </ul>",
+    "model": "ReactX Rejuven8",
+    "ratings_total": 3,
+    "rating": 5,
+    "type": "Athletic Shoes",
+    "main_image": {
+      "link": "https://i5.walmartimages.com/seo/Nike-Men-s-ReactX-Rejuven8-Triple-Black-from-StockX_cb504a75-7d95-45af-aae2-a420858a2a06.a843b0bbb44e4ab36a4a2b6fc5617cfd.jpeg"
+    },
+    "images": [
+      {
+        "link": "https://i5.walmartimages.com/seo/Nike-Men-s-ReactX-Rejuven8-Triple-Black-from-StockX_cb504a75-7d95-45af-aae2-a420858a2a06.a843b0bbb44e4ab36a4a2b6fc5617cfd.jpeg",
+        "id": "ED051F656D1F4471BC90D7C03AB47823",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/662c1735-5026-4028-a35e-0ded36e1b186.c49faa7a316510f6d54cdfa572e4e3a3.jpeg",
+        "id": "331D0C968C2F45E0AC4B132BCA314B57",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/998bbaa5-aa89-4b5b-91af-98c09322b66c.000b0e60c098ad0b1a02a41cbfd6c5ad.jpeg",
+        "id": "89C768C9BB8E42099AAC4F9919F44E4A",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/4371f8ec-dd3d-4ba7-834d-120f4adec14b.49b1eda4fd56e28b375b9f1ff369d893.jpeg",
+        "id": "A93188B5E9A6422D859DC0545AF9D2AB",
+        "zoomable": false
+      },
+      {
+        "link": "https://i5.walmartimages.com/asr/f53702ed-398d-46dc-addc-9c8291cbadf2.651b70c7bde351f0544e518675e30169.jpeg",
+        "id": "50425D570705423A8D58C22CF52F8EF8",
+        "zoomable": true
+      }
+    ],
+    "breadcrumbs": [
+      {
+        "name": "Clothing",
+        "link": "https://www.walmart.com/cp/clothing/5438"
+      },
+      {
+        "name": "Shoes",
+        "link": "https://www.walmart.com/cp/shoes/1045804"
+      },
+      {
+        "name": "Mens Shoes",
+        "link": "https://www.walmart.com/cp/mens-shoes/1045807"
+      },
+      {
+        "name": "Mens Sneakers",
+        "link": "https://www.walmart.com/cp/mens-sneakers/3383528"
+      },
+      {
+        "name": "Mens Casual Sneakers",
+        "link": "https://www.walmart.com/cp/mens-casual-sneakers/1662705"
+      }
+    ],
+    "specifications": [
+      {
+        "name": "Shoe Category",
+        "value": "Men's Shoes"
+      },
+      {
+        "name": "Shoe Size",
+        "value": "9"
+      },
+      {
+        "name": "Gender",
+        "value": "Male"
+      },
+      {
+        "name": "Color",
+        "value": "Black/Black-Black"
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "HV5060-001"
+      },
+      {
+        "name": "Brand",
+        "value": "Nike"
+      }
+    ],
+    "buybox_winner": {
+      "price": 90,
+      "was_price": 102,
+      "currency_symbol": "$",
+      "id": "DC5947E40CCF3D2B8D88206EEC43E651",
+      "seller": {
+        "name": "StockX",
+        "id_secondary": "D00FBAB3A90E4243BCAF938753A7663B",
+        "id": 102524329,
+        "link": "https://www.walmart.com/seller/102524329"
+      },
+      "fulfillment": {
+        "pickup": false,
+        "delivery_from_store": false,
+        "shipping": true,
+        "shipping_message": "Free shipping, arrives by Fri, Sep 5 to Sacramento, 95829",
+        "message": "Free shipping, arrives by Fri, Sep 5 to Sacramento, 95829",
+        "zipcode": "95829"
+      },
+      "availability": {
+        "raw": "IN_STOCK",
+        "in_stock": true,
+        "preorder": false
+      },
+      "shipping": {
+        "raw": "FREE"
+      },
+      "return_policy": {
+        "duration_days": 30,
+        "type": "Day",
+        "seller": "StockX"
+      }
+    },
+    "color": "Black/Black-Black",
+    "variants": [
+      {
+        "item_id": "16875664344",
+        "product_id": "2WOF42502HYA",
+        "link": "https://www.walmart.com/ip/16875664344",
+        "in_stock": true,
+        "price": 90,
+        "images": [
+          {
+            "link": "https://i5.walmartimages.com/seo/Nike-Men-s-ReactX-Rejuven8-Triple-Black-from-StockX_cb504a75-7d95-45af-aae2-a420858a2a06.a843b0bbb44e4ab36a4a2b6fc5617cfd.jpeg",
+            "id": "ED051F656D1F4471BC90D7C03AB47823",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/662c1735-5026-4028-a35e-0ded36e1b186.c49faa7a316510f6d54cdfa572e4e3a3.jpeg",
+            "id": "331D0C968C2F45E0AC4B132BCA314B57",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/998bbaa5-aa89-4b5b-91af-98c09322b66c.000b0e60c098ad0b1a02a41cbfd6c5ad.jpeg",
+            "id": "89C768C9BB8E42099AAC4F9919F44E4A",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/4371f8ec-dd3d-4ba7-834d-120f4adec14b.49b1eda4fd56e28b375b9f1ff369d893.jpeg",
+            "id": "A93188B5E9A6422D859DC0545AF9D2AB",
+            "zoomable": false
+          },
+          {
+            "link": "https://i5.walmartimages.com/asr/f53702ed-398d-46dc-addc-9c8291cbadf2.651b70c7bde351f0544e518675e30169.jpeg",
+            "id": "50425D570705423A8D58C22CF52F8EF8",
+            "zoomable": true
+          }
+        ],
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "9"
+          }
+        ]
+      },
+      {
+        "item_id": "16870265537",
+        "product_id": "513O5P5HH9Z8",
+        "link": "https://www.walmart.com/ip/16870265537",
+        "in_stock": true,
+        "price": 94,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "item_id": "16860563871",
+        "product_id": "7KZ6N62UJ3QF",
+        "link": "https://www.walmart.com/ip/16860563871",
+        "in_stock": true,
+        "price": 106,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "12"
+          }
+        ]
+      },
+      {
+        "item_id": "16887355795",
+        "product_id": "35D8MQS10RRK",
+        "link": "https://www.walmart.com/ip/16887355795",
+        "in_stock": true,
+        "price": 147,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "13"
+          }
+        ]
+      },
+      {
+        "item_id": "16797416433",
+        "product_id": "1HN404CA7821",
+        "link": "https://www.walmart.com/ip/16797416433",
+        "in_stock": true,
+        "price": 104,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "11"
+          }
+        ]
+      },
+      {
+        "item_id": "16834500094",
+        "product_id": "34IMJ1B74NNT",
+        "link": "https://www.walmart.com/ip/16834500094",
+        "in_stock": true,
+        "price": 111,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "6"
+          }
+        ]
+      },
+      {
+        "item_id": "16814724024",
+        "product_id": "5HKGU5UC9CMZ",
+        "link": "https://www.walmart.com/ip/16814724024",
+        "in_stock": true,
+        "price": 102,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "5"
+          }
+        ]
+      },
+      {
+        "item_id": "16797416429",
+        "product_id": "3UIE0AE9SWC2",
+        "link": "https://www.walmart.com/ip/16797416429",
+        "in_stock": true,
+        "price": 99,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "10"
+          }
+        ]
+      },
+      {
+        "item_id": "16872220826",
+        "product_id": "4XVXP4NR7OHF",
+        "link": "https://www.walmart.com/ip/16872220826",
+        "in_stock": true,
+        "price": 92,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "8"
+          }
+        ]
+      },
+      {
+        "item_id": "16931262865",
+        "product_id": "61G0WJG36SUB",
+        "link": "https://www.walmart.com/ip/16931262865",
+        "in_stock": true,
+        "price": 108,
+        "criteria": [
+          {
+            "name": "actual_color",
+            "value": "black/black-black"
+          },
+          {
+            "name": "shoe_size",
+            "value": "4"
+          }
+        ]
+      }
+    ]
+  },
+  "location_info": {
+    "city": "Sacramento",
+    "state": "CA",
+    "zipcode": "95829",
+    "store_id": "3081"
+  }
+}

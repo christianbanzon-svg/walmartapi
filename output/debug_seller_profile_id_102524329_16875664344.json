@@ -1,0 +1,45 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2790,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7210,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "102524329"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T04:54:05.864Z",
+    "processed_at": "2025-09-01T04:54:08.402Z",
+    "total_time_taken": 2.54,
+    "walmart_url": "https://www.walmart.com/seller/102524329"
+  },
+  "seller_details": {
+    "name": "StockX",
+    "id": "D00FBAB3A90E4243BCAF938753A7663B",
+    "link": "https://www.walmart.com/seller/102524329",
+    "is_pro_seller": false,
+    "logo": "https://i5.walmartimages.com/asr/304e9a3a-7644-4ef3-8e1c-fc71739f6400.6da8e12c3e892b928e14d3fe455480d3.png",
+    "phone": "3134668707",
+    "rating": 4.1,
+    "rating_breakdown": {
+      "one_star": 18,
+      "two_star": 1,
+      "three_star": 4,
+      "four_star": 2,
+      "five_star": 69
+    },
+    "email": "walmartsupport@stockx.com",
+    "address": {
+      "address1": "1046 Woodward Ave",
+      "city": "Detroit",
+      "state": "MI",
+      "zipcode": "48226",
+      "country": "US"
+    }
+  }
+}

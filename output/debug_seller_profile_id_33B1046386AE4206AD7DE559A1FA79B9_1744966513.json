@@ -1,0 +1,44 @@
+{
+  "request_info": {
+    "success": true,
+    "credits_used": 2709,
+    "credits_used_this_request": 1,
+    "credits_remaining": 7291,
+    "credits_reset_at": "2025-09-14T15:57:58.000Z"
+  },
+  "request_parameters": {
+    "source": "walmart",
+    "walmart_domain": "walmart.com",
+    "type": "seller_profile",
+    "seller_id": "101642039"
+  },
+  "request_metadata": {
+    "created_at": "2025-09-01T03:45:34.055Z",
+    "processed_at": "2025-09-01T03:45:39.528Z",
+    "total_time_taken": 5.47,
+    "walmart_url": "https://www.walmart.com/seller/101642039"
+  },
+  "seller_details": {
+    "name": "Global Brands 1971",
+    "id": "33B1046386AE4206AD7DE559A1FA79B9",
+    "link": "https://www.walmart.com/seller/101642039",
+    "is_pro_seller": false,
+    "phone": "5168002851",
+    "rating": 4.4,
+    "rating_breakdown": {
+      "one_star": 13,
+      "two_star": 5,
+      "three_star": 1,
+      "four_star": 6,
+      "five_star": 106
+    },
+    "email": "custcareonline@gmail.com",
+    "address": {
+      "address1": "1478 Old Country Road",
+      "city": "Plainview",
+      "state": "NY",
+      "zipcode": "11803",
+      "country": "US"
+    }
+  }
+}

@@ -6,9 +6,18 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-# Install dependencies first (better layer caching)
-COPY walmart/requirements.txt /app/walmart/requirements.txt
-RUN pip install --no-cache-dir -r walmart/requirements.txt
+# Install system dependencies for playwright
+RUN apt-get update && apt-get install -y \
+    wget \
+    gnupg \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies first (better layer caching)
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install playwright browsers
+RUN playwright install chromium
 
 # Copy project files
 COPY . /app
@@ -19,7 +28,7 @@ RUN mkdir -p /app/walmart/output
 # Expose port for API service
 EXPOSE 8000
 
-# Default entrypoint runs the main scraper; pass flags via `docker run ... -- <flags>` or compose `command:`
-ENTRYPOINT ["python", "-u", "walmart/run_walmart.py"]
+# Default entrypoint runs the API service
+ENTRYPOINT ["python", "-u", "walmart/api.py"]
 
 

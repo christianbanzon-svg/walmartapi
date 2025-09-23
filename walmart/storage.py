@@ -120,3 +120,10 @@ def insert_seller_snapshot(listing_id: str, seller_id: str, data: Dict[str, Any]
 		)
 
 
+def upsert_seller_summary(data: Dict[str, Any]) -> None:
+	"""Upsert seller summary data - placeholder function for compatibility."""
+	# This function is called by the optimized crawlers but the storage module
+	# doesn't have a seller summary table yet. For now, we'll just pass.
+	pass
+
+

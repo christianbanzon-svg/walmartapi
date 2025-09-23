@@ -16,6 +16,8 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from config import get_config
 from run_walmart import main as run_scraper
+from run_walmart_id_crawler import run_id_crawler
+from run_walmart_id_crawler_fast_simple import run_fast_id_crawler
 
 app = FastAPI(
     title="Walmart Scraper API",
@@ -36,6 +38,12 @@ class ScrapeRequest(BaseModel):
     category_id: Optional[str] = None
     retry_seller_passes: int = 3
     retry_seller_delay: int = 5
+
+class IDCrawlRequest(BaseModel):
+    item_ids: str = "5245210374"
+    export: str = "csv"
+    debug: bool = False
+    sleep: float = 0.5
 
 class ScrapeResponse(BaseModel):
     task_id: str
@@ -169,6 +177,95 @@ async def get_latest_results():
         filename=latest_file.name,
         media_type="text/csv"
     )
+
+@app.post("/crawl-ids", response_model=ScrapeResponse)
+async def start_id_crawl(request: IDCrawlRequest, background_tasks: BackgroundTasks):
+    """Start crawling specific Walmart item IDs."""
+    task_id = f"id_crawl_{int(time.time())}"
+    
+    # Parse item IDs
+    item_ids = [id.strip() for id in request.item_ids.split(",") if id.strip()]
+    if not item_ids:
+        raise HTTPException(status_code=400, detail="No valid item IDs provided")
+    
+    # Store task info
+    running_tasks[task_id] = {
+        "status": "running",
+        "start_time": datetime.now().isoformat(),
+        "request": request.dict(),
+        "output_files": [],
+        "type": "id_crawl"
+    }
+    
+    # Start background task with fast crawler
+    background_tasks.add_task(run_fast_id_crawl_task, task_id, request, item_ids)
+    
+    return ScrapeResponse(
+        task_id=task_id,
+        status="started",
+        message=f"FAST ID crawling task started for {len(item_ids)} item IDs",
+        timestamp=datetime.now().isoformat()
+    )
+
+async def run_fast_id_crawl_task(task_id: str, request: IDCrawlRequest, item_ids: List[str]):
+    """Background task to run FAST ID crawler."""
+    try:
+        # Prepare export formats
+        export_formats = [request.export] if isinstance(request.export, str) else request.export
+        
+        # Run the FAST ID crawler
+        results = await run_fast_id_crawler(
+            item_ids=item_ids,
+            export_formats=export_formats,
+            debug=request.debug,
+            sleep=request.sleep,
+            skip_seller_enrichment=False,  # Keep seller enrichment for API
+            max_concurrent=10
+        )
+        
+        # Update task status
+        running_tasks[task_id].update({
+            "status": "completed",
+            "end_time": datetime.now().isoformat(),
+            "results_count": len(results),
+            "output_files": [f for f in os.listdir(get_config().output_dir) if f.startswith("walmart_id_crawl_fast")]
+        })
+        
+    except Exception as e:
+        running_tasks[task_id].update({
+            "status": "failed",
+            "end_time": datetime.now().isoformat(),
+            "error": str(e)
+        })
+
+async def run_id_crawl_task(task_id: str, request: IDCrawlRequest, item_ids: List[str]):
+    """Background task to run ID crawler."""
+    try:
+        # Prepare export formats
+        export_formats = [request.export] if isinstance(request.export, str) else request.export
+        
+        # Run the ID crawler
+        results = await run_id_crawler(
+            item_ids=item_ids,
+            export_formats=export_formats,
+            debug=request.debug,
+            sleep=request.sleep
+        )
+        
+        # Update task status
+        running_tasks[task_id].update({
+            "status": "completed",
+            "end_time": datetime.now().isoformat(),
+            "results_count": len(results),
+            "output_files": [f for f in os.listdir(get_config().output_dir) if f.startswith("walmart_id_crawl")]
+        })
+        
+    except Exception as e:
+        running_tasks[task_id].update({
+            "status": "failed",
+            "end_time": datetime.now().isoformat(),
+            "error": str(e)
+        })
 
 @app.delete("/tasks/{task_id}")
 async def delete_task(task_id: str):

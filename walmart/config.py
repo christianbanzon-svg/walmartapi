@@ -26,6 +26,7 @@ def get_config() -> AppConfig:
 
 	base_url = os.getenv("BLUECART_BASE_URL", "https://api.bluecartapi.com/request")
 	site = os.getenv("WALMART_DOMAIN", "walmart.com")
+	# Fix the output directory path to use the correct path relative to config file
 	output_dir = os.getenv("OUTPUT_DIR", os.path.join(os.path.dirname(__file__), "output"))
 	database_path = os.getenv("DATABASE_PATH", os.path.join(os.path.dirname(__file__), "walmart.sqlite3"))
 

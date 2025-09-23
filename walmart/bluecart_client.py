@@ -69,8 +69,6 @@ class BlueCartClient:
 		if extra:
 			# Map known aliases
 			mapped: Dict[str, Any] = dict(extra)
-			if "zipcode" in mapped and mapped.get("zipcode"):
-				mapped["customer_zipcode"] = mapped.pop("zipcode")
 			payload.update(mapped)
 		return self._request(payload)
 

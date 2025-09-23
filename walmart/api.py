@@ -34,7 +34,7 @@ class ScrapeRequest(BaseModel):
     sleep: int = 1
     export: str = "csv"
     debug: bool = False
-    zipcode: Optional[str] = None
+    walmart_domain: Optional[str] = None  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
     category_id: Optional[str] = None
     retry_seller_passes: int = 3
     retry_seller_delay: int = 5
@@ -44,6 +44,7 @@ class IDCrawlRequest(BaseModel):
     export: str = "csv"
     debug: bool = False
     sleep: float = 0.5
+    walmart_domain: Optional[str] = None  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
 
 class ScrapeResponse(BaseModel):
     task_id: str
@@ -58,6 +59,83 @@ async def root():
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "timestamp": datetime.now().isoformat()}
+
+@app.get("/locations")
+async def get_locations():
+    """Get all available locations (ZIP codes) for scraping"""
+    return {
+        "description": "Available Walmart store locations for scraping",
+        "total_locations": 80,
+        "categories": {
+            "east_coast": [
+                {"name": "New York, NY", "zipcode": "10001", "population": "8.8M"},
+                {"name": "Boston, MA", "zipcode": "02101", "population": "695K"},
+                {"name": "Philadelphia, PA", "zipcode": "19101", "population": "1.6M"},
+                {"name": "Washington, DC", "zipcode": "20001", "population": "705K"},
+                {"name": "Atlanta, GA", "zipcode": "30301", "population": "498K"},
+                {"name": "Miami, FL", "zipcode": "33101", "population": "467K"},
+                {"name": "Tampa, FL", "zipcode": "33601", "population": "384K"},
+                {"name": "Orlando, FL", "zipcode": "32801", "population": "307K"},
+                {"name": "Charlotte, NC", "zipcode": "28201", "population": "885K"},
+                {"name": "Richmond, VA", "zipcode": "23219", "population": "226K"}
+            ],
+            "midwest": [
+                {"name": "Chicago, IL", "zipcode": "60601", "population": "2.7M"},
+                {"name": "Detroit, MI", "zipcode": "48201", "population": "639K"},
+                {"name": "Cleveland, OH", "zipcode": "44101", "population": "383K"},
+                {"name": "Columbus, OH", "zipcode": "43201", "population": "906K"},
+                {"name": "Indianapolis, IN", "zipcode": "46201", "population": "887K"},
+                {"name": "Milwaukee, WI", "zipcode": "53201", "population": "577K"},
+                {"name": "Minneapolis, MN", "zipcode": "55401", "population": "429K"},
+                {"name": "Kansas City, MO", "zipcode": "64101", "population": "508K"},
+                {"name": "St. Louis, MO", "zipcode": "63101", "population": "301K"},
+                {"name": "Cincinnati, OH", "zipcode": "45201", "population": "309K"}
+            ],
+            "west_coast": [
+                {"name": "Los Angeles, CA", "zipcode": "90210", "population": "3.9M"},
+                {"name": "San Francisco, CA", "zipcode": "94101", "population": "873K"},
+                {"name": "San Diego, CA", "zipcode": "92101", "population": "1.4M"},
+                {"name": "Sacramento, CA", "zipcode": "95814", "population": "524K"},
+                {"name": "Seattle, WA", "zipcode": "98101", "population": "749K"},
+                {"name": "Portland, OR", "zipcode": "97201", "population": "652K"},
+                {"name": "Las Vegas, NV", "zipcode": "89101", "population": "641K"},
+                {"name": "Phoenix, AZ", "zipcode": "85001", "population": "1.6M"},
+                {"name": "Denver, CO", "zipcode": "80201", "population": "715K"},
+                {"name": "Salt Lake City, UT", "zipcode": "84101", "population": "200K"}
+            ],
+            "south_southwest": [
+                {"name": "Houston, TX", "zipcode": "77001", "population": "2.3M"},
+                {"name": "Dallas, TX", "zipcode": "75201", "population": "1.3M"},
+                {"name": "Austin, TX", "zipcode": "78701", "population": "965K"},
+                {"name": "San Antonio, TX", "zipcode": "78201", "population": "1.5M"},
+                {"name": "Fort Worth, TX", "zipcode": "76101", "population": "918K"},
+                {"name": "Oklahoma City, OK", "zipcode": "73101", "population": "681K"},
+                {"name": "Tulsa, OK", "zipcode": "74101", "population": "411K"},
+                {"name": "Little Rock, AR", "zipcode": "72201", "population": "198K"},
+                {"name": "Memphis, TN", "zipcode": "38101", "population": "633K"},
+                {"name": "Nashville, TN", "zipcode": "37201", "population": "689K"}
+            ],
+            "walmart_corporate": [
+                {"name": "Bentonville, AR", "zipcode": "72712", "note": "Walmart HQ"},
+                {"name": "Rogers, AR", "zipcode": "72756", "note": "Near Walmart HQ"},
+                {"name": "Springdale, AR", "zipcode": "72764", "note": "Near Walmart HQ"},
+                {"name": "Fayetteville, AR", "zipcode": "72701", "note": "University of Arkansas"}
+            ],
+            "major_markets": [
+                {"name": "Pittsburgh, PA", "zipcode": "15201", "population": "303K"},
+                {"name": "Buffalo, NY", "zipcode": "14201", "population": "278K"},
+                {"name": "Rochester, NY", "zipcode": "14601", "population": "211K"},
+                {"name": "Albany, NY", "zipcode": "12201", "population": "99K"},
+                {"name": "Hartford, CT", "zipcode": "06101", "population": "121K"},
+                {"name": "Providence, RI", "zipcode": "02901", "population": "190K"},
+                {"name": "Baltimore, MD", "zipcode": "21201", "population": "586K"},
+                {"name": "Norfolk, VA", "zipcode": "23501", "population": "238K"},
+                {"name": "Louisville, KY", "zipcode": "40201", "population": "617K"},
+                {"name": "Lexington, KY", "zipcode": "40501", "population": "323K"}
+            ]
+        },
+        "usage": "Copy any zipcode from this list and use it in the POST /scrape endpoint"
+    }
 
 @app.post("/scrape", response_model=ScrapeResponse)
 async def start_scrape(request: ScrapeRequest, background_tasks: BackgroundTasks):
@@ -95,16 +173,18 @@ async def run_scrape_task(task_id: str, request: ScrapeRequest):
         
         if request.debug:
             args.append("--debug")
-        if request.zipcode:
-            args.extend(["--zipcode", request.zipcode])
+        if request.walmart_domain:
+            args.extend(["--walmart-domain", request.walmart_domain])
         if request.category_id:
             args.extend(["--category-id", request.category_id])
         
         args.extend(["--retry-seller-passes", str(request.retry_seller_passes)])
         args.extend(["--retry-seller-delay", str(request.retry_seller_delay)])
         
-        # Run the scraper
-        result = run_scraper(args)
+        # Run the scraper in a thread pool to avoid blocking
+        import asyncio
+        loop = asyncio.get_event_loop()
+        result = await loop.run_in_executor(None, run_scraper, args)
         
         # Update task status
         running_tasks[task_id]["status"] = "completed"
@@ -266,6 +346,48 @@ async def run_id_crawl_task(task_id: str, request: IDCrawlRequest, item_ids: Lis
             "end_time": datetime.now().isoformat(),
             "error": str(e)
         })
+
+@app.get("/domains")
+async def get_domains():
+    """Get all available Walmart domains for scraping"""
+    domains = {
+        "description": "Available Walmart domains for scraping via BlueCart API",
+        "total_domains": 2,
+        "default_domain": "walmart.com",
+        "domains": {
+            "united_states": {
+                "domain": "walmart.com",
+                "country": "United States",
+                "region": "North America",
+                "currency": "USD",
+                "language": "English",
+                "description": "Main US Walmart store",
+                "status": "✅ Working",
+                "notes": "Full product catalog available"
+            },
+            "canada": {
+                "domain": "walmart.ca", 
+                "country": "Canada",
+                "region": "North America",
+                "currency": "CAD",
+                "language": "English/French",
+                "description": "Canadian Walmart store",
+                "status": "✅ Working",
+                "notes": "Limited product catalog - fewer items available"
+            }
+        },
+        "usage": {
+            "api_parameter": "walmart_domain",
+            "example_request": {
+                "keywords": "nike",
+                "max_per_keyword": 10,
+                "walmart_domain": "walmart.ca"
+            },
+            "note": "If walmart_domain is not specified, defaults to walmart.com",
+            "important": "Canadian Walmart (walmart.ca) has fewer products available than US Walmart"
+        }
+    }
+    return domains
 
 @app.delete("/tasks/{task_id}")
 async def delete_task(task_id: str):

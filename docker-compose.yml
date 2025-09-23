@@ -1,17 +1,14 @@
-version: "3.9"
 services:
   walmart-api:
     build: .
     image: walmartscraper:latest
     ports:
       - "8000:8000"
-    env_file:
-      - .env
     environment:
-      - BLUECART_API_KEY=${BLUECART_API_KEY}
+      - BLUECART_API_KEY=C2246F41A58F41B799B18CD95F2849FD
       - BLUECART_BASE_URL=${BLUECART_BASE_URL:-https://api.bluecartapi.com/request}
       - WALMART_DOMAIN=${WALMART_DOMAIN:-walmart.com}
-      - OUTPUT_DIR=${OUTPUT_DIR:-/data/output}
+      - OUTPUT_DIR=/data/output
       - DATABASE_PATH=${DATABASE_PATH:-/data/walmart.sqlite3}
       - PYTHONPATH=/app
     volumes:
@@ -21,17 +18,14 @@ services:
   walmart:
     build: .
     image: walmartscraper:latest
-    env_file:
-      - .env
     environment:
-      - BLUECART_API_KEY=${BLUECART_API_KEY}
+      - BLUECART_API_KEY=C2246F41A58F41B799B18CD95F2849FD
       - BLUECART_BASE_URL=${BLUECART_BASE_URL:-https://api.bluecartapi.com/request}
       - WALMART_DOMAIN=${WALMART_DOMAIN:-walmart.com}
-      - OUTPUT_DIR=${OUTPUT_DIR:-/data/output}
+      - OUTPUT_DIR=/data/output
       - DATABASE_PATH=${DATABASE_PATH:-/data/walmart.sqlite3}
       - KEYWORDS=${KEYWORDS:-instyler}
       - MAX_PER_KEYWORD=${MAX_PER_KEYWORD:-10}
-      - ZIPCODE=${ZIPCODE:-}
       - CATEGORY_ID=${CATEGORY_ID:-}
       - SLEEP=${SLEEP:-0.0}
       - MAX_PAGES=${MAX_PAGES:-50}
@@ -55,8 +49,6 @@ services:
       - ${RETRY_SELLER_PASSES}
       - --retry-seller-delay
       - ${RETRY_SELLER_DELAY}
-      - --zipcode
-      - ${ZIPCODE}
       - --category-id
       - ${CATEGORY_ID}
 

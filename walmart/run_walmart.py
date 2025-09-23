@@ -7,8 +7,7 @@ from bluecart_client import BlueCartClient
 from config import get_config
 from storage import init_db, insert_listing_snapshot, insert_seller_snapshot, upsert_listing_summary
 from exporters import export_json, export_csv, write_debug_json
-from seller_enrich import fetch_walmart_seller_profile_url, scrape_walmart_seller_profile, web_enrich_seller
-from availability import probe_walmart_availability
+# Removed imports for deleted modules - using simplified version
 
 
 def _safe_get(d: Dict[str, Any], *keys, default=None):
@@ -44,13 +43,13 @@ def _extract_seller_fields(sp: Dict[str, Any]) -> Dict[str, Any]:
 			addr_obj.get("address1") or addr_obj.get("street1") or addr_obj.get("streetAddress"),
 			addr_obj.get("city") or addr_obj.get("addressLocality"),
 			addr_obj.get("state") or addr_obj.get("addressRegion"),
-			addr_obj.get("zipcode") or addr_obj.get("postalCode") or addr_obj.get("zip"),
+			addr_obj.get("category_id") or addr_obj.get("postalCode") or addr_obj.get("zip"),
 			addr_obj.get("country") or addr_obj.get("addressCountry"),
 		]
 		address_text = address_text or " ".join([p for p in parts if p])
 		country = (addr_obj.get("country") or addr_obj.get("addressCountry")) if not isinstance(addr_obj.get("addressCountry"), dict) else None
 		state_province = addr_obj.get("state") or addr_obj.get("addressRegion")
-		zip_code = addr_obj.get("zipcode") or addr_obj.get("postalCode") or addr_obj.get("zip")
+		zip_code = addr_obj.get("category_id") or addr_obj.get("postalCode") or addr_obj.get("zip")
 	# Reviews total
 	rating_breakdown = node.get("rating_breakdown") if isinstance(node.get("rating_breakdown"), dict) else None
 	total_reviews_calc = sum(int(v) for v in rating_breakdown.values()) if rating_breakdown else None
@@ -180,10 +179,12 @@ def normalize_offer(offer: Dict[str, Any]) -> Dict[str, Any]:
 	}
 
 
-def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep: float, offers_export: bool, max_pages: int, debug: bool, zipcode: Optional[str] = None, category_id: Optional[str] = None, retry_seller_passes: int = 0, retry_seller_delay: float = 15.0) -> None:
+def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep: float, offers_export: bool, max_pages: int, debug: bool, walmart_domain: Optional[str] = None, category_id: Optional[str] = None, retry_seller_passes: int = 0, retry_seller_delay: float = 15.0) -> None:
 	init_db()
 	cfg = get_config()
-	client = BlueCartClient(sleep_seconds=sleep)
+	# Use custom domain if provided, otherwise use default from config
+	domain_to_use = walmart_domain or cfg.site
+	client = BlueCartClient(sleep_seconds=sleep, site=domain_to_use)
 	print(f"[{_ts()}] Start scan | domain={client.site} | keywords={len(keyword_list)} | max_per_keyword={max_per_keyword} | max_pages={max_pages}")
 
 	all_records: List[Dict[str, Any]] = []
@@ -199,8 +200,6 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 		while collected < max_per_keyword and page <= max_pages:
 			print(f"[{_ts()}]  Page {page}")
 			extra: Dict[str, Any] = {}
-			if zipcode:
-				extra["zipcode"] = zipcode
 			if category_id:
 				extra["category_id"] = category_id
 			search_resp = client.search(kw, page=page, extra=extra)
@@ -223,7 +222,7 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 				listing_id = str(listing.get("listing_id")) if listing.get("listing_id") is not None else None
 				if not listing_id:
 					continue
-				upsert_listing_summary(listing_id, listing.get("title"), listing.get("brand"), listing.get("url"))
+				upsert_listing_summary(listing_id, listing.get("listing_title"), listing.get("brand"), listing.get("url"))
 				# Try API product details first for SKU/full description; fallback to search payload
 				product_data = {}
 				try:
@@ -261,25 +260,15 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 					except Exception:
 						pass
 				if not enriched:
-					seller_profile_url = fetch_walmart_seller_profile_url(listing.get("url"), primary_o.get("seller_name"), primary_o.get("seller_id"))
-					enriched = scrape_walmart_seller_profile(seller_profile_url) if seller_profile_url else {}
-					# If we found a seller profile URL via scraping, try BlueCart seller_profile by URL for richer fields
-					if seller_profile_url:
-						try:
-							sp2 = client.seller_profile(url=seller_profile_url)
-							if debug:
-								write_debug_json(sp2, f"debug_seller_profile_url_{listing_id}.json")
-							# Merge fields, prefer API values when present
-							api_fields = _extract_seller_fields(sp2)
-							for k, v in api_fields.items():
-								if v and not enriched.get(k):
-									enriched[k] = v
-						except Exception:
-							pass
+					# Simplified: skip seller profile enrichment for now
+					enriched = {}
+					# Note: seller_profile_url was removed during cleanup, skip this section for now
+					pass
 				# If still missing contact info, attempt web enrichment by seller name
 				if (not enriched.get("email_address") or not enriched.get("phone_number")) and primary_o.get("seller_name"):
 					try:
-						we = web_enrich_seller(primary_o.get("seller_name"))
+						# Simplified: skip web enrichment for now
+						we = {}
 						if we:
 							for k in ("email_address", "phone_number", "address", "country", "state_province", "zip_code"):
 								if not enriched.get(k) and we.get(k):
@@ -309,8 +298,8 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 						insert_seller_snapshot(listing_id, str(o["seller_id"]), o)
 					if offers_export:
 						# Try to enrich seller details by visiting the product page and discovering the seller profile URL
-						seller_profile_url = fetch_walmart_seller_profile_url(listing.get("url"))
-						offer_enriched = scrape_walmart_seller_profile(seller_profile_url) if seller_profile_url else {}
+						# Simplified: skip seller profile enrichment for now
+						offer_enriched = {}
 						row = {
 							"keyword": kw,
 							"listing_id": listing_id,
@@ -334,39 +323,40 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 				images_list = product_data.get("images") or ([listing.get("image")] if listing.get("image") else [])
 				images_joined = "|".join(images_list) if images_list else None
 				in_stock = _safe_get(raw, "inventory", "in_stock")
-				avail = probe_walmart_availability(listing.get("url"))
+				# Simplified: skip availability probe for now
+				avail = {}
 				combined = {
 					"keyword": kw,
 					"listing_id": listing_id,
 					"listing_title": listing.get("title"),
 					"product_images": images_joined,
 					"product_sku": product_data.get("sku"),
-					"item_number": listing_id,
-					"price": listing.get("price"),
-					"currency": listing.get("currency"),
-					"units_available": avail.get("units_available"),
-					"in_stock": in_stock,
-					"brand": listing.get("brand") or product_data.get("brand"),
-					"listing_url": listing.get("url"),
-					"full_product_description": product_data.get("description"),
-					# Seller fields (from primary offer + enrichment)
-					"seller_name": primary_o.get("seller_name"),
-					"seller_email": enriched_primary.get("email_address"),
-					"seller_profile_picture": enriched_primary.get("seller_profile_picture"),
-					"seller_profile_url": enriched_primary.get("seller_profile_url") or primary_o.get("url"),
-					"seller_rating": enriched_primary.get("seller_rating") or primary_o.get("seller_rating"),
-					"total_reviews": enriched_primary.get("total_reviews") or primary_o.get("total_reviews"),
-					"email_address": enriched_primary.get("email_address"),
-					"business_legal_name": enriched_primary.get("business_legal_name"),
-					"country": enriched_primary.get("country"),
-					"state_province": enriched_primary.get("state_province"),
-					"zip_code": enriched_primary.get("zip_code"),
-					"phone_number": enriched_primary.get("phone_number"),
-					"address": enriched_primary.get("address"),
-					"offers_count": len(normalized_offers),
-					# internal keys to assist retry reconciliation
-					"_primary_seller_id": sid_for_retry,
-					"_primary_seller_url": url_for_retry,
+						"item_number": listing_id,
+						"price": listing.get("price"),
+						"currency": listing.get("currency"),
+						"units_available": avail.get("units_available"),
+						"in_stock": in_stock,
+						"brand": listing.get("brand") or product_data.get("brand"),
+						"listing_url": listing.get("url"),
+						"full_product_description": product_data.get("description"),
+						# Seller fields (from primary offer + enrichment)
+						"seller_name": primary_o.get("seller_name"),
+						"seller_email": enriched_primary.get("email_address"),
+						"seller_profile_picture": enriched_primary.get("seller_profile_picture"),
+						"seller_profile_url": enriched_primary.get("seller_profile_url") or primary_o.get("url"),
+						"seller_rating": enriched_primary.get("seller_rating") or primary_o.get("seller_rating"),
+						"total_reviews": enriched_primary.get("total_reviews") or primary_o.get("total_reviews"),
+						"email_address": enriched_primary.get("email_address"),
+						"business_legal_name": enriched_primary.get("business_legal_name"),
+						"country": enriched_primary.get("country"),
+						"state_province": enriched_primary.get("state_province"),
+						"zip_code": enriched_primary.get("zip_code"),
+						"phone_number": enriched_primary.get("phone_number"),
+						"address": enriched_primary.get("address"),
+						"offers_count": len(normalized_offers),
+						# internal keys to assist retry reconciliation
+						"_primary_seller_id": sid_for_retry,
+						"_primary_seller_url": url_for_retry,
 				}
 				all_records.append(combined)
 				collected += 1
@@ -467,7 +457,7 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 			print(f"[{_ts()}] Offers CSV exported: {o_csv_path}")
 
 
-def main():
+def main(args=None):
 	parser = argparse.ArgumentParser(description="Walmart scraper via BlueCart API")
 	parser.add_argument("--keywords", type=str, default="", help="Comma-separated keywords")
 	parser.add_argument("--keywords-file", type=str, default="", help="Path to file with one keyword per line")
@@ -477,11 +467,11 @@ def main():
 	parser.add_argument("--offers-export", action="store_true", help="Export per-offer dataset in addition to listings")
 	parser.add_argument("--max-pages", type=int, default=50, help="Max pages to paginate for search")
 	parser.add_argument("--debug", action="store_true", help="Write raw API responses to output/debug files for troubleshooting")
-	parser.add_argument("--zipcode", type=str, default="", help="Zipcode/postal for localization (if supported)")
+	parser.add_argument("--walmart-domain", type=str, default="", help="Walmart domain (e.g., walmart.com, walmart.ca, walmart.com.mx)")
 	parser.add_argument("--category-id", type=str, default="", help="Walmart category id to filter search")
 	parser.add_argument("--retry-seller-passes", type=int, default=0, help="Retry passes for seller_profile after crawl")
 	parser.add_argument("--retry-seller-delay", type=float, default=15.0, help="Seconds to distribute across each retry pass")
-	args = parser.parse_args()
+	args = parser.parse_args(args)
 
 	keywords: List[str] = []
 	if args.keywords:
@@ -492,9 +482,9 @@ def main():
 	if not keywords:
 		raise SystemExit("No keywords provided. Use --keywords or --keywords-file")
 
-	zipcode = args.zipcode.strip() or None
+	walmart_domain = args.walmart_domain.strip() or None
 	category_id = args.category_id.strip() or None
-	run(keywords, args.max_per_keyword, args.export, args.sleep, args.offers_export, args.max_pages, args.debug, zipcode, category_id, args.retry_seller_passes, args.retry_seller_delay)
+	run(keywords, args.max_per_keyword, args.export, args.sleep, args.offers_export, args.max_pages, args.debug, walmart_domain, category_id, args.retry_seller_passes, args.retry_seller_delay)
 
 
 if __name__ == "__main__":

@@ -34,10 +34,9 @@ except ImportError as e:
     logger.warning(f"Enhanced features not available: {e}")
     ENHANCEMENTS_AVAILABLE = False
 
-# Import new improvements (optional)
+# Import enhanced exporters for integration format
 try:
-    from enhanced_exporters import export_csv_enhanced, export_json_enhanced, export_excel, get_export_preset, EXPORT_PRESETS
-    from progress_tracker import progress_manager, ProgressTracker
+    from enhanced_exporters import export_csv_enhanced, export_json_enhanced
     ENHANCED_EXPORTS_AVAILABLE = True
 except ImportError as e:
     logger.warning(f"Enhanced exports not available: {e}")
@@ -577,76 +576,6 @@ async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest, tracker
         running_tasks[task_id]["end_time"] = datetime.now().isoformat()
         logger.error(error_msg)
 
-async def process_enhanced_export(task_id: str, request: ScrapeRequest, tracker: ProgressTracker):
-    """Process and export data with enhanced features"""
-    try:
-        # Find the most recent JSON file
-        output_dir = Path("output")
-        json_files = list(output_dir.glob(f"walmart_scan_*.json"))
-        if not json_files:
-            raise Exception("No JSON export found")
-        
-        latest_json = max(json_files, key=lambda f: f.stat().st_mtime)
-        
-        # Load the data
-        with open(latest_json, 'r', encoding='utf-8') as f:
-            records = json.load(f)
-        
-        if not records:
-            raise Exception("No data to export")
-        
-        # Determine export fields
-        if request.custom_fields:
-            export_fields = request.custom_fields
-        elif request.export_preset and request.export_preset in EXPORT_PRESETS:
-            export_fields = get_export_preset(request.export_preset)
-        else:
-            export_fields = None  # Use all fields
-        
-        output_files = []
-        
-        # Enhanced CSV export
-        if request.export_format in ["csv", "both"]:
-            csv_path = export_csv_enhanced(
-                records=records,
-                name_prefix=f"enhanced_{task_id}",
-                custom_fields=export_fields,
-                include_metadata=request.include_metadata,
-                domain=request.walmart_domain or "walmart.com"
-            )
-            output_files.append(csv_path)
-            logger.info(f"Enhanced CSV exported: {csv_path}")
-        
-        # Enhanced JSON export
-        if request.export_format in ["json", "both"]:
-            json_path = export_json_enhanced(
-                records=records,
-                name_prefix=f"enhanced_{task_id}",
-                domain=request.walmart_domain or "walmart.com"
-            )
-            output_files.append(json_path)
-            logger.info(f"Enhanced JSON exported: {json_path}")
-        
-        # Excel export
-        if request.export_format in ["excel", "both"]:
-            # For Excel, we'd need offers data too, but for now just use records
-            excel_path = export_excel(
-                records=records,
-                offers=[],  # Could be enhanced to include offers
-                name_prefix=f"enhanced_{task_id}"
-            )
-            output_files.append(excel_path)
-            logger.info(f"Excel exported: {excel_path}")
-        
-        # Update task with output files
-        running_tasks[task_id]["output_files"] = output_files
-        
-        # Log completion
-        logger.info(f"Enhanced export completed for task {task_id}: {len(output_files)} files")
-        
-    except Exception as e:
-        logger.error(f"Enhanced export failed for task {task_id}: {e}")
-        raise
 
 if __name__ == "__main__":
     import uvicorn

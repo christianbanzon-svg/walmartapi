@@ -93,10 +93,8 @@ class ScrapeRequest(BaseModel):
     retry_seller_passes: int = 3
     retry_seller_delay: int = 5
     
-    # New enhanced options
-    export_format: Optional[str] = "csv"  # "csv", "excel", "both"
-    export_preset: Optional[str] = "detailed"  # "basic", "detailed", "seller_focus", "analytics", "full"
-    custom_fields: Optional[List[str]] = None
+    # Enhanced options (now default for main endpoint)
+    export_format: Optional[str] = "csv"  # "csv", "json", "both"
     include_metadata: bool = True
 
 class IDCrawlRequest(BaseModel):
@@ -199,28 +197,28 @@ async def get_locations():
 
 @app.post("/scrape", response_model=ScrapeResponse)
 async def start_scrape(request: ScrapeRequest, background_tasks: BackgroundTasks):
-    """Start a new scraping task"""
-    task_id = f"task_{int(time.time())}"
+    """Start an enhanced scraping task with integration format"""
+    task_id = f"enhanced_{int(time.time())}"
     
     # Store task info
     running_tasks[task_id] = {
         "status": "running",
         "start_time": datetime.now().isoformat(),
-        "request": request.dict(),
+        "request": request.model_dump(),
         "output_files": []
     }
     
-    # Start background task
-    background_tasks.add_task(run_scrape_task, task_id, request)
+    # Start background task with enhanced features
+    background_tasks.add_task(run_enhanced_scrape_task, task_id, request)
     
     return ScrapeResponse(
         task_id=task_id,
         status="started",
-        message="Scraping task started successfully",
+        message="Enhanced scraping task started successfully",
         timestamp=datetime.now().isoformat()
     )
 
-async def run_scrape_task(task_id: str, request: ScrapeRequest):
+async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
     """Background task to run the scraper with built-in improvements"""
     try:
         # Prepare arguments for the scraper

@@ -22,6 +22,9 @@ RUN playwright install chromium
 # Copy project files
 COPY . /app
 
+# Force rebuild - ensure latest api.py is copied
+RUN echo "Build timestamp: $(date)" > /app/build_info.txt
+
 # Ensure output directory exists for mounted volumes
 RUN mkdir -p /app/walmart/output
 

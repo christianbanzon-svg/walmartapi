@@ -1,4 +1,13 @@
 services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
   walmart-api:
     build: .
     image: walmartscraper:latest
@@ -11,9 +20,13 @@ services:
       - OUTPUT_DIR=/data/output
       - DATABASE_PATH=${DATABASE_PATH:-/data/walmart.sqlite3}
       - PYTHONPATH=/app
+      - REDIS_URL=redis://redis:6379
     volumes:
       - ./walmart/output:/data/output
+    depends_on:
+      - redis
     command: python walmart/api.py
+    restart: unless-stopped
 
   walmart:
     build: .
@@ -51,4 +64,7 @@ services:
       - ${RETRY_SELLER_DELAY}
       - --category-id
       - ${CATEGORY_ID}
+
+volumes:
+  redis_data:
 

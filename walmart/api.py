@@ -42,6 +42,34 @@ except ImportError as e:
     logger.warning(f"Enhanced exports not available: {e}")
     ENHANCED_EXPORTS_AVAILABLE = False
 
+# Request Models
+class ScrapeRequest(BaseModel):
+    keywords: str = "nike"
+    max_per_keyword: int = 10
+    sleep: int = 1
+    export: str = "csv"
+    debug: bool = False
+    walmart_domain: Optional[str] = None  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
+    category_id: Optional[str] = None
+    retry_seller_passes: int = 3
+    retry_seller_delay: int = 5
+    
+    # Enhanced options (now default for main endpoint)
+    export_format: Optional[str] = "csv"  # "csv", "json", "both"
+    include_metadata: bool = True
+
+class IDCrawlRequest(BaseModel):
+    item_ids: str  # Comma-separated item IDs
+    export: str = "csv"
+    sleep: int = 1
+    walmart_domain: Optional[str] = None
+
+class ScrapeResponse(BaseModel):
+    task_id: str
+    status: str
+    message: str
+    timestamp: str
+
 app = FastAPI(
     title="Walmart Scraper API",
     description="Enhanced API for running Walmart product and seller scraping with data quality, performance optimization, and reliability features",
@@ -117,103 +145,33 @@ async def root():
 async def health_check():
     return {"status": "healthy", "timestamp": datetime.now().isoformat()}
 
-@app.get("/locations")
-async def get_locations():
-    """Get all available locations (ZIP codes) for scraping"""
-    return {
-        "description": "Available Walmart store locations for scraping",
-        "total_locations": 80,
-        "categories": {
-            "east_coast": [
-                {"name": "New York, NY", "zipcode": "10001", "population": "8.8M"},
-                {"name": "Boston, MA", "zipcode": "02101", "population": "695K"},
-                {"name": "Philadelphia, PA", "zipcode": "19101", "population": "1.6M"},
-                {"name": "Washington, DC", "zipcode": "20001", "population": "705K"},
-                {"name": "Atlanta, GA", "zipcode": "30301", "population": "498K"},
-                {"name": "Miami, FL", "zipcode": "33101", "population": "467K"},
-                {"name": "Tampa, FL", "zipcode": "33601", "population": "384K"},
-                {"name": "Orlando, FL", "zipcode": "32801", "population": "307K"},
-                {"name": "Charlotte, NC", "zipcode": "28201", "population": "885K"},
-                {"name": "Richmond, VA", "zipcode": "23219", "population": "226K"}
-            ],
-            "midwest": [
-                {"name": "Chicago, IL", "zipcode": "60601", "population": "2.7M"},
-                {"name": "Detroit, MI", "zipcode": "48201", "population": "639K"},
-                {"name": "Cleveland, OH", "zipcode": "44101", "population": "383K"},
-                {"name": "Columbus, OH", "zipcode": "43201", "population": "906K"},
-                {"name": "Indianapolis, IN", "zipcode": "46201", "population": "887K"},
-                {"name": "Milwaukee, WI", "zipcode": "53201", "population": "577K"},
-                {"name": "Minneapolis, MN", "zipcode": "55401", "population": "429K"},
-                {"name": "Kansas City, MO", "zipcode": "64101", "population": "508K"},
-                {"name": "St. Louis, MO", "zipcode": "63101", "population": "301K"},
-                {"name": "Cincinnati, OH", "zipcode": "45201", "population": "309K"}
-            ],
-            "west_coast": [
-                {"name": "Los Angeles, CA", "zipcode": "90210", "population": "3.9M"},
-                {"name": "San Francisco, CA", "zipcode": "94101", "population": "873K"},
-                {"name": "San Diego, CA", "zipcode": "92101", "population": "1.4M"},
-                {"name": "Sacramento, CA", "zipcode": "95814", "population": "524K"},
-                {"name": "Seattle, WA", "zipcode": "98101", "population": "749K"},
-                {"name": "Portland, OR", "zipcode": "97201", "population": "652K"},
-                {"name": "Las Vegas, NV", "zipcode": "89101", "population": "641K"},
-                {"name": "Phoenix, AZ", "zipcode": "85001", "population": "1.6M"},
-                {"name": "Denver, CO", "zipcode": "80201", "population": "715K"},
-                {"name": "Salt Lake City, UT", "zipcode": "84101", "population": "200K"}
-            ],
-            "south_southwest": [
-                {"name": "Houston, TX", "zipcode": "77001", "population": "2.3M"},
-                {"name": "Dallas, TX", "zipcode": "75201", "population": "1.3M"},
-                {"name": "Austin, TX", "zipcode": "78701", "population": "965K"},
-                {"name": "San Antonio, TX", "zipcode": "78201", "population": "1.5M"},
-                {"name": "Fort Worth, TX", "zipcode": "76101", "population": "918K"},
-                {"name": "Oklahoma City, OK", "zipcode": "73101", "population": "681K"},
-                {"name": "Tulsa, OK", "zipcode": "74101", "population": "411K"},
-                {"name": "Little Rock, AR", "zipcode": "72201", "population": "198K"},
-                {"name": "Memphis, TN", "zipcode": "38101", "population": "633K"},
-                {"name": "Nashville, TN", "zipcode": "37201", "population": "689K"}
-            ],
-            "walmart_corporate": [
-                {"name": "Bentonville, AR", "zipcode": "72712", "note": "Walmart HQ"},
-                {"name": "Rogers, AR", "zipcode": "72756", "note": "Near Walmart HQ"},
-                {"name": "Springdale, AR", "zipcode": "72764", "note": "Near Walmart HQ"},
-                {"name": "Fayetteville, AR", "zipcode": "72701", "note": "University of Arkansas"}
-            ],
-            "major_markets": [
-                {"name": "Pittsburgh, PA", "zipcode": "15201", "population": "303K"},
-                {"name": "Buffalo, NY", "zipcode": "14201", "population": "278K"},
-                {"name": "Rochester, NY", "zipcode": "14601", "population": "211K"},
-                {"name": "Albany, NY", "zipcode": "12201", "population": "99K"},
-                {"name": "Hartford, CT", "zipcode": "06101", "population": "121K"},
-                {"name": "Providence, RI", "zipcode": "02901", "population": "190K"},
-                {"name": "Baltimore, MD", "zipcode": "21201", "population": "586K"},
-                {"name": "Norfolk, VA", "zipcode": "23501", "population": "238K"},
-                {"name": "Louisville, KY", "zipcode": "40201", "population": "617K"},
-                {"name": "Lexington, KY", "zipcode": "40501", "population": "323K"}
-            ]
-        },
-        "usage": "Copy any zipcode from this list and use it in the POST /scrape endpoint"
-    }
 
-@app.post("/scrape", response_model=ScrapeResponse)
-async def start_scrape(request: ScrapeRequest, background_tasks: BackgroundTasks):
-    """Start an enhanced scraping task with integration format"""
-    task_id = f"enhanced_{int(time.time())}"
+@app.post("/scan", response_model=ScrapeResponse)
+async def start_scan(request: ScrapeRequest, background_tasks: BackgroundTasks):
+    """Start a Walmart scan"""
+    scan_id = f"scan_{int(time.time())}"
+    
+    # Parse keywords for metadata
+    keywords = [k.strip() for k in request.keywords.split(",") if k.strip()]
     
     # Store task info
-    running_tasks[task_id] = {
+    running_tasks[scan_id] = {
         "status": "running",
         "start_time": datetime.now().isoformat(),
-        "request": request.model_dump(),
-        "output_files": []
+        "keywords": keywords,
+        "domain": request.walmart_domain or "walmart.com",
+        "max_per_keyword": request.max_per_keyword,
+        "items_collected": 0,
+        "request": request.model_dump()
     }
     
-    # Start background task with enhanced features
-    background_tasks.add_task(run_enhanced_scrape_task, task_id, request)
+    # Start background task
+    background_tasks.add_task(run_enhanced_scrape_task, scan_id, request)
     
     return ScrapeResponse(
-        task_id=task_id,
+        task_id=scan_id,
         status="started",
-        message="Enhanced scraping task started successfully",
+        message="Scan started successfully",
         timestamp=datetime.now().isoformat()
     )
 
@@ -247,72 +205,23 @@ async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
         running_tasks[task_id]["end_time"] = datetime.now().isoformat()
         running_tasks[task_id]["result"] = result
         
-        # Find output files
+        # Find output files and set the latest one as output_file
         output_dir = Path("output")
         if output_dir.exists():
             output_files = list(output_dir.glob("*.csv")) + list(output_dir.glob("*.json"))
             running_tasks[task_id]["output_files"] = [str(f) for f in output_files]
+            # Set the most recent file as the output_file for JSON results endpoint
+            if output_files:
+                latest_file = max(output_files, key=lambda f: f.stat().st_mtime)
+                running_tasks[task_id]["output_file"] = str(latest_file)
             
     except Exception as e:
         running_tasks[task_id]["status"] = "failed"
         running_tasks[task_id]["error"] = str(e)
         running_tasks[task_id]["end_time"] = datetime.now().isoformat()
 
-@app.get("/tasks/{task_id}")
-async def get_task_status(task_id: str):
-    """Get the status of a specific task"""
-    if task_id not in running_tasks:
-        raise HTTPException(status_code=404, detail="Task not found")
-    
-    return running_tasks[task_id]
 
-@app.get("/tasks")
-async def list_tasks():
-    """List all tasks"""
-    return {
-        "tasks": running_tasks,
-        "count": len(running_tasks)
-    }
 
-@app.get("/download/{task_id}/{filename}")
-async def download_file(task_id: str, filename: str):
-    """Download a file from a completed task"""
-    if task_id not in running_tasks:
-        raise HTTPException(status_code=404, detail="Task not found")
-    
-    task = running_tasks[task_id]
-    if task["status"] != "completed":
-        raise HTTPException(status_code=400, detail="Task not completed")
-    
-    file_path = Path("output") / filename
-    if not file_path.exists():
-        raise HTTPException(status_code=404, detail="File not found")
-    
-    return FileResponse(
-        path=str(file_path),
-        filename=filename,
-        media_type="application/octet-stream"
-    )
-
-@app.get("/latest")
-async def get_latest_results():
-    """Get the latest scraping results"""
-    output_dir = Path("output")
-    if not output_dir.exists():
-        raise HTTPException(status_code=404, detail="No output directory found")
-    
-    # Find the most recent CSV file
-    csv_files = list(output_dir.glob("*.csv"))
-    if not csv_files:
-        raise HTTPException(status_code=404, detail="No CSV files found")
-    
-    latest_file = max(csv_files, key=lambda f: f.stat().st_mtime)
-    
-    return FileResponse(
-        path=str(latest_file),
-        filename=latest_file.name,
-        media_type="text/csv"
-    )
 
 @app.post("/crawl-ids", response_model=ScrapeResponse)
 async def start_id_crawl(request: IDCrawlRequest, background_tasks: BackgroundTasks):
@@ -445,14 +354,14 @@ async def get_domains():
     }
     return domains
 
-@app.delete("/tasks/{task_id}")
-async def delete_task(task_id: str):
-    """Delete a task from memory"""
-    if task_id not in running_tasks:
-        raise HTTPException(status_code=404, detail="Task not found")
+@app.delete("/scan/{scan_id}")
+async def delete_scan(scan_id: str):
+    """Delete a scan from memory"""
+    if scan_id not in running_tasks:
+        raise HTTPException(status_code=404, detail="Scan not found")
     
-    del running_tasks[task_id]
-    return {"message": "Task deleted successfully"}
+    del running_tasks[scan_id]
+    return {"message": "Scan deleted successfully"}
 
 # ===== SIMPLIFIED HEALTH CHECK =====
 
@@ -473,108 +382,172 @@ async def get_simple_status():
         "timestamp": datetime.now().isoformat()
     }
 
-@app.get("/progress/{task_id}")
-async def get_task_progress(task_id: str):
-    """Get real-time progress for a specific task"""
-    tracker = progress_manager.get_tracker(task_id)
-    if not tracker:
-        raise HTTPException(status_code=404, detail="Task not found or no progress available")
-    
-    return tracker.get_completion_summary()
-
-@app.get("/progress")
-async def get_all_progress():
-    """Get progress for all active tasks"""
-    return progress_manager.get_all_trackers()
-
-@app.get("/export-presets")
-async def get_export_presets():
-    """Get available export field presets"""
+@app.get("/rate-limit")
+async def get_rate_limit_info():
+    """Get rate limit information"""
     return {
-        "presets": EXPORT_PRESETS,
-        "description": "Predefined field selections for targeted exports",
-        "usage": "Use preset name in 'export_preset' parameter"
+        "rate_limit": "No rate limiting implemented",
+        "api_key": "Active BlueCart API key configured",
+        "domains": ["walmart.com", "walmart.ca"],
+        "message": "Use sleep parameter to control request frequency"
     }
 
-@app.post("/scrape-enhanced", response_model=ScrapeResponse)
-async def start_enhanced_scrape(request: ScrapeRequest, background_tasks: BackgroundTasks):
-    """Start enhanced scraping with better CSV structure and progress tracking"""
-    task_id = f"enhanced_{int(time.time())}"
+@app.get("/scans")
+async def get_all_scans():
+    """Get all scans"""
+    return {
+        "total_scans": len(running_tasks),
+        "active_scans": len([t for t in running_tasks.values() if t["status"] == "running"]),
+        "completed_scans": len([t for t in running_tasks.values() if t["status"] == "completed"]),
+        "failed_scans": len([t for t in running_tasks.values() if t["status"] == "failed"]),
+        "scans": {scan_id: {"status": task["status"], "start_time": task.get("start_time")} 
+                 for scan_id, task in running_tasks.items()}
+    }
+
+@app.get("/scan/{scan_id}/status")
+async def get_scan_status(scan_id: str):
+    """Get scan status by scan_id"""
+    if scan_id not in running_tasks:
+        raise HTTPException(status_code=404, detail="Scan not found")
     
-    # Parse keywords
-    keywords = [k.strip() for k in request.keywords.split(",") if k.strip()]
-    if not keywords:
-        raise HTTPException(status_code=400, detail="No valid keywords provided")
+    task = running_tasks[scan_id]
+    return {
+        "scan_id": scan_id,
+        "status": task["status"],
+        "start_time": task.get("start_time"),
+        "end_time": task.get("end_time"),
+        "keywords": task.get("keywords", []),
+        "domain": task.get("domain", "walmart.com"),
+        "items_collected": task.get("items_collected", 0)
+    }
+
+@app.get("/scan/{scan_id}/results")
+async def get_scan_results(scan_id: str):
+    """Get scan results as JSON by scan_id"""
+    if scan_id not in running_tasks:
+        raise HTTPException(status_code=404, detail="Scan not found")
+    
+    task = running_tasks[scan_id]
+    if task["status"] != "completed":
+        raise HTTPException(status_code=400, detail="Scan not completed yet")
+    
+    # Try to load the JSON results file
+    output_file = task.get("output_file")
+    if output_file and os.path.exists(output_file):
+        try:
+            import json
+            with open(output_file, 'r', encoding='utf-8') as f:
+                results_data = json.load(f)
+            
+            return {
+                "scan_id": scan_id,
+                "status": "completed",
+                "items_collected": task.get("items_collected", 0),
+                "keywords": task.get("keywords", []),
+                "domain": task.get("domain", "walmart.com"),
+                "results": results_data
+            }
+        except Exception as e:
+            logger.error(f"Error loading JSON results: {e}")
+    
+    # Fallback to task metadata if file not found
+    return {
+        "scan_id": scan_id,
+        "status": "completed",
+        "items_collected": task.get("items_collected", 0),
+        "keywords": task.get("keywords", []),
+        "domain": task.get("domain", "walmart.com"),
+        "results": [],
+        "message": "Results file not found"
+    }
+
+@app.get("/scan/{scan_id}/results/csv")
+async def get_scan_results_csv(scan_id: str):
+    """Download CSV results by scan_id"""
+    if scan_id not in running_tasks:
+        raise HTTPException(status_code=404, detail="Scan not found")
+    
+    task = running_tasks[scan_id]
+    if task["status"] != "completed":
+        raise HTTPException(status_code=400, detail="Scan not completed yet")
+    
+    # Find the output file for this scan
+    output_dir = get_config().output_dir
+    if os.path.exists(output_dir):
+        # Look for files that might belong to this scan
+        for filename in os.listdir(output_dir):
+            if filename.endswith('.csv') and os.path.getsize(os.path.join(output_dir, filename)) > 500:
+                file_path = os.path.join(output_dir, filename)
+                from fastapi.responses import FileResponse
+                return FileResponse(
+                    path=file_path,
+                    filename=filename,
+                    media_type='text/csv'
+                )
+    
+    raise HTTPException(status_code=404, detail="No CSV results found")
+
+@app.post("/scan/items")
+async def start_item_scan(request: IDCrawlRequest, background_tasks: BackgroundTasks):
+    """Start scanning specific Walmart item IDs"""
+    scan_id = f"items_{int(time.time())}"
+    
+    # Parse item IDs
+    item_ids = [id.strip() for id in request.item_ids.split(",") if id.strip()]
     
     # Store task info
-    running_tasks[task_id] = {
+    running_tasks[scan_id] = {
         "status": "running",
         "start_time": datetime.now().isoformat(),
-        "request": request.dict(),
-        "output_files": [],
-        "enhancements": {
-            "enhanced_csv": True,
-            "progress_tracking": True,
-            "export_presets": True
-        }
+        "item_ids": item_ids,
+        "domain": request.walmart_domain or "walmart.com",
+        "items_collected": 0,
+        "request": request.model_dump()
     }
     
-    # Create progress tracker
-    tracker = progress_manager.create_tracker(task_id, keywords, request.max_per_keyword)
-    
-    # Start background task
-    background_tasks.add_task(run_enhanced_scrape_task, task_id, request, tracker)
+    # Start background task for ID crawling
+    background_tasks.add_task(run_id_crawl_task, scan_id, request)
     
     return ScrapeResponse(
-        task_id=task_id,
+        task_id=scan_id,
         status="started",
-        message=f"Enhanced scraping started for {len(keywords)} keywords with progress tracking",
+        message="Item scan started successfully",
         timestamp=datetime.now().isoformat()
     )
 
-async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
-    """Enhanced background task with progress tracking and better exports"""
+async def run_id_crawl_task(scan_id: str, request: IDCrawlRequest):
+    """Background task to crawl specific item IDs"""
     try:
-        # Parse keywords
-        keywords = [k.strip() for k in request.keywords.split(",") if k.strip()]
-        
-        # Prepare arguments for the scraper
+        # Prepare arguments for ID crawler
         args = [
-            "--keywords", request.keywords,
-            "--max-per-keyword", str(request.max_per_keyword),
+            "--item-ids", request.item_ids,
+            "--export", request.export,
             "--sleep", str(request.sleep),
-            "--export", "json",  # Always export JSON for enhanced processing
         ]
         
-        if request.debug:
-            args.append("--debug")
         if request.walmart_domain:
             args.extend(["--walmart-domain", request.walmart_domain])
-        if request.category_id:
-            args.extend(["--category-id", request.category_id])
         
-        args.extend(["--retry-seller-passes", str(request.retry_seller_passes)])
-        args.extend(["--retry-seller-delay", str(request.retry_seller_delay)])
+        # Run the ID crawler
+        result = asyncio.get_event_loop().run_in_executor(
+            None, run_id_crawler, args
+        )
+        await result
         
-        # Run the scraper
-        loop = asyncio.get_event_loop()
-        result = await loop.run_in_executor(None, run_scraper, args)
-        
-        # Process results with enhanced export
-        await process_enhanced_export(task_id, request, tracker)
-        
-        # Mark task as completed
-        tracker.mark_completed()
-        running_tasks[task_id]["status"] = "completed"
-        running_tasks[task_id]["end_time"] = datetime.now().isoformat()
+        # Update task status
+        running_tasks[scan_id].update({
+            "status": "completed",
+            "end_time": datetime.now().isoformat(),
+            "items_collected": len(request.item_ids.split(","))
+        })
         
     except Exception as e:
-        error_msg = f"Enhanced scrape task failed: {str(e)}"
-        tracker.mark_failed(error_msg)
-        running_tasks[task_id]["status"] = "failed"
-        running_tasks[task_id]["error"] = error_msg
-        running_tasks[task_id]["end_time"] = datetime.now().isoformat()
-        logger.error(error_msg)
+        logger.error(f"ID crawl task {scan_id} failed: {e}")
+        running_tasks[scan_id].update({
+            "status": "failed",
+            "end_time": datetime.now().isoformat(),
+            "error": str(e)
+        })
 
 
 if __name__ == "__main__":

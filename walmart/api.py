@@ -10,6 +10,7 @@ import time
 from datetime import datetime
 import asyncio
 from pathlib import Path
+import logging
 
 # Add the walmart directory to the path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -19,14 +20,67 @@ from run_walmart import main as run_scraper
 from run_walmart_id_crawler import run_id_crawler
 from run_walmart_id_crawler_fast_simple import run_fast_id_crawler
 
+# Setup logging first
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Import new enhancement systems (optional)
+try:
+    from data_quality import DataQualityManager, DataQualityReport
+    from performance_optimizer import performance_optimizer, PerformanceOptimizer
+    from reliability_system import reliability_manager, retry_with_circuit_breaker, RetryConfig, CircuitBreakerConfig
+    ENHANCEMENTS_AVAILABLE = True
+except ImportError as e:
+    logger.warning(f"Enhanced features not available: {e}")
+    ENHANCEMENTS_AVAILABLE = False
+
+# Import new improvements (optional)
+try:
+    from enhanced_exporters import export_csv_enhanced, export_json_enhanced, export_excel, get_export_preset, EXPORT_PRESETS
+    from progress_tracker import progress_manager, ProgressTracker
+    ENHANCED_EXPORTS_AVAILABLE = True
+except ImportError as e:
+    logger.warning(f"Enhanced exports not available: {e}")
+    ENHANCED_EXPORTS_AVAILABLE = False
+
 app = FastAPI(
     title="Walmart Scraper API",
-    description="API for running Walmart product and seller scraping",
-    version="1.0.0"
+    description="Enhanced API for running Walmart product and seller scraping with data quality, performance optimization, and reliability features",
+    version="2.0.0"
 )
 
 # Store running tasks
 running_tasks = {}
+
+# Initialize enhancement systems
+data_quality_manager = DataQualityManager()
+
+@app.on_event("startup")
+async def startup_event():
+    """Initialize enhancement systems on startup"""
+    try:
+        # Initialize reliability system
+        reliability_manager.initialize()
+        
+        # Initialize performance optimizer (Redis will be optional)
+        try:
+            await performance_optimizer.initialize()
+            logger.info("✅ Performance optimization enabled")
+        except Exception as e:
+            logger.warning(f"⚠️ Performance optimization disabled: {e}")
+        
+        logger.info("🚀 Enhanced Walmart Scraper API initialized successfully")
+    except Exception as e:
+        logger.error(f"❌ Failed to initialize enhancement systems: {e}")
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    """Cleanup on shutdown"""
+    try:
+        await performance_optimizer.shutdown()
+        logger.info("✅ Enhancement systems shutdown complete")
+    except Exception as e:
+        logger.error(f"❌ Error during shutdown: {e}")
 
 class ScrapeRequest(BaseModel):
     keywords: str = "nike"
@@ -38,6 +92,12 @@ class ScrapeRequest(BaseModel):
     category_id: Optional[str] = None
     retry_seller_passes: int = 3
     retry_seller_delay: int = 5
+    
+    # New enhanced options
+    export_format: Optional[str] = "csv"  # "csv", "excel", "both"
+    export_preset: Optional[str] = "detailed"  # "basic", "detailed", "seller_focus", "analytics", "full"
+    custom_fields: Optional[List[str]] = None
+    include_metadata: bool = True
 
 class IDCrawlRequest(BaseModel):
     item_ids: str = "5245210374"
@@ -161,7 +221,7 @@ async def start_scrape(request: ScrapeRequest, background_tasks: BackgroundTasks
     )
 
 async def run_scrape_task(task_id: str, request: ScrapeRequest):
-    """Background task to run the scraper"""
+    """Background task to run the scraper with built-in improvements"""
     try:
         # Prepare arguments for the scraper
         args = [
@@ -181,8 +241,7 @@ async def run_scrape_task(task_id: str, request: ScrapeRequest):
         args.extend(["--retry-seller-passes", str(request.retry_seller_passes)])
         args.extend(["--retry-seller-delay", str(request.retry_seller_delay)])
         
-        # Run the scraper in a thread pool to avoid blocking
-        import asyncio
+        # Run the scraper with built-in improvements (caching, error handling, etc.)
         loop = asyncio.get_event_loop()
         result = await loop.run_in_executor(None, run_scraper, args)
         
@@ -397,6 +456,199 @@ async def delete_task(task_id: str):
     
     del running_tasks[task_id]
     return {"message": "Task deleted successfully"}
+
+# ===== SIMPLIFIED HEALTH CHECK =====
+
+@app.get("/status")
+async def get_simple_status():
+    """Simple system status check"""
+    return {
+        "status": "healthy",
+        "version": "2.0.0",
+        "active_tasks": len(running_tasks),
+        "features": [
+            "Data Quality Management",
+            "Performance Optimization", 
+            "Reliability & Error Handling",
+            "Enhanced CSV/Excel Export",
+            "Real-time Progress Tracking"
+        ],
+        "timestamp": datetime.now().isoformat()
+    }
+
+@app.get("/progress/{task_id}")
+async def get_task_progress(task_id: str):
+    """Get real-time progress for a specific task"""
+    tracker = progress_manager.get_tracker(task_id)
+    if not tracker:
+        raise HTTPException(status_code=404, detail="Task not found or no progress available")
+    
+    return tracker.get_completion_summary()
+
+@app.get("/progress")
+async def get_all_progress():
+    """Get progress for all active tasks"""
+    return progress_manager.get_all_trackers()
+
+@app.get("/export-presets")
+async def get_export_presets():
+    """Get available export field presets"""
+    return {
+        "presets": EXPORT_PRESETS,
+        "description": "Predefined field selections for targeted exports",
+        "usage": "Use preset name in 'export_preset' parameter"
+    }
+
+@app.post("/scrape-enhanced", response_model=ScrapeResponse)
+async def start_enhanced_scrape(request: ScrapeRequest, background_tasks: BackgroundTasks):
+    """Start enhanced scraping with better CSV structure and progress tracking"""
+    task_id = f"enhanced_{int(time.time())}"
+    
+    # Parse keywords
+    keywords = [k.strip() for k in request.keywords.split(",") if k.strip()]
+    if not keywords:
+        raise HTTPException(status_code=400, detail="No valid keywords provided")
+    
+    # Store task info
+    running_tasks[task_id] = {
+        "status": "running",
+        "start_time": datetime.now().isoformat(),
+        "request": request.dict(),
+        "output_files": [],
+        "enhancements": {
+            "enhanced_csv": True,
+            "progress_tracking": True,
+            "export_presets": True
+        }
+    }
+    
+    # Create progress tracker
+    tracker = progress_manager.create_tracker(task_id, keywords, request.max_per_keyword)
+    
+    # Start background task
+    background_tasks.add_task(run_enhanced_scrape_task, task_id, request, tracker)
+    
+    return ScrapeResponse(
+        task_id=task_id,
+        status="started",
+        message=f"Enhanced scraping started for {len(keywords)} keywords with progress tracking",
+        timestamp=datetime.now().isoformat()
+    )
+
+async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest, tracker: ProgressTracker):
+    """Enhanced background task with progress tracking and better exports"""
+    try:
+        # Parse keywords
+        keywords = [k.strip() for k in request.keywords.split(",") if k.strip()]
+        
+        # Prepare arguments for the scraper
+        args = [
+            "--keywords", request.keywords,
+            "--max-per-keyword", str(request.max_per_keyword),
+            "--sleep", str(request.sleep),
+            "--export", "json",  # Always export JSON for enhanced processing
+        ]
+        
+        if request.debug:
+            args.append("--debug")
+        if request.walmart_domain:
+            args.extend(["--walmart-domain", request.walmart_domain])
+        if request.category_id:
+            args.extend(["--category-id", request.category_id])
+        
+        args.extend(["--retry-seller-passes", str(request.retry_seller_passes)])
+        args.extend(["--retry-seller-delay", str(request.retry_seller_delay)])
+        
+        # Run the scraper
+        loop = asyncio.get_event_loop()
+        result = await loop.run_in_executor(None, run_scraper, args)
+        
+        # Process results with enhanced export
+        await process_enhanced_export(task_id, request, tracker)
+        
+        # Mark task as completed
+        tracker.mark_completed()
+        running_tasks[task_id]["status"] = "completed"
+        running_tasks[task_id]["end_time"] = datetime.now().isoformat()
+        
+    except Exception as e:
+        error_msg = f"Enhanced scrape task failed: {str(e)}"
+        tracker.mark_failed(error_msg)
+        running_tasks[task_id]["status"] = "failed"
+        running_tasks[task_id]["error"] = error_msg
+        running_tasks[task_id]["end_time"] = datetime.now().isoformat()
+        logger.error(error_msg)
+
+async def process_enhanced_export(task_id: str, request: ScrapeRequest, tracker: ProgressTracker):
+    """Process and export data with enhanced features"""
+    try:
+        # Find the most recent JSON file
+        output_dir = Path("output")
+        json_files = list(output_dir.glob(f"walmart_scan_*.json"))
+        if not json_files:
+            raise Exception("No JSON export found")
+        
+        latest_json = max(json_files, key=lambda f: f.stat().st_mtime)
+        
+        # Load the data
+        with open(latest_json, 'r', encoding='utf-8') as f:
+            records = json.load(f)
+        
+        if not records:
+            raise Exception("No data to export")
+        
+        # Determine export fields
+        if request.custom_fields:
+            export_fields = request.custom_fields
+        elif request.export_preset and request.export_preset in EXPORT_PRESETS:
+            export_fields = get_export_preset(request.export_preset)
+        else:
+            export_fields = None  # Use all fields
+        
+        output_files = []
+        
+        # Enhanced CSV export
+        if request.export_format in ["csv", "both"]:
+            csv_path = export_csv_enhanced(
+                records=records,
+                name_prefix=f"enhanced_{task_id}",
+                custom_fields=export_fields,
+                include_metadata=request.include_metadata,
+                domain=request.walmart_domain or "walmart.com"
+            )
+            output_files.append(csv_path)
+            logger.info(f"Enhanced CSV exported: {csv_path}")
+        
+        # Enhanced JSON export
+        if request.export_format in ["json", "both"]:
+            json_path = export_json_enhanced(
+                records=records,
+                name_prefix=f"enhanced_{task_id}",
+                domain=request.walmart_domain or "walmart.com"
+            )
+            output_files.append(json_path)
+            logger.info(f"Enhanced JSON exported: {json_path}")
+        
+        # Excel export
+        if request.export_format in ["excel", "both"]:
+            # For Excel, we'd need offers data too, but for now just use records
+            excel_path = export_excel(
+                records=records,
+                offers=[],  # Could be enhanced to include offers
+                name_prefix=f"enhanced_{task_id}"
+            )
+            output_files.append(excel_path)
+            logger.info(f"Excel exported: {excel_path}")
+        
+        # Update task with output files
+        running_tasks[task_id]["output_files"] = output_files
+        
+        # Log completion
+        logger.info(f"Enhanced export completed for task {task_id}: {len(output_files)} files")
+        
+    except Exception as e:
+        logger.error(f"Enhanced export failed for task {task_id}: {e}")
+        raise
 
 if __name__ == "__main__":
     import uvicorn

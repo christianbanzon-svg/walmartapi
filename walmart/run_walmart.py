@@ -7,6 +7,12 @@ from bluecart_client import BlueCartClient
 from config import get_config
 from storage import init_db, insert_listing_snapshot, insert_seller_snapshot, upsert_listing_summary
 from exporters import export_json, export_csv, write_debug_json
+# Import enhanced exporters for integration format
+try:
+    from enhanced_exporters import export_csv_enhanced, export_json_enhanced
+    ENHANCED_EXPORTS_AVAILABLE = True
+except ImportError:
+    ENHANCED_EXPORTS_AVAILABLE = False
 # Removed imports for deleted modules - using simplified version
 
 
@@ -443,11 +449,23 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 		cleaned_offers.append(r)
 
 	if "json" in export:
-		json_path = export_json(cleaned_records, name_prefix)
-		print(f"[{_ts()}] JSON exported: {json_path}")
+		if ENHANCED_EXPORTS_AVAILABLE:
+			# Use enhanced exporters with integration format
+			domain = client.site if hasattr(client, 'site') else 'walmart.com'
+			json_path = export_json_enhanced(cleaned_records, name_prefix, domain)
+			print(f"[{_ts()}] Enhanced JSON exported: {json_path}")
+		else:
+			json_path = export_json(cleaned_records, name_prefix)
+			print(f"[{_ts()}] JSON exported: {json_path}")
 	if "csv" in export:
-		csv_path = export_csv(cleaned_records, name_prefix)
-		print(f"[{_ts()}] CSV exported: {csv_path}")
+		if ENHANCED_EXPORTS_AVAILABLE:
+			# Use enhanced exporters with integration format
+			domain = client.site if hasattr(client, 'site') else 'walmart.com'
+			csv_path = export_csv_enhanced(cleaned_records, name_prefix, domain=domain)
+			print(f"[{_ts()}] Enhanced CSV exported: {csv_path}")
+		else:
+			csv_path = export_csv(cleaned_records, name_prefix)
+			print(f"[{_ts()}] CSV exported: {csv_path}")
 	if offers_export and cleaned_offers:
 		if "json" in export:
 			o_json_path = export_json(cleaned_offers, name_prefix + "_offers")

@@ -532,7 +532,7 @@ async def start_enhanced_scrape(request: ScrapeRequest, background_tasks: Backgr
         timestamp=datetime.now().isoformat()
     )
 
-async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest, tracker: ProgressTracker):
+async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
     """Enhanced background task with progress tracking and better exports"""
     try:
         # Parse keywords

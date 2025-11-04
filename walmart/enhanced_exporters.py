@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Set
 import pandas as pd
-from config import get_config
+from walmart.config import get_config
 
 def _timestamp() -> str:
     return datetime.utcnow().strftime("%Y%m%d_%H%M%S")
@@ -153,13 +153,30 @@ class EnhancedCSVExporter:
         # Data completeness improvements - try to extract missing data from available fields
         self._improve_data_completeness(transformed, record, domain)
         
-        # Ensure all required fields are present
+                # Ensure all required fields are present
+        seller_name = transformed.get("seller_name", "")
         for field in REQUIRED_COLUMN_ORDER:
             if field not in transformed or transformed[field] == "":
-                transformed[field] = self._get_fallback_value(field, domain)
+                transformed[field] = self._get_fallback_value(field, domain, seller_name)
         
+        # Clean listing_title (remove "Product " prefix and replace hyphens with spaces)
+        if "listing_title" in transformed and transformed["listing_title"]:
+            transformed["listing_title"] = self._clean_listing_title(transformed["listing_title"])
+
         return transformed
-    
+
+    def _clean_listing_title(self, title: str) -> str:
+        """Clean listing title by removing 'Product ' prefix and replacing hyphens with spaces"""
+        if not title:
+            return title
+        # Remove "Product " prefix if it exists (case-insensitive)
+        cleaned = title[8:].strip() if title.lower().startswith("product ") else title
+        # Replace hyphens with spaces and clean up multiple spaces
+        cleaned = cleaned.replace("-", " ")
+        while "  " in cleaned:
+            cleaned = cleaned.replace("  ", " ")
+        return cleaned.strip()
+
     def _improve_data_completeness(self, transformed: Dict[str, Any], record: Dict[str, Any], domain: str):
         """Improve data completeness by extracting information from available fields"""
         
@@ -172,8 +189,8 @@ class EnhancedCSVExporter:
                     # Extract the product identifier and try to get a meaningful title
                     parts = url.split("/ip/")[1].split("?")[0].split("/")
                     if len(parts) > 0:
-                        # Use the product identifier as a fallback title
-                        transformed["listing_title"] = f"Product {parts[0]}"
+                        # Use the product identifier as a fallback title, then clean it
+                        transformed["listing_title"] = self._clean_listing_title(f"Product {parts[0]}")
                 except:
                     pass
         
@@ -196,9 +213,26 @@ class EnhancedCSVExporter:
                 "walmart.ca": "Walmart CA"
             }
             transformed["marketplace"] = marketplace_map.get(domain.lower(), f"{domain.title()} Marketplace")
-    
-    def _get_fallback_value(self, field: str, domain: str) -> str:
+        
+        # Clean listing_title if it exists (remove "Product " prefix and hyphens)
+        if transformed.get("listing_title"):
+            transformed["listing_title"] = self._clean_listing_title(transformed["listing_title"])
+
+    def _get_fallback_value(self, field: str, domain: str, seller_name: str = "") -> str:
         """Provide fallback values for missing required fields"""
+        
+        # If seller is Walmart.com, provide Walmart contact info
+        if seller_name == "Walmart.com" or seller_name == "Walmart":
+            walmart_info = {
+                "seller_email": "help@walmart.com",
+                "seller_phone": "1-800-925-6278",
+                "seller_address": "702 SW 8th St, Bentonville, AR 72716, USA",
+                "seller_business": "Walmart Inc.",
+                "seller_url": "https://www.walmart.com"
+            }
+            if field in walmart_info:
+                return walmart_info[field]
+        
         fallbacks = {
             "listing_title": "Product Title Not Available",
             "image_url": "",

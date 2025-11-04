@@ -4,7 +4,6 @@ from pydantic import BaseModel
 from typing import Optional, List
 import os
 import sys
-import subprocess
 import json
 import time
 from datetime import datetime
@@ -31,8 +30,8 @@ try:
     from reliability_system import reliability_manager, retry_with_circuit_breaker, RetryConfig, CircuitBreakerConfig
     ENHANCEMENTS_AVAILABLE = True
 except ImportError as e:
-    logger.warning(f"Enhanced features not available: {e}")
     ENHANCEMENTS_AVAILABLE = False
+    logger.warning(f"Enhanced features not available: {e}")
 
 # Import enhanced exporters for integration format
 try:
@@ -49,7 +48,7 @@ class ScrapeRequest(BaseModel):
     sleep: int = 1
     export: str = "csv"
     debug: bool = False
-    walmart_domain: Optional[str] = None  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
+    walmart_domain: Optional[str] = "walmart.com"  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
     category_id: Optional[str] = None
     retry_seller_passes: int = 3
     retry_seller_delay: int = 5
@@ -79,35 +78,46 @@ app = FastAPI(
 # Store running tasks
 running_tasks = {}
 
-# Initialize enhancement systems
-data_quality_manager = DataQualityManager()
+# Initialize enhancement systems (optional)
+data_quality_manager = None
+if ENHANCEMENTS_AVAILABLE:
+    try:
+        data_quality_manager = DataQualityManager()
+    except Exception as e:
+        logger.warning(f"Data quality manager not available: {e}")
 
 @app.on_event("startup")
 async def startup_event():
     """Initialize enhancement systems on startup"""
-    try:
-        # Initialize reliability system
-        reliability_manager.initialize()
-        
-        # Initialize performance optimizer (Redis will be optional)
+    if ENHANCEMENTS_AVAILABLE:
         try:
-            await performance_optimizer.initialize()
-            logger.info("✅ Performance optimization enabled")
+            # Initialize reliability system
+            from reliability_system import reliability_manager
+            reliability_manager.initialize()
+
+            # Initialize performance optimizer (Redis will be optional)
+            try:
+                from performance_optimizer import performance_optimizer
+                await performance_optimizer.initialize()
+                logger.info("✅ Performance optimization enabled")
+            except Exception as e:
+                logger.warning(f"⚠️ Performance optimization disabled: {e}")
+
+            logger.info("🚀 Enhanced Walmart Scraper API initialized successfully")
         except Exception as e:
-            logger.warning(f"⚠️ Performance optimization disabled: {e}")
-        
-        logger.info("🚀 Enhanced Walmart Scraper API initialized successfully")
-    except Exception as e:
-        logger.error(f"❌ Failed to initialize enhancement systems: {e}")
+            logger.error(f"❌ Failed to initialize enhancement systems: {e}")
+    else:
+        logger.info("🚀 Walmart Scraper API initialized (basic mode)")
 
 @app.on_event("shutdown")
 async def shutdown_event():
     """Cleanup on shutdown"""
-    try:
-        await performance_optimizer.shutdown()
-        logger.info("✅ Enhancement systems shutdown complete")
-    except Exception as e:
-        logger.error(f"❌ Error during shutdown: {e}")
+    if ENHANCEMENTS_AVAILABLE:
+        try:
+            await performance_optimizer.shutdown()
+            logger.info("✅ Enhancement systems shutdown complete")
+        except Exception as e:
+            logger.error(f"❌ Error during shutdown: {e}")
 
 class ScrapeRequest(BaseModel):
     keywords: str = "nike"
@@ -115,7 +125,7 @@ class ScrapeRequest(BaseModel):
     sleep: int = 1
     export: str = "csv"
     debug: bool = False
-    walmart_domain: Optional[str] = None  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
+    walmart_domain: Optional[str] = "walmart.com"  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
     category_id: Optional[str] = None
     retry_seller_passes: int = 3
     retry_seller_delay: int = 5
@@ -192,26 +202,29 @@ async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
             args.extend(["--walmart-domain", request.walmart_domain])
         if request.category_id:
             args.extend(["--category-id", request.category_id])
-        
+
         args.extend(["--retry-seller-passes", str(request.retry_seller_passes)])
         args.extend(["--retry-seller-delay", str(request.retry_seller_delay)])
-        
+
         # Run the scraper with built-in improvements (caching, error handling, etc.)
         loop = asyncio.get_event_loop()
         result = await loop.run_in_executor(None, run_scraper, args)
+        
+        # Get the actual output directory from config
+        cfg = get_config()
+        output_dir_path = Path(cfg.output_dir)
         
         # Update task status
         running_tasks[task_id]["status"] = "completed"
         running_tasks[task_id]["end_time"] = datetime.now().isoformat()
         running_tasks[task_id]["result"] = result
-        
+
         # Find output files and set the latest one as output_file
-        output_dir = Path("output")
-        if output_dir.exists():
-            output_files = list(output_dir.glob("*.csv")) + list(output_dir.glob("*.json"))
-            running_tasks[task_id]["output_files"] = [str(f) for f in output_files]
-            # Set the most recent file as the output_file for JSON results endpoint
+        if output_dir_path.exists():
+            output_files = list(output_dir_path.glob("*.csv")) + list(output_dir_path.glob("*.json"))
             if output_files:
+                running_tasks[task_id]["output_files"] = [str(f) for f in output_files]
+                # Set the most recent file as the output_file for JSON results endpoint
                 latest_file = max(output_files, key=lambda f: f.stat().st_mtime)
                 running_tasks[task_id]["output_file"] = str(latest_file)
             

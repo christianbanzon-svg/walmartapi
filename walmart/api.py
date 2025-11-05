@@ -187,14 +187,21 @@ async def start_scan(request: ScrapeRequest, background_tasks: BackgroundTasks):
 
 async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
     """Background task to run the scraper with built-in improvements"""
+    logger.info(f"Starting background task {task_id} for keywords: {request.keywords}")
     try:
         # Prepare arguments for the scraper
+        # Split export string (e.g., "csv,json") into list for argparse nargs="+"
+        export_list = [e.strip() for e in request.export.split(",") if e.strip() in ["csv", "json"]]
+        if not export_list:
+            export_list = ["csv"]  # Default to csv if invalid
+        
         args = [
             "--keywords", request.keywords,
             "--max-per-keyword", str(request.max_per_keyword),
             "--sleep", str(request.sleep),
-            "--export", request.export,
+            "--export"
         ]
+        args.extend(export_list)  # Add export formats as separate arguments
         
         if request.debug:
             args.append("--debug")
@@ -206,13 +213,23 @@ async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
         args.extend(["--retry-seller-passes", str(request.retry_seller_passes)])
         args.extend(["--retry-seller-delay", str(request.retry_seller_delay)])
 
-        # Run the scraper with built-in improvements (caching, error handling, etc.)
+                # Run the scraper with built-in improvements (caching, error handling, etc.)
+        logger.info(f"Running scraper with args: {args[:10]}...")  # Log first 10 args
         loop = asyncio.get_event_loop()
-        result = await loop.run_in_executor(None, run_scraper, args)
-        
+        try:
+            result = await loop.run_in_executor(None, run_scraper, args)
+            logger.info(f"Scraper function returned for task {task_id}, result: {result}")
+        except Exception as e:
+            logger.error(f"Error running scraper for task {task_id}: {e}", exc_info=True)
+            running_tasks[task_id]["status"] = "failed"
+            running_tasks[task_id]["error"] = str(e)
+            running_tasks[task_id]["end_time"] = datetime.now().isoformat()
+            return  # Exit early on error
+
         # Get the actual output directory from config
         cfg = get_config()
         output_dir_path = Path(cfg.output_dir)
+        logger.info(f"Looking for output files in: {output_dir_path}")
         
         # Update task status
         running_tasks[task_id]["status"] = "completed"
@@ -221,12 +238,20 @@ async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
 
         # Find output files and set the latest one as output_file
         if output_dir_path.exists():
+            # Wait a moment for file writes to complete
+            await asyncio.sleep(1)
             output_files = list(output_dir_path.glob("*.csv")) + list(output_dir_path.glob("*.json"))
+            logger.info(f"Found {len(output_files)} output files for task {task_id}")
             if output_files:
                 running_tasks[task_id]["output_files"] = [str(f) for f in output_files]
                 # Set the most recent file as the output_file for JSON results endpoint
                 latest_file = max(output_files, key=lambda f: f.stat().st_mtime)
                 running_tasks[task_id]["output_file"] = str(latest_file)
+                logger.info(f"Latest output file for task {task_id}: {latest_file}")
+            else:
+                logger.warning(f"No output files found for task {task_id} in {output_dir_path}")
+        else:
+            logger.error(f"Output directory does not exist: {output_dir_path}")
             
     except Exception as e:
         running_tasks[task_id]["status"] = "failed"

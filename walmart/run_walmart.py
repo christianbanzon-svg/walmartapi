@@ -143,6 +143,8 @@ def normalize_listing_from_search(item: Dict[str, Any]) -> Dict[str, Any]:
 		"currency": currency_code,
 		"url": _safe_get(product, "link"),
 		"image": main_image,
+		"asin": _safe_get(product, "asin"),
+		"upc": _safe_get(product, "upc") or _safe_get(product, "gtin"),
 	}
 
 
@@ -170,6 +172,8 @@ def normalize_product(item: Dict[str, Any]) -> Dict[str, Any]:
 		"brand": _safe_get(item, "brand") or _safe_get(item, "product", "brand"),
 		"description": _safe_get(item, "description") or _safe_get(item, "product", "description"),
 		"images": coerced_images,
+		"asin": _safe_get(item, "asin") or _safe_get(item, "product", "asin"),
+		"upc": _safe_get(item, "upc") or _safe_get(item, "product", "upc") or _safe_get(item, "product", "gtin"),
 	}
 
 
@@ -345,6 +349,9 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 							"units_available": avail.get("units_available"),
 							"in_stock": in_stock,
 							"brand": listing.get("brand") or product_data.get("brand"),
+						"asin": listing.get("asin") or product_data.get("asin"),
+						"upc": listing.get("upc") or product_data.get("upc"),
+						"walmart_id": listing_id,
 							"listing_url": listing.get("url"),
 							"full_product_description": product_data.get("description"),
 							# Seller fields (from primary offer + enrichment)

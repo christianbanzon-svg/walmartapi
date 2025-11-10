@@ -6,45 +6,57 @@ import csv
 import json
 import os
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional, Tuple
+
 import pandas as pd
+
 from walmart.config import get_config
+
 
 def _timestamp() -> str:
     return datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+
 
 def ensure_output_dir() -> str:
     cfg = get_config()
     os.makedirs(cfg.output_dir, exist_ok=True)
     return cfg.output_dir
 
-# Define required column structure matching integration requirements
-REQUIRED_COLUMN_ORDER = [
-    "listing_title",      # 1. Listing Title
-    "listing_url",        # 2. Listing URL  
-    "image_url",          # 3. Image URL
-    "marketplace",        # 4. Marketplace
-    "price",              # 5. Price*
-    "currency",           # 6. Currency
-    "shipping",           # 7. Shipping
-    "units_available",    # 8. Units Available
-    "item_number",        # 9. Item Number
-    "seller_name",        # 10. Seller's Name
-    "seller_url",         # 11. Seller's URL
-    "seller_business",    # 12. Seller's Business
-    "seller_address",     # 13. Seller's Address
-    "seller_email",       # 14. Seller's Email
-    "seller_phone"        # 15. Seller's Phone
+
+# Define required column structure matching updated integration template
+COLUMN_DEFINITIONS: List[Tuple[str, str]] = [
+    ("listing_title", "Listing Title*"),
+    ("listing_url", "Listings URL*"),
+    ("image_url", "Image URL*"),
+    ("marketplace", "Marketplace*"),
+    ("price", "Price*"),
+    ("shipping", "Shipping"),
+    ("units_available", "Units Available"),
+    ("item_number", "Item Number"),
+    ("brand", "Brand"),
+    ("asin", "ASIN"),
+    ("upc", "UPC"),
+    ("walmart_id", "Walmart ID"),
+    ("seller_name", "Seller's Name*"),
+    ("seller_url", "Seller's URL*"),
+    ("seller_business", "Seller's Business Name"),
+    ("seller_address", "Seller's Address"),
+    ("seller_email", "Seller's Email"),
+    ("seller_phone", "Seller's Phone Number"),
 ]
+
+REQUIRED_COLUMN_ORDER = [key for key, _ in COLUMN_DEFINITIONS]
+HEADER_LOOKUP = {key: header for key, header in COLUMN_DEFINITIONS}
 
 # Legacy column mapping for backward compatibility
 LEGACY_TO_REQUIRED_MAPPING = {
     "title": "listing_title",
-    "listing_url": "listing_url", 
+    "listing_url": "listing_url",
     "url": "listing_url",
     "product_url": "listing_url",
     "image_url": "image_url",
     "product_image": "image_url",
+    "main_image": "image_url",
     "marketplace": "marketplace",
     "domain": "marketplace",
     "price": "price",
@@ -58,7 +70,14 @@ LEGACY_TO_REQUIRED_MAPPING = {
     "item_id": "item_number",
     "item_number": "item_number",
     "sku": "item_number",
-    "upc": "item_number",
+    "product_sku": "item_number",
+    "brand": "brand",
+    "asin": "asin",
+    "upc": "upc",
+    "gtin": "upc",
+    "walmart_id": "walmart_id",
+    "listing_id": "walmart_id",
+    "product_id": "walmart_id",
     "seller_name": "seller_name",
     "seller_url": "seller_url",
     "seller_profile_url": "seller_url",
@@ -74,7 +93,7 @@ LEGACY_TO_REQUIRED_MAPPING = {
     "phone_number": "seller_phone",
     "seller_phone": "seller_phone",
     "phone": "seller_phone",
-    "contact_phone": "seller_phone"
+    "contact_phone": "seller_phone",
 }
 
 # Field type definitions for proper data formatting
@@ -88,12 +107,16 @@ FIELD_TYPES = {
     "shipping": "string",
     "units_available": "int",
     "item_number": "string",
+    "brand": "string",
+    "asin": "string",
+    "upc": "string",
+    "walmart_id": "string",
     "seller_name": "string",
     "seller_url": "string",
     "seller_business": "string",
     "seller_address": "string",
     "seller_email": "string",
-    "seller_phone": "string"
+    "seller_phone": "string",
 }
 
 class EnhancedCSVExporter:
@@ -153,7 +176,7 @@ class EnhancedCSVExporter:
         # Data completeness improvements - try to extract missing data from available fields
         self._improve_data_completeness(transformed, record, domain)
         
-                # Ensure all required fields are present
+        # Ensure all required fields are present
         seller_name = transformed.get("seller_name", "")
         for field in REQUIRED_COLUMN_ORDER:
             if field not in transformed or transformed[field] == "":
@@ -180,6 +203,18 @@ class EnhancedCSVExporter:
     def _improve_data_completeness(self, transformed: Dict[str, Any], record: Dict[str, Any], domain: str):
         """Improve data completeness by extracting information from available fields"""
         
+        # IDs and identifiers
+        if not transformed.get("walmart_id"):
+            for key in ("walmart_id", "listing_id", "item_number", "item_id", "product_id"):
+                if record.get(key):
+                    transformed["walmart_id"] = str(record.get(key))
+                    break
+
+        # Brand / ASIN / UPC enrichment
+        for field in ("brand", "asin", "upc"):
+            if not transformed.get(field) and record.get(field):
+                transformed[field] = record.get(field)
+
         # Try to extract listing_title from URL if missing
         if not transformed.get("listing_title") and transformed.get("listing_url"):
             url = transformed["listing_url"]
@@ -239,6 +274,10 @@ class EnhancedCSVExporter:
             "marketplace": f"{domain.title()} Marketplace",
             "shipping": "Standard Shipping",
             "currency": "USD",
+            "brand": "",
+            "asin": "",
+            "upc": "",
+            "walmart_id": "",
             "seller_email": "",
             "seller_phone": "",
             "seller_address": "",
@@ -288,7 +327,37 @@ class EnhancedCSVExporter:
             # If conversion fails, return original value as string
             return str(value) if value is not None else ""
     
-    def export_csv(self, records: List[Dict[str, Any]], name_prefix: str, 
+    def _format_price(self, record: Dict[str, Any]) -> str:
+        """Format price with currency according to template"""
+        value = record.get("price")
+        currency = (record.get("currency") or "").strip().upper()
+        if value in (None, ""):
+            return ""
+        try:
+            if isinstance(value, str):
+                cleaned = value.replace("$", "").replace(",", "").strip()
+                if not cleaned:
+                    return ""
+                numeric_value = float(cleaned)
+            else:
+                numeric_value = float(value)
+        except (ValueError, TypeError):
+            return str(value)
+
+        currency_symbol_map = {
+            "USD": "$",
+            "CAD": "C$",
+            "GBP": "£",
+            "EUR": "€",
+        }
+        symbol = currency_symbol_map.get(currency)
+        if symbol:
+            return f"{symbol}{numeric_value:0.2f}"
+        if currency:
+            return f"{currency} {numeric_value:0.2f}"
+        return f"{numeric_value:0.2f}"
+
+    def export_csv(self, records: List[Dict[str, Any]], name_prefix: str,
                    include_metadata: bool = True, domain: str = "Walmart") -> str:
         """Export records to CSV with required integration format"""
         if not records:
@@ -301,22 +370,26 @@ class EnhancedCSVExporter:
             transformed_records.append(transformed_record)
         
         # Use required column order
-        final_columns = REQUIRED_COLUMN_ORDER.copy()
-        
+        final_columns = self.column_order
+        headers = [HEADER_LOOKUP.get(field, field) for field in final_columns]
+
         # Create CSV file
         output_dir = ensure_output_dir()
         path = os.path.join(output_dir, f"{name_prefix}_{_timestamp()}.csv")
         
         with open(path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=final_columns, extrasaction="ignore")
-            writer.writeheader()
-            
+            writer = csv.writer(f)
+            writer.writerow(headers)
+
             for record in transformed_records:
-                # Format each field according to its type
-                formatted_record = {}
+                row: List[Any] = []
                 for field in final_columns:
-                    formatted_record[field] = self._format_value(record.get(field), field)
-                writer.writerow(formatted_record)
+                    if field == "price":
+                        formatted_value = self._format_price(record)
+                    else:
+                        formatted_value = self._format_value(record.get(field), field)
+                    row.append(formatted_value)
+                writer.writerow(row)
         
         return path
     
@@ -328,9 +401,10 @@ class EnhancedCSVExporter:
         with open(path, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             if self.custom_fields:
-                writer.writerow(self.custom_fields)
+                headers = [HEADER_LOOKUP.get(field, field) for field in self.custom_fields]
+                writer.writerow(headers)
             else:
-                writer.writerow(REQUIRED_COLUMN_ORDER)
+                writer.writerow([header for _, header in COLUMN_DEFINITIONS])
         
         return path
 

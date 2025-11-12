@@ -10,7 +10,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd
 
-from walmart.config import get_config
+from config import get_config
 
 
 def _timestamp() -> str:

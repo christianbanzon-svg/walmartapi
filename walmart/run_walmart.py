@@ -9,7 +9,7 @@ from storage import init_db, insert_listing_snapshot, insert_seller_snapshot, up
 from exporters import export_json, export_csv, write_debug_json
 # Import enhanced exporters for integration format
 try:
-    from walmart.enhanced_exporters import export_csv_enhanced, export_json_enhanced
+    from enhanced_exporters import export_csv_enhanced, export_json_enhanced
     ENHANCED_EXPORTS_AVAILABLE = True
 except ImportError:
     ENHANCED_EXPORTS_AVAILABLE = False

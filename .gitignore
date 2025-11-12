@@ -11,6 +11,16 @@ venv/
 walmart/output/
 walmart/raw_html/
 *.sqlite3
-
-
+*.db
 walmart/local_scripts/
+
+# Test files and temporary outputs
+test_*.py
+*_Actual_Run*.csv
+*_Summary.txt
+*_Report.md
+sample_*.csv
+fresh_*.csv
+test_*.csv
+column_headers.txt
+debug_*.json

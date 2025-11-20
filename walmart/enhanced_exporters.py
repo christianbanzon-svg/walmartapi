@@ -302,11 +302,17 @@ class EnhancedCSVExporter:
                 return float(value)
             
             elif field_type == "int":
+                # For units_available, don't default to 0 - leave empty if None
+                if value is None or value == "":
+                    return ""  # Empty string for missing units_available
                 if isinstance(value, str):
                     # Remove commas and convert
                     cleaned = value.replace(",", "").strip()
-                    return int(float(cleaned)) if cleaned else 0
-                return int(value)
+                    return int(float(cleaned)) if cleaned else ""
+                try:
+                    return int(value)
+                except (ValueError, TypeError):
+                    return ""
             
             elif field_type == "boolean":
                 if isinstance(value, bool):

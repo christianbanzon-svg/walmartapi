@@ -42,32 +42,6 @@ except ImportError as e:
     ENHANCED_EXPORTS_AVAILABLE = False
 
 # Request Models
-class ScrapeRequest(BaseModel):
-    keywords: str = "nike"
-    max_per_keyword: int = 10
-    sleep: int = 1
-    export: str = "csv"
-    debug: bool = False
-    walmart_domain: Optional[str] = "walmart.com"  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
-    category_id: Optional[str] = None
-    retry_seller_passes: int = 3
-    retry_seller_delay: int = 5
-    
-    # Enhanced options (now default for main endpoint)
-    export_format: Optional[str] = "csv"  # "csv", "json", "both"
-    include_metadata: bool = True
-
-class IDCrawlRequest(BaseModel):
-    item_ids: str  # Comma-separated item IDs
-    export: str = "csv"
-    sleep: int = 1
-    walmart_domain: Optional[str] = None
-
-class ScrapeResponse(BaseModel):
-    task_id: str
-    status: str
-    message: str
-    timestamp: str
 
 app = FastAPI(
     title="Walmart Scraper API",
@@ -121,25 +95,25 @@ async def shutdown_event():
 
 class ScrapeRequest(BaseModel):
     keywords: str = "nike"
-    max_per_keyword: int = 10
-    sleep: int = 1
+    max_per_keyword: int = 0  # 0 = unlimited (collect ALL items)
+    max_pages: int = 0  # 0 = unlimited (collect ALL pages)
+    sleep: float = 0.05  # Fast default - minimal delay
     export: str = "csv"
     debug: bool = False
     walmart_domain: Optional[str] = "walmart.com"  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
     category_id: Optional[str] = None
-    retry_seller_passes: int = 3
-    retry_seller_delay: int = 5
+    retry_seller_passes: int = 0  # DISABLED: Seller enrichment disabled - using improved seller info extraction only
+    retry_seller_delay: float = 0.5  # Fast retry delay (not used when retry_seller_passes=0)
     
     # Enhanced options (now default for main endpoint)
     export_format: Optional[str] = "csv"  # "csv", "json", "both"
     include_metadata: bool = True
 
 class IDCrawlRequest(BaseModel):
-    item_ids: str = "5245210374"
+    item_ids: str  # Comma-separated item IDs
     export: str = "csv"
-    debug: bool = False
-    sleep: float = 0.5
-    walmart_domain: Optional[str] = None  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
+    sleep: int = 1
+    walmart_domain: Optional[str] = None
 
 class ScrapeResponse(BaseModel):
     task_id: str
@@ -203,6 +177,9 @@ async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
         ]
         args.extend(export_list)  # Add export formats as separate arguments
         
+        # Add max_pages (0 = unlimited)
+        args.extend(["--max-pages", str(request.max_pages)])
+        
         if request.debug:
             args.append("--debug")
         if request.walmart_domain:
@@ -210,11 +187,12 @@ async def run_enhanced_scrape_task(task_id: str, request: ScrapeRequest):
         if request.category_id:
             args.extend(["--category-id", request.category_id])
 
+        # Seller enrichment settings (disabled by default - using improved extraction from search/offers/product APIs)
         args.extend(["--retry-seller-passes", str(request.retry_seller_passes)])
         args.extend(["--retry-seller-delay", str(request.retry_seller_delay)])
 
-                # Run the scraper with built-in improvements (caching, error handling, etc.)
-        logger.info(f"Running scraper with args: {args[:10]}...")  # Log first 10 args
+        # Run the scraper with built-in improvements (caching, error handling, etc.)
+        logger.info(f"Running scraper with args: {args}...")  # Log all args
         loop = asyncio.get_event_loop()
         try:
             result = await loop.run_in_executor(None, run_scraper, args)
@@ -302,7 +280,7 @@ async def run_fast_id_crawl_task(task_id: str, request: IDCrawlRequest, item_ids
             export_formats=export_formats,
             debug=request.debug,
             sleep=request.sleep,
-            skip_seller_enrichment=False,  # Keep seller enrichment for API
+            skip_seller_enrichment=True,  # Disabled: Using improved seller extraction from search/offers/product APIs
             max_concurrent=10
         )
         

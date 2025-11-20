@@ -8,7 +8,7 @@ from config import get_config
 
 
 class BlueCartClient:
-	def __init__(self, api_key: Optional[str] = None, base_url: Optional[str] = None, source: Optional[str] = None, site: Optional[str] = None, sleep_seconds: float = 0.0, max_retries: int = 4, retry_backoff_seconds: float = 1.75, request_timeout_seconds: float = 60.0):
+	def __init__(self, api_key: Optional[str] = None, base_url: Optional[str] = None, source: Optional[str] = None, site: Optional[str] = None, sleep_seconds: float = 0.0, max_retries: int = 4, retry_backoff_seconds: float = 1.75, request_timeout_seconds: float = 300.0):
 		cfg = get_config()
 		self.api_key = api_key or cfg.api_key
 		self.base_url = base_url or cfg.base_url

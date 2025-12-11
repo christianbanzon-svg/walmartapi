@@ -2,6 +2,7 @@ import argparse
 import time
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from bluecart_client import BlueCartClient
 from config import get_config
@@ -111,6 +112,255 @@ def _collect_numeric_seller_id(node: Any) -> Optional[str]:
 		return None
 
 
+def is_brand_match(keyword: str, product_title: str, product_brand: str, raw_product: Optional[Dict[str, Any]] = None) -> bool:
+	"""
+	Check if product matches the brand keyword.
+	Filters out false positives like "Colgate Triple Action" when searching for "Triple Paste".
+	
+	Args:
+		keyword: The search keyword (e.g., "Triple Paste")
+		product_title: Product title
+		product_brand: Product brand name
+		raw_product: Raw product data for additional checks
+	
+	Returns:
+		True if product matches brand, False if it's a false positive
+	"""
+	if not keyword or not product_title:
+		return True  # If no keyword or title, don't filter (let it through)
+	
+	keyword_lower = keyword.lower().strip()
+	title_lower = (product_title or "").lower()
+	brand_lower = (product_brand or "").lower()
+	
+	# Extract brand name from keyword (e.g., "Triple Paste" -> ["triple", "paste"])
+	# For single-word brands, use the whole word
+	keyword_words = keyword_lower.split()
+	if len(keyword_words) == 1:
+		# Single word brand - check if it appears as a brand name
+		brand_match = keyword_lower in brand_lower or keyword_lower in title_lower
+		if not brand_match:
+			return False
+	else:
+		# Multi-word brand - check if all significant words appear
+		# Filter out common words like "the", "and", "of"
+		significant_words = [w for w in keyword_words if len(w) > 2 and w not in ["the", "and", "of", "for"]]
+		if not significant_words:
+			significant_words = keyword_words
+		
+		# Check if brand appears in title or brand field
+		brand_in_title = all(word in title_lower for word in significant_words)
+		brand_in_brand_field = all(word in brand_lower for word in significant_words) if brand_lower else False
+		
+		if not brand_in_title and not brand_in_brand_field:
+			return False
+	
+	# Check for common false positives
+	false_positive_map = {
+		"triple paste": {
+			"exclude_if_contains": ["colgate", "crest", "mutti", "triple action", "toothpaste", "dental"],
+			"require_contains": ["paste", "diaper", "rash", "ointment", "cream"]
+		},
+		"amlactin": {
+			"exclude_if_contains": ["lactic", "acid", "moisturizer"],
+			"require_contains": ["amlactin"]
+		},
+		"kerasal": {
+			"exclude_if_contains": [],
+			"require_contains": ["kerasal"]
+		},
+		"dermoplast": {
+			"exclude_if_contains": [],
+			"require_contains": ["dermoplast"]
+		},
+		"new-skin": {
+			"exclude_if_contains": [],
+			"require_contains": ["new-skin", "new skin"]
+		},
+		"domeboro": {
+			"exclude_if_contains": [],
+			"require_contains": ["domeboro"]
+		}
+	}
+	
+	# Check false positive rules
+	for brand_key, rules in false_positive_map.items():
+		if brand_key in keyword_lower:
+			# Check exclusion rules
+			exclude_keywords = rules.get("exclude_if_contains", [])
+			for exclude_kw in exclude_keywords:
+				if exclude_kw in title_lower and not any(req in title_lower for req in rules.get("require_contains", [])):
+					return False
+			
+			# Check requirement rules
+			require_keywords = rules.get("require_contains", [])
+			if require_keywords:
+				if not any(req in title_lower or req in brand_lower for req in require_keywords):
+					return False
+	
+	return True
+
+
+def validate_price_and_stock(price: Optional[float], units_available: Optional[int] = None) -> Tuple[bool, Dict[str, Any]]:
+	"""
+	Validate price and determine stock status.
+	
+	Args:
+		price: Product price
+		units_available: Available units/quantity
+	
+	Returns:
+		Tuple of (is_valid, stock_info_dict)
+		stock_info_dict contains: price, stock_status, units_available
+	"""
+	if price is None or price == 0.00:
+		return False, {
+			"price": "",
+			"stock_status": "Out of Stock",
+			"units_available": ""
+		}
+	
+	if not isinstance(price, (int, float)) or price < 0:
+		return False, {
+			"price": "",
+			"stock_status": "Invalid Price",
+			"units_available": ""
+		}
+	
+	# Determine stock status
+	if units_available is None or units_available == 0:
+		stock_status = "Out of Stock"
+		units_available_str = ""
+	else:
+		stock_status = "In Stock"
+		units_available_str = str(units_available)
+	
+	return True, {
+		"price": price,
+		"stock_status": stock_status,
+		"units_available": units_available_str
+	}
+
+
+def collect_upc_from_multiple_sources(raw_product: Dict[str, Any], product_resp: Optional[Dict[str, Any]] = None, raw_search: Optional[Dict[str, Any]] = None) -> Optional[str]:
+	"""
+	Collect UPC from multiple sources to maximize coverage.
+	
+	Checks in order:
+	1. Product API response (product.upc, product.gtin)
+	2. Search results (product.upc, product.gtin)
+	3. Product variants (if available)
+	4. Additional product fields
+	
+	Returns:
+		UPC string or None if not found
+	"""
+	upc = None
+	
+	# Try Product API response first (most reliable)
+	if product_resp:
+		product_data = _safe_get(product_resp, "product", default={}) or product_resp
+		upc = (
+			product_data.get("upc") or
+			product_data.get("gtin") or
+			product_data.get("gtin14") or
+			product_data.get("ean") or
+			_safe_get(product_data, "identifiers", "upc") or
+			_safe_get(product_data, "identifiers", "gtin")
+		)
+		if upc:
+			return str(upc).strip()
+	
+	# Try raw product from search results
+	if raw_product:
+		upc = (
+			raw_product.get("upc") or
+			raw_product.get("gtin") or
+			raw_product.get("gtin14") or
+			raw_product.get("ean") or
+			_safe_get(raw_product, "identifiers", "upc") or
+			_safe_get(raw_product, "identifiers", "gtin")
+		)
+		if upc:
+			return str(upc).strip()
+	
+	# Try raw search item
+	if raw_search:
+		product_from_search = _safe_get(raw_search, "product", default={})
+		if product_from_search:
+			upc = (
+				product_from_search.get("upc") or
+				product_from_search.get("gtin") or
+				product_from_search.get("gtin14") or
+				product_from_search.get("ean")
+			)
+			if upc:
+				return str(upc).strip()
+		
+		# Check variants
+		variants = _safe_get(raw_search, "product", "variants") or _safe_get(raw_search, "variants") or []
+		if variants and isinstance(variants, list):
+			for variant in variants:
+				if isinstance(variant, dict):
+					variant_upc = variant.get("upc") or variant.get("gtin")
+					if variant_upc:
+						return str(variant_upc).strip()
+	
+	return None
+
+
+def validate_seller_url(seller_url: Optional[str], seller_id: Optional[str], seller_name: Optional[str]) -> Tuple[Optional[str], bool]:
+	"""
+	Validate seller URL and fix mapping errors.
+	
+	Args:
+		seller_url: Current seller URL
+		seller_id: Seller ID (numeric preferred)
+		seller_name: Seller name for validation
+	
+	Returns:
+		Tuple of (validated_url, is_valid)
+	"""
+	if not seller_url:
+		# Construct URL from seller ID if available
+		if seller_id and _is_numeric_string(str(seller_id)):
+			return f"https://www.walmart.com/seller/{seller_id}", True
+		return None, False
+	
+	# Validate URL format
+	if not isinstance(seller_url, str):
+		return None, False
+	
+	seller_url = seller_url.strip()
+	
+	# Check if URL is a valid Walmart seller URL
+	if not seller_url.startswith("http"):
+		# Might be a relative URL
+		if seller_url.startswith("/seller/"):
+			seller_url = f"https://www.walmart.com{seller_url}"
+		elif seller_id and _is_numeric_string(str(seller_id)):
+			# Construct from seller ID
+			seller_url = f"https://www.walmart.com/seller/{seller_id}"
+		else:
+			return None, False
+	
+	# Extract seller ID from URL to validate
+	if "/seller/" in seller_url:
+		try:
+			url_parts = seller_url.split("/seller/")
+			if len(url_parts) > 1:
+				url_seller_id = url_parts[1].split("/")[0].split("?")[0].strip()
+				# If we have a seller_id, validate it matches URL
+				if seller_id and _is_numeric_string(str(seller_id)):
+					if str(seller_id) != url_seller_id:
+						# Mismatch - reconstruct URL with correct ID
+						return f"https://www.walmart.com/seller/{seller_id}", True
+		except Exception:
+			pass
+	
+	return seller_url, True
+
+
 def normalize_listing_from_search(item: Dict[str, Any]) -> Dict[str, Any]:
 	product = _safe_get(item, "product", default={}) or {}
 	offers = _safe_get(item, "offers", default={}) or {}
@@ -150,6 +400,7 @@ def normalize_listing_from_search(item: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def normalize_product(item: Dict[str, Any]) -> Dict[str, Any]:
+	"""Enhanced product normalization with additional fields for Phase 2."""
 	images = _safe_get(item, "images") or _safe_get(item, "product", "images") or []
 	# Coerce to list[str]
 	coerced_images: List[str] = []
@@ -165,15 +416,119 @@ def normalize_product(item: Dict[str, Any]) -> Dict[str, Any]:
 	main_image = _safe_get(item, "main_image") or _safe_get(item, "product", "main_image")
 	if not coerced_images and isinstance(main_image, str):
 		coerced_images = [main_image]
+	
+	# Extract product data (handle nested product structure)
+	product_data = item.get("product") if isinstance(item.get("product"), dict) else item
+	
+	# Extract category path
+	category_path = None
+	category_list = _safe_get(product_data, "categories") or _safe_get(product_data, "category") or []
+	if isinstance(category_list, list) and len(category_list) > 0:
+		# If categories is a list of strings, join them
+		if all(isinstance(c, str) for c in category_list):
+			category_path = " > ".join(category_list)
+		# If categories is a list of objects with name/title fields
+		elif all(isinstance(c, dict) for c in category_list):
+			category_names = [c.get("name") or c.get("title") or "" for c in category_list if c.get("name") or c.get("title")]
+			if category_names:
+				category_path = " > ".join(category_names)
+	elif isinstance(category_list, str):
+		category_path = category_list
+	elif isinstance(category_list, dict):
+		category_path = category_list.get("name") or category_list.get("path") or ""
+	
+	# Extract dimensions
+	dimensions = None
+	dimensions_obj = _safe_get(product_data, "dimensions") or _safe_get(product_data, "package_dimensions") or {}
+	if isinstance(dimensions_obj, dict):
+		length = dimensions_obj.get("length") or dimensions_obj.get("l")
+		width = dimensions_obj.get("width") or dimensions_obj.get("w")
+		height = dimensions_obj.get("height") or dimensions_obj.get("h")
+		unit = dimensions_obj.get("unit") or "in"
+		if length and width and height:
+			dimensions = f"{length} x {width} x {height} {unit}"
+	
+	# Extract weight
+	weight = None
+	weight_obj = _safe_get(product_data, "weight") or _safe_get(product_data, "package_weight") or {}
+	if isinstance(weight_obj, dict):
+		weight_value = weight_obj.get("value") or weight_obj.get("weight")
+		weight_unit = weight_obj.get("unit") or "lbs"
+		if weight_value:
+			weight = f"{weight_value} {weight_unit}"
+	elif isinstance(weight_obj, (int, float)):
+		weight = f"{weight_obj} lbs"
+	
+	# Extract reviews and rating
+	reviews_count = (
+		_safe_get(product_data, "reviews_count") or
+		_safe_get(product_data, "ratings_total") or
+		_safe_get(product_data, "total_reviews") or
+		_safe_get(product_data, "review_count") or
+		0
+	)
+	product_rating = (
+		_safe_get(product_data, "rating") or
+		_safe_get(product_data, "average_rating") or
+		_safe_get(product_data, "star_rating") or
+		None
+	)
+	
+	# Extract shipping information
+	shipping_cost = None
+	shipping_info = _safe_get(product_data, "shipping") or _safe_get(product_data, "shipping_info") or {}
+	if isinstance(shipping_info, dict):
+		shipping_cost = shipping_info.get("cost") or shipping_info.get("price") or shipping_info.get("shipping_cost")
+		if shipping_cost is None:
+			# Try to extract from string
+			shipping_text = shipping_info.get("text") or shipping_info.get("description") or ""
+			if "free" in shipping_text.lower():
+				shipping_cost = "Free"
+	elif isinstance(shipping_info, str):
+		shipping_cost = shipping_info
+	
+	# Extract estimated delivery
+	estimated_delivery = None
+	delivery_info = _safe_get(product_data, "delivery") or _safe_get(product_data, "estimated_delivery") or _safe_get(product_data, "shipping", "estimated_delivery") or {}
+	if isinstance(delivery_info, dict):
+		estimated_delivery = delivery_info.get("text") or delivery_info.get("description") or delivery_info.get("days")
+	elif isinstance(delivery_info, str):
+		estimated_delivery = delivery_info
+	
+	# Extract variants
+	variants = _safe_get(product_data, "variants") or _safe_get(product_data, "product_variants") or []
+	variant_list = []
+	if isinstance(variants, list):
+		for variant in variants:
+			if isinstance(variant, dict):
+				variant_info = {
+					"variant_id": variant.get("id") or variant.get("variant_id"),
+					"title": variant.get("title") or variant.get("name"),
+					"price": variant.get("price"),
+					"sku": variant.get("sku"),
+					"upc": variant.get("upc") or variant.get("gtin"),
+					"in_stock": variant.get("in_stock"),
+				}
+				variant_list.append(variant_info)
+	
 	return {
 		"listing_id": _safe_get(item, "item_id") or _safe_get(item, "product_id") or _safe_get(item, "product", "item_id") or _safe_get(item, "product", "product_id"),
 		"sku": _safe_get(item, "sku") or _safe_get(item, "product", "sku"),
 		"title": _safe_get(item, "title") or _safe_get(item, "product", "title"),
 		"brand": _safe_get(item, "brand") or _safe_get(item, "product", "brand"),
-		"description": _safe_get(item, "description") or _safe_get(item, "product", "description"),
+		"description": _safe_get(item, "description") or _safe_get(item, "product", "description") or _safe_get(item, "product", "description_full"),
 		"images": coerced_images,
 		"asin": _safe_get(item, "asin") or _safe_get(item, "product", "asin"),
 		"upc": _safe_get(item, "upc") or _safe_get(item, "product", "upc") or _safe_get(item, "product", "gtin"),
+		# Phase 2: Additional fields
+		"category": category_path,
+		"dimensions": dimensions,
+		"weight": weight,
+		"product_reviews_count": reviews_count,
+		"product_rating": product_rating,
+		"shipping_cost": shipping_cost,
+		"estimated_delivery": estimated_delivery,
+		"variants": variant_list if variant_list else None,
 	}
 
 
@@ -287,33 +642,133 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 						# Skip toy products for automotive searches
 						continue
 					
+					# DATA QUALITY: Brand filtering to remove false positives
+					product_title = listing.get("title") or _safe_get(raw, "product", "title") or ""
+					product_brand = listing.get("brand") or _safe_get(raw, "product", "brand") or ""
+					if not is_brand_match(kw, product_title, product_brand, raw_product):
+						if debug:
+							print(f"[{_ts()}]   ❌ Brand filter: Skipping false positive - '{product_title[:50]}...' (keyword: {kw})", flush=True)
+						continue
+					
 					seen_this_keyword.add(listing_id)
 					upsert_listing_summary(listing_id, listing.get("listing_title"), listing.get("brand"), listing.get("url"))
 					# OPTIMIZATION: Try to use product data from search results first, only call API if needed
 					product_data = {}
 					product_resp = None
 					raw_product = _safe_get(raw, "product", default={})
-					# Check if search result already has sufficient product data
-					if raw_product and (raw_product.get("sku") or raw_product.get("description") or raw_product.get("brand")):
-						# Use data from search results - skip API call for speed
-						product_data = normalize_product(raw_product)
-					else:
-						# Only call API if search results don't have product data
-						try:
-							product_resp = client.product(listing_id)
+					
+					# Check seller name FIRST from search results - skip API calls for Walmart.com
+					search_seller_name = (
+						_safe_get(raw, "offers", "primary", "seller", "name") or
+						_safe_get(raw, "offers", "primary", "seller_name") or
+						""
+					).lower()
+					is_walmart_seller = search_seller_name in ("walmart.com", "walmart", "walmart inc.")
+					
+					# Check seller ID from search results first
+					search_seller_id = _safe_get(raw, "offers", "primary", "seller", "id") or _safe_get(raw, "offers", "primary", "seller_id")
+					has_numeric_seller_id = search_seller_id and _is_numeric_string(str(search_seller_id))
+					has_seller_url = _safe_get(raw, "offers", "primary", "seller", "url") or _safe_get(raw, "offers", "primary", "seller", "link")
+					
+					# OPTIMIZATION: Skip product API calls when possible
+					# Key insight: If search results have seller URL, we can enrich via seller_profile API directly!
+					# Only call Product API if we REALLY need it:
+					# 1. Missing product data (sku/description/brand) AND missing seller URL
+					# 2. OR missing seller URL AND we need numeric seller ID (but seller_profile accepts URL too!)
+					needs_product_api_for_seller = False
+					# Check if we have product data (sku/description/brand)
+					has_product_data = raw_product and (raw_product.get("sku") or raw_product.get("description") or raw_product.get("brand"))
+					# Check if we have UPC
+					has_upc = raw_product and (raw_product.get("upc") or raw_product.get("gtin"))
+					# Need Product API if missing product data OR missing UPC
+					needs_product_api_for_data = not (has_product_data and has_upc)
+					
+					if retry_seller_passes > 0 and not is_walmart_seller:
+						# OPTIMIZATION: If we have seller URL from search, skip Product API!
+						# We can enrich seller directly via seller_profile(url=seller_url)
+						if not has_seller_url:
+							# Missing seller URL - need Product API to get it
+							if not has_numeric_seller_id:
+								# UUID seller ID + missing URL - need Product API for both
+								needs_product_api_for_seller = True
+								if debug:
+									print(f"[{_ts()}]   UUID seller ID + missing URL - will call product API")
+							else:
+								# Numeric seller ID but missing URL - can construct URL, but Product API might have better data
+								# Actually, we can construct URL from numeric ID: https://www.walmart.com/seller/{id}
+								# So skip Product API if we have numeric ID!
+								if debug:
+									print(f"[{_ts()}]   Numeric seller ID - will construct URL, skipping product API")
+						else:
+							# We have seller URL! Skip Product API - can enrich via seller_profile(url)
 							if debug:
-								write_debug_json(product_resp, f"debug_product_{listing_id}.json")
-							product_data = normalize_product(product_resp.get("product") or product_resp)
-						except Exception:
+								print(f"[{_ts()}]   ✅ Seller URL exists - skipping product API (will enrich via URL)")
+					elif is_walmart_seller:
+						if debug:
+							print(f"[{_ts()}]   ⏭️  Walmart.com seller - skipping product API call")
+					
+					# COST OPTIMIZATION: Minimize Product API calls
+					# Only call Product API if ABSOLUTELY necessary (missing critical product data)
+					# Skip Product API if we have seller URL (can enrich via seller_profile if needed)
+					# Skip Product API for Walmart.com sellers (no enrichment needed)
+					
+					# Check if search result already has sufficient product data AND UPC
+					# BUT: Always call Product API if we need seller URL for UUID sellers OR missing UPC
+					if has_product_data and has_upc and not needs_product_api_for_seller:
+						# Use data from search results - skip API call to save costs
+						# UNLESS we need seller URL for UUID sellers OR missing UPC
+						product_data = normalize_product(raw_product)
+						product_resp = None
+						if debug:
+							print(f"[{_ts()}]   ⚡ Using search results data - skipping product API (cost savings)")
+					else:
+						# Call Product API if:
+						# 1. Missing critical product data OR missing UPC, OR
+						# 2. Need seller URL for UUID sellers (needs_product_api_for_seller)
+						if needs_product_api_for_data or needs_product_api_for_seller:
+							try:
+								if debug:
+									if needs_product_api_for_seller:
+										print(f"[{_ts()}]   Calling product API (UUID seller - need seller URL)")
+									elif not has_upc:
+										print(f"[{_ts()}]   Calling product API (missing UPC)")
+									else:
+										print(f"[{_ts()}]   Calling product API (missing product data)")
+								product_resp = client.product(listing_id)
+								if debug:
+									write_debug_json(product_resp, f"debug_product_{listing_id}.json")
+								product_data = normalize_product(product_resp.get("product") or product_resp)
+								if debug:
+									print(f"[{_ts()}]   Product API call successful")
+							except Exception as e:
+								if debug:
+									print(f"[{_ts()}]   Product API call failed: {e}")
+								product_resp = None
+								product_data = normalize_product(raw_product) if raw_product else {}
+						else:
+							# Skip Product API - use search results only
+							product_data = normalize_product(raw_product) if raw_product else {}
 							product_resp = None
-							product_data = normalize_product(raw_product)
+							if debug:
+								print(f"[{_ts()}]   ⚡ Skipping product API (cost savings)")
 					primary_offer = _safe_get(raw, "offers", "primary") or {}
 					offers = [primary_offer] if primary_offer else []
 					normalized_offers = [normalize_offer(o) for o in offers]
 					# Derive primary seller details and try enrichment via BlueCart (US only), else product page scrape
 					primary_o = normalized_offers[0] if normalized_offers else {}
-					# Try to get seller URL from offers API if not found in search results
+					
+					# IMPORTANT: Product API has better seller data (numeric ID and URL)
+					# Check product API response for seller data first
+					# Product API structure: product.buybox_winner.seller (NOT offers.primary.seller!)
+					product_obj = product_resp.get("product") if isinstance(product_resp, dict) else (product_resp or {})
+					product_buybox = _safe_get(product_obj, "buybox_winner") or {}
+					product_offer = _safe_get(product_resp or {}, "offers", "primary") or product_buybox or {}
+					product_seller = _safe_get(product_buybox, "seller") or _safe_get(product_offer, "seller") or {}
+					
+					# Get seller URL from multiple sources (product API has best data)
 					seller_url_from_offer = (
+						_safe_get(product_seller, "link") or  # Product API: offers.primary.seller.link
+						_safe_get(product_offer, "seller", "link") or
 						primary_o.get("url") or 
 						_safe_get(primary_offer, "seller", "url") or 
 						_safe_get(primary_offer, "seller_url") or
@@ -321,66 +776,37 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 						_safe_get(raw, "offers", "primary", "seller", "url") or
 						_safe_get(raw, "offers", "primary", "url")
 					)
-					# Get seller ID from multiple sources for URL construction
+					
+					# Get seller ID from multiple sources (product API has numeric ID)
+					# Product API has: offers.primary.seller.id (numeric) and id_secondary (UUID)
 					seller_id = (
+						_safe_get(product_seller, "id") or  # Product API: offers.primary.seller.id (NUMERIC!)
+						_safe_get(product_offer, "seller", "id") or
 						primary_o.get("seller_id") or 
 						_safe_get(primary_offer, "seller", "id") or 
 						_safe_get(primary_offer, "seller_id") or
 						_collect_numeric_seller_id(raw) or
 						_collect_numeric_seller_id(product_resp or {})
 					)
-					# If no seller URL found, try offers API (always try if no URL, even if we have seller_id)
-					if not seller_url_from_offer:
+					
+					# Try to extract numeric seller ID from seller URL if available
+					# Pattern: https://www.walmart.com/seller/{numeric_id}
+					if seller_url_from_offer and "/seller/" in seller_url_from_offer:
 						try:
-							offers_resp = client.offers(listing_id, page=1)
-							if offers_resp and isinstance(offers_resp, dict):
-								# Try to extract seller ID from entire offers response (if not already found)
-								if not seller_id:
-									seller_id = _collect_numeric_seller_id(offers_resp)
-								offers_list = offers_resp.get("offers") or offers_resp.get("data", {}).get("offers") or []
-								if offers_list and len(offers_list) > 0:
-									first_offer = offers_list[0] if isinstance(offers_list[0], dict) else {}
-									# Try to get seller URL from offer
-									seller_url_from_offer = (
-										_safe_get(first_offer, "seller", "url") or
-										_safe_get(first_offer, "seller_url") or
-										_safe_get(first_offer, "url") or
-										first_offer.get("seller_url") or
-										first_offer.get("url") or
-										seller_url_from_offer  # Keep existing if found
-									)
-									# Try to get seller ID from offer if not already found
-									if not seller_id:
-										seller_id = (
-											_safe_get(first_offer, "seller", "id") or
-											_safe_get(first_offer, "seller_id") or
-											first_offer.get("seller_id") or
-											(first_offer.get("seller", {}).get("id") if isinstance(first_offer.get("seller"), dict) else None) or
-											_collect_numeric_seller_id(first_offer)
-										)
+							url_parts = seller_url_from_offer.split("/seller/")
+							if len(url_parts) > 1:
+								potential_id = url_parts[1].split("/")[0].split("?")[0].strip()
+								if _is_numeric_string(potential_id):
+									seller_id = potential_id  # Use numeric ID from URL
 						except Exception:
 							pass
-					# If still no URL, try to get it from BlueCart seller_profile API using seller ID
-					if not seller_url_from_offer and seller_id:
-						seller_id_str = str(seller_id).strip()
-						if seller_id_str:
-							try:
-								# Call BlueCart seller_profile API to get seller URL
-								seller_profile_resp = client.seller_profile(seller_id=seller_id_str)
-								if seller_profile_resp and isinstance(seller_profile_resp, dict):
-									# Extract seller URL from seller_profile response (checks multiple fields)
-									seller_url_from_offer = (
-										_safe_get(seller_profile_resp, "seller_url") or
-										_safe_get(seller_profile_resp, "url") or
-										_safe_get(seller_profile_resp, "seller_details", "seller_url") or
-										_safe_get(seller_profile_resp, "seller_details", "url") or
-										_safe_get(seller_profile_resp, "seller", "url") or
-										seller_profile_resp.get("seller_url") or
-										seller_profile_resp.get("url")
-									)
-							except Exception:
-								# If API call fails, just leave it empty (don't construct URL)
-								pass
+					
+					# REMOVED: offers API call - too slow, causes 10+ min delays per item
+					# Seller URL will be constructed from seller_id or from seller enrichment later
+					# If still no URL, construct it from seller_id (don't call API here - too slow)
+					# Seller enrichment will get the URL later if needed
+					if not seller_url_from_offer and seller_id and _is_numeric_string(str(seller_id)):
+						seller_url_from_offer = f"https://www.walmart.com/seller/{seller_id}"
 					enriched: Dict[str, Any] = {}
 					# Try BlueCart seller_profile using numeric seller_id if present anywhere in raw/product payloads
 					numeric_sid: Optional[str] = None
@@ -389,11 +815,19 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 					else:
 						# search the raw search item for a numeric seller id
 						numeric_sid = _collect_numeric_seller_id(raw) or _collect_numeric_seller_id(product_resp or {})
+					# Extract seller name from multiple sources (needed for debug and later use)
+					seller_name = (
+						primary_o.get("seller_name") or
+						_safe_get(primary_offer, "seller", "name") or
+						_safe_get(primary_offer, "seller_name") or
+						_safe_get(raw, "offers", "primary", "seller", "name") or
+						_safe_get(raw, "offers", "primary", "seller_name") or
+						"Unknown Seller"
+					)
 					# DISABLED: Seller enrichment removed due to API timeouts
 					# Just use basic seller info from search results - no enrichment needed
 					# Optional debug for each collected item
 					if debug:
-						seller_name = primary_o.get("seller_name") or _safe_get(primary_offer, "seller", "name") or "Unknown"
 						seller_url = seller_url_from_offer or primary_o.get("url") or "N/A"
 						print(f"[{_ts()}]   Seller debug listing_id={listing_id} seller_id={seller_id} name={seller_name} url={seller_url}")
 					# Debug: Log when we find seller IDs but no URLs (to help identify which sellers have IDs)
@@ -465,15 +899,7 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 					elif _safe_get(product_resp or {}, "product", "inventory", "available_quantity") is not None:
 						units_available = _safe_get(product_resp or {}, "product", "inventory", "available_quantity")
 					# If still None, leave it as None (don't default to 1)
-					# Extract seller name from multiple sources
-					seller_name = (
-						primary_o.get("seller_name") or
-						_safe_get(primary_offer, "seller", "name") or
-						_safe_get(primary_offer, "seller_name") or
-						_safe_get(raw, "offers", "primary", "seller", "name") or
-						_safe_get(raw, "offers", "primary", "seller_name") or
-						"Unknown Seller"
-					)
+					# seller_name already extracted above (before debug section)
 					# Check if seller is Walmart by comparing seller names (handle None safely)
 					_seller_name_from_offer = _safe_get(primary_offer, "seller", "name", default="") or ""
 					_seller_name_from_primary_o = primary_o.get("seller_name", "") or ""
@@ -482,6 +908,55 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 						_is_walmart = _seller_name_from_primary_o.lower() in ("walmart.com", "walmart", "walmart inc.")
 					if not _is_walmart and _seller_name_from_offer and isinstance(_seller_name_from_offer, str):
 						_is_walmart = _seller_name_from_offer.lower() in ("walmart.com", "walmart", "walmart inc.")
+					# DATA QUALITY: Validate seller URL
+					validated_seller_url, is_valid_url = validate_seller_url(seller_url_from_offer, seller_id, seller_name)
+					if not is_valid_url and seller_id and _is_numeric_string(str(seller_id)):
+						validated_seller_url = f"https://www.walmart.com/seller/{seller_id}"
+						is_valid_url = True
+					final_seller_url = validated_seller_url if is_valid_url else (seller_url_from_offer or "")
+					
+					# DATA QUALITY: Price validation - filter out invalid prices
+					product_price = listing.get("price")
+					is_price_valid, price_info = validate_price_and_stock(product_price, units_available)
+					if not is_price_valid:
+						if debug:
+							print(f"[{_ts()}]   ❌ Price validation: Skipping product with invalid price (price: {product_price}, status: {price_info.get('stock_status')})", flush=True)
+						continue
+					
+					# DATA QUALITY: Enhanced UPC collection from multiple sources
+					enhanced_upc = collect_upc_from_multiple_sources(raw_product, product_resp, raw)
+					if not enhanced_upc:
+						# Fallback to existing UPC collection
+						enhanced_upc = listing.get("upc") or product_data.get("upc")
+					
+					# Phase 2: Extract additional product fields
+					product_category = product_data.get("category") or ""
+					product_dimensions = product_data.get("dimensions") or ""
+					product_weight = product_data.get("weight") or ""
+					product_reviews_count = product_data.get("product_reviews_count") or 0
+					product_rating = product_data.get("product_rating")
+					shipping_cost = product_data.get("shipping_cost") or ""
+					estimated_delivery = product_data.get("estimated_delivery") or ""
+					product_variants = product_data.get("variants")
+					
+					# Format variants as string if available
+					variants_str = ""
+					if product_variants and isinstance(product_variants, list):
+						variant_strings = []
+						for v in product_variants:
+							if isinstance(v, dict):
+								variant_parts = []
+								if v.get("title"):
+									variant_parts.append(f"Title: {v.get('title')}")
+								if v.get("price"):
+									variant_parts.append(f"Price: ${v.get('price')}")
+								if v.get("sku"):
+									variant_parts.append(f"SKU: {v.get('sku')}")
+								if variant_parts:
+									variant_strings.append(" | ".join(variant_parts))
+						if variant_strings:
+							variants_str = " || ".join(variant_strings)
+					
 					combined = {
 						"keyword": kw,
 						"listing_id": listing_id,
@@ -489,20 +964,29 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 						"product_images": images_joined,
 						"product_sku": product_data.get("sku"),
 							"item_number": listing_id,
-							"price": listing.get("price"),
+							"price": price_info.get("price"),  # Use validated price
 							"currency": listing.get("currency"),
-							"units_available": units_available,
+							"units_available": units_available if price_info.get("stock_status") == "In Stock" else None,  # Only set if in stock
+							"stock_status": price_info.get("stock_status"),  # Add stock status field
 							"in_stock": in_stock,
 							"brand": listing.get("brand") or product_data.get("brand"),
 						"asin": listing.get("asin") or product_data.get("asin"),
-						"upc": listing.get("upc") or product_data.get("upc"),
+						"upc": enhanced_upc,  # Use enhanced UPC collection
 						"walmart_id": listing_id,
 							"listing_url": listing.get("url"),
 							"full_product_description": product_data.get("description"),
-							# Seller fields (from primary offer - no enrichment to avoid timeouts)
+							# Phase 2: Additional product fields
+							"product_category": product_category,
+							"product_dimensions": product_dimensions,
+							"product_weight": product_weight,
+							"product_reviews_count": product_reviews_count,
+							"product_rating": product_rating,
+							"shipping_cost": shipping_cost,
+							"estimated_delivery": estimated_delivery,
+							"product_variants": variants_str,
+							# Seller fields (from primary offer - will be enriched later)
 							"seller_name": seller_name,
-							# Seller URL (already extracted above from multiple sources including offers API and constructed from seller ID)
-							"seller_profile_url": seller_url_from_offer or "",
+							"seller_profile_url": final_seller_url,  # Use validated URL
 							"seller_rating": primary_o.get("seller_rating") or _safe_get(primary_offer, "seller", "rating"),
 							"total_reviews": primary_o.get("total_reviews") or _safe_get(primary_offer, "seller", "reviews_count"),
 							# Set Walmart contact info if seller is Walmart
@@ -514,8 +998,33 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 							"state_province": "",
 							"zip_code": "",
 							"offers_count": len(normalized_offers),
+							# Internal keys for seller enrichment tracking
+							"_primary_seller_id": seller_id,
+							"_primary_seller_url": final_seller_url,
 					}
 					all_records.append(combined)
+					
+					# Track sellers for enrichment if they're missing URL, email, or phone (and not Walmart)
+					# IMPORTANT: seller_profile API accepts BOTH numeric seller IDs AND seller URLs
+					# So we can enrich sellers even if we only have UUID seller IDs (use seller URL instead)
+					if not _is_walmart and retry_seller_passes > 0:
+						needs_enrichment = False
+						if not final_seller_url:
+							needs_enrichment = True  # Missing URL
+						if not combined.get("email_address") and not combined.get("phone_number"):
+							needs_enrichment = True  # Missing contact info
+						
+						# Add to pending if we have either:
+						# 1. Numeric seller ID (preferred)
+						# 2. Seller URL (works even with UUID seller IDs!)
+						if needs_enrichment:
+							if seller_id and _is_numeric_string(str(seller_id)):
+								# Use numeric seller ID (best option)
+								pending_sellers.append((str(seller_id), final_seller_url))
+							elif final_seller_url:
+								# Use seller URL (works even if seller_id is UUID!)
+								# Pass None for seller_id, URL for url parameter
+								pending_sellers.append((None, final_seller_url))
 					collected += 1
 					items_added_this_page += 1
 					# Show progress every 5 items or on first item
@@ -544,62 +1053,85 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 				seen_keys.add(key)
 				unique_pending.append((sid, surl))
 			print(f"[{_ts()}] 🔄 Unique sellers to enrich: {len(unique_pending)}", flush=True)
+			# OPTIMIZATION: Use parallel seller enrichment for speed
+			from concurrent.futures import ThreadPoolExecutor, as_completed
+			max_workers = 5  # Parallel enrichment (5 concurrent API calls)
+			
+			def enrich_single_seller(seller_data: Tuple[int, Optional[str], Optional[str]]) -> Tuple[int, Optional[str], Optional[str], Optional[Dict[str, Any]]]:
+				"""Enrich a single seller - designed for parallel execution"""
+				idx, sid, surl = seller_data
+				key = f"sid:{sid}" if sid else f"url:{surl}"
+				if key in seller_cache:
+					return (idx, sid, surl, None)  # Already cached
+				try:
+					sp = client.seller_profile(seller_id=sid, url=surl)
+					# Check for API errors in response
+					if isinstance(sp, dict):
+						request_info = sp.get("request_info")
+						if request_info:
+							msg = request_info.get("message", "")
+							status = request_info.get("status", "")
+							if status and status != "success":
+								if debug:
+									print(f"[{_ts()}]   ⚠️ API warning for seller {idx}: {msg}", flush=True)
+					fields = _extract_seller_fields(sp)
+					# Cache seller data if we got any useful fields (email, phone, URL, etc.)
+					if fields.get("email_address") or fields.get("phone_number") or fields.get("seller_profile_url"):
+						return (idx, sid, surl, fields)
+					else:
+						return (idx, sid, surl, None)  # No useful data
+				except Exception as e:
+					if debug:
+						error_type = type(e).__name__
+						print(f"[{_ts()}]   ⚠️ Error enriching seller {idx} ({sid or surl[:30] if surl else 'N/A'}): {error_type}", flush=True)
+					return (idx, sid, surl, None)  # Error - return None
+			
 			for attempt in range(retry_seller_passes):
-				print(f"[{_ts()}] 🔄 Seller enrichment pass {attempt+1}/{retry_seller_passes} | processing {len(unique_pending)} sellers", flush=True)
+				print(f"[{_ts()}] 🔄 Seller enrichment pass {attempt+1}/{retry_seller_passes} | processing {len(unique_pending)} sellers (parallel: {max_workers} workers)", flush=True)
 				still_pending: List[Tuple[Optional[str], Optional[str]]] = []
 				enriched_count = 0
-				for idx, (sid, surl) in enumerate(unique_pending, 1):
-					key = f"sid:{sid}" if sid else f"url:{surl}"
-					if key in seller_cache:
-						continue
-					try:
-						# Show progress more frequently (every 5 sellers or first/last)
-						if idx % 5 == 0 or idx == 1 or idx == len(unique_pending):
-							print(f"[{_ts()}]   Enriching seller {idx}/{len(unique_pending)}: {sid or (surl[:50] if surl else 'N/A')}", flush=True)
-						sp = client.seller_profile(seller_id=sid, url=surl)
-						# Check for API errors in response
-						if isinstance(sp, dict):
-							request_info = sp.get("request_info")
-							if request_info:
-								msg = request_info.get("message", "")
-								status = request_info.get("status", "")
-								if status and status != "success":
-									print(f"[{_ts()}]   ⚠️ API warning for seller {idx}: {msg}", flush=True)
-						fields = _extract_seller_fields(sp)
-						if fields.get("email_address") or fields.get("phone_number"):
+				
+				# Prepare seller data with indices for tracking
+				seller_data_list = [(idx, sid, surl) for idx, (sid, surl) in enumerate(unique_pending, 1)]
+				
+				# Filter out already cached sellers
+				sellers_to_enrich = [(idx, sid, surl) for idx, sid, surl in seller_data_list 
+									 if (f"sid:{sid}" if sid else f"url:{surl}") not in seller_cache]
+				
+				if not sellers_to_enrich:
+					print(f"[{_ts()}]   ✅ All sellers already cached - skipping enrichment", flush=True)
+					break
+				
+				# Parallel enrichment
+				completed = 0
+				with ThreadPoolExecutor(max_workers=max_workers) as executor:
+					future_to_seller = {executor.submit(enrich_single_seller, seller_data): seller_data for seller_data in sellers_to_enrich}
+					
+					for future in as_completed(future_to_seller):
+						completed += 1
+						idx, sid, surl, fields = future.result()
+						key = f"sid:{sid}" if sid else f"url:{surl}"
+						
+						if fields:
 							seller_cache[key] = fields
 							enriched_count += 1
-							if idx % 5 == 0:
-								print(f"[{_ts()}]   ✅ Seller {idx} enriched successfully", flush=True)
+							if completed % 5 == 0 or completed == len(sellers_to_enrich):
+								print(f"[{_ts()}]   ✅ Enriched {completed}/{len(sellers_to_enrich)} sellers", flush=True)
 						else:
-							if idx % 10 == 0:
-								print(f"[{_ts()}]   ⚠️ Seller {idx} has no email/phone - skipping", flush=True)
 							still_pending.append((sid, surl))
-					except Exception as e:
-						error_type = type(e).__name__
-						error_msg = str(e)
-						# Handle timeout errors specifically
-						if "Timeout" in error_type or "timeout" in error_msg.lower():
-							print(f"[{_ts()}]   ⏱️ Timeout enriching seller {idx}/{len(unique_pending)}: {sid or (surl[:50] if surl else 'N/A')} - skipping", flush=True)
-						else:
-							print(f"[{_ts()}]   ❌ Error enriching seller {idx}/{len(unique_pending)}: {error_type}: {error_msg[:100]}", flush=True)
-							if idx <= 3:  # Show full traceback for first 3 non-timeout errors
-								import traceback
-								traceback.print_exc()
-						still_pending.append((sid, surl))
-					# pace requests across the delay window (minimal delay for speed)
-					delay = max(0.02, retry_seller_delay / max(1, len(unique_pending)))
-					time.sleep(delay)
+						
+						# Small delay to avoid rate limiting (distributed across parallel calls)
+						if retry_seller_delay > 0 and completed < len(sellers_to_enrich):
+							time.sleep(retry_seller_delay / max_workers)
+				
 				print(f"[{_ts()}] ✅ Pass {attempt+1} complete: enriched {enriched_count} sellers, {len(still_pending)} still pending", flush=True)
 				unique_pending = still_pending
 				if not unique_pending:
 					print(f"[{_ts()}] ✅ All sellers enriched!", flush=True)
 					break
 			print(f"[{_ts()}] ✅ Seller enrichment complete", flush=True)
-			# Reconcile results into all_records
+			# Reconcile results into all_records - update with enriched seller data
 			for r in all_records:
-				if r.get("email_address") or r.get("phone_number"):
-					continue
 				key = None
 				sid = r.get("_primary_seller_id")
 				surl = r.get("_primary_seller_url")
@@ -609,9 +1141,15 @@ def run(keyword_list: List[str], max_per_keyword: int, export: List[str], sleep:
 					key = f"url:{surl}"
 				if key and key in seller_cache:
 					fields = seller_cache[key]
+					# Update seller fields from enriched data
 					for k in ("email_address", "phone_number", "address", "country", "state_province", "zip_code", "seller_profile_picture", "seller_profile_url", "business_legal_name", "seller_rating", "total_reviews"):
-						if fields.get(k) and not r.get(k):
-							r[k] = fields[k]
+						if fields.get(k):
+							# Always update seller_profile_url if available from enrichment (it's more complete)
+							if k == "seller_profile_url" and fields.get(k):
+								r["seller_profile_url"] = fields[k]
+							# For other fields, only update if not already set
+							elif not r.get(k):
+								r[k] = fields[k]
 
 		# export - include keyword in filename if single keyword
 		if len(keyword_list) == 1:

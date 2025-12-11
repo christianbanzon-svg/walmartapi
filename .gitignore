@@ -24,3 +24,37 @@ fresh_*.csv
 test_*.csv
 column_headers.txt
 debug_*.json
+
+# Temporary and debug scripts
+walmart/check_*.py
+walmart/debug_*.py
+walmart/analyze_*.py
+walmart/verify_*.py
+walmart/investigate_*.py
+walmart/fix_*.py
+walmart/monitor_*.py
+walmart/organize_*.py
+walmart/quick_test_*.py
+walmart/rerun_*.py
+walmart/run_12_*.py
+walmart/run_700_*.py
+walmart/run_amlactin_scan.py
+walmart/run_batch_*.py
+walmart/run_brand_*.py
+walmart/run_exact_*.py
+walmart/run_filtered_*.py
+walmart/run_sequential_*.py
+walmart/start_*.py
+walmart/split_*.py
+walmart/confirm_*.py
+walmart/cost_*.py
+
+# PowerShell scripts
+*.ps1
+
+# Temporary JSON files
+temp_*.json
+debug_*.json
+
+# Output directories
+output/

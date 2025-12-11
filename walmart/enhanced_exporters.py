@@ -32,11 +32,23 @@ COLUMN_DEFINITIONS: List[Tuple[str, str]] = [
     ("price", "Price*"),
     ("shipping", "Shipping"),
     ("units_available", "Units Available"),
+    ("stock_status", "Stock Status"),
     ("item_number", "Item Number"),
     ("brand", "Brand"),
     ("asin", "ASIN"),
     ("upc", "UPC"),
     ("walmart_id", "Walmart ID"),
+    # Phase 2: Additional product fields
+    ("product_description", "Product Description"),
+    ("product_category", "Product Category"),
+    ("product_dimensions", "Product Dimensions"),
+    ("product_weight", "Product Weight"),
+    ("product_reviews_count", "Product Reviews Count"),
+    ("product_rating", "Product Rating"),
+    ("shipping_cost", "Shipping Cost"),
+    ("estimated_delivery", "Estimated Delivery"),
+    ("product_variants", "Product Variants"),
+    # Seller fields
     ("seller_name", "Seller's Name*"),
     ("seller_url", "Seller's URL*"),
     ("seller_business", "Seller's Business Name"),
@@ -67,6 +79,7 @@ LEGACY_TO_REQUIRED_MAPPING = {
     "units_available": "units_available",
     "availability": "units_available",
     "in_stock": "units_available",
+    "stock_status": "stock_status",
     "item_id": "item_number",
     "item_number": "item_number",
     "sku": "item_number",
@@ -78,6 +91,28 @@ LEGACY_TO_REQUIRED_MAPPING = {
     "walmart_id": "walmart_id",
     "listing_id": "walmart_id",
     "product_id": "walmart_id",
+    # Phase 2: Additional product fields mapping
+    "full_product_description": "product_description",
+    "product_description": "product_description",
+    "description": "product_description",
+    "product_category": "product_category",
+    "category": "product_category",
+    "product_dimensions": "product_dimensions",
+    "dimensions": "product_dimensions",
+    "product_weight": "product_weight",
+    "weight": "product_weight",
+    "product_reviews_count": "product_reviews_count",
+    "reviews_count": "product_reviews_count",
+    "total_reviews": "product_reviews_count",
+    "product_rating": "product_rating",
+    "rating": "product_rating",
+    "average_rating": "product_rating",
+    "shipping_cost": "shipping_cost",
+    "estimated_delivery": "estimated_delivery",
+    "delivery_time": "estimated_delivery",
+    "product_variants": "product_variants",
+    "variants": "product_variants",
+    # Seller fields
     "seller_name": "seller_name",
     "seller_url": "seller_url",
     "seller_profile_url": "seller_url",
@@ -179,7 +214,8 @@ class EnhancedCSVExporter:
         # Ensure all required fields are present
         seller_name = transformed.get("seller_name", "")
         for field in REQUIRED_COLUMN_ORDER:
-            if field not in transformed or transformed[field] == "":
+            # Check if field is missing, None, or empty string
+            if field not in transformed or transformed[field] is None or transformed[field] == "":
                 transformed[field] = self._get_fallback_value(field, domain, seller_name)
         
         # Clean listing_title (remove "Product " prefix and replace hyphens with spaces)
@@ -282,7 +318,8 @@ class EnhancedCSVExporter:
             "seller_phone": "",
             "seller_address": "",
             "seller_business": "",
-            "seller_url": ""
+            "seller_url": "",
+            "units_available": ""  # Explicitly set to empty - never default to 1
         }
         return fallbacks.get(field, "")
     
@@ -302,12 +339,20 @@ class EnhancedCSVExporter:
                 return float(value)
             
             elif field_type == "int":
-                # For units_available, don't default to 0 - leave empty if None
-                if value is None or value == "":
-                    return ""  # Empty string for missing units_available
+                # For units_available, don't default to 0 or 1 - leave empty if None/False/empty
+                # IMPORTANT: Don't convert boolean False to 0 or True to 1 for units_available
+                if value is None or value == "" or value is False:
+                    if field_name == "units_available":
+                        return ""  # Empty string for missing units_available (don't convert False to 0)
+                    return ""  # Empty string for other missing int fields
+                # Don't convert boolean True to 1 for units_available
+                if isinstance(value, bool) and field_name == "units_available":
+                    return ""  # Empty string - boolean doesn't represent quantity
                 if isinstance(value, str):
                     # Remove commas and convert
                     cleaned = value.replace(",", "").strip()
+                    if not cleaned:
+                        return ""
                     return int(float(cleaned)) if cleaned else ""
                 try:
                     return int(value)
@@ -327,6 +372,30 @@ class EnhancedCSVExporter:
                 return str(value)
             
             else:  # string or default
+                # For UPC, ASIN, and item_number: ensure they're formatted as strings
+                # Excel will interpret large numbers as scientific notation, so we need to force text format
+                if field_name in ("upc", "asin", "item_number", "walmart_id"):
+                    # Convert to string and ensure it's not treated as number
+                    str_value = str(value).strip()
+                    if not str_value:
+                        return ""
+                    # If it's a number in scientific notation, convert it back to full number string
+                    try:
+                        # Try to convert to float first (handles scientific notation)
+                        if 'e' in str_value.lower() or 'E' in str_value:
+                            num_value = float(str_value)
+                            # Format as integer string without scientific notation
+                            str_value = f"{int(num_value)}"
+                        else:
+                            # If it's already a number, ensure it's formatted as string
+                            num_value = float(str_value)
+                            str_value = f"{int(num_value)}"
+                    except (ValueError, TypeError):
+                        # If conversion fails, keep as string
+                        pass
+                    # Add tab character prefix to force Excel to treat as text (Excel ignores leading tabs)
+                    # This prevents Excel from converting to scientific notation
+                    return f"\t{str_value}"
                 return str(value).strip()
                 
         except (ValueError, TypeError):
@@ -334,34 +403,23 @@ class EnhancedCSVExporter:
             return str(value) if value is not None else ""
     
     def _format_price(self, record: Dict[str, Any]) -> str:
-        """Format price with currency according to template"""
+        """Format price without currency symbol (numeric only)"""
         value = record.get("price")
-        currency = (record.get("currency") or "").strip().upper()
         if value in (None, ""):
             return ""
         try:
             if isinstance(value, str):
-                cleaned = value.replace("$", "").replace(",", "").strip()
+                # Remove currency symbols and commas
+                cleaned = value.replace("$", "").replace("C$", "").replace("£", "").replace("€", "").replace(",", "").strip()
                 if not cleaned:
                     return ""
                 numeric_value = float(cleaned)
             else:
                 numeric_value = float(value)
+            # Return numeric value only (no currency symbol)
+            return f"{numeric_value:0.2f}"
         except (ValueError, TypeError):
             return str(value)
-
-        currency_symbol_map = {
-            "USD": "$",
-            "CAD": "C$",
-            "GBP": "£",
-            "EUR": "€",
-        }
-        symbol = currency_symbol_map.get(currency)
-        if symbol:
-            return f"{symbol}{numeric_value:0.2f}"
-        if currency:
-            return f"{currency} {numeric_value:0.2f}"
-        return f"{numeric_value:0.2f}"
 
     def export_csv(self, records: List[Dict[str, Any]], name_prefix: str,
                    include_metadata: bool = True, domain: str = "Walmart") -> str:

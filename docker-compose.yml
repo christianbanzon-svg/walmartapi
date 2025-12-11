@@ -12,9 +12,9 @@ services:
     build: .
     image: walmartscraper:latest
     ports:
-      - "8000:8000"
+      - "8001:8000"
     environment:
-      - BLUECART_API_KEY=C2246F41A58F41B799B18CD95F2849FD
+      - BLUECART_API_KEY=${BLUECART_API_KEY}
       - BLUECART_BASE_URL=${BLUECART_BASE_URL:-https://api.bluecartapi.com/request}
       - WALMART_DOMAIN=${WALMART_DOMAIN:-walmart.com}
       - OUTPUT_DIR=/data/output
@@ -32,7 +32,7 @@ services:
     build: .
     image: walmartscraper:latest
     environment:
-      - BLUECART_API_KEY=C2246F41A58F41B799B18CD95F2849FD
+      - BLUECART_API_KEY=${BLUECART_API_KEY}
       - BLUECART_BASE_URL=${BLUECART_BASE_URL:-https://api.bluecartapi.com/request}
       - WALMART_DOMAIN=${WALMART_DOMAIN:-walmart.com}
       - OUTPUT_DIR=/data/output

@@ -248,7 +248,7 @@ async def process_item_id(session: aiohttp.ClientSession, client: BlueCartClient
             **normalized_offer,
             **enriched_seller,
             "offers_count": len(offers_data),
-            "units_available": _safe_get(primary_offer, "quantity", default=1),
+            "units_available": _safe_get(primary_offer, "quantity") or None,  # Don't default to 1 - leave empty if not available
             "keyword": f"item_id_{item_id}",  # For compatibility with existing exports
         }
         

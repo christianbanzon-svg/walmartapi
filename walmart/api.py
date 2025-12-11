@@ -102,8 +102,8 @@ class ScrapeRequest(BaseModel):
     debug: bool = False
     walmart_domain: Optional[str] = "walmart.com"  # e.g., "walmart.com", "walmart.ca", "walmart.com.mx"
     category_id: Optional[str] = None
-    retry_seller_passes: int = 0  # DISABLED: Seller enrichment disabled - using improved seller info extraction only
-    retry_seller_delay: float = 0.5  # Fast retry delay (not used when retry_seller_passes=0)
+    retry_seller_passes: int = 1  # ENABLED: Seller enrichment to collect email, phone, address (boss approved!)
+    retry_seller_delay: float = 0.2  # Fast retry delay for seller enrichment
     
     # Enhanced options (now default for main endpoint)
     export_format: Optional[str] = "csv"  # "csv", "json", "both"
